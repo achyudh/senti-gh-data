@@ -1,0 +1,855 @@
+Text
+I don't care what we do as long as we don't change the attributes in JSP significantly.
+You are right. See my update! Make a suggestion pls and I'll catch your thoughts ;)
++1 for *"...the debate was about **what** was actually meta data."*
+Have you actually implemented this successfully? It sounds like a great solution!
+Excellent point, Lars. I read that as "Windows". Oops. Still, it may be useful information for someone, sometime...
+Great question!
+I'm not for sure how the ControlCollection of ASP.Net works, so maybe someone can shed some light on this for me. I recently discovered the magic that is extension methods and Linq. Well, I was very sad to find that this isn't valid syntax However from what I can tell, does implement the interface which provides such methods, so what gives? Why doesn't that just work? I have found a decent work around for this issue at least:
+Sorry to nag.
+Excellent question. Running a large project in successive version of Python wouldn't be very definitive, unless you had, say, unit tests that magically achieved 100% code coverage, so a tool like this would be nice to have.
+It is a core class, why should it be independent from core usage? "If you just assign an end date you have to jump in the source code to become an idea how the start date is resolved." This can be written into the function comment, so if we may change $GLOBALS['EXEC_TIME'] we do not need to change so much calls.
+Excellent! On a Mac as well... I'll look into railsapi.com. Thank you for your help!
+Great! Awesome! thanks Dims
+That's funny, this is exactly what I am attempting to figure out the best way to do at the moment. I had thought of using a ViewStack, but as I already have a lot of other nested ViewStacks being used, I was also looking into the State tag. If anyone knows "the right thing" to do I'll be very interested too!
+Sorry to nag.
+Instead of having "%s" of "%s" I'm thinking it should be "%s" belonging to "%s" I feel that both "Page 1 belonging to Group 1" and "Page A belonging to Robert Lyon" make more sense than "Page 1 of Group 1" and "Page A of Robert Lyon"
+Marked up the question, while I don't think it's a great idea, I think its a good question to ask!
+It adds more things to go wrong than just downloading everything again to do a reinstall. I understand the desire, downloads are a pain, but downloading again is a much more predictable zero state than some set of possibly-correct archives on local disk checked against some possibly-correct set of hashes. All of which is a lot of extra moving parts to work around a problem (slow connections). Is it worth it? Maybe. But it is a lot more to go wrong.
+But definitely agree that in 99% of cases office interop is horrible.
+Excellent! On a Mac as well... I'll look into railsapi.com. Thank you for your help!
++1 Serapth - I hate this. I **HATE** it!
+The problem is that it builds awt and that requires some dependencies.
+Sorry I was trying to get to the wiki but it's been a busy week.
+who the fuck is asking for scores but not the max score and why does their insanely specialized use case justify all these booleans on a central lucene class.
+very nice beautiful :-)
+Element. This one stuck out. I think the only ones to try to capitalize are "Allocation, Type, Element", since that trio is the dominant set of APIs for interacting with any sort of data from Java.
+We probably want tvb_reported_length_remaining() here
+Instead of putting everything in the collector and then looping through later when outputFormat==JSON why not switch here on outputFormat and thus allow results to be printed immediately for JSON and collected only for JSON_SINGLE?
+Damn.
+The is an excellent resource for locale data. From the website you can download an xml version of the database, which includes datetime formats, number formats, and lots of other locale specific data.
+Excellent article! Very useful :)
+Since BE was IE10 (as of the member var above) I think changing the member to edge is not a problem, but I would keep the IE8 default here, which does not hurt us, and will also not hurt third party stuff then.
+For someone who uses the Ctrl-W bindings in vim habitually, it is incredibly annoying to have Chrome OS ask me, "Wanna close this window, then?" How do I remap keys in Chrome OS? Can't find this top secret setting anywhere.
+Great, excellent. You're welcome!
+Please don't. See my comment in utils.py. Configure the logger with proper formatter instead.
+Tried it, loved it. Using it right now.
+I guess the big question is whether it is sufficient to test the functionality by mocking out getaddrinfo() or if we need to actually make the call. If the former, I think it could go in UT. Lets see what others' say.
+Why are you using cerr here instead of vtkErrorMacro?
+The Async API in http client 4.x really sucks.
+I'm an idiot... there's nothing wrong with the readme.txt.
+There is no putComment method. Shorten this and just put it on one line: checkState(psId != null, "setPatchSetId must be called first"); Developers debugging a failure can look at the Java stack trace to see how they got into this situation. What matters to them more is the call site where the object was misused, not which entry point into the object the error was discovered by.
+Just curious, how come you use a RandomAccessFile here? It might be simpler to just Guava (which lint already depends on): String firstLine = Files.readFirstLine(file, Charsets.US_ASCII); (that's com.google.common.io.Files)
+Shameeeee on me!!!
+I wonder why jetbrains repeats this code in all their bundles.
+Bejesuz that's ugly! Whomever wrote that should be flogged.
+There is reference information available on the MSDN website. If you want more of an introduction or tutorial, then Charles Petzold's book is excellent.
+I think I've been using these terms interchangably / wrongly!
+I did a lot of VRML+Java work in college and loved it, but I feel like it's not really a marketable skill. Has anyone worked with a high level graphics API like open inventor, coin..etc that is actually in use to a degree that makes investing a lot of time in the API worthwhile for something more than a hobby?
+Again, no new abstract functions in the API classes, please.
+unused parameter 'p_info' [-Werror=unused-parameter] (p_info ? -> pinfo ?)
+@Evan It's not compilable java. It's used to navigate the code in eclipse/idea and is excellent if you have a large code base with lots of long class names.
+This is great! Thanks +1
+Horrible answer because it is just wrong.
+I didn't know we needed to retain backwards config capability across 3.x to 4.x :-( That sucks and it'll make old code stick around longer.
+Sorry ;-) +1
+Reinnstalled Xcode4 - same thing. Awful!
+We take an "error_list" from the framework here, but "message" is passed as an argument. Looking at how message is constructed, this also could be generated here (there is no need to pass it through argument). So either both message and error_list are this function arguments, or none of them.
+such a strong argument without any "reference", is completely useless because just opinionated.
+But you are already the NAT gateway (in 1) so no one else should be using gateway address? Anyway I'm fine with -3 : please just add a comment to explain why it's -3 :)
+This is a professional project in academia and I need to use Java for it - bc of my own limitations I'm afraid!
+Thanks, everyone! I learned something extremely valuable :D So Linux doesn't stop at the 26th value?
+I find it comes back periodically. What's most frustrating about it is that everytime it does come back, it breaks WebDeploy as the account under which that runs does not have access to delete the aspnet_client folder created!
+unused parameter 'p_info' [-Werror=unused-parameter] (p_info ? -> pinfo ?)
+I find it comes back periodically. What's most frustrating about it is that everytime it does come back, it breaks WebDeploy as the account under which that runs does not have access to delete the aspnet_client folder created!
+You can open as many issue tickets as you like. But we would still have to add all these tests in here, and find solution that fit them. Why delay?
+Hi I'm using the chrome inspector (F12) to try and analyze the z-index of a twitter bootstrap popover, and finding it extremely frustrating... Is there a way to freeze the popover (while shown) so that I can assess and modify the associated CSS? Placing a fixed 'hover' on the associated link does not cause the popover to appear.
+Sorry if this spam's things however it's unlikely that I'll work on these.
+yeah, your pain is mine! This method described by ctrahey at least gives you some clue.
+I found the answer! It appears to be an issue with sending to the development device tokens. Like most people, we have a database that stores the device tokens, and the earlier records were populated with our device tokens from testing. As soon as I net out those device tokens from my list, all works! I really hope someone finds this useful!
+I have 2 images inside a folder called Pics..... Image1.jpg and Image2.jpg. What code must i place inside my Submit button to just delete Image1.jpg located here "~/Pics/Image1.jpg" Any help would be great!!!
+This is horrible. First you're sleeping, which will never wait exactly the right amount of time. It may fail if the computer is busy and shutdown takes longer than expected. And otherwise it will waste time. Furthermore, you're using shared *persistent* state. The right solution is simply to free the `runOnce` mutex before calling `Application.Restart()`.
+Perhaps I am missing something, but I am just learning javascript. My understanding of Single Origin Policy is that Google Analytics should not be able to send data back to Google. How is it able to transmit send data to Google without violating the policy?
+For some reason I couldn't upload the straight patch.
+Excellent! It works like this: [code]extern "C" {
+It's not a place, but I've found by Charles Petzold excellent. It covers everything you ask about and is focused specifically on WPF/silverlight. Of course Petzold (as usual) is able to communicate the important concepts beautifully.
+So to do this I would keep a list of axes and when I delete the contents of one I would swap it out with a full one. I think the example below solved the problem (or at least gives an idea of how to solve it): The extremely ugly for loop construct is really just a placeholder to give an example of how the axes can be swapped.
+Entering an invalid object size limit results in displaying an 'Internal Server Error'. If possible it should display a proper error message, saying that the limit is invalid.
+I'm sorry, but I didn't had an eye on this thread. I'm afraid the topic isn't hot anymore!?
+In the latest patch, you switched from glib memory to wmem memory. So you do not want to call g_free but you still want to destroy the hash table itself, otherwise you are leaking memory. So switch to g_hash_table_new instead of g_hash_table_new_full and put back the call to g_hash_table_destroy.
+I'm not sure what the problem is but the behavior (at least in 0.1.4) is that the _isClosed AtomicBoolean is not being set to closed in a timely manner.
+I'm trying to get multiple rails apps hosted under the same domain, but different directories. My configuration before attempting to host multiple apps (which works great), looks like this: I google'd around and found documentation suggesting I use the following configuration: That configuration, however, only causes my directory structure to be revealed, and no app appears to run. Any advice would be great!
+Especially I don't know very much about the test framework differences.
+FlexMonkey may be more of a pain than it is worth. Gorrilla Logic claims it works with custom components but I have found this is not the case. Anything with a renderer seems to have serious problems. It is a lot harder to set up tests than they claim and the tests aren't stable. I have written tests for one component 5 times now using hardcoded ids. Sometimes it just can't see the component and it dies. They only have 3 short paragraphs explaining tests in their user guide and they only respond to questions about how to set it up on their google group. I would avoid using this.
+who uses this method ? I don't see why this is useful. I'd just get rid of this method and the associated field. Once you do that, you can just collapse this class into a single static method (runAll) and get rid of the Pair class.
+not sure how important this is, but other lines seem to have a tab at the beginning of the line and the added lines uses spaces. :D
+Cool, that was going to be my next suggestion! Good luck :)
+I have a long scrolling page, and want to test if an element is 100px from the top, then apply a class elsewhere (until the next element in line is 100px from the top) If I could just get the basic statement I would be ecstatic, anything extra would be a bonus!
+Excellent, exactly what I needed!
+Thanks Ilya.
+Patch Set 4: I would prefer that you didn't submit this Please fix the indent pep8 errors in gluster_cli_tests.py at least.
+I don't see where we append the rewinded header to the database file. Otherwise, when we open the db file next time, it will still give us the latest header that is not rollbacked.
+I really hate when this happens.. I search and search for an answer and then I post a question. Then minutes later I find the answer.. The answer was on line 5.. this let me make the call.. I mean I get a pile of junk on the screen, but it doesn't fail... no exception.
+When I click on Memcache Viewer the whole dashboard crashes and I have to login again. This is really worrying me as we are serving data to many users. A server error has occurred. Is there a way to see the internal logs? I can't see anything in nor . Is there any other way to reset the Memcache?
+Per our discussion, make this a class that's just the combobox? Maybe like AndroidApiCombo?
+They're not, and can't be. Same as with proto fields that this code is a copy of... and quite a few other pre-existing Lua code spots too for that matter.
+I am trying to make Authlogic and Facebook Connect (using Facebook) play nice so that you can create an account either the normal registration way or with Facebook connect. I have been able to get the connect to work one way but logging out only loggs out on facebook and not on my site, I have to delete the cookies to make it working. Any help would be awesome, thank you!
+Damn I would close this out from the fix to JBSEAM-3742 except the quartz and seampay examples use a custom XML namespace and the XML schema validator is not happy with that.
+upvoted scared the hell out of me when things stopped working!!
+@Kev its a deployment headache, you can ilmerge it in ... but still its an extra bit of luggage you need to worry about
+If you are concerned about code re-ordering you are either creating some funky and hard to understand and maintain code, or else you probably don't need to worry about it. Can you explain why you think the code snippet you supplied will be reordered?
+Mac looks like the tests are failing (especially TestHarFileSystem).
+I'm working with a console application (C#) at the moment. What it does is pulls files from a database and stores them in their relevant folders on the C drive on a local machine. At the moment, every time I run the console app, it pulls ALL the files from the database. What I would like to be able to do, is each time I run it, It only pulls the files that were submitted since I last ran the console application. Currently, this is the linq statement that pulls the files from the database. Ideally I'd like something like the following where the date and time of the last run of the application is stored somewhere: I'm unsure on how to go about achieving this. If anyone had any advice on it I'd be very greatful :)
+Because they need some more tweaking to supports booth modes: standalone and in tree?
+excellent, thank you!
+Excellent, this works perfectly! Thank you :)
+a very sad face :(
+The 0x1A byte is a terrible, painful [source of agony](http://stackoverflow.com/questions/12483711/serialdata-eof-circumstances).
+that was from something else - that apparently the fragmentmanager holds on to fragments. But you're right - it doesn't make any difference one way or the other. Nice library by the way - extremely useful!
+Ran into this myself. Very annoying limitation IMO.
+Sorry this affects 0.9.3 version too.
+Use if-else inside scriplet based on the currently selected language and place appropriate "td" tags. Hope this is what you are looking for !
+Since ChangeSets are becoming too many to handle because of many checkins, I'm thinking of selecting multiple changesets then create a single work item link for code review purposes. It's really painful to create work item per changeset and assign to a code-reviewer. Is this possible?
+The general way to do this is $(TOP)/src/southbridge etc. etc.
+I don't think that you can... But if you can I'd love to see how!
+If you don't mind working at a slightly lower level, httplib2 () is an excellent HTTP library that includes caching functionality.
+Sorry about that...
+this is a problem that regularly arises when I write Silverlight XAML. In this case, I've made a usercontrol VerticalTabStop (code attached) that has a ToolTip attached. I instanciate a couple of my usercontrols, and then I get the debugging window and the following error: I get an awful lot of these messages as I hover my mouse over the buttons. Any suggestions to what I'm doing wrong here? Cheers
+Don't set the `idx_type` for now, as it may also contain internal errors (I would leave the code path in couchdb for dealing with it though, so that I can add it later.
+That irritated the hell out of me too but I didn't realise it was configurable in the .launch file.
+It's a very painful process to ajax `files` to a server side script. You might try: http://fineuploader.com/
+Good Morning, I'm using SharePoint Designer 2007 to create a workflow for a MOSS site I have created. What I'm looking to do is have the workflow send out an email if a document in the library hasn't been modified for the past 30 days (and it's Status field is not set as "Closed"), but I'm stumped as to how I can do this. Any help would be greatly appreciated! Thanks!
+I'm nearly reaching rage mode! Can anyone help me with this?? I setted a limit on a CodeIgniter Model so I can only that set of results. Why is it not working? The records are displaying correctly on function call, but I'm getting more than how it's supposed to
+Will we miss adding the server if the status change command failed on it? I guess we should add it if it fails with "already enabled" error. Not sure what we should do if there is some other error though. Maybe we should let the sync job handle such cases.
+You are messing down deep below hbase in dfs.
+Not sure if this is by design, but for now, from within Python causes a javascript exception to be raised and displayed (along with line and column numbers). Great success!
+Sorry folks the full fix was committed in rather a messy manner due to some platform specific issues.
+Ai, we missed a use-case here. I'm affraid that I know why this wasn't implemented yet. This doesn't check if the files inside the deleted folder have active references like is done above. See also https://review.typo3.org/#/c/33562/
+Line lengths, seems like most of these would be easier to read if they were placed on the preceding line before the variables.
+Not sure if this is by design, but for now, from within Python causes a javascript exception to be raised and displayed (along with line and column numbers). Great success!
+Agreed. Unfortunately board-specific modifications to agesawrapper.c files have leaked in, making this a long boring process..
+Feedback from Michael (Pergament) (Author of this code) : It should be && according to https://tools.ietf.org/html/rfc7432 (7, 7.4). If it is smaller than neither IPv4 not IPv6 address is provided.
+I think I've been using these terms interchangably / wrongly!
+Sorry this affects 0.9.3 version too.
+This code is broken. $this->storage needs to be changed
+That's right, I have no plans to replace the existing system, sidecar is an excellent analogy.
+It's HORRIBLE! No, seriously, I don't like it.
+That is intended. We are already making sure that multiple events are okay for us (see onHashChanged). So I think this is the most practical way.
+Awesome discussion.
+If you know of a way please describe it.
+@ergosys Thanks that was extremely helpful!! Somewhat related to what I asked... I'll have a try on that tomorrow :D
+It's technically possible to achieve this in T-SQL with nested loops and embedded queries. All hugely ugly in T-SQL. Far easier to do it in a language that's more general purpose.
+Sorry it seems I forgot a few references to 2.0.2 in ./deps/cxf-all I'm attaching a new patch to fix these references.
+title.getPrefixedDb() gives the target article title, but in the apply() function it's looked up by href, which may be a redirect title.
+I see. Everything makes sense now. Thanks a lot for the excellent answers!
+i have an assignment at my company to build a custom cms, for the foundation i ve chosen latest laravel(version 4, i believe). Now, the requirements in laravel docs() say minimal version of php on server required is 5.3.7, our servers have php 5.3.23. I am right now on a weekend, so i cant check my code on the server( been developing the basics on localhost with xampp which has latest php). Has anyone tried laravel 4 on pre-5.3.7 php?? i m very worried all of last week's work is going to the bin... :(
+please remove "border" and blank line between class definition and comment and consequently reduce it to a single line
+This works excellent, thank you very much! (Trim('0'||mycolumns))
+The function is extremely annoying because it uses a prototype or something insane like that. You'd have to do an ampersand-call to override the prototype: .However, you are trying to transpose the matrix, not to it (which would produce a continuous list like We could use an iterator in conjunction with : which works, but this is severely overthinking the problem. Let's just swap indices:
+That's what I was thinking, but I am afraid it will bring confusion to the structure. I will need to add "Set children" field to parent class which should not be used anywhere in the code, only for hibernate cascade deletion. Do you think it is ok?
+I want the next item to be dequeued when the previously dequeued item has been consumed by the caller (as there is no facility to enqueue an item again). So I am using the unbuffered channel for this synchronization.
+Android camera stuff is extremely frustrating, I understand that. Make sure to read through all of the and check out this code below referenced from :
+Excellent! It works like this: [code]extern "C" {
+Sounds good.
+I don't see where we append the rewinded header to the database file. Otherwise, when we open the db file next time, it will still give us the latest header that is not rollbacked.
+can do it ! And you can find other plugins on the . Note that you cannot use this plugin with github pages. This video is excellent !
+according to [1] signature relevant files are META-INF/MANIFEST.MF META-INF/*.SF META-INF/*.DSA META-INF/*.RSA META-INF/SIG-* so depending on the signing algorithm used you may have to also exclude META-INF/*.DSA META-INF/SIG-* [1] http://docs.oracle.com/javase/7/docs/technotes/guides/jar/jar.html#Signed_JAR_File
+I'm very sad now :(
+thanks for the great tip! I was really thinking of this because this is the only file that change per environment
+I'm building a little framework with Node.js, and I would try to use data from an API but I don't know why it doesn't work (asynchronous but ??). Some advices could be very great ! By the way, I tried with xmlhttprequest too. Thanks for your help !
+I have discovered a mode in , where I can instantly change all same variables. When I am in this mode I get a box around the same variables and I can change one and instantly all others change. I do not know how to enter this mode "by will", I just entered it "randomly". Therefore, I really appreciate your suggestions, how to enter this mode, because it is extremely useful to me! PS.: I am using NO plugins, just a plain new eclipse installation with java!
+Cosmetic: According to last changes related to tvb_captured_length and tvb_reported_length it is good point to start thinking about "reported" case (btsnoop format provide both frame length). In "reported" case we can have only part of frame: for example first 2 bytes. This dissector will fail at this line, so nothing will be dissected, but if you move lines 131-140,(169)171-181 directly before place when it will be use then we can dissect some fields. "context" can be filled somewhere about line current 202, "rf_channel" can be put between lines 144-145, "aa_offenses" can be fetch after 170 or where "context" is filled, the problem is "flags", but after moved it after line 147 you are able to decode "btle_rf_channel" field etc.
+Yep, StackOverflow is written in C#/ .NET and is a very successful example of a high-scale site.
+You can look at OpenOffice Base. I tried it out awhile back when it first came out and it seemed awfully slow and it didn't seem feature complete either. But it is free and open source :o)
+That spammer was horrible!
+If you need portable Python audio library try . It certainly has a mac port. As for mp3 files: it's certainly doable in "raw" Python, only I'm afraid you'd have to code everything yourself :). If you can afford some external library I've found some here.
+Grumble grumble...
+God, that was terrible; I left the link to my library as the one I use for my own server. Should work now... : ) And, Pim, they're not entirely random; the library's for my own personal use, so I tend to just pick letters that make sense to me: [r]eturn, [s]teps, [g]radient, [f]ade count...
+Sorry misunderstood the issue!
+I have this script and been breaking my head on trying to change it so that instead of cropping the center part of the image it will crop from the top to the $height sent to the function, any help will be extremely great:
+Excellent answer! Your recipe works like a charm.
+No, they've stopped working again and gone back to the 403 forbidden message. Incredibly annoying.
+Sorry my code base is a little old looks like HADOOP-9147 add some new test in TestFileStatus.
+I do know the iPhone prefers PNG. But also PNG-24 with alphatransparency? I hope it does!
+Why? Can¬¥t return $ -1.885,00?
+where size is not the issue, and performance is not a big deal like in test, please use range() to mainatain future compat with python3
+Thanks Ravi.
+Hi there, I just moved from C#/C++ to JavaScript last night, and am loving it! I've just come across some behavior that I don't understand, wondering if anyone can shed some light on it? When I call this script, I'm getting the expected alert box showing '5.5', however after that box is closed I get another alert simply showing "undefined", can anyone shed any light on this? Code below: Many thanks
+Hi Derick - right now, I'm running from the command line, and very soon we'll have it hooked up to hudson. We've convinced people that hudson will be fine without a physical log file from the rake execution. And I think I've satiated the desire for log files by using the ".parameters" option on my msbuild and nunit tasks to log output. I'm LOVING albacore! You guys did a great job with it.
+Why on my "git push" command I get the following very scaring error message? I've appended the text as it appeared on my shell, the strange symbols are shown. Is my Git installation broken? My fist git clone was using https I'm using on Ubuntu 10.10 x86_64
+yes it does it in IE8 as well. Very annoying !
+I have an existing javascript/flash -interaction kludge that sucks terribly. Now I've decided it'd be better to write a flash app that does the specific thing without the need to interact with javascript. Therefore I'd need to produce flash apps in linux, and I don't have money to throw at adobe right now (perhaps never if their software keeps being terrible). Also not going to do software development on windows, have been there, conclusion: that's not going to work well ever. So, any solutions? Free or open source?
+Be consistent about inner class references. Here you use Metadata but above you use SecureStoreLoadUtil.Metadata. In this case I am OK with either form in the class but want them to be consistent within the ~60 lines of code you have.
+nit: wording. the sentence doesn't make sense. perhaps: Support creating a request for authentication of a remote...
+I have a ruby script that goes and saves web pages from various sites, how do i make sure that it checks if the server can send gzipped files and saves them if available... any help would be great!
+Thanks Hari!
+Enable the deprecation log here is not finally discussed. I'm 60/40 for not logging, because the deprecation log will get extremely flooded. When enabling, only the first setting (and not all three) should be logged to minimize the flood. The logging could be enabled in the next version, and till then it should be documented very well.
+Check out GSON for converting POJOs to JSON: We've been using for a couple of years now. Very excellent library. For POJOs to XML, Jersey uses JAXB or you could roll your own serializer.
+writing a stream manipulator is a very complicated way of doing something very simple!
+Yup, wcf is a world of config pain, stick to asmx
+Nice work !! Loved it.
+I don't think we should let people modify a branch that they don't have access to, even if it is for a commit that they are replacing that used to be in another branch. Locked down is locked down, right? I see how it might be annoying to have to redo a change if you used the wrong branch the first time, though... Perhaps there is some Git magic that can let you do that painlessly?
+Managing url paths can be a real pain in ASP.NET. AbsolutePath vs RelativePath vs etc. drives me crazy. I find that many solutions require the user to edit web.config element to include the correct subfolder path; ex. Website Root: Web.config setting: / Website Root: web.config setting: /blog/ Is there a way to properly handle this without having to make changes to the web.config?
+Oh, man, I am sorry but I must say it: your code is really awful... It is not organised at all, but maybe... shouldn't be instead? EDIT: try to comment the second and third queries, since they seem useless, and make the "cur" -> "cursor" change I suggested:
+Better would be to have if (nGlobalError) { PushError( nGlobalError); return; } if (aInputString.isEmpty()) { if (GetGlobalConfig().mbEmptyStringAsZero) PushDouble(0); else PushNoValue(); return; }
+I'm afraid you cannot fetch that!The Graph API don't provide any API to do so.
+Every time I download the ZIP file it is corrupted!
+That just doesn't seem right, ones created by a call to generate_key are trivially generated and not imported. If we're at the point where this code is lying to you then the app can't trust the ORIGIN tag regardless.
+Well I'm kind of new with magento, and at work they ask me to do a group of products that they will be put in discount, so I created a category sales where I can link the products and put them in sale, so this is working perfectly, but the ask me to put dates in the products so the web master can put dates where the products will be shown between dates, so now I have no idea how to do this. I really hope you guys can help me thanks so much!
+That sounds like some serious buck passing.
+Excellent, thank you for sharing this!
+These two variables were defined separately in the previous version. Now that you need them in every method, you could just declare them at the first utilization (applies to the other methods too).
+https://github.com/masterexploder/PHPThumb/wiki/Basic-Usage an excellent tool for showing and/or saving images!
+The other day I noticed that if I run IEInspector's HttpAnalyser and capture the post data when logging into my bank account or amazon account the post data shows my user name and password in the clear. This is a little concerning. Does anyone know at what point the SSL encryption takes place? This I assume would mean that any software that is installed on your machine could potentially get access to this post data. Very scary.
+Change looks fine, but please fix up this bad rebase.
+The other day I noticed that if I run IEInspector's HttpAnalyser and capture the post data when logging into my bank account or amazon account the post data shows my user name and password in the clear. This is a little concerning. Does anyone know at what point the SSL encryption takes place? This I assume would mean that any software that is installed on your machine could potentially get access to this post data. Very scary.
+Welcome :) :) :)
+I have an .ico file with 5 icon sizes embedded in it being used as the main application icon and the System Tray icon. When it shows up in the task bar the icon is using the 16x16 format which is desired. When the icon shows up in the Notification Area/System tray, it is using the 32x32 format and Windows is rendering it down to a 16x16 icon, which looks horrible. How do I force windows to use the 16x16 icon size in the notification area? Here's my code to put the icon in the system tray:
+Then you're pretty well screwed.
+Wow, great site, and people I got in an answer in less then 5 minutes! Thanks SLaks!
+Excellent explanation! +1 for you Sir
+sorry unassigning myself from this backport.
+Because of presence of data-parsoid, this is not a new block level image. Title or test needs editing.
+instead of this simply add "creation_date_time=creation_date_time" to __init__ method bellow
+I've just checked that simply adding the font to the VS project's Fonts Folder is enough and was worried that I'd have to manually make these calls. Fortunately, the VS project has a Register = vsdrfFont property, so I'm going to assume that the installer does this automatically.
+Rename objectCollapsibleButton to objectCollapsibleBox or objectCollapsibleGroupBox ?
+Sorry I didn't use your patch but I think you'll like the end result.
+sorry this bug is *not* fixed.
+line wrap before throws so the line isn't over 80 columns
+Prefer ordered includes, i.e. VTK headers, vtksys headers, STL/system headers.
+Sorry for the super-slow uptake on this the new job is using up all of my limited brain resources.
+The above code from 2008101602 is present in the 1.1.0RC2_RELEASE so therefore existed before the 1.1.0_RELEASE so needs to be removed.
+Please remove this log, it's a part of the if below
+I guess the big question is whether it is sufficient to test the functionality by mocking out getaddrinfo() or if we need to actually make the call. If the former, I think it could go in UT. Lets see what others' say.
+In ASP.NET MVC, I have a form. In this form the user selects a country, and then the ID is posted back to the server, using a normal . However, for some UX reasons, I use Knockout. Therefore I need to get my observable value to have the value of a dropdownlist. I want my label in the markup, to show the countryId, depending on the selected value on the dropdownlist. Markup: ViewModel: Then my question is: How do I modify my DropDownListFor, so the countryId is being set automatically? :-) Thanks a lot! I really enjoy learning Knockout, but this one has taken me a long time!
+this is a problem that regularly arises when I write Silverlight XAML. In this case, I've made a usercontrol VerticalTabStop (code attached) that has a ToolTip attached. I instanciate a couple of my usercontrols, and then I get the debugging window and the following error: I get an awful lot of these messages as I hover my mouse over the buttons. Any suggestions to what I'm doing wrong here? Cheers
+I did not make comments on all of these before because it was the same comment every time. Unless there is a good documented reason, these should all be set to ignore.
+great question!
++1, Excellent explanation!
+After seeing this live on gerrit-review, I think this is noisy. Every change seems to have 10+ conflicting changes, which I think is just an artifact of there being lots of old, unlikely-to-merge but still open changes in the project. I would prefer something like including "-age:30d" and/or "limit:5" with a link to the full search without that restriction.
+@Alex: Great :) Happy further coding!
+Good enough answer for me :) I get the same, lets hope they fix it soon because XBAP deployment I'm learning to love!
+Sorry https://bugzilla.mozilla.org/show_bug.cgi?id=514760 is related but not same.
+Is there a VB6 equivalent to the C/C++ 'continue' keyword? In C/C++, the command 'continue' starts the next iteration of the loop. Of course, other equivalents exist. I could put the remaining code of the loop in an if-statement. Alternatively, I could use a goto. (Ugh!)
+numpy is awesome :P
+Absolutely Beautiful!
+Sorry misunderstood the issue!
+This class should be for launch specific utilities, but I agree with you, it makes sense to consolidate until it becomes unwieldy.
+hmm, why this should be a problem? attr is a local (to this thread) storage, nobody else will see that?
+My bad.
+I have two namespaces: 1) Foo.Bar 2) Another.Foo.Bar From a class in namespace 2, how do I reference a class in namespace 1? Using Foo.Bar leaves you in namespace 2 still... I hope this is reasonably clear! Thanks.
+Now we have a copy of fiemap and a pointer fiemap. Which one is the "right" one?
+Excellent question.
+I don't think that it is possible to compare a shelved version with a local version in Visual Studio, however I'll be very happily corrected on the matter.
+Patch Set 1: Looks good to me, approved LGTM; and yes please do upstream.
+* release of the framework.
+Here's a secret. In the chrome dev tools, do a cpu profile run. After you have stopped capturing, at the bottom of the screen is a down triangle next to "Heavy (Bottom Up)". Click the triangle and select "Flame Chart". Once you are in Flame Chart mode, you can zoom and pan to see the digest cycles, how long they take, and exactly what functions are being called. The Flame Chart is so incredibly useful for tracking down page load issues, ng-repeat performance problems, digest cycle problems! I really don't know how I was able to debug and profile before the Flame Chart. Here is an example:
+WPF is a fascinating platform to develop our next generation applications on! The ability to style just about anything, the databinding support and attached/dependency properties. Wow! But let's not throw caution to the wind because while WPF performance is great, it's not the best... yet. Definitely is a strong contender, but as developers we are still left with design principles for our front ends.
+instead of this simply add "creation_date_time=creation_date_time" to __init__ method bellow
+here we are changing the default to 0666 but in open it is 0777, we should have only one. I think 0777 was chosen based on what python os module does, but could be wrong...
+Excellent! You should document that as an answer and accept it so many more people can solve this with a google search on 'single line of text' :)
+session_args_t structure is in packet scope. Is this normal to allocate in file scope? And no need to set it to 0, you are assigning it the line below.
+I've changed the color scheme on sublime text 2 and I really hate the colors it changed to. So what is the name of the default settings? Because I want to change it back to the standard.
+I want to find out how long time there is till a specific from . I have searched everywhere, but can't really find anything. I THINK I have to use the -function together with the -function somehow. The scenario is: I have variable with the day of the week, ex: 1 / 2 / 3 / 4 / 5 / 6 / 7 And another variable with a time of the day: hh:mm And the last variable also with a time of the day: hh:mm "How long time" could be like: "2 days, 3 hours and 27 minutes from now" The same output should be generated from a specific datetime. Ex: 06/08/2012 23:55 is "1 day and 13 minutes from now" I really hope you guys can help! :)
+Why not use: if ($limit > 0) { } elseif ($limit < 0) { }
+Field length expected here is 2, but field below is FT_INT32. Is this an unsigned short (FT_UINT16) ?
+An excellent and elegant solution. Kudos.
+I was not aware of being required to call that method.
+Thanks Thomas!
+Ugh, implicit joins! I want to tear my eyeballs out looking at that.
+Missed 2 new files - sorry !
+sad... very sad.
+I wouldn't recommend to use a percentage here.. With "This change is backwards-compatible most of the time" or "This does not change the public API..." we should be on the safe side
+I'm using VIM with pythoncomplete. When I'm making a completion, the current window is splitted and calltips are shown in the upper pane. I hate that! Is there a way to prevent that behavior or at least limit the size of the upper pane automaticly?
+I agree that a trailing "or" is missing here (though defining a function is_configured and putting the grep's in it would have been better than any commenting. I cannot say that I like duplicating bash logic in English)
+I am very jealous of your name!
+Great! Good to hear it. Can you please accept my answer? :)
+I am completely hopeless with regular expressions... I have a Velocimacro named , and I have a JS function named . Now I want to find all the places the JS function is called. So I need to search for "addButton", where "addButton" doesn't start with the hash key. Any ideas?
+I was using an old version of Sinatra - updated to version 1.0 and it works fine :) Thanks everyone!
+There's lots of things that I don't know about languages and syntax. +1 because I learned that you can make a setter private inside a public property. Awesomeness ensues!
+that's great too! awesome. thank you!
+Library independent, very nice! Although I prefer the declaration more "class" like: `function MyClassName() {};`
+I'm trying to insert the following array ( from a html form ) but i believe i'm working with this array in a very awful way The array: Actual code: ?> current output: What would be a decent way to do it? EDIT : No need to show how to connect to a database, i just need to deal with the array data.
+This way lies metadata hell.
+This project looks very promising - thanks!
+Should this call Free(), or just remove Free() and put that code in here?
+Can anyone help me add children to a plist? I think I want to record an index of rows from the plist and then state which index row to write the key too. I'm not sure how to say if the key will be a string, dictionary or array. The following is code from another question on adding a key to root. Any help would be extremely appreciated :)
+it would be nice to use a DTO for the options. this would make it possible to extend it later (which I am pretty sure we will do) without breaking extensions using the interface
+This should probably be dlfcn, but I'm not sure. It might be better to split this into another file, and call it something like pthread_dlfcn_test.cpp to indicate this is really a test that is also testing dl related functionality.
+Thanks to Edward and Brock for the reviews.
+Hi Gregor, Need to make this accessible by adding "class='accessible-hidden'" with relevant details to labels; also add spans for hidden text; anchors with spans; buttons need to have "alt" text; etc. Please refer to: https://wiki.mahara.org/index.php/Accessibility for more details. Thanks, Ghada
+Add ": " after "successful" otherwise the detail message will be appended directly onto it without any space.
+That means we'll have to add an extra boolean field to every member. It'll make serialization size bigger as well as resident AST memory go up. I'm happy to change it, but it seems like it trades off memory for readability. You'd still have to handle "", because that's the way Java annotations work, you cannot have a default value of 'null'
+All macros in southbridge.h are Vortex86EX PCI S/B config register offsets. They are all fixed for Vortex86EX CPU.
+that what i was afraid of ! cause my knowledge about ajax is zero :(
+If we're trying to make this documentation more consistent with other module pages, then I assume this page is meant to be similar to http://qt-project.org/doc/qt-5.0/qtcore/qtcore-index.html in terms of listing the types provided by the module, so we should add a list here that link to the following types: * Component * QtObject * Binding * Connections * Timer as these are the types provided by the QtQml module.
+Add newline. #-----------------------------------------------------------------------------
+I hate to say it, but the selected answer is wrong. C# Express ships with 3.5 SP1, including .NET SP2, etc...
+Sorry this affects 0.9.3 version too.
+You're preforming this check multiple times. it's better to create a separate function, in case we will need to add a new "localhost" name/ip
+Good catch. Debugging needs to be removed. Will remove in next patch set.
+Very interesting! The code it produces does not work for me but the code is definitely useful as an example. I'll mark this answer as accepted since it seems unlikely an actual reference that says more than MSDN even exists.
+no sorry - priorities have been shifted around...
+I actually fear that PHP accepts this due to some easteregg or so :)
+Flow control keywords must be followed by a single space
+@PhilipOakley excellent suggestion! I hadn't used `cherry-pick` before but that worked quite well. If you post as an answer I'll accept.
+I guess that works, but I'd never do that. It's screaming bad practice. Think about code readability etc.. Come back to your code in six months and figure out all the function calls inside your HTML markup.
+The current solution i implemented is awful! I use a for inserting records from an ADO.NET data-table into an SQL table. I would like to insert at once the data-table into the SQL table, without iterating... Is that possible, or am i asking too much?
+Great question! I also find myself a little lost in WPF because of the amount of flexibility it offers and have been looking for guidance in how to choose fonts, layout, spacing, colors, etc. I've had a hard time finding books or websites to improve my UI design skills, so I hope we find great answers here!
+So this could be hard to explain but i want to do a for ... := 1 to 10 do statement but i want it to be for A to N do. The main purpose of this excersise is to load data into a string grid. So lets have it load the cells 0,1 0,2 0,3 0,4 0,5 0,6 0,7 with the Letter A, B, C, D, E all the way up to 14. If anyone knows how to do this i would be extremely thankful!
+actually I don't know why it is like this in the login but not in the logout.. I would assume it should be the same in both places, and that this one is the more robust one..
+excellent! this user agent switcher is a gold mine!
+Yeah, we can file a bug against android or just fix it and submit a patch.
+There's no actual need to have this routine similar to how it's done in bit-rot-scrub.c since there just one (1) option to reconfigure. Keep it simple and just do a GF_OPTION_{INIT,RECONF} in the appropriate function.
+It seems some of the wrappers in ink_hrtime.h() might no longer be used either e.g. ink_gettimeofday() is never used so lets get rid of that shit.
+I know it's just example code, but I really hope your `manager` and `staff` class names are not really lower-case!
+This project looks very promising - thanks!
+I hate writing migrations, but it's important for the schemas to stay in sync. What I'd much rather do is update my and have Rails notice, then run something which generates the appropriate migration based on the difference between the old version and the current version. Is there a way I can do that?
+You removed this line in I1c2a5a9c3da5 with a commit message that noted you wanted COM removal only in the second half of VV, but there was no related change to how that worked. How do we assess when you were right? :-D
+Both of these answers were really helpful - thanks!
+Put this into a DEPS variable and reuse the value above in gwt_module() too?
+Remove strerror(errno) part of this log, as gf_msg will do it when errno is passed
+I can do that in an extra commit, here I only wanted to add the possibility to access the created proto_item. But if you want me to, I can add the change to this commit also.
+BTW: This is one reason why I hate this autoboxing shit since Java 5. I would love to have a way to prevent it in code (forbidden checks should detect this somehow).
+Absolutely terrible!!! It is not Dependecy Injection
+Patch Set 1: Thanks for your reviews. To be honest, it would be nice, if you could be a bit more friendly to - not first time in case of Thomas, but occasional - contributors. IMHO one or two -1 are enough for the beginning. Bjrn and Philipp, you're really helpful contributors, thanks for that. We were discussing the "patch for a patch rule" over the last days, which we enjoined on ourselves as core team members some time ago (and it works in at least most of the cases I think). Please don't treat this as harsh words, I just want to make you aware of the fact that motivating every new contributor is very important for us, and hopefully also for you as an essential part of the TYPO3 community. Thanks for your support! Steffen P.S: The reason, why Jenkins fails is probably, because of the parent commit is very old and the patch has to be rebased. Will try to get this done now (if network connection allows)
+Excellent! That makes life considerably easier. I really didn't want to add another layer to the application if I could avoid it. As far as StackOverflow etiquette goes, if I set this question as answered, Nikos won't get the rep for it as the answer is in the comments. What's the protocol?
+**I HATE GIT !! What a crazy command line syntax**
+Sorry my code base is a little old looks like HADOOP-9147 add some new test in TestFileStatus.
+Is there a way to reuse a 3rd party control reference? For example, I have this referenced in my App.xaml I don't want to repeat this 3rd party control xml namespace on each page/control that needs a control from the library. Is there anyway to centralize these references and use the prefix defined here? The possibility of each control having a different prefix is also worrisome. In asp.net you would put a reference in the web.config and it was available globally, I'm just looking to see if there is a similar method in WPF.
+Ternary gets _extremely_ ugly if you're using more than one else statement, I wouldn't recommend it at all, let alone in this situation.
+@massive I've replied to your question about dealing with concurrency issues in bulk updates by editing my answer. Hope this helps!
+BTW: This is one reason why I hate this autoboxing shit since Java 5. I would love to have a way to prevent it in code (forbidden checks should detect this somehow).
+Agreed. Don't do this, it makes people cry.
+Check out GSON for converting POJOs to JSON: We've been using for a couple of years now. Very excellent library. For POJOs to XML, Jersey uses JAXB or you could roll your own serializer.
+huh? namedtuple() is a new-style class (otherwise __getattribute__ won't fly for it!). Note that namedtuple(verbose=True) shows that it uses __slot__=() by default, so I'm all for the removal of this redundant line. However the commit message is confusing.
+Nice I did not think about using the system tables.
+Sorry for that.
+Has anyone seen a wordpress plugin slider that will show partially the next and previous image before it slides in? OR does anyone know of one that may be easily customized to show that effect? any demos, guidance or links will be extremely helpful! Thanks very much in advance! Michael
+Pretty self explanatory question. I just don't know how to do it. I've been using Eclipse for about a month so I still have a lot to learn. I'm using the newest version of eclipse Juno and need to push the app (or email it) to my MyTouch. How would I do it from eclipse, as that is the way I would prefer? If I should just email it, would I email the whole project folder or just a particular piece of code? I thank you for all your help in advance. This site has been so incredibly helpful!
+I've been experimenting with Linq to see what it can do - and I'm really loving it so far :) I wrote some queries for an algorithm, but I didn't get the results I expected... the Enumeration always returned empty: case #1 I changed the query declaration to be inline like this, and it worked fine: case #2 Does anybody know why it doesn't work in case #1 ? The way I understood it, the query wasn't evaluated when you declared it, so I don't see how there is a difference.
+This is great! Thanks +1
+Tried some more stuff and realized I was doing it wrong.
+Excellent tool! Thanks for making it available.
+Does anybody have a simple code to display a list (list view?) of all the apps installed on a phone, and have the user open one when clicked? Or even an App drawer. I just need a way to have the user open all of their apps. I have tried searching for tutorials, but couldn't find any, and I downloaded the example home from Android, but I absolutely hate looking through code and digging out what I Want.
+I hate writing migrations, but it's important for the schemas to stay in sync. What I'd much rather do is update my and have Rails notice, then run something which generates the appropriate migration based on the difference between the old version and the current version. Is there a way I can do that?
+warn: lnet_ping():check that 'tmpid' doesn't leak information (struct has a hole after 'pid')
+I currently have speakers set up both in my office and in my living room, connected to my PC via two sound cards, and would like to switch the set of speakers I'm outputting to on the fly. Anyone know an application or a windows API call that I can use to change the default sound output device? It is currently a bit of a pain to traverse the existing control panel system.
+I hope fortune favors the brave :)
+Managing url paths can be a real pain in ASP.NET. AbsolutePath vs RelativePath vs etc. drives me crazy. I find that many solutions require the user to edit web.config element to include the correct subfolder path; ex. Website Root: Web.config setting: / Website Root: web.config setting: /blog/ Is there a way to properly handle this without having to make changes to the web.config?
+As you may know, tonight, at exactly 23:31:30 UTC, Epoch Time will reach 1234567890! Hurray! One way of watching epoch time is by using Perl: Can you do the same in another programming language?
+Yes, these queries are horrible. Do a regular join instead.
+You don't need to put this xml or a new test class. That means in a previous test case you can just do following: @WithProperties({ @Property(name = "webApiUsage", value = "resistance") }) public void testAnimationImpInResistanceMode() { // your test code here }
+Why checking for null pointer here? delete handles null pointers just fine, you only add overhead here.
+Ahh, I didn't know that the wsdl command line utility could generate one file for many asmx.... thats awesome! I'll try that out now. I can integrate that into our build process too. Great, thank!
+There is no VDSM action here, only database - just make the command transactive, and save yourself all this hassle.
+you handle all these exceptions in the same way so you can use multi-catch: } catch (RevisionSyntaxException | AmbiguousObjectException | IncorrectObjectTypeException | IOException e) {
+Sorry about that.
+Two excellent answers, thank you! I chose Andrew's primarily because I learned a bit more about knockout from it, but both are good options. I'd use RP's method to get something to use in a more generic "anything can be chosen" scenario, but I think making it a single object is probably a better fit for my uses.
+thanks for the great tip! I was really thinking of this because this is the only file that change per environment
+In our eternal quest to integrate Javascript into our RSpec and Cucumber workflow we're evaluating and are provisionally very excited about it. Any advice on Culerity in general or specifically as compared to Selenium?
+This comment doesn't sound right. This if statement should be removed as lapd_handle should already be populated.
+docstrings please and thank you :D
+Doing a blind re.replace on an XML is a bug waiting to happen. The XML has structure and it is safer to use it. Please parse the XML and replace only the element you expect. Unless, of course, you have a particular intention here.
+7 seconds between asking and answering it yourself? Isn't that abusing the system a little?
+Still no go, I am afraid :/ This does not remove 'www' from the url.
+Excellent tutorial!
+Before the goto, you must update errcode. What happens now is that we fall to alloc_error label and then return a success status when actually an error happened and *dst was not populated.
+Thanks Jukka for fixing this :) (sorry)
+You must redraw your background with each change in your line (thatâs the canvas way) Donât worry, canvas is very fast at redrawing! Here is code and a Fiddle:
+Here is an incredibly disgusting way to do it: Here is a better way (I think): If you convert either output string with: you get your original number.
+Weird.
+Cool cool - thanks stack!
+I have a main flash from wich i load another swf file from the server. From time to time i change the second swf file and want to load a fresh copy from the server. I clean the cache from the browser but my client does not know how to do that and it's a pain to give him directions. If i want to load a fresh copy of the main swf i just add a "main.swf?version2" but i can't do that with the loadMovie function in flash. Any ideas how i can get a fresh copy from the server without changing the name of the file?
+By definition, nothing is required when we have macros telling whether it is present or not. To avoid having to update this file every time something in one of the implementation files changes, I would move that documentation there. This file is simply about SIMD and defining SIMD properties, not about what SIMD instructions are used in different kernels. Specific comments about verlet kernels belong in the verlet kernel code, not here.
+Thanks a lot for your help!
+awesome answer! very helpful
+I've searched this and cannot find it. I've tried different plugins and different browsers (Firefox, Opera, and Chrome). I've tried most of the no flash plugins for each of those as well as disabling Flash plugins/addons in the settings. I also renamed the file in i found by searching the system. when i renamed it, makes Firefox and Chrome ask to install Flash, but still: returns: I'm not sure what else to try without uninstalling Flash, but that will be a total pain in the ass for this. I also REALLY don't want to use SWFObject just to see if Flash is at all installed which I can do simply with: Any ideas?
+@Oded thank you this tool is very great!
+pr0n for sure :))))))) (kidding Jonathan)
+Because it is used below in g_list_foreach, where gpointer is mandated.
+This is an attempt to clear the following dashboard error: https://open.cdash.org/viewBuildError.php?buildid=3611001
+This is weird.
+should this patch only be added if $(SYSTEM_MYSQL) is NO ?
+So I also changed a test to test a non-ascii stopword :)
+I disagree. I don't think that would shorten the code by much.
+Prefer ordered includes, i.e. VTK headers, vtksys headers, STL/system headers.
+Excellent questions! This particular project will need DS, WAYF, etc.
+excellent, all working now, thanks !
+I've looked at what can be done within the NSIS framework we use to build the Windows installer.
+I do not like (long) very much, but that is something in the inode_ctx API :-/ Maybe I find the courage one day to make it a (void*) instead.
+You're looking for an equivalent of and I'm afraid it doesn't exist explicitely in the STL. Go for Sebastien's answer if it is correct for your STL implementation.
+Something like this? Bonus. With the switch to you have readline editing capabilities, and tab completion on files. Wooow!
+It's a command-line tool. Unforunately Xcode doesn't use CodeSense for editing files outside a project, which is incredibly frustrating.
+The was a pretty awesome read/reference! Although there are some typos, etc., it is really extensive and has tons of examples. C & C++.
+For some reason I thought that the overflow behavior was unnecessary, now I see that it is used in case of multiple dexes. I reverted the change.
+Awesome work: this is a great first cut!
+Why is powerbuilder community so small? If I have asked anything about JQuery/.NET/PHP, there would have been at least 2-3 answers by now :-(
+Is there a selector you can use with $.closest so this doesn't look so godawfully clumsy?
+Excellent! Tank you so much, much appreciated.
+i am writing a flash app that receives its data over a XMLSocket. On the testmachine that worked really fine, but now the data will be ssl secured. Is there any XMLSSLSocket or something similar available? If not XMLSocket a normal SSLSocket would be a great help as well.
+There is no TCP multicast, I'd vote this down, but I don't have enough reputation.
+If it's forms auth then yes, that's weird. I'm afraid I don't have any idea!
+Sorry typo: "our part" in place of "one part" above.
+I am running VS 2012. Working on a project that is stored on a mapped network drive. Whenever I go to close the solution it takes several minutes (5-7) for Visual Studio to close. It does eventually close, but very painful waiting for it to finish. Anyone have any suggestions on how to fix?
+Copied from sys_openbsd_386s.s and missed - fixed :)
+I really like what I am seeing so far.
+Ah, 400 million is a much less scary number!
+Ok, here's one way of doing this, but it's terrible! I'm still looking for an easier way:
+The previous solution is really great! However, I'm looking for one more feature: is it possible to eager load last subordinate record before a specific date? This is needed so that my users can browse a history a song's votes (with links to previous and next days).
+I think there's a function for doing this. Maybe display_name()? I think you pass it a whole "usr" record and viewer and it figures out how to display it.
+Everything in the terminal buffer. Command history is easy, just 'history'. Sometimes there's an exception or a log I want to grab, but it went off the screen or select-all is a pain. I want to make a cmd line tool that does it and maybe sends it to a new gist.
+Also your username was stupidly named and confusing so I deleted it and created a new one more appropriate.
+missing a comma here, can you help adding it back? ;)
+@Brant - No worries!
+I am have used the remove data method to remove validation from the page. This works but throws an error in the console window and crashes with IE8 (I'm being forced to develop to this browser...sad I know!). Does anyone know how I can stop this error? Here is my code to remove the validator: Here is the error message from the console:
+This isn't going to pass pep8 anyway because this line is too long and the parameters to getattr don't have proper spacing. And why are we still looking at exc.message here?
+that's great too! awesome. thank you!
+Doc string needs to be changed. This does not return anything. it can be something like- This function verify detail of referenced datastore.
+Ah that was my bad.
+Excellent code @ Peter, but not to be generating consecutive events, it might be better to use unbind (), like this: Thanks!
+I have but instead of bothering them I'd like to do it myself. I really enjoy trying new things and so far figuring all of this out has been very fun!
+After installing a lot of apps, and building a few myself, I'm sure many people have been wondering about this. If I'm looking through my SD card it looks absolutely horrible, and its really hard to find folders that are mine for putting music/videos/pictures in between all the folders for different applications. Is there any conventions here that we, the developers, should try to put their apps into one base folder or has Google forgot about this completely?
+Use Web Essentials... it works really great, and has lots of other useful tidbits!
+It's a terrible idea to include a using directive in a header file too. This simply mitigates that problem.
+we must make sure the paste file is in absolute path mode: config_path = os.path.abspath(config_path) ?
+Hell or high water.
+Are we sure the the same set of changes are not required for other daemons as well?
+@Stilly.stack wooow I didn't know that that was important!! thanks a lot :)
+Works pretty good for me, you perfectionists! (just teasing)
+here is some code to have a gif (that already have transparency in it) transformed (supposed you want to resize it) in bitmap and then can be showed properly with it's transparency. Good luck ! GrÃ©goire Lafortune
+Not for me, but I can suggest some possibilities :It may cause problem while editing--> This can be solved by using some comments--> And then this will cause the code messier Some code may crash and your code success will go away from you |.|--> No solution - unless you know more about the code! Code upgrade problem-- If external code has upgrade you may have problem to know which is that code--> Again use comments--> And again messier So these are some that I can think about!EDIT---Some cons:You can make it more convenient to edit--> You can edit more than one code at onceYou can edit some code that you wan't able to edit (external resource before)--> Modifying is more convenient.You can make it load faster--> 1 file with 1000 KB is faster than 1000 files with 1 KB each.It is safer--> You don't need to worry about external resource being deleted!!These are my suggestions. Try to think more about it!
+what about Jigal's comment "Copying an array for the sake of a variable name is a waste of resources IMO." ?
+Just a pre-emptive note, I put these TODO's in the code, because they are separate refactoring issues, which would be better handled in a separate bug.
+@TonyThinkk No worries!!
+If we're trying to make this documentation more consistent with other module pages, then I assume this page is meant to be similar to http://qt-project.org/doc/qt-5.0/qtcore/qtcore-index.html in terms of listing the types provided by the module, so we should add a list here that link to the following types: * Component * QtObject * Binding * Connections * Timer as these are the types provided by the QtQml module.
+That is great news!
+I'm starting to think of "DLL Hell."
+Trying to get S60 SDK working on Linux is quite a pain. Still struggling with that.
+Thanks for the answers. I've found a great sitemap generator over at codeplex. If anyone is interested you can check it out here: Enjoy!
+ec_combine_statfs is updates the avail size to max, with this we are not getting the correct value. In the below output, avail size should be 99.7G. root@rh1:~/workspace/git/glusterfs # df -h /mnt Filesystem Size Used Avail Use% Mounted on rh1:/vol1 100G 290M 100G 1% /mnt
+Passing a whole volfile path this way seems a bit fragile. Would it be possible to pass the flag and a *relative* path, so that the receiver constructs the final path instead of the sender?
+My bad.
+It's HORRIBLE! No, seriously, I don't like it.
+This is one thing that I really hate within development is forms. Below is my code and what I am trying to do is align the inputs with the labels . Is there a rule that you use to help remember when coding forms? CSS: HTML:
+might as well drop the conditional and just assign it
+I think the question is valid. I agree with the other responses, but it doesn't mean it's a terrible question. I've only ever had to use a Safari CSS hack once as a temporary solution and later got rid of it. I agree that you shouldn't have to target just Safari, but no harm in knowing how to do it. FYI, this hack only targets Safari 3, and also targets Opera 9.
+Why the hell is this not a bug?
+this is an excellent link thanks a ton! havent gone through it in detail. just glanced. but it looks really promising. Will read it in detail shortly
+And boy hell broke loose ;) So... the biggest issue I'm facing is indeed with Random sharing across threads.
+Add expert info if there is pad high and no pad low ? and also a generated hf with the padding length ?
+I've got a table with a BLOB collum. What I want to do is get it to be able to pick out words and list them in order. For example if it contained: Bob Smith likes cheese but loves reading Charlie likes chocolate milk Charl loves manga but also likes cookies Then I would get likes loves as a result... is this possible and if so how? I'd like to be able to do it in just mysql alone, but I can use php as well. Thanks in advance, kenny
+If no version can be parsed "0.0.0" â€” "0.0.0" is the result
+I personally hate this! commands should not go to a redirected file. I think your redirect options should be off, on, verbose - and only verbose should add commands
+Why not just adjust the check upstairs to (m->total_size?:2048) > (microcode_end - (u32)c) then you won't need this check if you assume that cbfs is correct and if you don't cbfs check belongs to cbfs functions, not here.
+I have but instead of bothering them I'd like to do it myself. I really enjoy trying new things and so far figuring all of this out has been very fun!
+I'm trying to test if a character in a string is a space, and I'm getting extremely frustrated: I'm not getting any errors and I've looked online, but people on different forums say this is how to test for a space. Uh.
+What a strange website candyundies.com sounds disgusting!
+i wonder where you see that - i don't. maybe it's not explicit enough for your taste in telling you that you are an idiot if you try? make the setup script simply refuse such qt versions.
+Short and to the point... excellent! +1
+We would prefer to keep this. It is possible for the RILD and radio code to pass the sequence number through into radio state as the request is being acted on - the RILD may notice the socket error and re-establish the connection and then the response comes back from the radio with the old sequence number and get's passed back through the newly-connected RILD. Just because your implementation may not do this, we can imagine other OEMs passing back obsolete responses that would match a newly-zero'd RIL sequence number and confuse things. Couldn't you just remember the first sequence number your RILD connection received? Then you know the number of requests you've received.
+as Shawn mentioned in another comment: s/wild project/AllProjects project/ more occurrences below
+But what we are using is oslo version. I think this should be fixed in oslo. I submitted a patch to oslo https://review.openstack.org/56211
+Ignoring how ridiculously lame it is to ask a question and answer it in this fashion seconds later, this is an awful answer, and that is why it is voted down. Why will you only see a small speedup? Can you provide numbers? Platforms tested on? This answer is even more vague than the original question, which was vague to begin with.
+This should also be converted GF_VALIDATE_OR_GOTO, take this as global comment
+Thanks for sweet patch Erik.
+Anyone??? I'm starting to hate VS for that reason!
+Holy (*&^. I just looked at the jquery solution: add a hidden element to the DOM containing every conceivable tag and then reverse engineer the geometry conventions. The web is truly amazing place!
+About { on the same line? yeah it's probably on the one below.
+It is a nasty bug that I've seen in real life though.
+I've just stumbled onto this one there you will find a couple of REALLY GREAT templates!!!
+This sounds like an excellent project! You might want to start with the module. You might also be interested in the module. Perhaps to get you started, here's a function that takes a path to a file and backs the file up by copying it and giving it a .bak extension.
+WOW people THANK YOU SO MUCH FOR YOUR ANSWERS!!!! (bow)
+Am I doing something stupid here?
+I use the gem for transparent usage of Memcached. Using the supplied config file it is enabled on all modes (development, test, production). Is there a way to only activate cache-money in production mode? It's not immediately clear how to do this, and it's a total pain dealing with caching in development mode.
+yeah it working fine :) Thanks !!
+Doh!
++1 pines is excellent!
+@DaveBish, What an excellent tool! I will be using this ALOT in future! :-)
+then you might want to take full control over how Preferences should follow your desired storage by implementing . You can see a linux based implementation here: Good luck!
+I have discovered a mode in , where I can instantly change all same variables. When I am in this mode I get a box around the same variables and I can change one and instantly all others change. I do not know how to enter this mode "by will", I just entered it "randomly". Therefore, I really appreciate your suggestions, how to enter this mode, because it is extremely useful to me! PS.: I am using NO plugins, just a plain new eclipse installation with java!
+I assume this is not a memmap version of 16550/8250?
+Ho yes, perhaps I should change the commit message ? It's because the policy was set to NEW, so it will do nothing anyway, as we are already using cmake > 2.6.0
+Patch Set 1: I would prefer that you didn't submit this I agree with the first reviewer, turning the condition around will make it better readable. Besides that, great idea and solution!
+ok, but then i suggest you turn that thing into a macro which you can document centrally (QT_SEGMENTED_STRING_LITERAL or so). also, a warning in the QStringLiteral doc would be in order if it's not there yet.
+Thanks a lot!
+ouch. I have a large table, and the row by row insert is very painful
+self._guestEventTime mast be set to time() on vm domDependent or else we would never report POWERING_UP.
+Is there any way to quickly jump to a scene in a storyboard? I have about 30 different scenes/view controllers and it has become incredibly tedious to locate the view controller I'm trying to edit.
+talks about consuming WCF services in Silverlight, but claims: There will be no proxies, no generated code, no 3rd party utilities, and no disgusting "Add Service Reference" usage. What is so wrong with me adding a service reference in my Silverlight project? Are there hidden overheads? Or is it a case of Fear Of Auto Magic on the part of the author?
+This may result in broken implementations since they could already have a longer URL. Highly unlikely, but possible.
+Separate patch and please use a tab for consistency. A separate patch could unify that too I guess.
+that's an awful lot of swapping hold and pattern spaces...
+If you're running on Windows, you could do something similar using PowerShell. This could be extended pretty easily to find all unversioned and ignored files and delete them. Hope that's helpful to someone!
+Please add more functional/features tests on this conf file when you add the rest of the code.
+Changed from heap to stack based allocation, will now only allocate enough to hold idmap header.
+To add on to mwigdahl's excellent post: [here](https://ribosome.helixcommunity.org/2005/devdocs/FuncLevelLinking)'s a link that explains how to achieve FLL for g++ -- this may give you some additional insights.
+this is a really great idea!!! please standby while i try thank u so much
+I don't see how this is possible, but I really, really hate to run my query an extra time just to get the record count so I can build a pager. When I say a "pager" I simply mean the common gizmo with a link for each 10 records for example.
+My guess would be from a colleague who wanted to scare this person out of ever using 'this' again. It can be fairly annoying when someone uses 'this' for every single thing they do. Not that it justifies lying to a new programmer, but I can imagine someone doing this out of frustration.
+follow up? hate all this stuff getting bikeshed for weeks for that sort of thing. can you also check out 6465, 6463.
+Great, excellent links. Thanks for the help!
+except doesn't this failure mean "i couldn't read the command file"? for which "no command" doesn't seem like a bad error.
+@DonQuestion Yep. My account is domain admin so it should be ok... really annoying problem! arg
+Hi Miklos, I have mentioned the relevant comments for this impacted UT in the commit message as well. Kindly have a look. Thanks.
+#ERROR!
+Each tab in my xcode project can have navigation/debug/utility menus open. If I close those menus on one tab, then switch to the next, they may be open. This is really frustrating! If I want the menus closed, I want them closed on all tabs. How can I change this behavior?
+Is there an easy way to find parse errors in javascript code? Last week I was debugging a javascript problem where the first javascript function that was called gave an 'object expected' error. I later determined that this was because the browser wasn't able to parse my javascript code. I eventually solved the problem but it was a painful process that involved pouring over my code line by line, trying to find my mistake. There must be an easier way.
+Hey, I am trying to further my knowledge of javascript and was wondering if anyone could explain to me what exactly is happening in the script below: Most importantly, why are there 4 'google_ ad_ ...' at the beginning and what is the purpose of them? A line by line explanation would be awesome :) Thanks for any help. I really appreciate it.
+My first instinct is to branch normally (using p4 integrate), and then use an IDE or sed script to change the package names. But this makes future integration from the trunk extremely painful.
+With auto-generated CRUD methods you don't need to define these methods manually. Please check this patch https://review.openstack.org/#/c/62865/
+Some file were missing in the last patch sorry.
+My patch wouldn't compile.
+If double logins presented, it skipped it... looks so terrible))
+We kept this in r46 to keep some minor behaviour consistent. By omitting this in r50, we are actually keeping the behaviour of rc and final consistent, modulo the bug fix - see this function in git diff 53fc9d0 -- src/gromacs/mdlib/coupling.c. Since the r50 tests are already generated with the new RNG, we should expect those tests to continue to pass.
+indeed! Sorry, I assumed that this function was tested and it seems trivial to me since in Oracle/Sybase this works like a charm would you mind sending a patch fixing the fn_db_delete_config_values as well and put me as a reviewer ? thanks
+I have a page running on my local django dev server with the Django Debug Toolbar that seems to be running quite slowly but I'm unsure why: Django Debug Toolbar says SQL - 46 queries in 39.80ms And then running a profiler I get 7926 function calls (7774 primitive calls) in 0.024 seconds So I'm left wondering why is the profile time so much lower than the Total CPU Time? And then how can I find out what's causing the difference? And secondary to that - should i be worried about the 16842 involuntary context switches!?
+@JonesV excellent! I think thats what I wanted: "//*vptr is address of first virtual function in VTABLE viz. display()"
+That didn't work I'm afraid :( Daniel, main.cs: http://pastebin.com/CCdchuQs
+This is where it gets confusing.
+Thanks Dianne!
+You didn't mention the language, but for Java we've loved . For C/C++, getopt.
+That's weird.
+Thanks a lot for your help!
+are you sure about this loop, which does not run ;-)
+HADOOP-2949: - If tarball is specified HOD no longer validates for the pkgs directory in gridservice-hdfs or mapred sections as these are not going to be used anyway.
+What the hell are you waiting for ?
+Thanks for the answers guys, all where to me really useful! :)
+You shouldn't need this - I have a patch in flight to our gtest - see https://github.com/daverigby/gtest/tree/clang_analyzer which will make the GTest asset macros "understood" by clang analyser.
+i really love the idea of it as i can create a folder for my user control, and make sub folder images, css, and put local resource file, so the whole thing is contained in one folder, and that makes it really efficient for me (management wise). but the bugger is you cant get intellisence like global resource, so is it possible in any way ?
+warn: ll_setattr_raw():we tested 'rc' before and it was 'false'
+I am currently scripting Blender right now but it's excruciatingly slow for large models.
+Carom3D is a great one, they seem to have mastered the physics. See these links for more info: Good luck!
+wow the reaction time on this by you guys was amazing xD I'll give everyone +1 once I get to the 15 rep ^_^ Thank you so much everyone!
+Excellent thank you guys!
+Finally found something, here: No reference to it from the Oracle pages, but found a direct link to a page on some forum post. Really sad how hard it was to find.
+I don't think the comparison with the SshCommands (or RestViews) is fair. For SSH commands we have a simple lookup by command name and it is all that matters. For project rename tasks it may be (and probably is) critical in which order the steps are executed. It is not just a set of tasks that can be done in any order. For a critical command as project rename the order of tasks execution should be explicit. At least it has to be documented. Right now, one has to look in the TaskModule, then in the DynamicSet and find out that, internally, it stores its items in a list which means that the iterator() will iterate in the order of the elements as they are in this list. And this is not even documented/guaranteed behavior of the DynamicSet.
+I have a basic app written with ATL, using the wizard with VS2008. I have a treeview in the left side of the app. I see how to (painfully) add tree items. Question is how do I show a menu when the mouse is right clicked? How do I trap any click events on each item that could be selected?
+Using the . seems to be the preferred way of doing this and orca screenreader does not read out the fullstop so that is good
+@Jatin Can you make an answer. The link is pretty fine!!! I just need such things
+excellent, thank you!
+Patch Set 2: Looks good to me, approved I concur with jrbarnette@. It sounds like we can do a separate issue/CL for removing the pragma. To that end, I think a TODO() referring to that issue could be useful if added to this CL.
+This is a method in Java, that(when k == 0) in int[] arr has one of k-combination int[] intems. In variable iloczyn is calculated product of elements in this combination. In tmp is calculated sum of all such products. Unfortunately, System.out.println(tmp) shows, that when function ends, tmp equals 0. This is very sad, because i need this variable for next calculations. What shoud I do?
+quotad count already there. please remove this from your code.
+I just caught that, Firefox doesn't preform spell checking on the title field for some reason.
+Yes the patch is badly named - sorry!
+Weird.
+Excellent point, Lars. I read that as "Windows". Oops. Still, it may be useful information for someone, sometime...
+Igor sorry it took me so long to get back to this.
+*sorry*
+Awesome work: this is a great first cut!
+I'd say to hell with windows minority :)
+I have a script that prints out the average time when pinging a server, shown below: How can I add the line number to output of the script above when pinging a list of servers ?? my actual output when pinging list of 3 host is: I want the output to be like this: so that this can be read by excel :) Thank in advanced!!
+Why can't this go int QTypeinfo? (i would like to have it there to enable some feature of QWeakPointer only for QObject for example)
+I can't help, but good luck! What a great game that was. Will this be a commercial release?
+please remove "border" and blank line between class definition and comment and consequently reduce it to a single line
+Don't hate me just throwing this out there.
+Just wondering if _nl_addr_cache and _nl_link cache can be factored somehow with a common helper.
+Thanks Oliver that's fixed it.
+I did not get your point, please fix it as you think appropriate.
+I want to change an image of an UIImageView from the applicationDidFinishLaunching method of the app delegate class. But I am afraid that this class doesnt know much about the controller outlet. What must I do in this case?
+i get it! i guess you are right
+I was mentioning the blank line. Please don't remove tk.WithExtra.
+You should use a different filter name as you cannot mix FT_UINT64 (hf_glusterfs_size64) and FT_UINT32 (hf_glusterfs_size). See doc/README.dissector chapter 1.5.1.
+Is there a way to zoom extents of a collection of shapes without computing min/max xy's and wh's - very painful when sloping lines are involved. Perhaps some kind of pixel detection?
+if we've got this, do we still need the flag? this field should probably be called something more like "allocated_stack_size".
+Per:https://support.google.com/googleplay/android-developer/answer/3131213?hl=enYou need to be registered as a member of a Google + or Google Group that is designated for Beta or Alpha testing by the Developer. If you are not registered, you will only be able to download the production app from Google Play, NOT the Beta or Alpha version of the app from Google Play. Having the "link" won't be sufficient, you need to opt-in to the beta or alpha via Google + or Google Group. Please note that even if you properly opt-in via Google + or Google Groups as defined by the developer, you will need to wait several hours (perhaps 2-8 hours) for your status to propagate via Google Play. So, perhaps you need to wait 2-8 hours even if your Beta/Alpha status is proper?Hope this helps!
+I need from document object or from a DOM element (i.e. a DIV) to know which is its window object. In Firefox I can do: but obviously in that AWFUL browser that statement not work!!!
+For C# Visual Studio uses 4 spaces by default, whereas for C++ it is hard-tabs. Why is it so? Why is it different? My project consists of both C# and C++ code and the difference really annoys me. I want to set a common standard for all the sources, but I wonder if this would have any drawbacks.
+I'm working on importing data from our application into Oracle Financials GL. It seems simple with the GL_INTERFACE table, and many resources online, but I don't seem to understand it. I'm looking for a simple way to post a transaction of $X on a specific date, between 2 or more accounts. I'm terrified of incorrectly posting anything in the GL.
+It makes sense that this is for the IOMMU since family 15 model xxx are the only parts that support it.
+Best regards Andrew
+I have a datagridview and need of context menu. When i right-click on cell (RED POINT) - context menu shows.. But in wrong place. Can't understand why here is the code: That stuff really annoys me!
+That's terrific, thank you!
+1. This seems like a hack to work around a bug -- why are we reading from the pty after it is closed? 2. This hack also looks too broad -- if any error occurs we close the pipe and stop reading, while squelching the error. This seems bad. Same comments below.
+Sorry about that...
+:( So we need to either port this file over to kernel style or not use goto's. Since we started it before everyone decided kernel style was OK, we've been using a hacked-down google c++ style which forbids goto :/
+This sucks *so much*...
+this will cause the MKFSOPT to skip --mkfsoptions string if MKFSOPT is empty and MDSJOURNAL_SIZE=xxx
+@ChrisW. No worries!
+Hi Mehdi, you are right. I am very sorry - I have misinterpreted the deviceRuntimeVersion as the version of DeviceRuntimeOnHostMachine.
+This file now has Windows line endings. @Jan: Could you verify that you have core.autocrlf=input configured in your Tycho repository clone?
+Sorry for the super-slow uptake on this the new job is using up all of my limited brain resources.
+great question, wondering it myself!
+I have run into this too. It is very annoying! Here's why it might be happening. The width of your li items, plus any margins is more than the width of #maincontainer. That means the last li item spills over #maincontainer and the script will want to move that last bit in, leaving an extra click. One way to check this: assign an id to the last li, and make the width less, and see if that doesn't fix it. If so you need to make the #maincontainer wider.
+That's depressing :/ Are you sure I can't get a collection of all controls on the page with a particular class and give them a single data source?
+Vista + latest XAMPP + latest xdebug.dll works fine!
+Jeff's article is excellent reading on this topic.
+Excellent question. IMHO this type of thinking makes programs much more robust, especially when they undergo constant change.
+sorry should have been getDataModel not getDataTable.
+does a similar thing (and yes, i find the 'pc' moniker for windows machines very disgusting)
+Thanks for being patient Devaraj!
+Thanks Myrna.
+Sorry for the delay.
+I've got an application that I'm moving over to ClickOnce and the app has a moderately sized data folder with hundreds of files that I need to inlcude in the deployment. The folder needs to be in the same place relative to the EXE after deployment. I've seen several suggestions on how to do this but there doesn't seem to be a agreed upon method for doing this. Any suggestions would be great - Thanks!
+Apple's MapCallouts code sample demonstrates how do do this with the callout and their Weather Map sample shows how to do custom annotation views. There documentation is really excellent and these samples are both helpful.
+Matt... I'm an idiot I used the wrong patch. Sigh.
+aaaaawesome!!!! Thanks a lot
+Basically you've got to call the method with reflection: Get the generic method template with Call passing in your 4 type parameters Invoke the method passing in the regular arguments It's a pain :(
+sorry.. redeploy patch
+The patch went to the wrong bug.
+My application links against libsamplerate.a. I am doing this to make distributing the final binary easier. I am worried that perhaps the code inside the .a file depends on some other libraries I also will need to distribute. But if it doesn't I am worried I am bloating up my application too much by including multiple copies of eg. libc. What exactly will be inside libsamplerate.a? Just libsamperate's bytecode? Or more?
+#NAME?
+Oopps bad move !
+I have a long scrolling page, and want to test if an element is 100px from the top, then apply a class elsewhere (until the next element in line is 100px from the top) If I could just get the basic statement I would be ecstatic, anything extra would be a bonus!
+the following code should show either the port or servername not both i always get both no matter what ? i have also tried the follwoing with no joy either !! i just cannot get the condition to resolve thanks in advance
+I appreciate your warm welcome, I never seen such a warm regard here for trying to be helpful, it was a really pleasant introduction and I want to thank you for taking your time to write - at last the end of the questions reads "If anyone has any ideas I would be extremely grateful!"
+OK will work on the object containing tolerances for both precisions, with the helper functions intended to be the main way to construct them.
+My bad.
+Its really depressing. Ended up with downloading the whole bundle again.
+Check out the WordPress repository. There is a plugin called WP GCM Its a very great one and has some great extras!
+It looks like this allows a user who cannot see all branches to probe which branches exist. By looking at the error message "it doesn't exist" vs. "user does not have rights to delete it." a user can detect if a branch that is not visible to him exists.
+It adds more things to go wrong than just downloading everything again to do a reinstall. I understand the desire, downloads are a pain, but downloading again is a much more predictable zero state than some set of possibly-correct archives on local disk checked against some possibly-correct set of hashes. All of which is a lot of extra moving parts to work around a problem (slow connections). Is it worth it? Maybe. But it is a lot more to go wrong.
+Yep, not sure why it was using a string there. Thanks.
+I have spent days trying to find any information or working samples on how I can get google data such as emails in my gmail inbox, list of my contacts, my calendar events etc... None whatsoever :( There are broken pieces of some code fragments here and there, 90% say it's been deprecated, is the a one single page on the internet that gives me a working example how to do that from javascript. Many pages about oAuth, but I have absolutely no idea how to use it , I have spent days reading broken pieces here and there, but I was unable to understand what that it and how I can use it PRACTICALLY. Very sad, and I am very tired to waste so much time on things that dont work and are not documented in human language, possible to understand. Why do they have to overcomplicate thing so much and spread broken pieces of information everywhere?
+My form receives asynchronous callbacks from another object on random worker threads. I have been passing the data to the main thread (where it can be used to update onscreen controls) using delegates as shown below. Performance is dreadful -- once I reach 500 updates per second, the program completely locks up. My GUI processing itself is not the problem, as I can simulate this level of updating within the form and have no problems. Is there a more efficient mechanism I should be using to hand off the data from thread to thread?
+I misread.
+Thanks Myrna.
+Good to know, I'd specify this in the doc -- i.e. don't touch *any* QObject
+> I hated that aspect of working for commercial companies.
+EDIT: Also you should avoid using it can make debugging extremely frustrating.
+Because we don't need anything that it provides (checking that the value is not None and encoding it) so there's not much point pulling it out of the loop below. Actually, we would have to leave it in the loop below as well since it uses the `env' outer variable.
+Well, this is still a parameter, so you should probably leave the line.
+that is very very sad
+I am planning to use community sever for one of our projects, i used it in the past but we had a lot of problems customizing it and understanding how things work, im affraid to get into that again, and i would like to add some things to it but i dont know how flexible it is.
+Ha sorry Varun thanks for the reminder I will have a look at it soon...
+there should be } else { rv = get_env_plugin_info(pi); In this case the lcb_cntl user will get correct effective type
+If you are looking to load asynchronously javascript scripts, in the right order, I shall recommend you $script.js developed by the Twitter javascript lead dev It's really great!!
+Add here warning and link to the linking documentation of alternative OpenID provider and date: 05-20-2015, that Google shuts down OpenID service.
+this code now returns a reference to a temporary object
+I hate it too. But did you stop to think why i wanted to do this instead of just assuming im an idiot? Its a small personal site, not a money maker. Rebuilt it to learn a new technology. Not bothered 301ing pages to their new versions. So instead trying to get some value to the homepage.
+Thanks Myrna.
+Forgot to mention: Thanks to Alejandro and his team for pointing this one...
++1 big fan of your blog Jason.
+Patch Set 5: Looks good to me, but someone else must approve Rebased with current master Took comments into account. Using 4.3 in deprecation log as it is like that in config_default but using @deprecated with 4.6 and remove in 4.8 to stick to our rules.
+I think that this class makes more sense than the Branch class because there are several places in Gerrit where refs strings are manipulated without using Branch objects. Jgit does define some of those constants, but we cannot use jgit everywhere, particularly in GWT, which I suspect is why this class is here in the first place. We need a good place in Gerrit for these constants, and the Branch object itself is a much higher level object than this simple class (it isn't only about refs, but rather refs and projects). These constants feel more appropriate here to me than in the Branch class. I have some more changes, which I will push, which move them out of the Branch class completely. I am willing to update the comment here if need be, but this class feels appropriate to me (based on its name and location) and I don't think that "naive" comment should get in the way of that.
+I want to find out how long time there is till a specific from . I have searched everywhere, but can't really find anything. I THINK I have to use the -function together with the -function somehow. The scenario is: I have variable with the day of the week, ex: 1 / 2 / 3 / 4 / 5 / 6 / 7 And another variable with a time of the day: hh:mm And the last variable also with a time of the day: hh:mm "How long time" could be like: "2 days, 3 hours and 27 minutes from now" The same output should be generated from a specific datetime. Ex: 06/08/2012 23:55 is "1 day and 13 minutes from now" I really hope you guys can help! :)
+I am working on an app that uses some basic view types, but I find the default attributes extremely ugly in Android (for example, a bright yellow ). I can get the basic seekbar if I create it from code, using only the parameter, but I would like to know if there is a way to do this inside an XML Layout file. Is there an attribute I can set that will remove all default attributes - such as ?
++1 excellent question. Personally I'm starting to think that externals should never have been allowed to track the HEAD of other repositories. Always specifying the exact revision of the external is much safer.
+I had figured out the solution. What I realized was happening was that The deployments stopped working period, not just certain files were not coming across. This is absolutely a bug in Azure deployment as near as I can figure. I had to drop & recreate my site in the cloud and the deployment continued to work. As a side rant. Microsoft makes it extremely painful for someone to submit a bug as compared to other software vendors. And they wonder why their market share is shrinking.
+Thanks Areek new patch looks great; I'll commit shortly.
+this parameter doesnt currently exist in compat; I dont know why it is being introduced here.
+I understand its not a desirable circumstance, however if I NEEDED to have some kind of HTML within JSON tags, e.g.: is this possible to do in Python without requiring to to be escaped beforehand? It will be a string initially so I was thinking about writing a regular expression to attempt to match and escape these prior to processing, but I just want to make sure there isn't an easier way.
+Element. This one stuck out. I think the only ones to try to capitalize are "Allocation, Type, Element", since that trio is the dominant set of APIs for interacting with any sort of data from Java.
+nit: this sentence has six commas and two separate alternations ('or's). Maybe it could be split up?
+Sorry I didn't use your patch but I think you'll like the end result.
+Hasn't made a difference I'm afraid :(
+Thanks for taking a look Jiannan
+Sorry guys I've been pretty busy work but I have been watching this.
+Doh!
+The main thing about "Dev Mode Off" is that it works even when the code server isn't running. Perhaps it's less useful with this change, but I don't want to remove it yet.
+This should read: This survey tests the local metadata performance using the echo_client to drive the MDD layer to perform operations. It is run with multiple threads (to simulate MDT service threads) locally on the MDS node, and does not need Lustre clients in order to run.
+indent. But how about defining skipontest() { if [ -z "${TESTING_ENV}" ] ; then "$@" else: echo skipping "$@" } It should be added to ovirt_store_config (in case the test happens to be run on ovirt-node).
+Luke Sorry for the late attaching latest version patch
+I've tried something similar (I removed the handlers and kept the readers) but the performance was not visible.
+Instead of having "%s" of "%s" I'm thinking it should be "%s" belonging to "%s" I feel that both "Page 1 belonging to Group 1" and "Page A belonging to Robert Lyon" make more sense than "Page 1 of Group 1" and "Page A of Robert Lyon"
+For coreboot, maybe you could insert: assert(OpFlag == AccessWidth8); before the "if" to ensure that coreboot users aren't tripped up. I'm the first guy to discourage unnecessary changes to vendorcode, but this code is broken and we should somehow warn users about it. It would be even better if we could make the code fail by static analysis instead of a runtime assert.
+i wonder if there is something similar to Sql Profiler for Sql Server Compact Edition? i use SqlCE as backend for a desktop application and it would be really great to have something like sql profiler for this embedded database. or at least something simliar to the NHibernate show_sql feature... any ideas? thanks j.
+I am currently using the following jQuery script to highlight rows in my table, and it works great! This works great for tables of data where each row is truly a new record, however, I have run into an issue where I have records that take up two rows of data and would like to modify the jQuery so it renders something like: How would I accomplish this in jQuery where I want every 3rd row to have a class of 'alt1' and every 4th row to have a class of 'alt2'? Thanks in advance!
+can do it ! And you can find other plugins on the . Note that you cannot use this plugin with github pages. This video is excellent !
+Why do you set the value to true for the requiresAuthentication here since it is already set when you create the class !
+All the places I've worked have given me liberty with regard to development environment, although the production env. has always been some brand of Linux - usually RH or CentOS. I personally use Windows 7 for dev., and I wouldn't use anything else. You spend way less time debugging the OS, and more time coding. This makes management much happier! (PHP developer mostly)
+It would be helpful if the returned structure were described more fully, just for clarity.
+I've uploaded an alternative in patch set 5, which you might dislike less :-)
+By the way, I agree with Henrik P. Hessel. This is a very horrible piece of code.
+ok, but then i suggest you turn that thing into a macro which you can document centrally (QT_SEGMENTED_STRING_LITERAL or so). also, a warning in the QStringLiteral doc would be in order if it's not there yet.
+Thanks to your excellent instruction, I understood enough to figure out what was going on and also what was needed! Here's what I came up with. It's clunky but it does the job! Thanks again everyone.
+My form receives asynchronous callbacks from another object on random worker threads. I have been passing the data to the main thread (where it can be used to update onscreen controls) using delegates as shown below. Performance is dreadful -- once I reach 500 updates per second, the program completely locks up. My GUI processing itself is not the problem, as I can simulate this level of updating within the form and have no problems. Is there a more efficient mechanism I should be using to hand off the data from thread to thread?
+Please use import for java.util.Arrays, instead using explicitly here.
+I know neither is true for now, but I really want these to be true. I heard that ruby-gnome2 and shoes are the top most used desktop libraries for ruby. since shoes and gtk depends on some common things, and shoes give a higher abstraction for UI, why not go a step further to merge them? make shoes totally on top of GTK. I respect different intent of shoes' creators, so, just a question to make me clear. Thanks very much for your great job!
+That's weird.
+No worries, main thing is your problem gets solved!
+Thanks Koji!
+that's some very dangerous advice!
+I have never parsed ini files, so I can't be too specific on this issue. But i have one advice: Don't reinvent the wheel as long as an existing one meets your requirements Good luck :)
+Ahh that's funny! :D Good that you payed attention! Done
+Smart pointers are initialized to NULL already in there constructor.
+I've got a php array: I want to pass this array via jQuery AJAX, with this: And here's my jQuery: How can I pass the array, so that with the "replyMessage.php" page, I could take each ID from the Array, to do something like this: Any help is greatly appreciated!
+should this patch only be added if $(SYSTEM_MYSQL) is NO ?
+please move command to system.py so this can be reduced to "cmd_node_init".
+I'm an idiot... there's nothing wrong with the readme.txt.
+I had the same problem and ended up doing the same workaround. When I was done I didn't really hate it though, because it allowed me to free-up the UIPageViewController and all of it's child UIPageViewControllers and all of their resources when the user wasn't actively using the tab.
+This doesn't work properly when the index is negative (e.g. time is before the offset).
+Sorry.
+I actually fear that PHP accepts this due to some easteregg or so :)
+Very well put, I really like this !!!
+Unable to reproduce issue.
+It looks like this allows a user who cannot see all branches to probe which branches exist. By looking at the error message "it doesn't exist" vs. "user does not have rights to delete it." a user can detect if a branch that is not visible to him exists.
+Excellent! Worked perfectly!
+IMHO this two functions are unnecessary. There are only validates (oh my...) Better if will be done in the level using the parameters.
+In our eternal quest to integrate Javascript into our RSpec and Cucumber workflow we're evaluating and are provisionally very excited about it. Any advice on Culerity in general or specifically as compared to Selenium?
+Damn Chuck is scary.
+Not sure this answers the question accurately, what does everyone else think?
+I am completely hopeless with regular expressions... I have a Velocimacro named , and I have a JS function named . Now I want to find all the places the JS function is called. So I need to search for "addButton", where "addButton" doesn't start with the hash key. Any ideas?
+k. Just thought because I removed not supported stuff, tested it and improve code quality qulifies me. I'll remove it.
+it will be used by the UI from a query: when suggesting auto-completion of all existing labels
+The user might still want to disable it... Unlike the other options, this one does not need a pirq_table.c or mptable.c file be sitting around... Generally dropping these tables from the build is almost never worth it, since most OSes expect something there.
+completely agree, there are excellent answers provided here to this question
+You have my deepest sympathies. I feel your pain. I was trapped in that world for a while.
+Sorry probably a misunderstanding from my side....
+the two are not mutually exclusive, archmage.
++1 for both the answer and the comments. Priceless :)
+All I'm trying to say is that it's pretty easy to end up in propagation failure hell here or change something else that blows things up for use cases that are not foreseen.
+I'm having an extremely frustrating experience attempting to change directories in python using variables within the program. Specifically, suppose I have: gives OSError: [Errno 2] No such file or directory: '$dir_name' and yet returns 'Directory_Name_999' (a valid directory name) and similarly changes the directory without error. Where am I going wrong here?
+I think this should say Alias for 'gerrit remove plugin' (see line 150)?
++1 for this question - I have the same issue.
+That's terrific, thank you!
+Don't think this is really needed. See comments in PartialStateSystem. Also, protected fields, no no!
+I'm running into extremely frustrating problems with Boost. When I try running something as simple as I get back: Why is this error occurring, and how do I make Boost.Lambda do what I need? (Yes, I'm aware I can use Boost.Phoenix et al. too, but that's not the point of the question.)
+I appreciate your warm welcome, I never seen such a warm regard here for trying to be helpful, it was a really pleasant introduction and I want to thank you for taking your time to write - at last the end of the questions reads "If anyone has any ideas I would be extremely grateful!"
+I have created a VB.Net lending application for a cooperative that caters to widows. The application tracks the members' loans and payments, and is also used as an accounting system. In my first release, the users felt that showing a messagebox every time an error occurs is very annoying. My solution is to output errors in a label control. The users accepted the modification, but i feel i am doing it wrong.
+Warned about same in doc string. It'd be more safe to remove this method altogether.
+today you - my personal Super Hero!
+Try this: If you are really finding yourself getting interested in SpriteKit, then I suggest you expand your knowledge with some excellent tutorials. This will make your experience a lot less frustrating and put you on the road to becoming the next Angry Birds creator! Take a look at the tutorials on this site http://www.raywenderlich.com
+I'm reading an excellent article by Paul White - ! and he uses this code: I'm trying to find out more about using dbo.Name to declare a variable, not having much luck with books online. Any ideas where I can find this? Thanks
+I did not suggest that the acquire/release functions would be called globally for all NI. I said "each time an interface that needs the acceptor". If the interface doesn't use the acceptor don't call acquire at startup, and don't call release at shutdown. I don't much care about the length of the list or the time involved. I am looking for code that is more easy to read and maintain.
+Everytime I create a new IK handle in Maya via MEL, it creates an end effector named "effector1", or "effector2", depending on what is in my scene. I don't want to rely on the auto-name of the end effector, so I'm wondering if there is a way to either: a) name the effector at the create-time of the IK handle, or b) select the effector for a particular IK handle in MEL. Any help would be greatly appreciated -- thanks!
+Wow, great ! Thanks a lot !
+I'm trying to show a currency dynamicly, that works totally fine! But I'd like to change the pattern from "SFr. 150'000.00" to "150'000.00 SFr." (and still keep it dynamicly!) Any suggestions how I could do that? Here is the code: Thanks in advance!
+That's an excellent idea! I was able to convert the plugin, but it just crashes VS when I click on it in the menu.
+Furthermore if you need to look at the .NET/unmanaged stack just donwload and look at your w3wp.exe processes to examine memory and other stats without having to do a remote/local debugging (just look at the .NET Tab on the properties of the process). It will show all the .NET performance counters for that particular process. Awesome tool!
+Check out the WordPress repository. There is a plugin called WP GCM Its a very great one and has some great extras!
+That's too sad :(
+been looking at this for days..
+StyleReports is one of the most heinous toolsuites I've ever had to use.
+Good Morning, I'm using SharePoint Designer 2007 to create a workflow for a MOSS site I have created. What I'm looking to do is have the workflow send out an email if a document in the library hasn't been modified for the past 30 days (and it's Status field is not set as "Closed"), but I'm stumped as to how I can do this. Any help would be greatly appreciated! Thanks!
+excellent! exactly what I was looking for. Thanks Anna.
+Excellent! I'm glad you were able to get it work for you. Best of luck with SAS!
+I agree with @Rogeria. this doesn't explain why it is called the IoC and I am surprised by the number of up votes ;-)
+The really sad thing is I could do this in about 5 lines of Ada code...
+No it's not - leaving the dob blank means you just choose not to fill it in as the field itself is not compulsory.
+When I slide to a next image, or when the slider/carousel automatically switches to the next image the previous image disapears too fast, which gives it an extremely ugly look. I've made a video to make clear what I mean, can be checked over here. Anyone has an idea? Code for the carousel:
+Moving this logic to ProcjectControl will also require additional modifications in ReceiveCommits. My approach fixes both issues in one place. Also this approach protect us from making same error in future. Personally I wouldn't move this logic to upper level. Signature of this method can be changed to canCreate(Map<Stirng, Ref>, RevWalk, RevObject) instead of using Repository. But IMO will keep this logic here to prevent from this issue in future.
+Based mostly on , but also , and my own experience, I don't think it's possible without a lot of ugliness, pain or without converting your LINQ to SQL code generation over to (not appealing, IMO).
+Very cool.
+Use spaces, rather than tabs, here, for consistency.
+wouldn't this be subject to the same bug if the server answers something different for one of the keys, like 0x86 TEMP_FAIL? what about doing a response.Read while it's not returning -1 (socket.isAlive == false)? the NOOP already returns from the loop, but the case where correlationId doesn't map to a key should maybe also be a break from the loop, not a continue?
+Unless we switch to Antlr 3.0 ( and even though I'm not sure this would fix the problem) there is nothing we can do.
+8 hours? That's pretty quick! My last InnoSetup installation coding took TEN DAYS, and it still won't work right on Vista. It installed an app library, some sample apps, created a database, installed and started 2 windows services, and published a web site, but 10 days is still far too long...
+You can't make changes directly to OOJS directly here. You need to check out the oojs repos (gerrit.wikimedia.org:29418/oojs/core.git & gerrit.wikimedia.org:29418/oojs/ui.gt), make changes there, and once they are merged create a separate change which updates this concatenated file. Then you can rebase onto that change.
+I'm using vbscript, all that does is reverse the setting of checkbox.checked, whichever way it is. As an aside, vbscript is awful to work in.
+This is not the answer but I figured out a very sad workaround. Extend the TextView component class In the constructor of the subclass, fire off the code ...yuck
+this should be done (if any) when first connection is established. and I do think that it is a mistake to do so. please move all the engine variables into engine side, do not modify options, there is no technical need to do so. this includes the destination address and destination port. let's makes lives easier for us. if you call the variable the same, you can even have same file symlinked at /etc/ovirt-engine/engine.conf.d and /etc/ovirt-engine/fence....conf.d/ to provide the same options. So you can even consider putting it at engine local config. But please avoid complexity result from database updates, and move the variables to the component that actually use them.
+Heroku is an excellent (free) option: Also, deploying to Heroku is as easy as it gets!
+On the WordPress repository is a plugin called wp gcm. Its a really great one try it out!
+I'm trying to compile code that I know to be working on other peoples' machines but is throwing a particular error on my system. Specifically the error relates to the printf() method The method printf(String, Object[]) in the type PrintStream is not applicable for the arguments (String, double) For instance Does anyone know why this error is cropping up? There are alternatives to using printf(), but this is very annoying!
+@Kevin Oh, excellent! I see now that it's a fairly obvious answer, but that tool is perfect. Thanks!
+Hi Mehdi, you are right. I am very sorry - I have misinterpreted the deviceRuntimeVersion as the version of DeviceRuntimeOnHostMachine.
+heuristics should check tvb_captured_length first to make sure there is enough data to run the heuristic, otherwise it might throw an exception just checking, and prevent subsequent heuristics from claiming the packet appropriately
+That worked excellent! How can I make my X-axis go longer to right so it makes the chart bigger?
+machine_emergency_restart is a good place for the cache flush in the sense that it is already machine-specific. But yes it's fine to take this approach. LGTM
+Sorry for that.
+I'm not sure that the given approach will work with hosts using NPT/EPT.
+I am working on an opensource app that using SubSonic 2.0.3 I need to regenerate some of the code so I need the tool that does that. I cannot find this version 2.0.3 of the code generator executable. Any help would be greatly appreciated!
+don't use hard coded type names: link.isOfType(CoreRelationTypes.Default_Hierarchical__Child)
+For Java see this excellent article
+I am currently a college student and I don't feel that any of my classes have touched on the Software Development Life Cycle (SDLC) nearly enough. I've been interning a company for a few years and I've been learning about SDLC from the internship, but I wanted to poll the crowd so I can branch out from that. What SLDC resources (books, websites, magazines, newsletters, etc.) do you use?
+I have a VB.NET MDI WinForms app. My users have been complaining about form creep (as they call it), this is where each time you open a specific form within the main MDI window it opens slightly below and to the right of the location it loaded previously - i.e. it starts in the top left of the window and works its way down to the bottom right. I have to agree with them that this is extremely irritating, is there any way to prevent this? The code to load the forms is: I can address this somewhat by setting the forms start-up positions to 'Manual' but then they just open directly on top of each other in the top left of the screen. Any other SO users come across this?
+So my line extends from one side of my graph to the other, but it doesnt really animate through each data point, I assume I have to add a loop somewhere. Heres the relevant code. Any assistance would be hugely appreciated!!!
+Hello Thanks a lot! It works. Lisa
+This can't be here, since it only executes on the first CMake run, making LINEAR_ALGEBRA_LIBRARIES break on subsequent runs.
+I have never parsed ini files, so I can't be too specific on this issue. But i have one advice: Don't reinvent the wheel as long as an existing one meets your requirements Good luck :)
+I generally prefer not to be credited in source files.
+I'm trying to test if a character in a string is a space, and I'm getting extremely frustrated: I'm not getting any errors and I've looked online, but people on different forums say this is how to test for a space. Uh.
+Why this special case? It did not exist before and all it callers seem to take it from a tvb (except for a hard-coded 2000 in EnhancedAlarmMessage, which seems wrong too as the length is not checked there?)
+Could you break this down for me? This looks scary :O
+You are right. See my update! Make a suggestion pls and I'll catch your thoughts ;)
+s/VURTI/Host Monitoring It is about to change soon.
+When querying from the database using Entity Framework, what exceptions should one catch and what should be done about them? Generally I use because I have no specific action or feedback for every possible type of error, but I am constantly reminded that this is a terrible idea and that specific exceptions should be caught and handled! Example: What are the standards/guidelines for handling EF exceptions?
+This is very fine :) Note that if you do the following: Only the first element of the array will be initialized with the non-zero number whereas the rest will be initialized with zeros.
+Wow!
+Loved Dan's solution! For python3 do:
+Wow, great link!
+Damn time has flown...
+I meet the same problem on Eclipse recently but haven't figured out how to get through.
+Please use org.eclipse.emf.compare.internal.utils.ComparisonUtil.isDeleteOrUnsetDiff(candidate) instead to also get the intended behavior for multi-valued attributes and unsets.
+I don`t think that this could really happened. Because ptlrpc has single thread for rq_set, that means only one ptlrpc_check_set() could happened for a request. And ptl_send_rpc could not race with after_reply.
+The value is having an ABI compatible way to pass the proper information to ramstage from romstage. There's no reason to allow something that can change to break in the future. Take for example the current different sizes of the previous space reserved in the cache_as_ram.inc files. Things that are brittle will break. What is the bare minimum amount of info that needs to be passed? Isn't it just a bar and a couple of endpoints?
+@CalebHuitt-cjhuitt: Excellent â that works! Thank you very much. If you'd like some brownie points, please submit it as an answer and I'll mark it as the correct answer.
+Why does the test return false?
+This looks simple and sweet to me.
+commit.hashCode() should be sufficient. A commit can only have one author.
+Patch Set 5: > David - it used to be that you needed to land both the > stable and the 9999 cros workon ebuild at the same time. > Has that been fixed and you can just land the 9999? That's right, you only need to land the 9999 now. (Actually it's been supported since at least Oct 2010, but yeah there used to be a bug)
+That `#define n 10` is scary :( Are you sure you don't intend on using that letter anywhere else?
+Excellent question. IMHO this type of thinking makes programs much more robust, especially when they undergo constant change.
+Can anyone think of a quick, easy and fullproof way of listing only ClearCase Remote Client views from UNIX? ct lsview obviously lists all the views, and you could search by looking at the Properties: section if you run a ct lsview -properties -full (gives you Properties: snapshot webview readwrite) then use a regex or something, but I'd be worried that someone calls their view 'webview' or something. Has anyone got a foolproof way? Am I missing a flag or something? If only there was -fmt on lsview :S
+sorry :)
+Excellent! Did you know that you can answer your own question and accept it as **the** answer. This is considered a good practice, because it helps people looking for answers see that there is an answer and it helps them find the answer. If the answer is only in comments, the question will appear unanswered.
+Sorry attached the file to the wrong issue.
+Work-around (horrible horrible invasive work-around) I got around this by subclassing UIApplication to track all screen touches. By holding on to the last touch location, I can, in the delegate, map the location to the link to determine whether or not it should be considered valid: MyCustomApplication.m (use it in main.m) And map it...
+I have two tables which looks like this: Each news can only have one tag. What is the most effective way to handle inserts to the news table? The Tags table has like 50 000 rows. I'm only doing bulk inserts of approx. 300 news at a time, around 2 times per hour. I assume that i need some in-memory cache for the tags? If the tag is not in the tags table, i need to insert it and set TagID to the newly inserted id. Hope you'll get the idea!
+How come this is considered programming related?
+(style) why not format this normally, as is already done in functions below? ptr = (char *)update + cfs_size_round(offsetof(struct update, u_bufs[0]));
+It would be super great! if you can help me with iframe and cookies stuff... data.message contains URL
+In the latest patch, you switched from glib memory to wmem memory. So you do not want to call g_free but you still want to destroy the hash table itself, otherwise you are leaking memory. So switch to g_hash_table_new instead of g_hash_table_new_full and put back the call to g_hash_table_destroy.
+Excellent question and I agree, it should be throwing an HTTP Not Authorized status.
+This is extremely unsafe! Use `mysqli` or `pdo` instead of `mysql_`.
+> Ugh, really? That's how I read http://0pointer.de/lennart/projects/nss-mdns/ at least. > So do we need an mdns.allow parser too? Even nss-mdns discourages using the file ("Please note that usually mDNS is not used for anything but .local, hence you usually don't want to touch this file.") so you can probably just fall back to cgo if you detect its existence.
+Sorry I forgot to change the priority of this one.
+> Ugh, really? That's how I read http://0pointer.de/lennart/projects/nss-mdns/ at least. > So do we need an mdns.allow parser too? Even nss-mdns discourages using the file ("Please note that usually mDNS is not used for anything but .local, hence you usually don't want to touch this file.") so you can probably just fall back to cgo if you detect its existence.
+Here's the king daddy of database wiping scripts. It will clear all tables and reseed them correctly: Enjoy, but be careful!
+I agree with @Rogeria. this doesn't explain why it is called the IoC and I am surprised by the number of up votes ;-)
+I knew about the _viemurc/.viemurc file, but I didn't realize you could map commands to VS ones with vsc. Very good tip!
+@JonesV excellent! I think thats what I wanted: "//*vptr is address of first virtual function in VTABLE viz. display()"
+You don't need to put this xml or a new test class. That means in a previous test case you can just do following: @WithProperties({ @Property(name = "webApiUsage", value = "resistance") }) public void testAnimationImpInResistanceMode() { // your test code here }
+Instead of malloc() maybe you can use stack: gchar tmpname[41]; 41 is enough? Cannot be greater?
+Is there a VB6 equivalent to the C/C++ 'continue' keyword? In C/C++, the command 'continue' starts the next iteration of the loop. Of course, other equivalents exist. I could put the remaining code of the loop in an if-statement. Alternatively, I could use a goto. (Ugh!)
+Replace with a constant or use String.format("$0 $2",icon.getLocaion(),e.getLocalizedMessage())
+I'm trying to create a grid (matrix) of squares in a given area with n columns and m rows, and an option to set a spacing between the squares if desired. The grid should fill squares with random coloring. I'd also like to add a zoom function, so the colored squares will appear much bigger in a region that is double-clicked. Can anyone suggest a good method to generate the grid and assign random colors to the squares? If you can suggest how to create the zoom effect too that would be SUPER :) I'm new to canvas, so any method help would be great! Thanks
+Its absurdly late/early so maybe I'm just tired, but can anyone tell me why in the world the following test is not failing? Really need a second pair of eyes to confirm I'm not crazy...now I'm worried that all my tests are unreliable.
+And debugging is hell because the test environment needs to have the exact same loader setup.
+The histograms themselves don't use multipoint storage. The input for them often would be, but in this case it isn't.
+can I replace my entire windows vista with ubuntu and is it free? I really hate vista
+You can look at OpenOffice Base. I tried it out awhile back when it first came out and it seemed awfully slow and it didn't seem feature complete either. But it is free and open source :o)
+This code, RefreshLabelImageJob and PermissionAuthoritySessionManagerListener could be encapsulated in a single class whose responsability is to manage lock decorations update. And this class could be named LockDecorationUpdater, like that this class could be reused for potential others views.
+I'm wondering if its possible to join together IEnumerable's. Basically I have a bunch of users and need to get their content from the database so I can search and page through it. I'm using LINQ to SQL, my code at the moment it: I hope that make some sense! Matt
+The (NLTK) is an excellent resource if you're considering Python as a language. It incorporates lots of the stuff you'd expect in a text processing/NLP environment like parsers, stemmers and part-of-speech tagging. Documentation on it is pretty good too. As for datasets, NLTK comes with a variety of for experimenting with. Hope it helps, B.
+I think I have addressed this in the updated version too.
+Version 2 of contains a debugger. And it works awesome! It is still in very early stages, but have helped me several times. Just watch out for bugs! :)
+I don't have resources to hand to test this at mo.
+This is pretty trivial just adds three asserts to TestPath#testNormalize.
+If I am using IIS 7.0 + Server 2008/Vista Enterprise, any ways from IIS 7.0 side to control the upload speed? For example, max upload speed at 1M bytes/second? Any configuration based easy solution is great! And any programming based solution is also appreciated. :-) thanks in advance, George
+I feel like these explanatory comments belong in the code, not just the code review.
+Hi Gregor, Need to make this accessible by adding "class='accessible-hidden'" with relevant details to labels; also add spans for hidden text; anchors with spans; buttons need to have "alt" text; etc. Please refer to: https://wiki.mahara.org/index.php/Accessibility for more details. Thanks, Ghada
+So, it is as simple as purchasing a domain name, and then adding that identifying information to the hosts file? If so, that is excellent!!
+This should probably be ignore. It is not part of the explicit ITK style specification.
+cbk->mask will only contain bricks where the request has been sent. A read will never have a bit corresponding to a brick being healed on cbk->mask set, so the & is not needed. However, for writes (that also send the requests to bricks being healed), doing the & will cause that bricks that were unhealthy at the start of the operation will be marked again as bad after completing the operation, even if the operation succeeded. I think this is not correct.
+I got it.. this is incredibly silly question! Static means I just access it directly from Without using it from the instance.
+What's the easiest static (non-animating) 3d model format to load with Java? I used .obj in C++, but that's a pain to do in java. Is there anything better?
+My company currently use CruiseControl.NET, which I find quite a pain on the neck to configure. What CI solution do you use?
+This doesn't do any correctness tests of the file, while a start that they exist, I could just be touch'ing files.
+I tried the new bootstrap 3 package - it is really great! Now I want at least a 3 level navigation and adapted lib.navigation.main in the setup: Unfornately the menu is not working correct (3rd level entry visible, no flyout). I also included the paypal-accessibility-plugin...
+I don't care about the number of instances of ReferenceIndex. I want to have this cache inside BackendUtility::explodeSoftRefParserList() which is static.
+Short and to the point... excellent! +1
+Its probably better to include this line in a {} block to avoid inadvertent errors while making any changes around this code block as well as to make the code clearer to understand.
+Standard LAMP config. As the guy said below, I imagine the file is just not being delivered correctly or something. Just worried something is breaking for my users!
+Excellent Answer, thank you!
+Sorry that should have said fixed via HADOOP-4980 not 6980.
+The usage of exception specification here is very bad! If any only exception is thrown, then the program will terminate. Imagine what will happen if that occurred in Slicer! Have you verified that not a single method usage can throw an exception of a different kind?
+Here is addendum to fix (Sorry about build breakage)
+Yeah, major documentation work in the next few weeks, so we can all use our time more efficiently when new or wasn't-paying-attention-then developers come on board. Today, only worried about completing the rc while not creating repeat work later! :-)
+Using it is painfully easy to access movies from the IMDB site: However I see no way to get the picture or thumbnail of the movie cover. Suggestions?
+Damn it sry lost the orientation.
+The 0x1A byte is a terrible, painful [source of agony](http://stackoverflow.com/questions/12483711/serialdata-eof-circumstances).
+Yep I've been testing some stuff recently under Safari 5.1.5 (WinXP) recently and when you have elements with tabindex="0", all the elements EXCEPT links ( with "href" defined) are focusable. By all elements, I mean s, s etc. It's absolutely amazing for me from the accessibility point of view!
+Hopefully this will provide some ideas as to how to adapt a timer based approach for your needs: If your needs are more sophisticated then a TThread based approach may be more appropriate. But whatever you do, do NOT resort to Application.ProcessMessages it will only cause you grief !
+If this is never called - then we need to remove the method, it's signature in the header, and all call-sites for it (right?).
+I'm very worried about the following screen. When i launch "Instruments" in Allocations mode, i see every image of my app adding to "Living". I really don't understand how it could be possible...
+I have a series of UIViews inside a UIScrollView, and the UIViewControllers for those views are not receiving the touch events. If I take the views out of the scroll view then it works. I have enabled userInteraction on the views but it's still not working! This must be possible and I'd be really grateful if someone could point me in the right direction! Thanks, Mike
+:) I've renamed ComponentColorProperty to be ComponentColorElement and RelationshipAggregation to TwistieAggregation.
+Hmm ... this is quite bad.
+We added this snippet to LocalSettings.php, with great success: Thanks!
+sorry this bug is *not* fixed.
+I generally prefer not to be credited in source files.
+You are right, this won't work without the next patch (use DbGroup instead of LdapGroup), I will check again and I will probably have to merge both this patch and next one into one single patch.
+sorry for your time.
+Kernel Mustard link is now dead :(
+That's clever, but the performance must be HORRIBLE. Not that I'm saying there's a better answer, just shuddering at the O(n^2) of it.
+Damn !
+My Nit Pref: eliminate if, just return the boolean evaluation.
+we have audio_data_file and so this can be changed to that.
+I just have to say this is a brilliant idea, love it! +1
+I don't think we should let people modify a branch that they don't have access to, even if it is for a commit that they are replacing that used to be in another branch. Locked down is locked down, right? I see how it might be annoying to have to redo a change if you used the wrong branch the first time, though... Perhaps there is some Git magic that can let you do that painlessly?
+Every time I download the ZIP file it is corrupted!
+This is a Maven project, and Maven's default build directory is "target" (see also the .classpath file generated by M2Eclipse)
+heuristics should check tvb_captured_length first to make sure there is enough data to run the heuristic, otherwise it might throw an exception just checking, and prevent subsequent heuristics from claiming the packet appropriately
