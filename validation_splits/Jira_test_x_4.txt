@@ -1,0 +1,94 @@
+Text
+They don't vote they whine that something (or everything) sucks.
+Damn dyslexia!
+Damn it !
+Doing it at the hackathon you'd have a few fellas at your shoulder to give you pointers should you get stuck.
+Ah that was my bad.
+My bad.
+it's my bad.
+My bad!
+Ah too bad.
+Damn Chuck is scary.
+Here is quite bad.
+This name gets confusing with all of our prenamed *Worker* and *Master* classes.
+* release of the framework.
+I'm a pretty strong -0 on this.
+Not pretty.
+That's pretty unlikely.
+Pretty much everything that FSNamesystem (ie.
+Kind of sucks.
+Since this patch is so damn large already I won't be making anymore changes to this other than critical/blocker bug fixes.
+But please don't say that my reasoning is bad - because it is not.
+> We can't let fear of back-compat prevent us from making progress.
+I really don't care.
+I am planning to use this framework for some new RPCs I am adding.
+Don't hate me just throwing this out there.
+Weird.
+This is weird.
+Gav...(Hoping I'm not teaching you how to suck eggs :) )
+For those of us who don't care about ivy in fact lose something - a easy to build hbase.
+Where on earth are you anyway?
+My bad.
+My bad this is already done.
+That is bad.
+Filling diags.log is bad mojo since it's never rotated.
+How bad is it?
+My bad.
+My bad.
+Bad IE.
+Bad.
+Pull it back in if you think different.
+Stupid user error :)
+Weird.
+That's weird.
+Actually I don't want to specify the encoding because I don't care how the data is transported to me.
+And boy hell broke loose ;) So... the biggest issue I'm facing is indeed with Random sharing across threads.
+I don't care what we do as long as we don't change the attributes in JSP significantly.
+The Async API in http client 4.x really sucks.
+Forget the patch for the moment.
+I'll just put fix in under this issue.
+Please forget last comment it is incorrect.
+umm ... call me crazy but why are we making this public?
+[~cmccabe]: oh hell no!
+Damn...
+I'd say to hell with windows minority :)
+Because we don't care for this in cases where we there is no node that is down.
+The eclipse ui was completly stuck which was similiar to the other experinces.
+My bad.
+Juhani..my bad i was mistaken.
+My Bad.
+That's my bad.
+Seeking back is pretty inefficient in DFS.
+Doh!
+Hudson is stuck.
+Weird.
+Weird.
+Cool.
+Sounds like a good idea.
+Cool that's all good news too! Thanks guys. One less on my radar.
+cool man it looks good. we need a changes entry but from my side this looks good. we can tackle the todos on trunk
+Looks pretty cool. Fresh and minimalist. Love it :-) Good work.
+Cool will do! Thanks for the review and good questions... and the whole idea! :)
+This looks good to me.
+Automatic location selection is very cool.
+Thanks Tony.
+Thanks for providing the patch.
+Thank you!
+Thanks Laura.
+Thanks Kathey.
+Thanks Adrien for looking into this nice explanation!
+Super I'll commit shortly -- thanks Yonik!
+Thanks a lot Jon for signing up this.
+Thanks Sravya!
+I like Richards update as well :) What I did was out of pure anger so it may not have been the sexiest.
+Thanks [~cnauroth] & [~tomwhite] for the reviews!
+Thanks for being patient Devaraj!
+Hi Bruno I like it seems to work well at 1st glance Thanks!
+Thanks Adrian!
+Thanks Bob your patch is in trunk at r932317
+thanks again Uwe
+Best regards Andrew
+Thanks Alexei!
+Thanks Myrna.
+Thanks Tom!
+Thank you + Harit Himanshu

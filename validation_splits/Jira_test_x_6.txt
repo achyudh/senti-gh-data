@@ -1,0 +1,93 @@
+Text
+Thank you Ravi.
++1 thanks Tom!
+Thanks Joseph!
+Thanks again for this really great patch Andrew.
+Hi Edward Thanks for spotting it.
+Thanks Andrew - the patch was applied to SQL module at r525019.
+Thanks for taking care of this Alejandro.
+Fixed in svn revision 533916. thanks dims
+Thanks Oliver.
+Thanks a lot for your help!
+Cheers Ashwin...
+Thanks Martina.
+Thanks Christian.
+Thanks for taking a look Jiannan
+mahadev - I would love to help test a patch :) I'm currently using 3.3.1 + ZOOKEEPER-744 + ZOOKEEPER-790 applied in that order.
+Thanks Atul Your patch is in trunk at r933169 I just added some "mod for OFBiz layered lookups" comments around changes as suggested Sascha
+Thanks for you work on this Jayachandra.
+Thanks Areek new patch looks great; I'll commit shortly.
+Thanks a lot Kiran for the patch.
+Thanks Mayank
+Thank you Thejas for the patch and Ivan for the review.
+Thanks Alejandro .
+Thanks Mayank
+I would love it in 3.3.2 will upload a patch for that version.
+Thanks Mike!
+Thanks Ravi.
+Sweet! Git I love git! :)
+Thanks Sijie.
+Thank you for the patch Sergey.
+Igor sorry it took me so long to get back to this.
+Hey sorry I did not get back to you sooner.
+I found the (sad) attempt at a script you asked about and uploaded it to MAPREDUCE-4282.
+Sorry for the delay.
+I don't have resources to hand to test this at mo.
+Yes it is a dup thanks Mike for taking care of this (I planned to do this yesterday but didn't make it)
+Forgot to add that I also tried this with and without HBASE-5864
+but app developers should always explicitly set it based on their application My guess is that a large enough group of people take the defaults that it matters.
+App developers never do what they should :)
+problem - the bit to sign the source-release is being called when the source-release isn't being built because the source-release is only built at the "executionroot".
+Excuse me for stolen assignement.
+In current version the same error cause different messages because there are many commiters.
+Sorry for the missing class src/java/org/apache/jdo/tck/lifecycle/StateTransitionsReturnedObjects.java.
+Sorry if this was not clear and yes by <blank> I meant an empty string.
+Qianshi is working on the SSL session reuse but this buggy Bug system does not allow him assign this ticket sigh
+Hi Guillaume I did not have an answer right away so I sent you question to Leonard Rosenthol.
+Sorry should have commented on this much sooner.
+It is not yet tested - I ran into strange build problems with APR.
+Done sorry for all the mess on a simple patch.
+Secondly reading this code I can see why this bug is happening after completing stage 2 above when adding the new item the code does "ordered - cancelled = quantity" which equates to "1 - 1 = 0".
+Keep repeating this and the problem just gets worse.
+Please ignore attachment (id=6938).
+It was attached to the wrong bug.
+(back from holidays so a bit delayed but) I confirm Andrzej's suggestion -- a plain-text only summarized is ideal for clustering for example.
+HTML is quite uncomfortable to work with.
+Hi Marco I changed the name of patch because it was made in Java earliar sorry for inconvenience.
+Sorry for the mistake.
+Not sure I want the transient inability to clean up some local log or other trivial task to kill a whole pig job?
+First guess: something's getting confused about reversed-ness.
+Sorry I took Martin's comment to mean the patch was committed and issue closed which certainly discarded all the patches the first time around.
+I don't know what just happened.
+The patch went to the wrong bug.
+Sorry again!
+Our caller may not notice what happend right now.
+Sorry for my poor review didn't notice try/catch :(
+It does not look very useful.
+Oh I'm sorry I was unclear.
+Sorry Jacques I'll upload another file.
+I did it wrong this time.
+Sorry I had attached an older version... let's try this one.
+However I figured it was better to get it in the public domain sooner and let the iterative process do it's work.
+This is only a problem with exceptions from java.
+Incidentally if we all nag Joe Walnes enough we might be able to persuade him to release a new qdox which can ignore annotations etc (though it will still struggle with generics I think)
+Sorry I kind of forget about this one.
+I don't have strong opinions about it either way.
+Bugs like this make me sad.
+SnappyCodec check for Hadoop native lib is wrong.
+Sorry for the delay I'm recreating the mirror now.
+Brandon sorry.
+I misread.
+Ignore comment.
+Seems to be a faulty mailserver setup at laguna-industries.com.
+Unfortunately in these days where everyone that can put a CD the right way up in a drive is a Linux/Unix/Windows/Internet Expert this has become pretty common.
+And with a network that tolerates almost everything to get a mail somehow in the right place it is only seldom noticed (or when it is it is blamed on Microsoft.
+Mac looks like the tests are failing (especially TestHarFileSystem).
+Luke Sorry for the late attaching latest version patch
+RMAppAttemptImpl.recoverAppAttemptTokens() Looks like all changes in RMAppImpl are unnecessary.
+Bug in existing testDelegationTokenRestoredOnRMrestart().
+Sorry we are no longer using Xerces.
+That is a bit too lax I think.
+The cause is that the call to SpecificResponder.writeError in Responder.respond ultimately calls GenericData.resolveUnion which in turn calls GenericData.getSchemaName before the line where the UnresolvedUnionException gets thrown.
+I am new to Mina and the whole environment.
+I have this issue where my server and client is creating a lot of loopback threads that I believe must be related to this issue.

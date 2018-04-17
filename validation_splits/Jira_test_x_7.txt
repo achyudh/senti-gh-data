@@ -1,0 +1,93 @@
+Text
+I love a solution that's simpler and easier to understand than the original.
+Hi Henry Thanks for checking it out.
+In fact if you happen to know why ObserverHammerQuorumTest is failing with this latest patch I'd love to hear.
+Thanks Jing!
+That sounds like a plan. I love peer-reviews... :-)
+Thanks for the very clear explanation of the needed change Dag.
+Thanks for reminding me; I agree I'll do it.
+Thanks JinJie!
+Thanks Brock!
+Thanks Thomas!
+Thanks Divesh Your patch is commited at revision: 762863
+Hi Sagara Thank you very much for looking into this.
+A pleasure :>.
+Thanks Tom.
+I would love to have it right now for storm too. If you want me to sign up as a use case I am happy to.
+Thanks for the patch Erik (and Jon)
+Thanks for figuring this one out and providing the patch Jamie!
+Ashutosh: thanks a lot for the comments.
+Thanks for the quick patching Donald!
+Thanks Bilgin it is working fine now.
+Thanks henry and pat... we'll have to re submit all the PA's so trigger hudson.
+Thanks senaka for the patch.
+Thank you very much Richard.
+Thanks for the patch Niall +1
+thanks henry!
+Taking it over Thanks Mayank
+:) Best regards Fabian.
+Thanks Rishi Solanki to review the patch.
+Thanks Hari!
+Any word on whether it will be fixed?
+I did not have time to do it yesterday.
+Sorry for being confusing.
+I am not really sure what does the receive payment do before the shipment it doesn't sound as if it is doing what we expect it to do.
+Unable to reproduce issue.
+Oh ok.
+Sorry this affects 0.9.3 version too.
+Phabricator is being a little buggy.
+Tests no longer sleep
+Sorry this should be YARN JIRA - filed YARN-350 instead
+Sorry if this spam's things however it's unlikely that I'll work on these.
+Forgot about these sorry.
+Maurice I don't have such option or maybe I don't know where it is.
+:) Sorry about that.
+Sorry about the noise was trying out the precommit job.
+Sorry about that...
+Grumble grumble...
+I was in too much of a hurry sorry hold on a sec.
+Sorry I see that you say the same Mike :)
+Sorry for the huge delay Fabio.
+yup sorry just fixed.
+I screwed up the encoding of the stopwords file (sorry).
+So I also changed a test to test a non-ascii stopword :)
+Sorry about the confusion before
+Sorry.
+Sorry folks the full fix was committed in rather a messy manner due to some platform specific issues.
+Sorry didn't look at the code until commit... Can you test making it hash to a Long or a 8-byte ByteBuffer?
+Sorry - the above comes across as terse.
+I really don't know how to solve this problem.
+If you know of a way please describe it.
+Sorry.
+Ha sorry Varun thanks for the reminder I will have a look at it soon...
+Sorry.
+Sorry for the wild goose chase!
+Sorry db name is TPCDB user name TPC pwd whatever...
+Sorry my code base is a little old looks like HADOOP-9147 add some new test in TestFileStatus.
+I'm sorry.
+Sorry; I hit close by accident.
+Sorry I've been MIA on this issue.
+I haven't had any time to try re-upgrading after having to back out 2.0.8 but I will be sure to let you know how it works out as soon as I get the opportunity.
+Sorry for that.
+Sorry missed that select-box.
+Sorry for letting you guys wait.
+[~shazron]Sorry that was weird.
+Missed 2 new files - sorry !
+Sorry no longer working on this
+Sorry patch is attached
+On 200800-20 11:43:52.354 woflexair commented: Joan sorry for the noise in the bugbase but it's not a bug.
+Sorry once again for the wrong report Stephane
+Sorry I forgot to change the priority of this one.
+sorry.
+Sorry that should have said fixed via HADOOP-4980 not 6980.
+Sorry about the report.
+Ugh sorry :( Thanks!
+Sorry about that.
+Sorry I didn't use your patch but I think you'll like the end result.
+Some file were missing in the last patch sorry.
+The biggest problem is that we've had too many committers over the years and we'd have to get all of their permission to change it.
+So sorry I can't be more obliging.
+Last try.
+Sorry.
+sorry.. redeploy patch
+Sorry for the trouble Vikram!

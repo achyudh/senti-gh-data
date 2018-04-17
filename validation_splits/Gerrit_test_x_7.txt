@@ -1,0 +1,161 @@
+Text
+So those need to be enabled on as as-needed basis. Kconfig knows about SSE and its ilk. Noted, will take care of it.
+So, is it safe to use it in production? Or should we add a warning that it should be disabled before putting your app in prod? If it's safe to use it in production, how about enabling it by default? Or do we push it to GWT 3.0?
+Sorry, I mean paintLine(createDisplayString(line), line, y, lineHeight, gc, display);
+Sorry, wasn't paying enough attention to the context (clearly the param is moved to the heap) and instead assumed that if esc was not EscHeap, that therefore it was not "heap".
+Sorry. I did not closely looked into log date part. Thanks for this patch
+Sounds good to me. I shall handle these changes in the separate patch. Thanks!
+sounds good. will update once the dependence: http://review.couchbase.org/#/c/33453/ is merged.
+Sounds like it should be disabled. It is reasonable to run a whole multi-sim workflow (em, equil phases, simulate) in the same set of multi-dirs, so being able to use mdrun_mpi -multidir the-dirs* -deffnm equil-npt would be a nice thing. I haven't tried -multidir with a non-default equil-npt that I remember though. Should we be looking at doing the directory change for -multidir earlier than we do?
+space before ( missing. Causes reoccurring changes proposed by database analyzer in Installer
+split to chunks was added, no vms/templates in memory during vds operation.
+started implementing the test with existing key, then acquiring relevant byte[ ], to be continued
+Still have a question: why do you add changes for software_config and software_deployment tables here? As far I understand they were fixed in previous patch for both tables.
+strdup_printf with just a %s can be replaced with just strdup :) This copy is necessary though, since the string coming into the function might be packet-scope
+string.join() is deprecated. Please use ','.join(vmList).
+Style: Given totalCount is guaranteed to be zero here, just return zero - it's clearer to the reader what's being returned.
+style-nit: I think spaces around "+" are preferred in Gerrit's code base.
+Style-nit: Please don't reformat these comment blocks.
+stylistic issue - declare variables as close to the first use as possible
+Suggestion: so it is recommended that it not block...
+Suggestion: Your account or email address does not exist.
+Sure it's more readable, but how about: HandlerRegistrationCollection hrc = new HandlerRegistrationCollection(); â€¦ hrc.add(foo.addXxxHandler(â€¦)); â€¦ hrc.add(bar.addYyyHandler(â€¦)); or: HandlerRegistrationCollection hrc = new HandlerRegistrationCollection(); â€¦ HandlerRegistration hr1 = â€¦ hrc.add(hr1); â€¦ HandlerRegistration hr2 = â€¦ hrc.add(hr2); I.e. accumulate HandlerRegistration instances right into the HRC (which can be a field of your class) rather than into local variables that you then pass as a whole to the factory method. If you want varargs, you could add an addAll() method: HandlerRegistrationCollection hrc = new HandlerRegistrationCollection(); hrc.addAll(hr1, hr2); or with a Collection or Iterable as argument: HandlerRegistrationCollection hrc = new HandlerRegistrationCollection(); hrc.addAll(Arrays.asList(hr1, hr2)); Note that Sencha has not felt the need to add such collection/varargs to their GroupingHandlerRegistration: http://docs.sencha.com/gxt/3/com/sencha/gxt/core/shared/event/GroupingHandlerRegistration.html Similar for GWT-P's registerHandler on their PresenterWidget base class: http://arcbees.github.io/GWTP/javadoc/apidocs/com/gwtplatform/mvp/client/HandlerContainerImpl.html#registerHandler(com.google.web.bindery.event.shared.HandlerRegistration)
+Sure, I can switch over to a white-list. I just killed the ones I really didn't like (e.g. MD5 :).
+Sure, I will comment and revise this function. Sorry for the confusion.
+syncop_ functions return -errno as ret. This can be passed to the gf_msg function.
+TableID is specified to be 8 characters. While the original version broke that by adding a space, I guess it's simply ignored. With this change, the final "M" would be dropped, too. (When you fix that, also cut OEMID to 4 characters, it's 32bit. ACPI5.0 19.5.28)
+tabs instead of whitespaces as in the rest of the file
+template< unsigned int TDimension, class T > Prefer a more descriptive name for the second template argument.
+Templatizing this would make the change smaller, as you don't need to make it a member function.
+Thanks a lot for your review. What do you think about "in the adapted class"? Anyway, I'm going to bother some of the guru to hear what they think about it...
+Thanks Ian, I was not aware of this. Created b/15574371.
+Thanks Martin, I will do it. It will look much better.
+Thanks! Will translate this step-by-step guide into dev-gwt-super-dev-mode.txt or some such in the next patch set.
+Thanks. It's unclear how i missed it: $ buck targets --show_output lib/gwt:codeserver buck-out/gen/lib/gwt/codeserver/gwt-codeserver-2.6.1.jar Done.
+That bit can go as well, but it's copied from the commit message - the primary goal of the commit is to ensure that things don't crash, however there was an attempt at making the fix work with the least slowdown. Perhaps that bit can go out and just mention the stuff about re-entrancy :)
+That commit mentions that a GCC 5 change motivates forbidding -fPIE, but I haven't seen any reason to also forbid it for GCC 4. That configuration has been "not broken" since Qt 5.0. Maybe some rationale for that can be put into the changelog too, because it would seem easy to check __GNUC__ before deciding to #error. There *are* also people using boost build and other non-qmake, non-cmake buildsystems too, so limiting the #error could have been wise.
+That is great - it also means you can move that line outside of the if/else. You also need another in6_addr: you have to have both dest and gateway (though for default and host you only use one or the other). Same is needed in the v4 case.
+That is intended. We are already making sure that multiple events are okay for us (see onHashChanged). So I think this is the most practical way.
+That means we'll have to add an extra boolean field to every member. It'll make serialization size bigger as well as resident AST memory go up. I'm happy to change it, but it seems like it trades off memory for readability. You'd still have to handle "", because that's the way Java annotations work, you cannot have a default value of 'null'
+That was actually the original code. If dest <= src and you're only copying one byte at a time, if you start from the top you'll never overwrite the data you haven't copied yet. Otherwise, you have to start from the other end. *dest++ = *src memcpy;, but memcpy is not *dest++ = *src;. To quote from the pretty short man page: The memory areas must not overlap. That's the difference between memcpy and memmove. If there was no overlap at all (which we could check for) then you could use memcpy, and that would make the normal case work like it always has. But I'm working on a change to add optimized versions of memmove for x86 and ARM. In order to test them I'm going to implement them in the chromeos tree, and then to transfer them over I've put together a big series of patches to upstream so they should just apply.
+That's a bit of a philosophical discussion. I thought about it earlier, but the reason for limiting the range is that we only use the single precision range in the SIMD parts of Gromacs - since all algorithms in particular need to work if the user has set the precision to single - we only use double to improve precision, not range. One _could_ of course add double precision range tests, but then the next obvious question is why we allow routines to provide incorrect results for NaN, +-infinity, negative zero, etc? And, of course, not to mention - why we allow more than 1 ulp error :-) For the error functions I actually experimented a bit with only providing accurate results in a smaller-than-double-precision-range, and this might still be a useful optimization strategy in the future. Thus, I like the idea of merely testing what we actually need, and if somebody comes up with a neat idea to improve that while only altering things we don't need, that should fundamentally be a good thing(TM)!
+That's impossible to say until somebody invests the time and effort to try lots of different function approximations on that architecture to see if they can come up with something better. For now it is the fastest approach.
+The "git commit" line needs a continuation character to include the following '-m' line. However, you should be able to fold the entire commit message into one quoted string starting on the above line. Be sure to leave the second line blank.
+The above 7 lines repeats a bit, and could go and be a function.
+The above code from 2008101602 is present in the 1.1.0RC2_RELEASE so therefore existed before the 1.1.0_RELEASE so needs to be removed.
+The 'all' link is a link that is js controlled - is 'follow' the right word to use here?
+the arguments to init should be documented somewhere.
+The built search tree of mdds::flat_segment_tree is not preserved on copy/assignment. You have to call build_tree() here. Or do it just before use (and use is_tree_valid() to check if it is necessary, as every line is used more than once).
+The change here reminds me that also some of the new oc..._MS opcodes may need an entry here. Could you take care of those in a follow-up patch?
+The code in this library was generated by emugen and then manually modified ('vi' transformations) to match this library need. This code will be replaced with driver implementation.
+The column names shouldn't be in curly brackets, because that adds the dbprefix, and we only want that on the table names.
+The comment should indicate that using the itk3DVersorRigid transform is often a much better transform to use during optimization proceedures from both a speed perspective (lower dimensional parameter space), and stability standpoint (versors do not suffer from rotational gimble lock).
+the condition !pProfile->m_bIsValid must always be true here, so rather use SAL_WARN
+The convention is to have all mappers static in order to reduce their instantiations as they have no state. Please extract it into a private static class.
+The correct one is according to JamesF "wiki" instead of "index.php". He's fixing it up on the server.
+The doc comments are inheritted from the parent class(es)
+The documentation here is pretty much the same, but the errors occur in different circumstances.
+The doxygen documentation will also be a bit better if you add \related ArrayRef to these functions (and similarly for the ConstArrayRef ones).
+The error for the operation. If there is no error, this value will evaluate to `false`
+The general way to do this is $(TOP)/src/southbridge etc. etc.
+The histograms themselves don't use multipoint storage. The input for them often would be, but in this case it isn't.
+The IDE feature does not provide any team dependent plug-ins any longer but it makes sense to keep the dependency. I didn't realize that team.ui contributed a bunch of functionality that doesn't necessarily require a Mylyn team extension.
+The include won't become redundant as the macros will still be needed. Instead the replicated Check{C,CXX}CompilerFlag.cmake will become redundant.
+The incorrect spacing gets fixed here - https://gerrit.wikimedia.org/r/#/c/121369/
+The language style needs to be instructive rather than conversational here. This is primarily intended for the software guide. Remove the "Therefore" and "For instance" and make the sentences more authoritative.
+The list of maintainers seems to be organized alphabetically by translator name. I guess tiering should be listed after quota.
+The logic to check for checkpoint restart was added in release-5-1, but in master we changed the name to startingFromCheckpoint
+The main points are hat we avoid to repeat the code block below twice (or three when merging the JRE task), and reading each task is easier to know exactly what the diferences ares
+The main thing about "Dev Mode Off" is that it works even when the code server isn't running. Perhaps it's less useful with this change, but I don't want to remove it yet.
+The map should also be updated, probably via loop and calls to remove().
+the method does not what the name says. It should just be named "updateCommitButtons" and take a boolean. So you can use this in another place too.
+The mode of both files was changed to 755, that means the executable bit was added.
+the name is very generic; yet what it does is just poll for updates. The problem goes away if the script moves to vdsm-tool.
+The new/better URL would be http://tracker.phpbb.com/browse/PHPBB3-3832
+the old code only replaced one instance not all but the string shouldn't contain more than one anyways...
+The only reason I put it in here and not the missed snap function was that the new_volinfo was available to this one.
+The output HTML is along the lines of "<dt>{{int:this-message}}</dt><dd><a href="/w/api.php?lots=of&parameters=here">api.php?lots=of&parameters=here</a></dd>". The colon seems implied by the <dt>; I'm not sure whether it should be added in the messages or with CSS or just left implied, or if we should have these be punctuated as sentences and ignore the semantically-implied colon.
+The performance characteristics of ArrayList should be similar enough to use here instead of introducing JsObjectArray.
+The phpdoc states that an array is returned. Would it be better to return an array() instead of NULL?
+The point is to use double quotation marks " instead of single quotation marks ' for consistency within MediaWiki core and all extensions.
+the previous event may not be traceEvGoCreate, like this scenario: when trace start goroute is in syscall and then exitsyscall and finally goStart. For this case, we can't access the stack information because the previous event is traceEvGoSysExit which doesn't contain the stack. I just think out a solution: when we receive a traceEvGoSysExit, we reserve the gocreate event by link it and access it here. But I don't know if there are any other cases or any side effect, any idea?
+The previous one says "server assigned". Is the difference intentional?
+The problem is, at the opensource side, if this breaks the app, people will try to debug it by themselves or worse they will just give up and do not update to the latest GWT version - I don't want that to happen, especially for this release. On the other hand if somebody hits the problem, it is easy to point them to the workaround. This is not ideal situation but that is what I prefer right now.
+The problem might be if you're running cmake outside "git" repository (dist package)?
+the propvalue parameter type is not quite idiomatic ;) In general - since this method gets called multiple times, prolly worth buffering the xml ...
+The refreshing of the mergeable state is already implemented in MergeOp.verifyMergeability(Change). I would prefer to have the code only in one place.
+The replaceTo will need to use the newly to be created LangID value. Same as for bo_CN, are the codes verbatim copied from dz_BT in which case only a ref="dz_BT" would be needed? Or aren't some needed to be adapted to IN country conventions?
+the return value of NULL doesn't look right. it means even in the presence of read/write failures it will still reboot into recovery mode and show NO COMMAND to users. don't have a fix in mind though.
+The same strange *.wdt.* package Should it be 'wst'?
+The size here is now just the size of the struct, hence the names (old/new) will not be a part of the dict. Further, dict_set_bin, takes in a pointer, that it strores in the xattr/dict and later is freed when this dict is destroyed. In the case of passing a pointer which is a structure containing another pointer, the dict routines cannot encode this into the dict. Overall, as info is passed to be stored as a dict, the above mechanism of allocating a pointer within info and passing this would fail to send these values across and also leak memory for the allocated info->buffer.
+The Slerp I was thinking of, http://en.wikipedia.org/wiki/Slerp doesn't seem to be in all caps - is this something else? It does say somewhere to avoid acronyms but there are exceptions (this may be one of them).
+The three tests above that checks namespaces should probably grouped together. They seems to be copy pasted and just change which setting is gathered. You could uses a dataProvider too. That will build an array of tests cases and pass the case to a test method. Anyway, you should extract the foreach / assert in a new internal method such as assertNamespaceIsValid()
+The toolchain file should stop here. It should be about description and setting compilers. Period. See http://www.cmake.org/Wiki/CMake_Cross_Compiling. I figure the principle is that the toolchain files are somewhat transferable between projects.
+The type would be TestNamespace::PtrSecCertificateGetData vs PtrSecCertificateGetData though. I suggest moving the typedefs below the QT_BEGIN_NAMESPACE at line 94. Feel free to ignore this suggestion though since it's valid C++ either way.
+The usage of exception specification here is very bad! If any only exception is thrown, then the program will terminate. Imagine what will happen if that occurred in Slicer! Have you verified that not a single method usage can throw an exception of a different kind?
+The use of 'count' confuses me. Would this be cleaner? self.assertIn('Unexpected method call', unicode(e))
+The user might still want to disable it... Unlike the other options, this one does not need a pirq_table.c or mptable.c file be sitting around... Generally dropping these tables from the build is almost never worth it, since most OSes expect something there.
+The value is having an ABI compatible way to pass the proper information to ramstage from romstage. There's no reason to allow something that can change to break in the future. Take for example the current different sizes of the previous space reserved in the cache_as_ram.inc files. Things that are brittle will break. What is the bare minimum amount of info that needs to be passed? Isn't it just a bar and a couple of endpoints?
+The variable you should probably use here is U_BOOT_FDT_USE, defined in make.conf. I agree the name is not great - we can change it if you like. But the intention is that this variable tells you which fdt to use, so there should be no need for this sort of logic in ebuilds.
+The word "Selected" should be capitalized. I'm unsure of the use of "Area" here, BTW. Maybe "Cut Selection"?
+Then maybe the loop can be inside this method, it would be more consistent with the fact that 'Starts' is plural...
+Then shared_pointer is probably the way to go (if you're happy with the cost of refcounting them).
+Then this one can use SHA1 and another patch could change the existing instances.
+then what's wrong with using new Color(0xFFFFFF) ?
+There are many times MDS start/stop, if the client does not umount, then there will recovery waiting every time the MDS start/stop, which is unnecessary for this test.
+There are still several rows for the distinct blocks and up to one separate row with no related block element, so we still need the gorup by clause
+There are two cases to be covered: 1) When the tokens are empty (this is the one you did); 2) Also, when you do have 1 comment token but the offset is *before* its begin.
+There is a bit more information provided by _getExitedVmStats. Do we want to have it as part of an event?
+There is a comma missing after share/gallery/sounds .
+there is a warning "unused variable w" here ... i'm guessing this should compare w.size() with 3, right? i'll push a fix for that to master...
+There is more information https://code.google.com/p/address-sanitizer/wiki/AddressSanitizer#ulimit_-v about alternative
+There is no need for a "continue" here, since it means the same as the normal program flow...
+There is no need to reference $wizard, it's an object
+There is no point in defining those private static variables, we could just use the string literal directly in the methods. It was like that originally because the original definitions were public static final's. We then switched to methods so that they could be overriden.
+There is no putComment method. Shorten this and just put it on one line: checkState(psId != null, "setPatchSetId must be called first"); Developers debugging a failure can look at the Java stack trace to see how they got into this situation. What matters to them more is the call site where the object was misused, not which entry point into the object the error was discovered by.
+There is no VDSM action here, only database - just make the command transactive, and save yourself all this hassle.
+There may be a minor bug here in that there can be a TMPFAIL at authentication time. This doesn't seem to handle that.
+There should be some separation of code from the rest of the text, even if it's clear that it's a URL, to ensure that nobody gets the idea to translate it. <kbd> may be enough, but having quotes, too, is a good idea.
+there should be } else { rv = get_env_plugin_info(pi); In this case the lcb_cntl user will get correct effective type
+There's already bunch of strcpy calls scattered throughout this file anyways.
+There's no actual need to have this routine similar to how it's done in bit-rot-scrub.c since there just one (1) option to reconfigure. Keep it simple and just do a GF_OPTION_{INIT,RECONF} in the appropriate function.
+there's no point shuffling the deckchairs though. assume that anything that's not C++ yet is a bug and should just be moved straight to C++.
+these are essentially renamed to ProjectScopedPayload.version etc in a dependent change: https://review.openstack.org/#/c/162196/
+These are good, but I think we need another test which exercises the untested path in fault.py. Otherwise, if it is in fact unreachable, we need to eliminate that code path.
+These are nice tests. Can we put them on AbstractHasData directly instead of the Table subclass? The one bit that you'd have to keep here would be the test with the alternative TableBuilder.
+These are wrapper functions, and will use in test cases directly.
+These calls don't do the same thing. As a result, lockNow() must be called unconditionally.
+These methods should also probably go in the anonymous namespace.
+These misaligned typedefs should be causing KWstyle errors. Are you not getting any?
+These nOpCode have of course to be eFacOpCode then.
+These two comments seem to be for the block of commands.
+These two methods are business logic, so they don't belong in the API, they should be part of the AddVm command, so that the same logic is used when using the API or the GUI.
+These two variables were defined separately in the previous version. Now that you need them in every method, you could just declare them at the first utilization (applies to the other methods too).
+These variables are only used in the next call, I'd remove them
+They could probably be combined, but the speed would be the same. We still need to write the address out first before we can auto-increment. Let's leave that to later when/if it gets moved to the southbridge wrapper
+They're not, and can't be. Same as with proto fields that this code is a copy of... and quite a few other pre-existing Lua code spots too for that matter.
+This || breaks -e. If you need this information you need to reimplement -e yourself. if ! go build -a std; then failed=true if $sete; then exit 1 fi fi
+This and the preferences load below have a race condition. If the plugin load finishes first the user might see the existing account dashboard screen instead of their first My link if token = MINE.
+this beforeTest block is used all over the place in the tests, we just try to get it to a clean state.. its slow but it works :/
+This can't be here, since it only executes on the first CMake run, making LINEAR_ALGEBRA_LIBRARIES break on subsequent runs.
+This can't guarantee there won't be two pipeline running concurrently for one replication.
+This code is broken. $this->storage needs to be changed
+This comment doesn't sound right. This if statement should be removed as lapd_handle should already be populated.
+This conditional is always true, so it should be removed as confusing.
+This creates an unnecessary garbage list. Sets.newHashSet should accept an Iterable.
+This does not correspond to an issue on the gerrit issue tracker [1]. Issues should be listed in the change footer in the form: Bug: Issue 1234 [1] http://code.google.com/p/gerrit/issues/list
+This does not really explain what the issue was. When new SD creation failed, failure status was not checked and flow continued to try and attach the SD to a pool which obviously failed and returned a storage domain not found error instead of the creation failure. SD creation status is now checked before proceeding.
+This doesn't do any correctness tests of the file, while a start that they exist, I could just be touch'ing files.
+This doesn't look quite intuitive to me. Maybe I am not used to this style. I like something as below. However, if you find the current style better, feel free to keep it. self.k8s_api = _create_k8s_api(k8s_master_url)
+this doesn't make sense to me. Why can we distinguish it? What depends on what happening before what?
+this doesn't make too much sense to me, as this file lives in the same directory (hence double quotes). and the use of double quotes with private/ is inherently bogus.
+This doesn't seem right -- should it not be left as destination dir?
+This doesn't work properly when the index is negative (e.g. time is before the offset).
+This is a weird format. It won't close twice actually, and it's not to handle the exception. There is an infinite loop from L1537 to L1581. In each iteration, it opens the zipfile. Before getting into another iteration, it needs to close the zipfile... I've moved L1583 inside the loop to make it less weird.
+This is an unrelated change that should be dropped.
+this is bogus: for IOS now both --with-darwinssl and --with-nss are set
+this is confusing. I think this needs to be called PluggablePrefix or something of that nature. To call it Service is confusing to me.
+This is device init path, is not it? So changing the od_track_declares after the fact would not retroactively enable this feature? We might as well change it to a module parameter then if this is the way we want to go?
+This is in the wrong place and will cause multiple prints per class when running in parallel. _inject_tag_mapping moves variables to unittest result object utresult.mapping.var moves to utresult.var. However the vars aren't being used so it does not do anything. The dump_results handles printing of the results for the parallel version and as such needs to be updated to achieve what you are looking for.
+this is just a nit and I don't actually care, but I skimmed and noticed that other operation strings were <verb>ing, eg 'Getting'. I'm not sure how consistent that is, or if you want them to be consistent.
+This is more like an invalid option, not out of memory.

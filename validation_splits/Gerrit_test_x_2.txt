@@ -1,0 +1,161 @@
+Text
+Function is returning a guint. What's the intent of value -1? Are there cases where we cannot find the DNP header immediately?
+functional changes?? I just flipped the ifs. But I just see that there's still the skipSystemDependencyCheck stuff in it.
+FWIW: After the first Mod, a >= 0. b is already > 0 by definition. So the rest of this code is all done using natural numbers and thus could probably be (slightly) more efficient by using nat's directly. Perhaps next CL.
+FYI this probably doesn't always work. Booleans are stored as CHAR(1) with value Y for true and N for false. Not every JDBC driver out is going to grok this as a boolean value. It would be safer to use "Y".equals(rs.getString()) in code such as this. Can't this statement also be written as an UPDATE: UPDATE accounts SET reverse_patch_set_order = 'Y' WHERE display_patch_sets_in_reverse_order = 'Y'; UPDATE accounts SET show_username_in_review_category = 'Y' WHERE display_person_name_in_review_category = 'Y'; This should be much faster to process, and every SQL server we support will grok those two small statements. And it avoids the problem with boolean conversion.
+GetDate() does not return a date serial number, it returns a "formatted" number with YYYYMMDD, see include/tools/date.hxx how nDate is stored in init(), which is returned by GetDate().
+'git commit --amend' and everything up until the last Change-Id line can be removed.
+Given that this is a basic snapshot feature test, we would like to keep the deactivate and activate snapshots to see that it doesn't bring things down, and can happen in parallel. The code that was removed was more of glusterd handshaking than volume snapshot feature.
+Good call! New code uses work_git.rev_parse('HEAD'). PTAL.
+Good catch, my bad (it differs in master, see Iadfa1fb78e101e67ed47a6f3b5ea88ff12c90ca6)
+Good catch. Debugging needs to be removed. Will remove in next patch set.
+good catch... I should blame autocomplete :P
+Good idea. Although I could now just have a single stat and remove scrubber:status? If we have a stat called scrubber:runs we can infer the status. Is there a policy though of maintaining stats? any external tools reliant upon them that would be unhappy with removal of a stat?
+Good point, I missed that. Determinism is a key feature. Fixed.
+Good point. I'll move to the other block of ITKDeprecatedTestDriver.
+Good point. I think it is related to the change as the new message is introduced here.
+Good point. We need to make sure that we use jsonrpc.
+Good to know, I'd specify this in the doc -- i.e. don't touch *any* QObject
+gpu_info is still available when this gets called, so it can be safely passed to free_gpu(). The only inconvenience is that if mdrun crashes or gets killed, the driver won't set the clocks back to the original values. I guess this could be an RFE - nvml could distinguish between admin and user access and tell the driver to set the clocks back after the application terminates.
+Have you measured the performance difference with RegionOfInterestImageFilter?
+Having nightmares about empty lines kidnapping you in an alien ship and performing colonoscopy?
+here as well: if ($value === NULL || strpos()...) { continue; }
+here the indentation is wrong ;-) However, the main question is if the assignments should be aligned in a line or if a single space would be enough indentation...
+Here too, you can access maBaseCell.mfValue directly, since we know ahead of time that both cells are of value type.
+here we are changing the default to 0666 but in open it is 0777, we should have only one. I think 0777 was chosen based on what python os module does, but could be wrong...
+Here we can assume that because the if statement above checks to see what extensions are enabled. If the config option has a single entry in the list, 'all', that means all extensions are supposed to be enabled on nova. I just chose Hosts here because I wanted an extension that problem wasn't ever going to be removed. (also one that wasn't many characters)
+Here, we are making a bunch of datastore calls in a loop, which could fail (or time out) and drop half of the updates. Since this is derived data and an async update is probably okay, a more robust approach would be to put tasks on the App Engine task queue to refresh each graph. Failed tasks automatically get retried. The most robust way to do the update: given a graph id, regenerate the graph from a query of all its dependencies, sort of like a makefile. Then, since it's idempotent, it doesn't matter if it fails sometimes, and we can ignore concurrency as well since multiple writes don't matter. (Incremental updates would be more efficient but trickier to get right, so I typically put that off until it seems necessary.)
+heuristics should check tvb_captured_length first to make sure there is enough data to run the heuristic, otherwise it might throw an exception just checking, and prevent subsequent heuristics from claiming the packet appropriately
+Hi Bob, I think the setting of screen resolution is not important as it makes no different when I changed it to smaller or larger size therefore I chose the medium size (1024x768). It's hard to figure out what date of rendering the map and it does not really affect to the embed code I will remove it from the code.
+Hi Edwin thank you to have a look. I removed them, because current version of ProjectsTable already has these 2 lines content . I test this feature and find 'k', 'j', 'o' can work. with or without this feature, 'Enter' hot key can not work. we can test by https://gerrit-review.googlesource.com. I ever try to only add { keysNavigation.add(new OpenKeyCommand(0, KeyCodes.KEY_ENTER, Util.C.projectListOpen())); } but Gerrit feels not happy and give a running time error http://i.imgur.com/4pL2N.png. I guess its a bug at some corner of Gerrit. /Bruce
+Hi Gregor, Continuing on from the mandatory system fields, the below code will save the socialprofile data: elseif ($field == 'socialprofile') { // For new social profiles. $classname = generate_artefact_class_name($field); $profile = new $classname(0, array('owner' => $userid)); $profile->set('title', $value['socialprofile_profileurl']); $profile->set('description', $value['socialprofile_service']); $profile->set('note', $value['socialprofile_profiletype']); $profile->commit(); } Thanks, Ghada
+Hi Gregor, Need to make this accessible by adding "class='accessible-hidden'" with relevant details to labels; also add spans for hidden text; anchors with spans; buttons need to have "alt" text; etc. Please refer to: https://wiki.mahara.org/index.php/Accessibility for more details. Thanks, Ghada
+Hi Mehdi, you are right. I am very sorry - I have misinterpreted the deviceRuntimeVersion as the version of DeviceRuntimeOnHostMachine.
+Hi Miklos, I have mentioned the relevant comments for this impacted UT in the commit message as well. Kindly have a look. Thanks.
+Hi Nigel, Is it better to use "nbsp;" instead of "."? In case other screens want to use this in the future - it's more generic. But, it's up to you. It actually works quite well the way it is. Thanks, Ghada
+Hi Nigel, To expand on what Tobias said, when you change the content of a language string you also need to change its name. Otherwise the Launchpad translation site isn't smart enough to tell translators that they need to update it. See https://wiki.mahara.org/index.php/Developer_Area/Language_strings#Let_translators_know_when_lang_strings_change So please change the string name to "editaccesspagedescription4". You'll also need to change the name of the string in the PHP files and templates where it is used. Sorry about that! Cheers, Aaron
+Hi Robert, Don't really need these global variables here. They're not used within the function. Thanks, Ghada
+Hi Robert, I think this should be $newviewid not $viewid (as it's not defined at this point). Thanks, Ghada
+Hi Tobias, 1. Please include the file comment at the top: /** * * @package mahara * @subpackage artefact-multirecipientnotification * @author David Ballhausen, Tobias Zeuch * @license http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later * @copyright For copyright information on Mahara, please see the README file distributed with this software. * */ 2. Also, please include: defined('INTERNAL') || die(); Thanks, Ghada
+Hi Tobias, Can you please fix the spaces here? i.e. for ($i = 0; $i < count($record->userids); $i++) { Thanks, Ghada
+Hi Tobias, You've got a typo (lenght -> length): i.e. if (firstChildSel.length < 1) { Thanks, Ghada
+Hi, so should we keep this as "local" or change to "mergeStrategies"?
+Hi, Correct me if i'm wrong - but, we have 2 instances of commands in the flow you described. This means they do not share state. The change done by Arik adds messages on the canDoActionMessages() collection of each one of the commands. Not sure how you're going to have this mix.
+Hint: Possible incorrect use of Apple-related terminology
+Hm, alright, fair enough. Most of the code I've seen uses mw.msg(), though.
+Hmm I see what you mean. Yeah it might be possible to do what you describe.
+Hmm notification sounds like a QObject::signals, I'd say that's somewhat misleading. So I'd name that with something indicating the progress Bar.
+Hmm, after all it wouldn't fail the test, because this thread will still do the put(lastElement) below, which is the only thing that is checked. A bit flaky imo. But it should work in the meantime.
+Hmm, I still don't like these ternery operators used as statements, I would prefer using an if statement
+hmm, I'm concerned about the lock contention in this function. As multiple threads will likely invoke this function, this can affect the CRUD performance. Can we simply use an atomic variable for each latency stat?
+Hmm, what is this misterious newly to be created LangID value? I've put 452 but I'm not sure...
+hmm, why this should be a problem? attr is a local (to this thread) storage, nobody else will see that?
+hmm.. GetPosition doesn't handle errors but Seek does. :(
+hmmm... this is strange... ok, we succeeded in authn, but have not yet authz, so we cannot report it here. we should report only after we have all information... where do we do authz in this case?
+Ho yes, perhaps I should change the commit message ? It's because the policy was set to NEW, so it will do nothing anyway, as we are already using cmake > 2.6.0
+Hook parameter. I need to print it, I think it holds the CentralAuth "Logging you in to the following wikis"
+How about just moving it to RequestFactoryTestBase instead of a top-level class?
+How about making MapAnonymous return null so that we only need the single check that table_mem_map_.get() != nullptr.
+How about that one? Is it because you won't be able to automatically change call sites?
+How about to change above line like below? trun(t, gt.client, "git", "checkout", "-b", "newbranch", "origin/master")
+how about use default wikitext namespace (see getDefaultWikitextNS below) or allow specifying namespace as an argument?
+How about: while (next != null && next->asPhi()->GetRegNumber() == reg_number) { if (next->GetType() == GetType()) return next; next = next->GetNext(); } return nullptr;
+How are these two arguments joined together into the target string? Or maybe these should be passed as-is and let the XML RPC server join them together?
+how are we guaranteeing that when we invoke this clean up there are no threads consuming these RPCs?
+How come there is change for IO resources with config option of 64BIT_PREF_MEM ?
+How is 'bbox' supposed to be encoded for transmission over http? Currently its encoded as a Javascript array, which is probably why its not behaving as expected.
+How is determined which of the opcodes is actually taken during import of _xlfn.CEILING.MATH ? I think that's missing. Note that now that we use RID_STRLIST_FUNCTION_NAMES_ENGLISH_OOXML with the formula compiler, the tables in sc/source/filter/oox/formulabase.cxx are only provided for API support (of which we actually don't know if anyone is using it at all). Our internal OOXML import/export doesn't use them anymore, so any "only for import / only for export" usage needs to be implemented differently.
+Hrm, I'm not sure how best to handle this. StackOverflow has a 'Display Name' attribute, does anything similar exist for LDAP & OpenID? I'd prefer to just show the firstname to save on space. If we end up showing the full name, I wonder if we could put the name to the left of the search bar and have the search bar expand over it when active, to save on horizontal space.
+http://en.wikipedia.beta.wmflabs.org/wiki/Hurricane_Celeste_(1972)
+http://godoc.org/golang.org/x/tools/cmd/benchcmp will help make the benchmark comparison more readable.
+https://gerrit-review.googlesource.com/Documentation/dev-contributing.html#_tests
+huh? namedtuple() is a new-style class (otherwise __getattribute__ won't fly for it!). Note that namedtuple(verbose=True) shows that it uses __slot__=() by default, so I'm all for the removal of this redundant line. However the commit message is confusing.
+I actually fear that PHP accepts this due to some easteregg or so :)
+I actually misguided you here. typeName was already fully qualified and looks enough to figure out what the message was saying and find culprits. (for some reason I thought this was the member name and not qualified). Anyway sorry about that. You may consider reverting the related change to keep it consistent and make the code slightly simpler by getting rid of maps. Anyway I will leave it up to you how to proceed.
+I agree if the file exist we should skip the conversion and print a information message
+I agree that a trailing "or" is missing here (though defining a function is_configured and putting the grep's in it would have been better than any commenting. I cannot say that I like duplicating bash logic in English)
+I agree that we should follow master for this and projects like CTK, but it is better explicitly update sha with commits. Otherwise, upstream can update at any point and builds or tests will mysteriously start failing. Also, when checking out branches or tags, we will get the versions of CTK, etc that are known to work with that branch/tag of TubeTK.
+I agree this can be discovered without the text. Deleted the comment. Same in OpenKey.
+I agree with Erik the message is an non-issue and can stay as is. I was just curious about the plan to merge the other two commits. But even that doesn't really matter.
+I agree with Markus - if only for code-consistency purposes, add the =array() - it is bad karma anyway to have arguments with default values preceding ones without a default value.
+I agree with the above comment ... the above logic change should be in a separate patch than the channel handling
+I agree with Thomas. We should benchmark if it doesn't make a measurable difference, we should get rid of the customization if that's the only reason for us to have this file. I expect by now more time has been spent optimizing the JDK's HashMap than has been spent on com.google.gwt.dev.util.collect.HashMap. :)
+I already have another use case. If an app needs per package log configuration (as in JDK), this is good way to support that. So I prefer to keep it as it doesn't complicate the code.
+I am sorry. I just missed it before. errno should already be set to ENOENT if resolve/lookup fails. We shouldn't map any other genuine errors to ENOENT.
+i assume that the reason that the copyright is updated now is because the file was updated in 2011, but the copyright wasn't.
+I assume this is not a memmap version of 16550/8250?
+I assume this is something that's required if signature is not provided? If so; throw an exception here; or remove it completely from code.
+I assumed you didn't care about modifying the caller's array because "resources += srcs" modifies resources in-place as well. Yay Python. So you should fix that below. Also typically in Python we strongly discourage mutable default arugments.
+I believe Greg thinks there may be a performance difference depending on SSL termination in the pipeline - but I think he's wrong for our APIs and clients - we could test, or we can review after we get something working and revisit it later if there is problems.
+I believe you can only have one appender configured. The file based one is more useful to me, but maybe not to others.
+I can do that in an extra commit, here I only wanted to add the possibility to access the created proto_item. But if you want me to, I can add the change to this commit also.
+I can't parse the part between this comma and the next one.
+I checked other __construct comments and there where no such annotation.
+I checked, and git does not clear the environment to run hooks. I also can't find subversion's reasoning around clearing it, so barring finding out that there's a good reason to, I think I'll just remove this line.
+I could directly call processBufferedMessages here, but I did it this way to avoid duplicate code (for the logging) here and in the instance below.
+I could put the finalizeForCommandLine after processExceptionAtExit. Then it doesn't change anything for LIB_MPI and that wouldn't work anyhow as you point out.
+I did not get your point, please fix it as you think appropriate.
+I did not make comments on all of these before because it was the same comment every time. Unless there is a good documented reason, these should all be set to ignore.
+I did not suggest that the acquire/release functions would be called globally for all NI. I said "each time an interface that needs the acceptor". If the interface doesn't use the acceptor don't call acquire at startup, and don't call release at shutdown. I don't much care about the length of the list or the time involved. I am looking for code that is more easy to read and maintain.
+i did some refactoring and missed changing this name. thanks for catching it
+I disagree. I don't think that would shorten the code by much.
+I do have KWStyle but somehow I think it only complains if I have end-of-line whitespace. I'll remove the tabs.
+I do not like (long) very much, but that is something in the inode_ctx API :-/ Maybe I find the courage one day to make it a (void*) instead.
+I do not like the lower part here, but if I set "launchGitK" function to be only one like this: void GitClient::launchGitK(const QString &workingDirectory, const QString &fileName = QString()) ... I get error in gitPlugin.cpp file, on line 424: createRepositoryAction(gitContainer, tr("Launch gitk"), Core::Id("Git.LaunchGitK"), globalcontext, true, &GitClient::launchGitK); he can not recognize "&GitClient::launchGitK" part any more if there is no function prototype with only one parameter.
+I do not understand... I am not trying to fix the world now... all I need is to ask vdsm what is its id without having to deal with handling the /etc/vdsm/vdsm.id are the above valid to this task? the new code of vdsm-reg will call vdsm-tool vdsm-id --force and get id no matter if it is uuid or generated from anywhere else, this id is required for registration. if you then want to improve how it is 'generated' you are welcome to do so, it will not break the interface.
+I don`t think that this could really happened. Because ptlrpc has single thread for rq_set, that means only one ptlrpc_check_set() could happened for a request. And ptl_send_rpc could not race with after_reply.
+I don't always agree with Paul, but when I do, I'm either drunk or I have a very good reason.
+I don't believe so. I was using it, but because we have messages that can be one byte long (such as a keepalive) and some messages that require as much as 32 bytes to determine others I needed something more flexible.
+I don't believe that typename is needed here since there is a template present.
+I don't care about the number of instances of ReferenceIndex. I want to have this cache inside BackendUtility::explodeSoftRefParserList() which is static.
+I don't get it - you do not have the same keys here and in the rpm-based part. We'd like this to be a portability layer, so that Engine should not care if it's RPM or DEB. Maybe the mapping is impossible - but it does not seem that there's an attempt here.
+I don't get it. How are those unused locks got rid of?
+I don't know that this will actually do what you want.
+I don't like either style. Don't like c here. I can change it if it helps to get this pulled.
+I don't line inline styles, can this be done in CSS?
+I don't see this as needing more prominence here, so much as the increase in docs is *an entire second proposal* wedged into this one. I'd vote for merging as is, and making the docs process a standalone follow-up.
+I don't see where we append the rewinded header to the database file. Otherwise, when we open the db file next time, it will still give us the latest header that is not rollbacked.
+I don't see why we should reject a number entry that we can "understand", just to adhere strictly to the locale, but I'll ask an expert what LibreOffice does in other areas, and we should just "do the same". My assumption is that we should definitely accept native digits, but why reject ASCII digits?
+I don't think config can be null. So now you can drop the method. :-)
+I don't think it needs to be set, which means it doesn't need to be in the input.
+I don't think most of these are necessary. The dissector is (and should be) organized to just define functions before they are used.
+I don't think so. I am not familiar with where they make a difference, but it looks like an intentional special Mac case (See MacMessages and canShowMacSheetPanel). I suspect this works fine after the general UI is up and running - and that the problem here is a side effect of being the first frame.
+I don't think the comparison with the SshCommands (or RestViews) is fair. For SSH commands we have a simple lookup by command name and it is all that matters. For project rename tasks it may be (and probably is) critical in which order the steps are executed. It is not just a set of tasks that can be done in any order. For a critical command as project rename the order of tasks execution should be explicit. At least it has to be documented. Right now, one has to look in the TaskModule, then in the DynamicSet and find out that, internally, it stores its items in a list which means that the iterator() will iterate in the order of the elements as they are in this list. And this is not even documented/guaranteed behavior of the DynamicSet.
+I don't think there is an easy way to do this, but it feels like these error messages should be shared with the ones from the WUI (ApprovalTable).
+i don't think this is ever defined on Android. it's a BSD thing.
+I far prefer the load/store naming since anybody who has ever worked with SIMD will know exactly what we're doing. The point is to maybe make the SIMD code slightly less cluttered, and _maybe_ make it possible to for some simple routines to be templated, not to design a new language.
+I feel like these explanatory comments belong in the code, not just the code review.
+I generally prefer not to be credited in source files.
+I got the idea for adding such a message from your change (only you had it even more verbose adding a message per approval that was copied). I can try to incorporate this into the patch set created message, but not sure if this is easily possible.
+I guess above versioning should be updated since API changed
+I guess I don't need to understand why one is better than the other :)
+I guess it can be interpreted that its just being pointed out that this is a dependency, not necessarily that its a new dependency. And its good to have this documented.
+I guess it's because hasRole only returns boolean, and the array key is needed as well..
+I guess jcuken is an alternate keyboard. How will we test it? Narayam does not support non-qwerty keyboards
+I guess the big question is whether it is sufficient to test the functionality by mocking out getaddrinfo() or if we need to actually make the call. If the former, I think it could go in UT. Lets see what others' say.
+I guess this change (New) will be handled in a separate patch...
+I guess this must be an unsigned integer because of the way we shift bits in the next file. However, in that case the width too is likely important, and I would suggest using gmx_uint32_t for clarity.
+I guess this specifies whether the file is an xvg file? Then I would suggest introducing an enumerated type instead, both because we might have more file types to test in the future, and because it's is much more explicit with FileType_Xvg than true as the last parameter in calls to this function. Alternatively, isn't it possible to decipher the filetype from the extension?
+I have added the modulo because if int is actually 64 bits then the snprintf would mangle the string for values >= 2^32. OTOH it is quite unlikely that we ever see such high numbers(?), but you are right it is not really a good solution. I'll push a version that will work with 64 bits ints and the refined error message. Thanks a lot for taking the time to write the review!
+I have been told in the past some compilers don't initialize all elements to 0 with 'foo[n]={0};' - I've never found such a compiler, so maybe it's an urban legend. :) memset() yup shoulda done that. Ironically I looked for a memset equivalent in glib, so I don't know why I didn't use it.
+I have reused some cmake code I had... It should be some left over from the copy-paste :/
+I have tested it with this change everything works as expected. I have nothing to say in addition to your words. Give me one day, I will try to figure out tomorrow
+I have tested this race using gdb (as result I commented below code), here we are just stopping new threads, we are not destroying rpc structure/any resource. There might be already running threads which may be try to request rpc/uds calls(submit and reply) after rpc and uds stop, in this scenario i was getting error from rpc layer. I dint see any seg fault. I will try to do some more tests in this race condition.
+I have the feeling that we should perhaps split the functionality here and use a separate enum for OpenCL which would indicate the forking point if a future OCL device needs different cluster size. Perhaps an overkill now, but it would not hurt.
+I just noticed this: please change god_mode to override_state as in this change: https://review.openstack.org/#/c/156203/8/nailgun/nailgun/test/integration/test_capacity_handler.py
+I just used take_snapshot of the patched upstream repo, but the commit message could be clearer about this.
+I keep finding myself wanting to click on the link that says "Click image to edit". Can we make that part of the link?
+I like this test case because it is more realistic than the expression above. But then, I'd prefer that we remove the other one.
+I mainly tried declaring all variables in the local-most scope.
+I meant the NodeName of the element (so that the path would become, e.g., ArrayId/Real[2]). Can be postponed for later.
+I now believe that all paths have already done a finishsweep by this point so removing this as you did is correct.
+I prefer the Alcatel-lucent.xylan (i will update the dicto after...)
+I prefer the increased type safety of enum classes.
+I put it here because i think it belongs to the Apache site more than other places
+I remember seeing error like "Lproc: Attempting to register osc more than once" when trying to mount lustre file system on server node. Looks like we have this logic to avoid re-creating osc proc entry in osp_mod_init but its counterpart is missing in osc_setup(). So if we have osp loaded before osc, we get the failure inserting osc module. The error now gets hidden with this patch because lprocfs_seq_register() only warns about it and creates duplicated entry in parent's subdir link. Then subsequent lookup only finds the newly created entry and it can cause random failures.
+I remember 'Url' was the suggested one but URL class itself was all upper case so I was in between. I'm changing it to fromUrl.
+I removed this in patch set 2 - my use case should be handled in the (abstract) controller
+I see you are calling the same $user->get('institutions') twice. It looks like this can be simplified to: $institutions = $user->get('institutions'); if ( !$USER->get('admin') ) { // for institution admins $admin_institutions = array_filter($institutions, "is_institute_admin");
+I see, so I'll leave it to go to /dev/null. But is it enough if our websocket proxy writes to syslog? About ">= 0.6": I monkeypatched the methods that are used by old websockify to use logger. (What I'm worried about is the fact I see duplicate lines in syslog - one line comes from "journal", the other one from "ovirt-websocket-proxy" and they are identical. I need to investigate this further.)
+I see. I can probably help you with that. I would like to assert that if HAVE_USBDEBUG is available the chipset and/or mainboard does the setup in bootblock to get things at least halfway working. That or so early in romstage it is before console. I think that is a good goal to have.
+I started replacing C0 with c[0] because I didn't see a significant advantage of having C0 available. But then I saw this and realized this AI naming is used in some other places. And it might be helpful to have the I..M index. I thought about creating an enum to define I to M (to use as a[I]) but of course I to M would be by itself bad names which conflict easily with other things. And I thought it would be nice to have C and A by consistent. So I also created CO..C2 not just AI..AM. I think consistency with the previous name is more important than consistency to the variable name. But it doesn't really matter to me.

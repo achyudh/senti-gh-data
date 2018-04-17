@@ -1,0 +1,94 @@
+Text
+This is pretty trivial just adds three asserts to TestPath#testNormalize.
+I doubt that Squid is so bad at it.
+It's not too bad once CacheConfig is in.
+Not too bad though since clearing out commitlog segments is easily done.
+ah - my bad.
+My bad had a typo in the subscription e-mail.
+My bad.
+Yep my bad.
+Pull it back in if you think different.
+Tabs are evil.
+I looked at our distributed pom.xml and they're pretty obscure.
+once per every bad disk).
+Hell UnaryFunction might even be faster than all of these calls in a row.
+This was very bad documented.
+Damn.
+Pull it back in if you think different.
+Ie both at are bad.
+durrrh that sucks.
+My bad.
+I'm an idiot.
+Splitting an existing sub-shard gets stuck up.
+This is bad.
+Oopps bad move !
+the recommendation in the wiki is bad.
+My bad.
+I'm starting to think of "DLL Hell."
+#NAME?
+Fix bad patch
+Logger on top of Log4J and its abstract base class for supporting other frameworks.
+My bad.
+Well either you query the database every damn time and your plugin/tool/code will be super slow.
+Damn it.
+Hudson seems to be stuck on this.
+My bad...
+which is silly -- bad package encapsulation).
+My bad.
+Oops had a bad comparator in the TestCLI config.
+My bad.
+The food is very bad.
+<gmcdonald> my bad
+My bad.
+My bad.
+Pull it back in if you think different.
+Aaarrggh how stupid of mine to have a System.out again!
+Hell UnaryFunction might even be faster than all of these calls in a row.
+I always get the same stupid error.
+Damn maven!
+I don't care if everything is pretty or not but we should at least support basic admin functionality in IE IMO (though I have not used it for years for just about anything).
+I've looked at what can be done within the NSIS framework we use to build the Windows installer.
+A feature with wrong functionality is as bad as if not worse than a bad performance.
+Doh!
+Doh.
+Sounds weird to me... Could you package a (totally!)
+Am I doing something stupid here?
+* Replaced TreeMap with an Array of final 'Segment' objects ** (now very slightly faster than trunk) * Rebased for trunk * Removed the patch renaming SSTableReaderTest to SegmentedFileTest I didn't remove the builder pattern because the alternative seems pretty ugly (copying the segments array for every append).
+HADOOP-2949: - If tarball is specified HOD no longer validates for the pkgs directory in gridservice-hdfs or mapred sections as these are not going to be used anyway.
+It must be lost somewhere.
+Too bad we can't use position:fixed in IE6.
+I think the correct resolution is to ensure that the prefix stack mechanism gets reset each time the XMLReader is used.
+This is always a really bad way to design software.
+It may suck but at least *I* won't be the one bringing in a dumb dependency to a logging library.
+How on earth is it buggy?
+I didn't do that because that seems bad in hive so I returned "null" from the operation.
+This sucks.
+Thanks Jeff!
+It is good to have the test.
+Thanks Owen!
+Thanks!
+Thanks Dhruba!
+Patch applied with thanks!
+Looks quite perfect after solving PDFBOX-490.
+Thanks Ashish!
+Many thanks Neeme.
+Thanks for the help BJ!
+thanks Tomas!
+Thanks!
+Applied patch with thanks to Scott.
+Enjoy!
+thanks to Ernst Fastl for adding this.
+Thanks for the patch Mubarak.
+Thanks Koji!
+Long Life MyFacesssssssssss!
+Looks good thanks Laura!
+Thanks Ashish!
+Thank you guys!
+Thanks Ashutosh and Gunther for your help!
+I really appreciate your comments and I really enjoy our discussions:)
+Awesome work: this is a great first cut!
+Thanks to Edward and Brock for the reviews.
+Looks good.
+Thank you Ivan!
+:D
+Thanks to both of you and to Deepesh for the initiative.

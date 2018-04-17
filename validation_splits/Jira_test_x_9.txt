@@ -1,0 +1,93 @@
+Text
+Thanks Areek patch looks good!
+Hi James This patch has been applied by chirino in the revision 576522 at Sep 17.
+This patch really helped.
+It will be great if you could confirm it either way first.
+Thanks Todd glad to be on board!
+Sweet I will review and apply.
+Thanks Amar!
+Thanks for sweet patch Erik.
+Owen thanks for the slides.
+I'm glad we were able to resolve this issue.
+Megan Glad to be of service : )
+Thanks Andi.
+Hi Daniel thanks in advance for your support.
+Thanks Hairong!
+Thank you very much for your effort David.
+Thanks in advance Jens
+Aha thanks for the information. That makes sense. Glad to hear that it helped! :)
+Thanks for looking into this Suresh.
+Thanks a lot for sharing that Josh!
+Thanks a lot Subin.
+Brilliant feedback thanks! I'm glad you found the issue and the solution!
+Sweet :) You got there before me
+bq. First of welcome :) Thank you.
+Thats sweet that you have the prior experience hacking this on top of a store already.
+Excellent work Doğacan - thank you.
+This looks simple and sweet to me.
+Sweet kickstart for our new wiki!
+Hello Thanks a lot! It works. Lisa
+Yes please - pull request away my friend!
+Sorry yes I believe this has been resolved.
+Sorry for the spam - but which test method - can't find any related to the SnapPuller on trunk.
+Sorry about that.
+Yes the patch is badly named - sorry!
+Sorry attached the file to the wrong issue.
+Sorry about that.
+I have a really bad habit of not reading thru all the bug comments before asking questions.
+Sorry I tought I could commit this patch but I did not realize that one of the files is in the framework (and I have not access to it).
+Sorry on holiday last week and just catching up.
+Thanks so much sorry that this isn't in the appropriate place.
+Sorry guys I've been pretty busy work but I have been watching this.
+Sorry for the confusion :)
+Sorry https://bugzilla.mozilla.org/show_bug.cgi?id=514760 is related but not same.
+SorryI haven't tried you patch.
+Sorry for the noise.
+I will try to do more research on it.
+Sorry I meant to have this patch in sooner but got quite busy I expect to have it soon.
+Oh sorry.
+I missed the context.
+For some reason I couldn't upload the straight patch.
+Sorry guys
+Oh signed shift!
+sorry :)
+Sorry - the federated build is still working out kinks...
+The problem is that it builds awt and that requires some dependencies.
+if someone wants to work on this please go ahead I still plan to just no time yet.
+Sorry.
+Sorry for the hassle.
+WOW....you are right...I'm deeply sorry to bother you guys (and I'm also a bit embarrassed).
+Sorry to nag.
+sorry should have been getDataModel not getDataTable.
+Sorry I'm wrong about #2.
+Brain fart.
+No unit test sorry (but there's not much deltaQuery coverage anyway).
+Sorry for that.
+Ah sorry I misunderstood you.
+Sorry for the noise.
+Aaron sorry about this.
+The guy on our team that was going to do this was swamped so I re-assigned this to you.
+Sorry missed this.
+Sorry for the noise.
+My patch wouldn't compile.
+Here is addendum to fix (Sorry about build breakage)
+Sorry you're right.
+Line 1664 (sorry the 0.94 codeline)
+Sorry - I just didn't read the issues carefull enough.
+Sorry about that fixed now.
+sorry about this.
+My error.
+Tried some more stuff and realized I was doing it wrong.
+Sorry.
+Sorry here's the test that reproduces the issue.
+Sorry if this spam's things however it's unlikely that I'll work on these.
+Sorry for the trouble.
+sorry old xml here is the used one: <?xml version="1.0" encoding="UTF-8"?> <root><value>?¤?¶?¼ und ??????
+Sorry [~kumarr] let's just do this in 0.96.
+Sorry for the super-slow uptake on this the new job is using up all of my limited brain resources.
+Well it's me that didn't get the whole point now i got more sorry for the noise.
+Sorry I was trying to get to the wiki but it's been a busy week.
+s/[~apurtell]/[~lhofhansl]/ Sorry guys.
+Sorry grabbed the wrong ticket.
+Sorry that I think I missed some discussion in the mailing list.
+Unless we switch to Antlr 3.0 ( and even though I'm not sure this would fix the problem) there is nothing we can do.

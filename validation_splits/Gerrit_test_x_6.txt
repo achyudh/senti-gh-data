@@ -1,0 +1,161 @@
+Text
+Patch Set 4: Although already merged, I don't think this is the right solution. Currently the behavior of the permissions system (TCEmain and thus also all other components) is to use "checkLanguageAccess" only if the TCA for the table has a "languageField". "pages" is not such a table, because there is "pages_language_overlay". So the current integrators solution to restrict a user not to be able to edit the "Original Language" is to remove the permissions for editing table "pages" and only allow "pages_language_overlay". See also http://forge.typo3.org/issues/27794 This is not what is being done in the patch, but instead you simply check for checkLanguageAccess. Similar problem we have in the "List view", as the context menu provides more options (i.e. for content elements) than really permitted. Permission check in TCEmain is more "aggressive" than in the GUI. Correct solution for this particular fix would be to check if user has "edit permissions" on the "pages" table - just like TCEmain also does. As this is confusing for integrators in general, I would rather propose that someone thinks about a better approach on "language restriction permissions on pages" in the first place before fixing the GUI. I am undecided still if we should revert this merge, but I am currently pretty sure we should not backport that to 4.5. Maybe in your research you find out different aspects than I did or you can prove me wrong as I have only touched the "surface" of the whole complex. Please let me know!
+Patch Set 5: Fails This already failed the unit tests once. Please do not submit any CLs until the unit tests are fixed.
+Patch Set 6: I would prefer that you didn't submit this I like it, but it fails: * A fatal is triggered if the _extensions table is empty (test: just truncate the table) * After update a refresh / reload should be done (or something), so the date is then current, or this should be handled by JS answer?
+PatchTable$MyTable.onClick(ClickEvent) line: 299 will also call movePointerTo(cell.getRowIndex()); sorry I try every corner and cannot find the difference after adding this line.
+Perhaps not so useful. If a user had a class that was no longer sent to other applications the Parcelable boiler plate code could be removed.
+Please add constant for TEST_OTHER_DC_ID, it is confusing you're using the TEST_NETWORK_ID.
+Please add the tab. Itâ€™s sad that the latest clean up patches for the Butterfly were not adapted.
+Please don't do that. We manipulate DateTimeUtils.setCurrentMillisProvider to achieve what you want. Check ChangeEditIT for example: [1], Methods annotated with @Before and @After. * [1] https://gerrit.googlesource.com/gerrit/+/master/gerrit-acceptance-tests/src/ test/java/com/google/gerrit/acceptance/edit/ChangeEditIT.java#116
+Please don't hijack other chipsets. i82801gx is ICH7, not NM10
+Please don't. See my comment in utils.py. Configure the logger with proper formatter instead.
+please explain what part of mdd_object_create() you need to reuse() (except mdo_create())
+Please look at https://wiki.eclipse.org/EGit/Contributor_Guide#Checking_for_JGit_API_Changes_using_API_Baseline I suggest you setup API checks. They give a lot of warnings here about missing @since tags etc.
+please make the comment style consistent (so here it would go behind *pDfltFrmFmt)
+please move command to system.py so this can be reduced to "cmd_node_init".
+Please note that according to http://www.w3schools.com, the values "table", "table-row", and "table-cell" are not supported in IE7 and earlier. IE8 requires a !DOCTYPE. http://www.w3schools.com/cssref/pr_class_display.asp
+Please note the comment on SC_GLOBSTR_STR_COUNT, which is the overall count of strings. So actually you need to insert and define STR_TABLE_COUNT to 533 and increment the value of SC_GLOBSTR_STR_COUNT to 534.
+Please place functions in <code></code> tags throughout.
+Please put code snippets into double back ticks in order to highlight them in the changelog (``computeChangeSets()``, ``persistAll()``, ``hasUnpersistedChanges()``)
+please remove "border" and blank line between class definition and comment and consequently reduce it to a single line
+Please remove the word Magic from this file too... - edit the file git commit --amend git gerrit-push Thanks
+Please remove this log, it's a part of the if below
+Please rename this to extcap-capture-filter or similar. The convention here is, that the extcap arguments exist together with non-extcap arguments in a binary. --capture and --fifo are the only exceptions, because they start the process and fifo is a generic argument.
+Please see here: http://review.coreboot.org/#/c/6192/11/src/northbridge/intel/i945/acpi.c dev = dev_find_device(0x8086, 0x27a0, 0); if (!dev) dev = dev_find_device(0x8086, 0x2770, 0); if (!dev) return current;
+please update this at https://gerrit.ovirt.org/#/c/39024
+Please use $GLOBALS['TBE_TEMPLATE'] here, so the code is more consistent
+Please use double quotes for EGL/egldefs.h and log/log.h. These headers are now local. Same comment for other files including them.
+Please use gboolean (here and for the return value and etc) since that appears to be how this is actually used.
+Please use import for java.util.Arrays, instead using explicitly here.
+Please use logs instead of System.out. You can add a log4j configuration to redirect to stdout if you want to see these printings.
+Please use one of the test helper methods which includes a timeout. Combining the takeResults() into this method does not seem like enough of a reason to add a new wait method. We need to be able to adjust the timeouts in auto testing, so minimizing the number of helper methods is rather important.
+Please use org.eclipse.emf.compare.internal.utils.ComparisonUtil.isDeleteOrUnsetDiff(candidate) instead to also get the intended behavior for multi-valued attributes and unsets.
+Please use uint64 or uint32 or uint16 if the size is known.
+Please use: pywikibot.Timestamp.now().isoformat()
+Please verify this is correct :-). This is as far I know the "most special" change I made, other then the OUString things.
+PointContainer * points = this->m_Mesh->GetPoints();
+Point-of-fact: it was the wait feature that you now find workable from Python... The '--nowait' argument disables that new feature, reverting back to prior behavior.
+possible way to remove this constant and use information from setup.cfg: import os # Read setup.cfg of OSProfiler open(os.path.join(os.path.dirname(os.path.dirname(__file__))), 'setup.cfg') as setup_file: setup_lines = setup_file.readlines() #Parse version for line in setup_lines: if line.startswith('version'): version = line.split()[-1]
+possibly add a commented out example of packet-foo.src
+Possibly replace this stat with find $logdir -type f in the "for" line(135). We will save a stat call.
+Prefer angle brackets for headers not provided by us.
+Prefer ordered includes, i.e. VTK headers, vtksys headers, STL/system headers.
+prefer to have variables as local as possible. This helps with long-term maintenance. for ( unsigned int i=0; .... { for ( unsigned int j=0; ... { } }
+preferably remove this empty line. you apparently have the wrong commit-msg hook. how and when precisely did you obtain it?
+presentation::AnimationEffect aEffect = presentation::AnimationEffect_NONE;
+Probably "Selection count" (note lowercase 'c') is better. This is the string displayed in the status bar.
+Probably want to make this if (this->InputTimeValues.size()<=1 && this->DisableResetCache == 0)
+Problem is the floating image in license stops the bottom margin working. I've added in a cb div and added some margin top to the feedback box
+project_id is none by default here and in _delete_tokens_for_user. Is the same if project_id is not provided.
+provide any output provided by a successful command.
+put a comment before this test, explaining what it's trying to test?
+Put a comment, and explain two different use cases: * 1. Existing edit is deleted: DELETE /changes/<id>/edit * 2. Path in non existing edit is deleted, IOW new edit is created by deleting a path in current patch set for a change: DELETE /changes/<id>/edit/path%2fto%2ffile
+Put all of this into a static helper method that returns a Map<String,String> already configured for the Sun JNDI names used below. Then we only need a map for connection pooling as an instance member.
+Put this into a DEPS variable and reuse the value above in gwt_module() too?
+quotad count already there. please remove this from your code.
+Read my comment regarding this in previous patch sets
+redundant, CUSTOMCONTEXT_HYBRISTEXTURE is defined for sure here
+refs/users/ is sufficient prefix. No need for refs/meta. We should be plural like changes heads and tags.
+Release after main inode is what patchset 2 has done I think.
+Remove strerror(errno) part of this log, as gf_msg will do it when errno is passed
+Removed the !commentPopupDialog.getEditable() check
+Removed 'to' as the assertion is there for mostly documentation purposes.
+Removing onboard devices instead of setting them to off can break the chipset configuration. This is the entire reason for this stuff to be in a devicetree.cb and to make the static.c to point to the correct setup functions. These devices are always on the board and the chip configuration will enable and disable (and hide) them based on the platform configuration and the device tree. Without this, everything would be a normal pci device enumeration and coreboot would be much much simpler... I also agree with Martin that, as a reference design, it is important to show the configuration as clearly as possible.
+Rename objectCollapsibleButton to objectCollapsibleBox or objectCollapsibleGroupBox ?
+rename to: initPropertyProviders? (and also in recompile_lib.)
+renamed to __initPropertyProviders in this scope to indicate that we consider it private in this scope otherwise initPropertyProviders
+Replace with a constant or use String.format("$0 $2",icon.getLocaion(),e.getLocalizedMessage())
+Reuse the ChangeControl instance instead of loading the change again.
+Right, changing an SwField, which is part of the document model during export is bad. An export operation should just read the document model and serialize it in some format. Can't you set m_bCitation depending on what the field type is? Just put a breakpoint on the SwField constructor, get a backtrace and see where it's created -- hopefully the caller knows the field type.
+Right. Then why do you have the method_exists() check? It looked like you meant to check if a method exists before calling it but then never called the method. Just type hint $article as a WikiPage to make this clearer and get rid of that check. last_edit_title definitely needs a rename.
+Run KWStyle in this file. Fix bracket indentations.
+s / GD_MSG_VOLINFO_SET_FAIL /GD_MSG_VOLINFO_STORE_FAIL
+s/data/key/ This variable name (in docs) is more important than conflicting with internal variable names. "data" isn't much more descriptive than "variable", "thing" or "stuff".
+s/exit/continue/ Exiting the loop doesn't do a final update of v. The write to conflict with this read must happen during the setup for a subsequent iteration. This one does bother me. To be clear, what's going on is: v = a[0] go func() { x = v }() v = a[1] go func() { y = v }() There is no race involving the second goroutine, since its read is guaranteed to happen after the write of v = a[1]. The race is between the x = v and the v = a[1]. I don't understand why the race detector does not detect that misordering 100% of the time. I filed #10589 about this. At least this fixes the build so that we can detect future breakages while Dmitriy thinks about this one.
+s/importsSet/pkgSet/ should explain that this set is only needed so we can create an duplicate free pkgList
+s/logical// (logical as opposed to what? it's all logical in software... - leave away) how about: Loading is controlled by this dependency graph.
+s/should the callee read/should the callee expect me to read/, I mean.
+s/start/e/ would be consistent with the methods above.
+s/Test/test/ keep all lowercase (or make it a real sentence and end in period).
+s/the own/its own s/the a/the s/hello world/helloworld
+s/the// â€¦ rebase the FSP with Intelâ€™s tool BCT.
+s/VURTI/Host Monitoring It is about to change soon.
+same as above, aStr += m_sFormula.copy(nFml, nStt-nFml)
+Same caveat here about indexOf() and Search() results.
+Same comment as above for shift := 0; shift < 8; shift += nibBitsWidth
+same comment as above: use wmem_map_new() with file scope memory
+Same here, toQt or just toVariant as it is taking a Json::Value.
+Same here. Please, use empty lines instead of the ugly separators in this file. It is too compact and hard to read after your change.
+Same question on side-effects as on the previous file
+Same question: Do you want me to declare the RevTree variables before?
+Same remark here. Please write here why this routine does it.
+Same WERROR_COMMON_FLAGS note, guard by if(WERROR_COMMON_FLAGS)?
+Say what the commit does (add release notes, apply CSS only to content, formatting fix). If you want to put an ID, put it in the body (and using the git SHA of the previously merged commit is better so it works on both GitHub etc. and Gerrit).
+See other comment about OUString together with ScResId. Just as short explanation: The current code creates a SchResId object which has an operator OUString which is called here. Then the OUString copy c'tor is called to generate a copy from the returned OUString.
+Seems like we can make use of the dependent option gear in cmake/gmxOptionUtilities.cmake, so that the default is ON for real windows and off otherwise?
+self._guestEventTime mast be set to time() on vm domDependent or else we would never report POWERING_UP.
+self.SECURITY_GROUPS/self.SECURITY_GROUP_IDS self.NETWORK_INTERFACES
+Separate patch and please use a tab for consistency. A separate patch could unify that too I guess.
+ServiceImpl? (To match the interface.) Or else rename all of them: DashboardServiceImpl, DashboardService, DashboardServiceAsync
+session_args_t structure is in packet scope. Is this normal to allocate in file scope? And no need to set it to 0, you are assigning it the line below.
+setPageTitle() takes a Message, so no need to change anything here.
+Shift + left click or drag to extend T1 of a current range always changes T1 to T2 (and T2 to T1)
+should another patchset be pushed, please change the leading blanks to tabs
+Should be $table = new XMLDBTable('usr_watchlist_artefact'), right?
+should be a local typedef in the single function that uses it
+should be addAll with casting to List, no? please verify.
+Should be renamed together with the class it tests.
+Should be tied to the wiki it was started from, like the other global actions, in my opinion.
+Should each sensor have it's own filterable field? I think that's what I was trying to determine (and came up with "yes"). I believe some are "common" (and share evtype_rvals), but I thought others have difference enumerations. Don't necessarily want to share a field name just because the enumeration is shared.
+Should GenerateInputRequestedRegion be virtual in all classes? Perhaps there is not global rule. [johnsonhj@HansMBAir (git: master) ITK]$ git grep "^ *void GenerateInputRequestedRegion"|wc -l 95 [johnsonhj@HansMBAir (git: master) ITK]$ git grep "^ *virtual *void GenerateInputRequestedRegion"|wc -l 83
+Should have caught this earlier, ret would be reset to 0 here on succesful cleanup of source, but actual migration may want to signal a failure with ret as -1, so we would need to use a different variable or reset ret to its original.
+Should I fix this? or change it to a non-javadoc comment?
+should probably also mention the the optimizer scale estmation was pushed into the parent class
+Should probably say "... we are not clicking on the menu button"
+Should the output of this filter always be Real? This cast seems like is should be done outside this filter. If it's required it may be able to be done in-place for some situations.
+should the version be changed now that some methods are not available?
+Should this be all of the groups and not just controllers?
+Should this call Free(), or just remove Free() and put that code in here?
+Should this include also the LJ PME contribution, either summed our as a separate line? I know that this functionality may change in the future, but for now would be better to keep up-to-date.
+Should this just be func Run() { etc } and have callers explicitly call Register beforehand?
+should this patch only be added if $(SYSTEM_MYSQL) is NO ?
+should we mention the full classname here? TYPO3\Flow\Persistence\Doctrine\Service
+Should we set "io->ci_ignore_layout = 1" under such case? then subsequent layout processing can be ignored.
+Shouldn't be here (or anywhere, see my comment below re select).
+shouldn't it free the allocated memory here and return null if mkstemp() fails?
+shouldn't that be exp(-beta_i u_i) / sum_k exp(beta_k u_k)
+shouldn't this function be called: rewrite_blockinstance_config note the 'c' in blockinstance so this would need the misisng 'c' and the calls to it
+similar to previous diff; this is just moving the crop state from an SWT Button state to a flag in the wizard state object
+Since all TNG constants in the header are prefixed with TNG I think it could be nice to just call this variable API_VERSION and then use TNG_API_VERSION in tng_io.cpp and switch the names in version.h.in.
+Since BE was IE10 (as of the member var above) I think changing the member to edge is not a problem, but I would keep the IE8 default here, which does not hurt us, and will also not hurt third party stuff then.
+Since the array is actually only used in one case, I'm not sure that makes sense. Added a comment instead.
+since the spec says that the same format should be used for both critical options and extensions, I named the structures: optionsTuple, optionsTupleValue, and optionsTupleEmptyValue (I believe I needed the latter to marshal extensions with empty values where there is no double length prefix) - starting at Line 89 of certs.go. I used them in the marshalTuples and parseTuples. Regarding unmarshaling - please take a look at the current version, I wanted to use the same function for critical options and extensions, and to handle properly empty and non-empty values I believe some "low-level" handling is needed. I used an instance of optionsTupleValue structure to pass to Unmarshal (Line 186).
+Since there is a Gerrit issue [1] for this bug, can you please add a reference to this bug as footer? Bug: issue 871 [1] http://code.google.com/p/gerrit/issues/detail?id=871
+Since this script will go in ITK's tree and not the hooks, it should be licensed as the rest of ITK (which will soon be Apache but is not yet AFAIK). Besides, the rest of the Apache license infrastructure (LICENSE and NOTICE) is not present yet. Also, we should assign the copyright to the Insight Software Consortium for code going in ITK proper.
+Since you are rewriting the entire file anyway, please try to put callers before callees, in general, so that reading the file top to bottom you usually know what a function is for when you see it. So: gen casebody caseClauses genCases
+sizeof("") includes the trailing '\0'. Couple more of this
+Smart pointers are initialized to NULL already in there constructor.
+So does this method import to both the in memory cache and the disk cache? If so, that would be the source of some performance hits. This method should: 1. Add the image to the in memory cache synchronously 2. Add the image to the disk cache asynchronously If it doesn't do this currently, lets split the logic up now.
+So in the end, you don't even need the AGESA struct. You might think that casting to a struct makes the code more readable, but in this case, it also hides nasty bugs.
+So it should be also fixed in QCryptographicHash documentation
+So much repetition :( Can you pull this out as some kind of utility function setup_loopback_mode? Perhaps create an MBIMTestCase subclass call MBIMDataTestCase
+So that means to also change comparisons with STRING_NOTFOUND (which is defined to 0xFFFF), lastIndexOf() returns -1 if not found, so the condition here can be simplified to if (nPos > 0)
+So this is a kind of helper method? I'd suggest then making it "private": def _benchmark(self, flavor, ...):
+Sorry but I didn't get why we need 199 here - to trigger some update to 200 afterwards? What if we just fix the update for afterwards then?!?
+Sorry, this is still unacceptable. ImplEESdrWriter::ImplWriteShape() is used by both the binary export and the OOXML filter, you need to set the OOXML flag in the OOXML filter. Jut put a breakpoint on this line in the debugger, see its backtrace, and set the flag in the first method that is already OOXML-specific, and pass the bool around till this line.
+Stefan, I'm just mostly replicating the what is done when including CSS styled content's TS using the include static select. To me your questions show you did not look at the issue. Can we please get this through? Apart from the above, no there is not a filename, and yes there needs to be a slash.
+Still I don't agree on treating the operation differently depending on whether the editor is modified or not. In my opinion this should not affect the behavior. What if, for example, there's only one change in the document, the user adds/remove BOM, but then triggers undo (which would bring the editor to not modified state again)? What would one expect?
+strange parameter name ... I suppose it was late when you added it ;-)
+Suppose I am an administrator, I will look into the log file to find what is happening in VDSM. You can not suppose administrator to check the console or the code to know this. IMO, every faulty path should have a log in the log file. You can argue that many places in VDSM are not doing these, but it is a good practice for system service program.
+tdf#... is unnecessary. Rather document why this is done, if necessary.
+Thanks for fixing it. > What if the author disagrees with your negative vote and writes a reply to your comment explaining why he disagrees? If this change is filtered out there is a high chance to you miss this reply. But with this argumentation it is even more dangerous for me how it was originally: -label:Code-Review=-2,user=self Why? I am maintainer and have power of -2. I review a change and decide to put my veto on it. But we all do mistakes, we all have feelings? In the end we are all people. What is if it was a wrong veto? The contributor try to explain me, in additional comments why he thinks the veto was wrong and that the impact of the change is *very* minimal and that thousands of people from hundreds of companies can't upgrade to the new version of the product and all that because of his veto. Nothing helps. Why? Because I used your dashboard template, put this line and this change was filtered out: -label:Code-Review=-2,user=self
+That could be changed, I imagine, but Jenkins will probably add "helpful" spacing too... :-( If there was a way to have Jenkins keep a per-build archive, then we could have it make available the corrected files?
+That instead should be const sal_Unicode* pParseEnd; because rtl::math::stringToDouble() expects sal_Unicode const ** pParsedEnd at that place. Code probably shouldn't even compile like it is.
+That just doesn't seem right, ones created by a call to generate_key are trivially generated and not imported. If we're at the point where this code is lying to you then the app can't trust the ORIGIN tag regardless.
+That this was removed is clearly wrong, and seems to be the cause for the test which hang. It doesn't always hang but sometimes. For more details: http://redmine.gromacs.org/boards/6/topics/261?r=266
+That will unfortunately only work if there are no 4-core Intel Xeons that work in dual-socket configuration because we could confuse a workstation that has two such processors with an 8-core Xeon E5 in single-socket configuration.
+That's not what I was saying. Just like public static float getMdpiScaleFactor(Density density) { if (density == Density.ANYDPI) { density = Density.XXHIGH.getDpiValue(); } return density.getDpiValue() / (float) Density.MEDIUM.getDpiValue(); } But whatever, it's not a big deal.
+The CherryPick RESTApi acts on revisions (e.g. patchsets), not Changes. Just like the review RestApi does. Hence I don't think that it should go into ChangeApi. Look at the REST-url, and you will see it differs quite from the other RESTFul commands in ChangeApi. If you still want me to add it to ChangeApi, I can do that. But this is how I reasoned about where to put it.
+the comment is a lie ;). it has almost entirely bit rotted at this point. i'll push an update upstream. we def support executing `emake` via other tools as we use it that way in other places. wrt PATH, unless dbus itself resets the PATH, it should inherit the active one which will include that. i don't consider this a leakage.
+The if condition will be true when isDetailsRequired() == true and volumeName is empty. Will it work? Do you need to add a validation against this scenario?
+The indentation on these lines seems to be wrong (same for Backend call below).

@@ -1,0 +1,282 @@
+Text
+If you are concerned about code re-ordering you are either creating some funky and hard to understand and maintain code, or else you probably don't need to worry about it. Can you explain why you think the code snippet you supplied will be reordered?
+Since you're testing legacy code I'm assuming you can't refactor said code to have less dependencies (e.g. by using the ) That leaves you with little options I'm afraid. Every header that was included for a type or function will need a mock object for that type or function for everything to compile, there's little you can do...
+Herbert's answer is a suggested way of marginally automating the browser to check the boxes and click the delete button. If one was to setup a browser automation project with Selenium or such, then this would be a legitmate but painfully slow solution to delete all entities via the admin screen as it only deletes at most 20 entities at a time.
+I hate to say it, but constant polling over HTTP is the poor mans solution.
+I don't want to do anything fancy on Twitter except post to it via my site once a day. I have searched around a bit and there are all sorts of super-complex ways to do every little thing that Twitter does, but there seems to be little documentation on how to do the simplest thing, which is make a post! Does anyone know how to do this? Or can you at least point me in the right direction? I don't need full wrappers or anything (), just one simple function that will post to Twitter. Thanks!
+I'm apologize for saying this, but the code you've posted is simply awful and needs desperate refactoring. Create a class to represent 7 properties instead of 7 parallel arraylists, and use String.split to parse a comma-seperated list.
+Is there any way to have a statement across multiple lines without the underscore character? It is really annoying in multi-line strings such as SQL statements, and especially LINQ queries. Beside from the ugliness and difficulty when changing a line (nothing lines up anymore) you can't use comments in the middle of the multi-line statement. Examples of my daily personal hell.
+unfortunatly most browsers think window.close() is malicious and don't allow it to close itself without at least prompting the user :(
+such a strong argument without any "reference", is completely useless because just opinionated.
+I am about to alter the several tables in a massive system which I probably only understand around 10%. I want to add three columns. One of these is just a rename of an existing column. Part of me wants to :- Rename the column but worried about the impact on unknown parts of the system that use the old name. Append the three columns to the table therefore making the old column redundant (over time).
+That's what I was thinking, but I am afraid it will bring confusion to the structure. I will need to add "Set children" field to parent class which should not be used anywhere in the code, only for hibernate cascade deletion. Do you think it is ok?
+Can somebody point me to a resource that explains how to go about having 2+ IIS web server clustered (or Webfarm not sure what its called) ? All I need is something basic, an overview how and where to start. Can't seem to find anything...
+Eruby is an external executable, while erb is a library within Ruby. You would use the former if you wanted independent processing of your template files (e.g. quick-and-dirty PHP replacement), and the latter if you needed to process them within the context of some other Ruby script. It is more common to use ERB simply because it is more flexible, but I'll admit that I have been guilty of dabbling in eruby to execute files for quick little utility websites.
+So for my text parsing in C# , I got directed at YAML. I'm hitting a wall with this library I was recommended, so this is a quickie. And so on. Is that valid?
+iâll try this. string needs to be iterable. and while we are at it: how come java is so damn awful? no sane person would specify `remove` in an interface, just to add `throws UnsupportedOperationException - if the remove operation is not supported by this Iterator`.
+My guess would be from a colleague who wanted to scare this person out of ever using 'this' again. It can be fairly annoying when someone uses 'this' for every single thing they do. Not that it justifies lying to a new programmer, but I can imagine someone doing this out of frustration.
+Whatever you do, make sure that you don't use Apache's DBCP. It's a horrible implementation that will actually cause performance problems, not fix them.
+@Andy: Give him the Useless Use Of Cat award!
+That's depressing :/ Are you sure I can't get a collection of all controls on the page with a particular class and give them a single data source?
+I have a table that is referenced by a ton of other tables via foreign keys. I am trying to delete a Document record, and according to my execution plan, SQL Server is doing a clustered index scan on every one of the referencing tables. This is very painful. I thought having a FK automatically made an index on the FK fields? Or am I wrong? Do I really have to go around my database putting an explicit index on every single FK field?
+The current solution i implemented is awful! I use a for inserting records from an ADO.NET data-table into an SQL table. I would like to insert at once the data-table into the SQL table, without iterating... Is that possible, or am i asking too much?
+If double logins presented, it skipped it... looks so terrible))
+Don't have access to any other versions here I'm afraid :(
+To be honest I don't even know where to start. I guess the solution might entail using a zillion IIf statements. I'm fairly new to this I'm afraid!
+whenever i drag-n-drop a stored procedure onto my Context canvas, the parameters/arguments for the stored procedure are all nullable. Why is this? Is it because of how i've declared my parameters inside the stored procudure itself? Besides manually creating my stored procedure methods in the Context partial class (or drag-n-drop onto canvas, cut from autogen'd code, move to partial class, then remove nullables types) .. is there any way to fix this? It's really frustrating :(
+Nope - gave up and went for a completely non-Ruby solution.
+It's HORRIBLE! No, seriously, I don't like it.
+worried about IE compatibility!!
+The problem is that you never run the method, so the field stays at zero. It's a really terrible idea to give a field and a method the same name.
+Arrrghhh, how I hate those people who downvote answers without leaving a comment as for why the downvote...
+Dude, you scare me! At least make an effort in PROVIDING CODE!
+When I refactor the following line: using Resharper's "Use Object Initializer", I get the following: I really hate this type of formatting because with longer object names and variables it just gets out of control. How can I get Resharper to do the following?
+james, the stack trace under that is just my function name. Nothing more. very frustrating :(
+I should add that the element thing throws an error when it can't find something. Do you normally use try/except for all find_element commands? * oh so very sad * :(
+looks like you have changed your needs. that's disgusting
+This is a professional project in academia and I need to use Java for it - bc of my own limitations I'm afraid!
+So, the following hack seems to work, but it's really incredibly ugly IMO, as it relies on you controlling the line-height and using absolute positioning. Worse, it requires you to know how many lines there are in your text, which depends on the width of the div and the font-size, and probably requires JS to compute.Anyway, after all the above disclaimers, here's the hack: Use two divs with the same text, one on top of the other. One justified, one centered. Then clip the justified one.HTML CSS Fiddle.Of course, the above code is hard-coded for the specific width. Again, you'll probably need JS in order to compute the number of lines in the div. I'm pretty sure that until this gets implemented in Webkit you probably won't find an elegant solution for your problem.
+I was afraid of that!
+Sorry, I wasn't clear. You would need to add that as a BOOL property on your class. It originally sounded as if you had a single place that handled the notifications and displayed the errors.
+I use the gem for transparent usage of Memcached. Using the supplied config file it is enabled on all modes (development, test, production). Is there a way to only activate cache-money in production mode? It's not immediately clear how to do this, and it's a total pain dealing with caching in development mode.
+I'm having trouble setting the default character set of my JVM . (and was a bit afraid of messing it up!)
+Its Ajax, I dunno anything about it. And looking at the link which you have given seems very scary to understand and implement.
+I'm sorry, was hasty and overlooked the angular JS part. I cant help you with that, good luck finding a solution !
+Apparently, the Gmail app do not let me download the attachment... this is really unfortunate :( Gmail works with !!!
+Most of the times when Iphone program crash, compiler show stack with full of no's, but these no's don't make any sense to me. Very rarely it point out where the problem might be and mostly there are these useless no's. How you can make sure that when your program crashes while development/testing, it shows at what place this cause this crash?
+Ok this is really annoying, can't find a solution that works !
+We are working in real estate project, there we have image and video uploads in many places. We are started with in few places, But now we found an issue that it does not work if the flash player not installed in the browser. Its working only after installed the flash player in browser. This is really worrying. We should not force user to install flash player to upload images/video. How to handle this issue?
+Well, I hate using SO as just a syntax checker, but for the life of me I cannot figure out why I get thi error Here is the offending code: I'm using the SimpleForm gem, and am not too familiar with it yet (obviously!) tia, --rick
+I am having trouble with adding text to the RichTextBox with tabs in it. I have code similar to this: And when I do this I can see tabs in paragraphs that start with '\t' but if I actually delete the tab then press the Tab key, the indentation is wrong. In fact it's about half the size exactly. Also if I tab in the middle of a line the tabbing is different. Also when I pull the Text out of the TextRange lines that start with tabs appear to not generate '\t's generated by pressing the Tab key. This is incredibly frustrating. Does anyone have advice or ideas how to work with this?
+yes another reason to hate IE!
+`cat $(find $FOLDER -name "*.txt")` that's terrible!
+That spammer was horrible!
+That's very sad and the issue was opened a year ago...
+More of a caution than a fix. Ensure you are not an administrator of your page as being one fires both visible-to-connection and the else. Very annoying!
+I have this strange problem on my web page where if you click below the left side-panel, all the links get highlighted. It happens in firefox, not IE. I don't know why its only the side-panel that it happens to. Its not really a big deal but its extremely annoying to me, is there any way to stop it? If you want to check it out, the site is
+I HATE SKYPE!!!
+Unfortunately the SMBIOS UUID is not unique on all systems. It should be but it isn't. This is not because of a failure in the specification of the SMBIOS UUID, but is due to the fact that many manufacturers don't follow the spec when creating this UUID. For more information about how this goes wrong in practice see this Intel blog and the following instructive tale has some really awful examples from the real world: . By the way there is another more informative topic on stackoverflow about creating machine unique id's at
+I really hate that object...
+In Bash, you use parameter expansion: In your case, say . No need to go overboard and cry for regexes at the slightest provocation -- Bash has plenty of power!
+Its really sad :( to hear "We cann't fix Footer or Header view".. it always get scroll with rows.
+I am trying to figure out why foundation is acting differently to expected behaviour. If you look at the Kitchen Sink page for foundation, the default styles for secondary buttons hover affect is different to what I get if I set foundation up in rails. Note these images are from my rails application Image 1 - look at the '.tiny.secondary' button - no hover Image 2 - look at the '.tiny.secondary' button - with hover However on the page for foundation the color does not transition to the primary colour of the site. It transitions to a darker shade of grey. Have I missed some setting? Really frustrating me! I am guessing this is a bug in foundation
+very sad, for erlang programmers :(
+strange error. One of which i cannot find any existing resources to solve the issue. The issue is, when using I get pointed to a folder at "C:\Program Files (x86)\Common Files\Microsoft Shared\DevServer\10.0". Naturally, this breaks everything which depends on the correct folder (the one my solution is actually in) being given. What is more strange is that there exists a unit-test to make sure that this path at least has the correct root folder and sometimes it will pass and will be working as expected, and then the very next debug, will point to the aforementioned folder again. Very confusing and very annoying ! Any ideas ?
+On Win with MSVC there's but it's really horrible and you don't want to use it if you can possibly avoid it. Better to say that there are no exceptions.
+Holy thread abuse, Batman!
+As Alexander said, you are comparing a string and a char. The sad thing is that the compiler already told you that, only it encrypted it in ISO-STL-TEMPLATE encryption, which is more difficult to read that perl! You may want to look at for decrypting C++ STL error messages.
+How do I change the position of the sort button in header of the grid in Tapestry 5? I have column names of different lengths and I break lines on spaces, so the button, which is appended to the end of the column names, always ends up in different height. And that is very ugly :(
+In addition to firebug (which should be your first port of call), the will also tell you where a given style is sourced from, just in case IE - shock, horror - should be different.
+So only workaround which works for me is to add this js to template of my site..But its really awful solution, since I only need it in one article/module
+I really hate this option. I am looking at managing this by GPO in my org.
+So, I'm trying to make a 3D grapher for a class. Right now I'm working on understanding OpenGL and I'm failing horribly. I want to move the camera, but I can't at all, whatsoever. Why doesn't this work?
+Afraid not! If I do so then it explicitly looks for quotes within the data, which it doesn't have.
+For SQL Server 2005, I ALWAYS had to install the full product first, then Express second. If I did it the other way around, the full SQL install would see Express installed already, and would not continue with the install. It was extremely annoying. Not sure if they fixed this with 2008.
+I also fail to get webgl to work on mac osx. Really frustrating! osx 10.9 mac book pro
+I want to bulkload my cassandra data from node A to node B. when I set the 'listen_address' of each cassandra.yaml file to localhost, they do not show error on console but the data is never transmitted. when I set each node's listen address to their own local network[eth1 ipv4]address (192.168....), I get the following error. I can read from this error log that the application is trying to access to port 1..4 and I do not have no idea what on earth is going on. each node is on the virtual machine on the Virtual Box Hypervisor. Both OS is centOS. Here is my cassandra.yaml (the cassandra.yaml of target file is also configured the same way) thrift_max_message_length_in_mb: 16 Can anybody give me advice? I am really suffering as hell.
+Is there any way to quickly jump to a scene in a storyboard? I have about 30 different scenes/view controllers and it has become incredibly tedious to locate the view controller I'm trying to edit.
+So to do this I would keep a list of axes and when I delete the contents of one I would swap it out with a full one. I think the example below solved the problem (or at least gives an idea of how to solve it): The extremely ugly for loop construct is really just a placeholder to give an example of how the axes can be swapped.
+Ended up being a bad dependency. I had to add it manually to get it all working. Terrible!
+there is no IDE work on my computer just devc++ and turboc and the two is too bad i want vc++ express or netBean c++ but nothing work ! i don't know why but i hate this situation it's too bad !:(
+You could implement it using `goto`'s (the horror!)
+This is one thing that I really hate within development is forms. Below is my code and what I am trying to do is align the inputs with the labels . Is there a rule that you use to help remember when coding forms? CSS: HTML:
+We are running Jenkins on a server that does not have internet access (even through proxy). Installing and keeping the Jenkins installation up-to-date is a pain! My idea was to make a local mirror of the complete Jenkins public update-site through a Windows workstation that has internet access. And then make this local mirror available to Jenkins through NFS share. So my questions: How to make the local mirror? Do you have a better/simpler idea to keep the Jenkins installation up-to-date?
+this api stinks, it is terribly designed and has lots of bugs!
+I created public and private key with cygwins ssh and pasted the public key into bitbucket account. says the ssh connection works fine! (so it should work!!!) Then I post into mercurial.ini in TortoiseHg And I post Into the hgrc file. But then when I want to push TortoiseHg says to me: Seems to me something is missing here but what exactly? Edit: I don't want to used TortoisePlink because it is SUPER SUPER SUPER SLOW! And https just cancels the connection after uploading several megabytes.
+Oh, how I hate iframes!!!
+Extremely lousy solution.
+that made me cry :'(
+The really sad thing is I could do this in about 5 lines of Ada code...
+There's always the poor man's alternative of just loading a bajillion individual frames as .gif/jpg/png and having javascript display them in sequence. It would be absolutely horrible for bandwidth and memory usage, and of course no audio, but it would (somewhat) simulate video being played. Of course, on Windows platforms, you could use ActiveX and/or embed media player and play avi/wmv files as well, without ever touching flash.
+@delnan I was worried about !! and -, not function application.
+No, they've stopped working again and gone back to the 403 forbidden message. Incredibly annoying.
+Has anyone found a way to change the icon displayed in the Office Button in A2007? Having converted an MS Access 2003 app to 2007, it's very annoying that my app is now displayed as an MS Office app instead!
+The problem is identical using pyinstaller - this is very frustrating!
+An example: Extremely frustrating!
+Ok, here's one way of doing this, but it's terrible! I'm still looking for an easier way:
+I really hate thinking that code can tell me how to think instead of me telling it what to do ... anyway ... here is an example for loading the controller rendering the page, and it can load any controller inside the helper. EDIT: just realiced this is such an old post :( ... this is working in cakephp 2.2.3
+I'll bet you that your main's function signature is incorrect. You use: but SDL_main.h wants Aside: You see, SDL does something really horrific when compiling: It renames your function to , injecting its own main function which, in turn, calls yours. Note that if this doesn't work, then you may be compiling with wrong flags. To be sure, take the flags by running: For more information, see
+Well, you could play around a bit... What about a function that rewrites itself? Warning: This is extremely ugly and should not be used in production code!
+thatÂ´s really sad :(
+Im getting really depressed over this so I could really use some assistance. I created a new project in visual studio. I first created a new header file, called "MyString,h" and placed it in the header folder. It contains a class called String. you can see the code I used for it at the end of this I also now have a MyStringTest.cpp file in the source files folder. It has the following code in it. Expected: Compiles and runs a console program which will output "llo" Reality: Error: 'Identifier 'String' is undefined Here is some of my code in the header file...i really cant fit all of it. ....
+Right ... if only I was using SQL server.. Informix unfortunately :( :( :(
+It would have to be a WinForm dialog, I'm afraid :-(
+I'm having an extremely frustrating error trying to code a simple encryption program on Python 2.7. Basically its rejecting on if/else statement by saying my syntax is invalid, and I have no idea what I did wrong. The : in the if input =="1": statement is what Python highlights as incorrect.
+I'm in the UK, a long way from Beijing i'm afraid!
+Regexes are fraught. A regex that splits parameters on commas will get awfully confused if one of the parameters is `\"Hello, world!\"`.
+The other day I noticed that if I run IEInspector's HttpAnalyser and capture the post data when logging into my bank account or amazon account the post data shows my user name and password in the clear. This is a little concerning. Does anyone know at what point the SSL encryption takes place? This I assume would mean that any software that is installed on your machine could potentially get access to this post data. Very scary.
+I am trying to change a bit-map's pixel color if it's white. I wrote following code. But it's awfully slow!. i want to check if a pixel's color is white or not, and if it is white, change the color to black. Can anybody suggest a better approach?
+it is being deprecated because it is old and unsafe. switch now or feel the pain later!
+This is probably caused because you have set to (Which is absolutely terrible). (See ) You should disable register globals so that the SESSION/POST/GET/REQUEST/COOKIE variables do not interfere.
+Anyone??? I'm starting to hate VS for that reason!
+Getting the ssrs add-in to install properly was a complete pain. I think it had to do with the fact that we did development on the server prior to installing the ssrs add-in. I ended up un-joining the farm, re-joining it, then installing the component. That got it to work. Then I just had to re-deploy solutions, re-activate features and re-configure my web.config.
+I'm very sad now :(
+does a similar thing (and yes, i find the 'pc' moniker for windows machines very disgusting)
+That `#define n 10` is scary :( Are you sure you don't intend on using that letter anywhere else?
+That's a really terrible way to read in all your files. Try this: This will return a list of data frames, each of which is the contents of the corresponding file. Or, if there are other csv files that you don't want to read in, you can restrict the specification: And to combine everything into one big data frame:
+I am not familiar with Python scripting. I am simply trying to create a small GUI that will allow me to alter a parameter in an ArcGIS Model using the Tkinter Scale and then run the model by clicking a TKinter Button. (The code below is not finished and is being used for testing purposes, hence the button does not actually call a different script yet). I get this TypeError in the Traceback: I have tried deleting many different things from my code to determine what these arguments might be but to no avail. It is incredibly frustrating as I am sure it is the most simple problem. My code is as follows:
+Off topic, but I really really hate the 5 ` `s in a row. That's abuse!
+old question, but if anyone finds this through google (as I did) and who does not want to use anchors or jquery; there's a builtin javascriptfunction to 'jump' to an element; and what's even better; according to the great compatibility-tables on quirksmode, this is !
+You shouldn't worry about regular expression optimization. The call to os.system('uptime') you seem to use takes about 1000 times longer than the call to re.findall. http://hans.gerwitz.com/2004/08/12/premature-optimization-is-the-root-of-all-evil.html
+Don't forget this excellent devnet article meant for transitioning from AS2 to AS3:
++1 This is the most accurate answer - ASP.NET and .NET 4.0 are supported in 2008 R2 SP1. It's not painless but all the necessary parts are in the links above. There is an excellent installation guide at http://technet.microsoft.com/en-us/library/cc753802.
+Congratulations!
+I agree with @Rogeria. this doesn't explain why it is called the IoC and I am surprised by the number of up votes ;-)
+@George - Very helpful, thanks!
+By the way, I upvoted you because I think it's an *excellent* question.
+I'm reading an excellent article by Paul White - ! and he uses this code: I'm trying to find out more about using dbo.Name to declare a variable, not having much luck with books online. Any ideas where I can find this? Thanks
+I'm surprised nobody has encountered this issue before. It seems very painful for any medium sized project and must be horrible for larger projects.
+that's the hope :)
+@AlexK. excellent thought. Edited.
+This works excellent, thank you very much! (Trim('0'||mycolumns))
+That's excellent! Please post it as an answer so I can accept it.
+What you can do here is hide the button that pushes the view that only instructors can see, if the user is logged in is of type student.In the view that has the button that pushes the view that only instructors can use do this:In the .h file create a property for the button that pushes the view like so: In the .m file:In the viewWillAppear method of the view do the following check: This way, when the view loads, the button that pushes the instructor view will only be accessible to the users of type "Instructor".Hope it helps!
+I have a xml similar to this one: The thing is, Im able to get all the info tags, but I get the results from all dates. I dont know what the dates will be, since the are dynamic generated. What I know is that I may have a data tag with one or two date tags I wish I could show the first dateÂ´s info on a list box and the second dateÂ´s info on another listbox. How can I do that? Desirable Output: If thereÂ´s a second date then print it too: Thx!
+I second trying to put the whole path instead. For relative paths, if you're doing compiling and running in command line/terminal, you need to have that studentrecords.txt in the same directory of your code files.If you're using an IDE, you need to put your studentrecords.txt under the src/ folder. This is assuming you're not in maven project setup; otherwise it should be put under /src/main/java/resources/ .Hope this helps!
+You can use Mercurial on Google code now. I never tried git before but I'm loving Mercurial.
+@Gary well, you _do_ get a non 0 return code if `rm -rf` fails to delete at least one file; as I said, tune to your needs ;)
+Excellent! Cheers dude
+Wow, friendly people here, 11 mins and 2 up votes!
+Per:https://support.google.com/googleplay/android-developer/answer/3131213?hl=enYou need to be registered as a member of a Google + or Google Group that is designated for Beta or Alpha testing by the Developer. If you are not registered, you will only be able to download the production app from Google Play, NOT the Beta or Alpha version of the app from Google Play. Having the "link" won't be sufficient, you need to opt-in to the beta or alpha via Google + or Google Group. Please note that even if you properly opt-in via Google + or Google Groups as defined by the developer, you will need to wait several hours (perhaps 2-8 hours) for your status to propagate via Google Play. So, perhaps you need to wait 2-8 hours even if your Beta/Alpha status is proper?Hope this helps!
+I'm building a little script that changes content and css live on the page based upon the values of various input fields. I'm able to change the content "live" absolutely fine as you'll see here: I'm not able to get this working with the css method using the same principles though: Thanks!
+It would be super great! if you can help me with iframe and cookies stuff... data.message contains URL
+I need to transform this : into this : I tried to use wrapAll with jquery, something like that : Any suggestions would be really appreciated :) Thank you very much !
+Thanks for the feedback! It was a pleasure!
+That would be great! @Heinz: contact established :-)
+All assets should be placed in the folder You can access the assets using the method or the Laravel HTML helper methods and . i.e to include Javascript file: Hope this helps!
+Wow! Yeah, I did'nt know that! Great new feature.
+I'm not knowledgeable in the whole "server-side" idea. Right now, I just want to start learning how to send data from a windows mobile phone application to a server. I'm pretty good at C# and making apps. I just need to learn how to send data from and to a server/mobile application. I am using Silverlight (The latest one) as the API for my windows phone app. At the moment, a "hello world" sort of program would be awesome. Any help is is extremely appreciated! Subby~
+I have created a new project using core data then copied all of the app delegate code for core-data that i need over into my current projects app delegate.. my appdelegate.m looks like this now. My questions are as follows Is the URLForResource in this part of the code ment to reflect the name of my xcdatamodeld that I have created? With the URLByAppendingPathComponent: do i have to create a sqlite database called Code.sqlite or is this made automatically for me by the core-data code? what is the purpose of this method exactly? any help or tips would be really awesome!
+@ThiagoLovizzaro no worries, you have to start somewhere ;) good luck in the future!
+Great, don't forget to accept my answer by clicking the tick on the left!
+very kind :) Paul S. approach is a good one as it acts like a polyfill.
+@prototypical - Absolutely. I was never to solve this xTo-1 issue and ended up creating mirror images for my sprites. I praised the genius who created keyboard shortcuts that day!
+Per https://developer.apple.com/library/ios/documentation/LanguagesUtilities/Conceptual/iTunesConnect_Guide/Chapters/ChangingAppStatus.html#//apple_ref/doc/uid/TP40011225-CH30-SW1The "pending an Apple Release" means: Apple is holding your app version until the corresponding Apple iOS or OS version is released to the public. If you think an app should be released on existing iOS or OS versions, review the deployment target set in your app binary. If you rebuild your app binary with a different deployment target, reject the binary for this version and submit the new version.Sounds like you need to review the deployment target and if you change it, reject the binary and re-submit. If you need help with rejecting the binary, please let me know.Hope this helps!
+@Gary it is indeed strange enough that `Files` does not have a recursive deletion method... That sounds like an obvious thing to have. But it probably isn't. How to deal with errors, for instance
+I think JSON is in incorrect format. Try this:Change the in your OperationContract to Try adding following when request is made: If still it doesn't work, then try Overriding method in your class. Now make an object of and call method and here you can see your required JSON format. After you get required JSON format, then try sending JSON in that format.Hope this will help! Thanks
+Try: This should make it open as a pop-up (unless default browser setting are different)Although it's not recommended to use pop ups anymore because most users find it extremely annoying.Hope this helped.
+I'm using MongoMapper and am trying to come up with a way to use an abbreviated field name. I want to keep the keys as plain english but have the field names stored short (e.g. "name" maps to "_n"). I noticed a conversation but it ended up closed () and I was wondering if anybody has an example of how to accomplish this. I'd be extremely grateful for any feedback!
+Great to hear! Good luck implementing. If you have any questions, feel free to ask :)
+numpy is awesome :P
+yeah it working fine :) Thanks !!
+@levi excellent answer!! you save my day!!! I forgot that req and res handle only one connection, so I dont try to call res.end(). Thank you very much!
+I have a script in which I need to process a file using ajax. Everything in the script works, except I can not get the right variable. I have tried everything and I currently have this in its place I was wondering if anyone could tell me how to successfully set whatever is in this field As a variable in the ajax script that I have. All help is extremely appreciated, thanks for the help!
+https://github.com/masterexploder/PHPThumb/wiki/Basic-Usage an excellent tool for showing and/or saving images!
+@CodemonkeyKing, no worries! =D
+My client sells jewellery in different materials such as gold, silver, oxidised, etc. When using the Layered Nav widget I would like to display the thumbnails corresponding to the selected filter. So if the users selects the 'gold' attribute in the widget, the gold thumbnails should display in the archive. Using ACF I added image fields to the main product for thumbnails and modified the action in my functions.php. I am trying to write a function that will retrieve the right thumbnail for the currently viewed filter but I cant find a way to check the active attribute for the page. I think it may be possible to use a query_var variable, but my knowledge is too limited. Any help will be hugely appreciated!
+I understand you need to know the sizes conversion. Sometimes I use this tool: And I found an excellent article about the screen sizes and densities: I hope it will be useful for you!
+I'm trying to create a cocoapod using pod lib create but for some reason the .xcworkspace file is never created. I've tried updating Ruby and I've tried using Ruby 2.0.0 which my colleague is using and it works fine for him. Here is the output from the pod lib create command: I would be very greatful if anyone can shed any light on this issue as I'd love to get started using this great tool straightaway! Many thanks Chris
+excellent! this user agent switcher is a gold mine!
+Something like this? Bonus. With the switch to you have readline editing capabilities, and tab completion on files. Wooow!
+I'm building a little framework with Node.js, and I would try to use data from an API but I don't know why it doesn't work (asynchronous but ??). Some advices could be very great ! By the way, I tried with xmlhttprequest too. Thanks for your help !
+Awesome, super fast! Thanks a bunch =)
+@ergosys Thanks that was extremely helpful!! Somewhat related to what I asked... I'll have a try on that tomorrow :D
+Excellent diagnosis!
+@JonesV excellent! I think thats what I wanted: "//*vptr is address of first virtual function in VTABLE viz. display()"
+@TonyThinkk No worries!!
+Works great :) Thanks a lot!
+I have a table with a field that needs to store 512 characters. My question is this: can you limit the length of a TEXT field (VARCHAR stops at 255 - I can't use it) to 512 characters? If I do that, will MySQL run through the table quicker due to the fixed data length, or does it act a bit like VARCHAR in that the length can vary? I don't have a table (at all) yet, but I'm very conscious about speed and size for the future. I found this article: incredibly useful - maybe you will to! Thanks a lot, James
+That's what I'm going for, I think. If you could help with the code, I'd be thrilled!
+@CalebHuitt-cjhuitt: Excellent â that works! Thank you very much. If you'd like some brownie points, please submit it as an answer and I'll mark it as the correct answer.
+The prevalence of memory leaks in programs with manual memory management kind of disproves your thesis that it's easy to establish upper bounds of a C/C++ programs's space usage. That said, excellent question!
++1 for the excellent approximation!
+@HansPassant - Excellent! Everything is falling into place now. If you post as an answer, I will happily accept it.
+When I try to generate an app with almost all the I have tried reinstalling both bowline and bowline-bundle separately with But I have no clue where I am at. Could someone please enlighten me on this issue, would be very greatful!
+Check out some tool like SnippetCompiler (http://www.sliver.com/dotnet/SnippetCompiler/) - lets you take a short snippet of C# and try it out without all the overhead of Visual Studio! Absolutely priceless...
+Excellent :) You should add that yourself as an answer and then accept it. It may be useful for others in the future.
+:) :) :) :) :) :)
+I'm quite new to this wonderfull tool that selenium is, and i'm trying to make some examples tests in my web app (html/JS). I managed to select some (most) elements withtheir id with the command but i'm unable to find some elements that do not have an tag. I tried these following lines without result, as i have have an a mix of the two aboce (alt and src in xpath and cssSelector This element HTML code is If somebody could help me, that would be very nice :) Thanks, and have a good day !
+Since I was also looking for a way to use the empty word epsilon I came up with the following approach. I simply used an empty production rule such as: Hope it works - at least for now it seems so ... Addendum: It works pretty fine :)
+I've had great success with DockPanelSuite I may post some sample code to get you started but it's fairly staright forward!
+Oh, yea, didn't notice, answers below this one are at most half a year old.
+yes, I have just installed binutils and it's looking very awesome!!! I'm going to check it out! bb with more info
+If you are looking to load asynchronously javascript scripts, in the right order, I shall recommend you $script.js developed by the Twitter javascript lead dev It's really great!!
+Terrific answer! This should be the accepted one.
+That's an excellent idea! I was able to convert the plugin, but it just crashes VS when I click on it in the menu.
+I recently posted a question regarding how to scale an image using the input type="range" element. I recieved an excellent answer from user : HOWEVER! This scales the image towards its upper left corner and I need an image that scales towards its center. How do I achieve this? Can't seem to get it to work using text-align:center or anything... Thanks in advance!
+There is an really excellent short(!) book on Stripes that covers all aspects: by Frederic Daoud (Pragmatic Programmers)
+excellent, thank you!
+I have noticed this come and go. After runnings specs in RubyMotion (which is incredibly great by the way) this annotations appear even when running specs from the console. Then they go away. I have no idea why.
+@Bakuriu, thanks for your answer! :) That `class MainWindow(QMainWindow, Ui_MainWindow)` was surprising but excellent!
+I have a few months of experience with Ruby on Rails and really loved it from the beginning on. Now, for work, I was asked to code in Grails and although I first had some objections, I now think it's a very decent framework. One thing that really impressed me in Grails are Taglibs because they make frontend modularity so much easier. I would really like to do something with Rails. Is there anything like Taglibs for Rails? If not, what are the best practices for accomplishing this kind of view modularity (and, in essence, making my life easier)?
+I see. Everything makes sense now. Thanks a lot for the excellent answers!
+Oh and keep up the great work Alex, I really love were you are going with EF4!
+excellent - thanks guys!
+We added this snippet to LocalSettings.php, with great success: Thanks!
+Excellent! Worked perfectly!
+While auto layout is a really great thing ! and apple really helped a lot of developers with it , but in my case the solution was to handle it manually by creating two storyboards :) but i would like to recommend auto layout to all developers :)
+@ecu - Excellent :) I added an answer so future googlers can find the answer a bit easier, it seems comments aren't looked at nearly as often when scanning for the reason.
+I would go with omnithreadlibrary, it's very productive, btw. look at omnixml also, these libs are extremely helpful!
+FWIW, I agree with your original method (Rails 2). Creating models just for testing them makes your tests way too slow to run in continuous testing, so another approach is needed. Loving Rails 3, but definitely missing the convenience of proxy_options!
+Not sure if this is by design, but for now, from within Python causes a javascript exception to be raised and displayed (along with line and column numbers). Great success!
+So this could be hard to explain but i want to do a for ... := 1 to 10 do statement but i want it to be for A to N do. The main purpose of this excersise is to load data into a string grid. So lets have it load the cells 0,1 0,2 0,3 0,4 0,5 0,6 0,7 with the Letter A, B, C, D, E all the way up to 14. If anyone knows how to do this i would be extremely thankful!
+I've decided to use the FreeFileSync tool from There is some effort to configure it to ignore some files and folders, but the tool provides nice filter possibilities. Configuring these filters can be very time consuming but they're working fine :) Thank's for all your help!
+I am relatively new to AngularJS and am loving every moment of it! I have an unordered list of products. When the user hovers over them, I need the list element to have an class set on them. I am currently doing it this way: And my showDetails is as follows: Now, everything is working just fine, however, I was wondering if it was possible to set the class without the ng-repeat and having no variable to bind to? How should I write my showDetails function to set the class this time? My first try is: But what do I do in the ng-class attribute?
+oops, forgot abot that! But excellent stuff! Thanx for your time and patience nonnb!
+malware from facebook?? could you explain that
+No worries just making sure that you had solved it!
+Excellent, now it's working! Thank you very much for your help with this.
+I have a mobile web page with a table containing many rows. Each row has additional information. Ideally, when a user taps on each row, a new layer will display, covering the whole screen, that provides more information for each row. The layer can be closeable by tapping on the new layer itself. Is this something I can do with a to begin with? Or do these rows need to be divs instead? Please if someone could push me along, that would be excellent! Thanks.
+In the following string, I'm trying to add an additional span around the but keep it inside the . I've tried prepend and wrap before and after the .html, but can't get it or anything to do it correctly. Result would look like Here's the full snippet if that helps: Any help would be hugely appreciated!
+Thanks Scott for the excellent answer! This was very helpful. Here is a mod to the Application_BeginRequest() code that 1) uses ordinal string comparisons for speed, 2) accommodates localhost and 3) highlights an asymmetric side-effect.
+@PaulMougel,Thanks Super Great! it works! I added it (res.end()) habitually and have never thought it might could be the reason. Happy New Year. Thank again you so much.
+Check this thread on Joel of Software forum: Lots of excellent free icons packs!
+My solution for at indexes and of any string would be: If this evaluates to True it means that the character at index x is enclosed by a set of parentheses. You can test for the index y respectively Hope that helped, Cheers! Alex
+Oh! Excellent!! Worked like a charm!
+@Brian - that is an excellent link!
+The previous solution is really great! However, I'm looking for one more feature: is it possible to eager load last subordinate record before a specific date? This is needed so that my users can browse a history a song's votes (with links to previous and next days).
+More than a year after this post, we are using: Activiti a workflow engine with BPMN 2.0 support. As modeller we use Activiti Designer and Yaoquiang (excellent tool!).
+It depends on the screen size because a 7' screen with FHD will not have the same dpi as a 17' screen with FHD. to know DPI I use this calculator : and for the folders please try the actual google documentation it is pretty complete: hope it helps!
+There are many ways to do this, one way is: Followed by: In general, the SQLite project has really fantastic documentation! I know we often reach for Google before the docs, but in SQLite's case, the docs really are technical writing at its best. It's clean, clear and concise.
+Excellent suggestion!
+Excellent solution! This is the way to do it.
+hmm, not sure where to find an example.. Basically, If there could be a page in admin that I could have a text area for a user to edit that would replace text somewhere in my theme, that would be excellent!
+Excellent - thanks!
+It is all good, I found this to be very helpful. The following article is excellent !
++1 That looks like an excellent resource!
+I have a huge HTML form. I was wondering if it is possible to use Notepad++ to copy the text from value="[copy this]" and paste it into id="[paste here]" and for="[paste here]" on every line. If anyone has the solution to this, every web developer out there will be very happy :D Cheers!
+This is amazing. Thanks so much for explaining. Excellent explanation!
+I'm trying to make a page where the user can input data into four different values in four different text boxes, and the values can be stored by using local storage, and then when the user refreshes the page or opens it in a new tab, those previously entered values are still there. Any advice on how to do this would be really great! Here's the code that I have currently:
+excellent, all working now, thanks !
+that was from something else - that apparently the fragmentmanager holds on to fragments. But you're right - it doesn't make any difference one way or the other. Nice library by the way - extremely useful!
+Short and to the point... excellent! +1
+Wow excellent! Thanks so much rgeorge, that really helps.
+Excellent code @ Peter, but not to be generating consecutive events, it might be better to use unbind (), like this: Thanks!
++1 for one assertion per test
+@Daniel Lee: That is an excellent video! I had downloaded Automapper, but wasn't sure how to use it on anything more than the simplest object mappings. I love how some of the concepts shown help keep the code DRY.
+I'm pretty new to Angular but loving it! I am trying to create a modal dialog to display a partial view. ui.bootstap.modal has an option which takes the URL to the partial view to be displayed. I have a route configured on my application module that looks like this: I would like to show the partial template defined as from the above routes. So in my controller I'm attempting to open the modal dialog like so: The modal dialog opens but the contents are just . Do I need to define the route on the server side or can I use Angular routing to return the partial? Thanks!
+I'm worndering how I can add 2 rows, of which 1 depends on another, in 1 transaction. Reason I an doing is that the library I'm using does not return the rowid, and I need to commit the transaction as less as possible as I'm adding over a few million records! Just for the record I'm using: SQL Server 2008 Python pyodbc Any idea? Would be really awesome :)
+Good Morning, - a really awesome grid for desktop and mobile Here are a few resources that might get you on your way! JMax
+I am new to Qt. While digging inside Qt's documentations, I found QListWidget to be useful. But I'm not sure how to do it. The following image shows what I want. Any help would be really awesome! Note: I don't want to do this using Qt Quick.
+This just saved me a lot of grief!
+I've just got a quick question about some jQuery/CSS placement. I'm trying to achieve the effect found , but with my CSS, the placement of the objects is totally messed up. I think I've got the idea of the situation, I just can't seem to find a way to get my CSS to work. Anything you've got that can help, I'd love to hear it. Thanks in advance! Everything I have so far can be found . JS: } Nothing I do seems to work, and I really hope you can help!
+The sollution suggested over here is perfect: I register a BroadCastListener on all Activities that should be removed from the backstack and when I reach the main menu, I just send the broadcast and all receivers call finish(). This works really great!
+I have been trying to create a slider based on Nivo Slider that looks and functions similar to the Carousel found at I have viewed questions by and by , however I have been going round in circles for most of the weekend. Now back at square one and starting from the basics. Thus far I have managed to get the navigation working such that mouseenter on a particular nav item triggers nivo-controlNav to display the correct slide and pauses the slider: I also created a subsequent mouseleave function for the nav items (1,2,3 etc.) I'm now stuck at the part where non-mouse events come in. When the slider loads it should update the nav css to highlight the current nav item selected. Here is what I've got (not a lot I know, but I'm trying). Then the simple html nav menu: Any help/ideas/musings would be hugely appreciated!
+Your implementation looks absolutely fine to me! A range-based away subscript is a type for performance reasons. It does not copy the indicated sub-array, instead it just points to the range defined by the you provide to the subscript.
+@Rachel - Excellent! Good job they didn't use all lower case then - not sure if there would be any way round that.
+been trying to save my data from my while loop to script variables but no success. Did an example if how I want to save my php data to script variables. This doesn't work for me. Anyone have any idea? Don't want to save all data manually. Very greatful for answers! Ask if you don't understand :)
+Excellent much cleaner!
+excellent - thanks everyone!
+I found an excellent tutorial on how to create site columns and content types - here : (THANKS AGAIN ROB!) Does anyone know of a written or video tutorial that will explain how to create a list and list instance in MOSS 2007. I use WSP Builder, and the build in templates from Microsoft aren't compatible (or up to the task). Preferably a method that focuses on the CAML (xml) , and explains in detail the theory, and demonstrates how it is done. Thank you.
+So I need to get a quotient to 2 decimal places like 0.33, but do I need to use doubles all the way down or can I use integers for everything except the quotient and then just use double or decimal for the quotient? It is also breaking because of the quotient. If anyone could help me I would be extremely grateful :)
+I am new to writing Apex Triggers and need help with creating a trigger which would update Lead Ownership to the Current User based on custom Id field. The Custom Id field is related to the Current User Record. Any suggestions would be hugely appreciated!
+Use Web Essentials... it works really great, and has lots of other useful tidbits!
+I need to do a strange task. I want to move whole android system to external SD card on Android Virtual Device. I need to do this, because android emulator, emulates SD commands, only for external card image. And I want to get SD commands trace, during Android Virtual Device usage. To be more precise: I want to move at least /system and /data folders to external storage. In such way, that system could still work fine =) Thank You!
+I have a file containing unsigned 64 bit integers in little endian format shown below I'm looking for a way to read these numbers in and then convert them to their decimal equivilant The code I have so far is as follows: which gives me the following output from the first number I've been looking at how to use structs for this as it seems like it is what it was made for but I've been unable to find the correct syntax using them. Any help would be hugely appreciated!
+PHPExcel, so you did wrote that library. Excellent! For now max entries of CSV is 100,000 for a test. Maybe I lurk around with it if you introduce how to do that? thanks
+is there anyway to have two TextView in one AutoCompleteTextView result? e.g. And so on... The ArrayAdapter only allows one binding for a view so how could I bind more views in the adapter? Like so: I've created a new xml layout for the layout parameter in the ArrayAdapter except when I bind the TextView to the string array, it only sets the text to the TextView with the given id. I've also searched through the other posts about this one and it did not suit my needs. If anyone could help that would be absolutely great :) Thank you.
+@chucklukowski wow, that's just about exactly what I was looking for! I'll be giving that a read-thru. Much appreciated.
+Works excellent, many thanks!
+Excellent answer!
+So I found this. If you do a "Ctrl+O" it brings up a small window called the quick outline. In this I can use wildcard (*) while searching which is extremely useful!
+I know I'm a little bit late but for math and physics, I recommend or . I have learned so much from him. He is a really great teacher and all of his lessons are free!
+Excellent, thanks again!
++1 big fan of your blog Jason.
+By the way, I don't know if you found the hover animation binding somewhere and adapted it, or created it yourself, but all the same I really enjoyed it! Quite clever. :]
+Excellent resource, thank you!!
+In my WinForms app (C#) I have a circle (defined by a ) that I am presently filling with a solid color. I would like to fill this with a circular (not linear) gradient (so one color in the center fades to another color uniformly around the edges). I have experimented with , but am having no luck (I still see a solid color). If anyone has any sample code that does this, that would be terrific!
+I created a mobile application with the yeoman mobile-generator. I'am very new to grunt and yeoman, but it's really awesome stuff! Does anyone know what I have to do add a banner to my generated files? Where I have to use this. I have tried something like this, but does not affect. ...
++1 for the `/* God I hate Microsoft! */` comment in the IE7 stylesheet.
+I have two files. File 1: a FASTA file with gene sequences, formated like this example: File 2: A simple text file with JUST the accession identification of the gene. Like so. Every entry in File 2 is somewhere in File 1, but not every entry in File 1 is in File 2. I need to remove all the entries from File 1 that are not in File 2. I feel like there must be something in the biopython module that could help me, I just don't know what. For instance, I originally thought that I could extract just the accessions from my FASTA file using the function, but this really just lands me with two files of accession numbers. I don't know how to selectively extract the accessions that are in the other file. Maybe like reading all the entries from File 2 into a dictionary and then associated that entry with its matching entry in File 1 and use to extract the whole sequence...But I really don't know....Any help anyone could give me is extremely appreciated!
+The best resource I've found about web security with ASP.NET is the below, written by Troy Hunt: Absolutely priceless! He even made an ebook out of it that you can download as a pdf:
+@eat Wow! Excellent point! I don't know why I didn't see that before. That solves the issue with np.reshape and now I can use that. No need for another thread. Thanks again!

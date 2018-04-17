@@ -1,0 +1,94 @@
+Text
+That's weird.
+If that would be the case this would be bad design.
+This just seems really evil.
+It may cause conflicts but if your intent is to break system security you probably don't care.
+My bad uploaded the wrong patch.
+I just hate having no clue what a file is really depending on ;)
+Ah damn I thought it was fixed :/ Guillaume ?
+I abbreviated the heck out of my arguments and thinking but damn it thats what I think :)
+A stupid bug in a patch that is already applied.
+In this case data would pretty much just silently be lost.
+This whole thing is really pretty trivial.
+An output connector should also have a say in what URLs it will accept.
+Turning off hints is basically intended as a "oh shit something is broken with hints let's turn it off" switch.
+why on earth would it match anything you have not even touched the Apache install.
+Thanks Arvind
+Committed a slightly cleaned up version of the patch in revision: 1464605 Thanks for your help Todd.
+897392 Thanks Sharan !
+Thanks Karthik.
+Thanks Andrew committed in rev.
+thanks edgar for finding this one!
+Thanks Ilya.
+Thanks Jimmy.
+Thank you Jing for the review.
+Thanks Ravi!
+Thanks Sandy.
+Hello Leo The patch has been applied at revision r479576 thanks a lot for this enhancement please verify that the problem is fully fixed as you expected.
+Best regards Richard
+Thank you Jing.
+Thanks for your work on this Allen!
+Thank you.
+Forgot to mention: Thanks to Alejandro and his team for pointing this one...
+Thanks Karl.
+Please contact me if you need any clarifications.
+Thanks Tom!
+thanks for the explanation.
+Thanks Oliver that's fixed it.
+Thanks a lot!
+Adrian thanks for the patch: rev.
+thanks nandana
+Thanks for review and test case Knut.
+Thanks Suresh.
+Thanks for your patience.
+Hi Atul that looks good at a first glace.
+If someone wants to take this over that's cool - I'm unlikely to have time in the next week and a half though.
+It is a nasty bug that I've seen in real life though.
+Yes exactly -- sorry to be so unclear.
+I'm not sure what the problem is but the behavior (at least in 0.1.4) is that the _isClosed AtomicBoolean is not being set to closed in a timely manner.
+Sorry for the delay and thanks for the good work works like a charm!
+Sorry I thought submit patch was the way to attach a patch.
+I don't have very much experience on branch0 would you like to take a shot at the port?
+Especially I don't know very much about the test framework differences.
+I will figure out the details and do the port later this week if you don't get to it first.
+sorry unassigning myself from this backport.
+Another backport (for a different jira) of mine is failing and I want to see if I can figure out what might be wrong there before doing a new backport.
+To upgrade to a recent version of Jackrabbit see http://wiki.apache.org/jackrabbit/BackupAndMigration I'm afraid I can't say much about the risk.
+I've tried something similar (I removed the handlers and kept the readers) but the performance was not visible.
+The responder seemed to be a bottleneck.
+But it was not the only issue: we also want to manage priorities between the tasks but we need to read them to get enough information to make the right priorities.
+While creating the DerbyTest I did notice that this problem is caused by the Database pool because it tries to connect to the database in the background.
+Sorry [~fiberlijun] - havent had a chance to look at it yet.
+(I could not get what KEYWORD means.)
+I am checking out the dojo fixes and patching them in sorry for the delay it has been a long time
+> then we don't save IO by limiting the buffer size to 1 KB I'm confused by this.
+Seems to be failing for a different reason now testContainerLaunch(org.apache.hadoop.yarn.server.nodemanager.TestLinuxContainerExecutorWithMocks) Time elapsed: 0.523 sec <<< FAILURE!
+Sorry for all the issue mails I forgot to mention the second: 2) There is commented source in the test should it be enabled or removed?
+I'm very sorry.
+Sorry guys... :( I was the reason for this trouble.
+I should have been very careful before doing this.
+My bad forgot to include the test file in the patch... Resubmitting in a second.
+*sorry*
+Damn.
+Git is tricky that way.
+Sigh I don't like this overall if can't reuse everywhere.
+Sorry to let you lose a wild goose chase.
+You are going to kill me when I say this but it seems like we should just commit your first patch.
+This half-reuse is more confusing for new devs who see this code for the first time.
+Sorry probably a misunderstanding from my side....
+I meet the same problem on Eclipse recently but haven't figured out how to get through.
+Sorry Chris I missed it done !
+One of the error is that hiddenActivations cannot be resolved.
+I'm very busy for the moment so I didn't know when I 'd be able to the change myself so if you can your contribution would be one more time really appreciated.
+Oh I didn't consider one flow like after the edit log conversion immediately #store failed.
+I misunderstood the case and sorry for the confusion.
+Aside from the job succeeding (it doesn't) what effect should I be able to measure (in order to see if this is doing anything)?
+You misunderstood the response: StopFilter indeed did not change.
+You would need to implement session resume; thats a whole new can of worms.
+Sorry for a mess in uploaded files my connection got broken during first upload.
+Here are 2 patches ... one for adjustExamplePaths.bat & .sh and the other a new file holding 2 User Libraries ... UIMA_LIB & UIMA_AS_LIB Not sure where this should go ...
+i found the class - so there is no bug - sorry
+I was not aware of being required to call that method.
+This is a silly one.
+Seems we didn't enforce an exec for sh but we did for fs.
+The patch should be relatively trivial but like I said I have no idea if there is other important stuff going on there or not.

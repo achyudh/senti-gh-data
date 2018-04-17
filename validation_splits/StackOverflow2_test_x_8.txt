@@ -1,0 +1,281 @@
+Text
+I'm not for sure how the ControlCollection of ASP.Net works, so maybe someone can shed some light on this for me. I recently discovered the magic that is extension methods and Linq. Well, I was very sad to find that this isn't valid syntax However from what I can tell, does implement the interface which provides such methods, so what gives? Why doesn't that just work? I have found a decent work around for this issue at least:
+This is not the answer but I figured out a very sad workaround. Extend the TextView component class In the constructor of the subclass, fire off the code ...yuck
+You could look at using , but performance might be completely horrible.
+CorePlot: Candle Stick , how to set more distance between every stick when zoom in and zoom out? When i try to zoom out, it looks really terrible. How can i fix it?
+isn't generic, so your code is effectively: At that point is it clearer why you need the cast? (Not that the cast will really anything at execution time, of course...) You're not calling which is what you really want to be doing, effectively. It's just another case of Java generics being a bit of a pain :(
+I just updated my MacVim to 7.3 and with it, it now changes directories to whatever file I'm currently editing. I use PeepOpen, so it's incredibly annoying to cd back to my project directory every time I want to edit a new file.
+Gah. parsing HTML with regexes. horrible horrible horrible.
+I am currently workin on a visual studio online hosted project that uses git for version control and have run into a problem with the team explorer menu. All of my collegues get this view when connecting to the project: But on my machine, im missing the tiles/buttons and have to right click the current branch, choose manage branches and from there, select Changes/Unsynced commits to handle my code which is extremely annoying. Im using Visual Studio 2013 Ultimate for this project, but i also have VS2012 installed.
+I had the same problem and ended up doing the same workaround. When I was done I didn't really hate it though, because it allowed me to free-up the UIPageViewController and all of it's child UIPageViewControllers and all of their resources when the user wasn't actively using the tab.
+-1 for not explaining or giving details. I hate these types of questions!
+this is a disgustingly horrible hack, but it might get the job done:
+Yes. You make me sad :(
+Never been this frustrated before... I HATE UIs! Will have to deal with them one day
+Tools to automate alteration of markup code for any objective are a horribly frightful proposition. Simply write your code correctly the first time. If you have archaic code then it likely has many other problems in addition to SEO, and automatically imposing global changes can expose problems you may not be prepared to address.
+A copy of an infinitely long string terrifies me!
+After installing a lot of apps, and building a few myself, I'm sure many people have been wondering about this. If I'm looking through my SD card it looks absolutely horrible, and its really hard to find folders that are mine for putting music/videos/pictures in between all the folders for different applications. Is there any conventions here that we, the developers, should try to put their apps into one base folder or has Google forgot about this completely?
+My NSLog messages no longer show up in my Debug Area. Anyone have an idea how the could have happened? I can hit command-7 to bring of a list of logs in the left pane, select the latest one and view it in my editor window, but it is extremely annoying compared to having the console output in the debug area.
+Instead of loading everything which is neither possible nor really desirable I would use a sliding window instead - when you reach a certain maximum list size (say i.e. 300 items) you automatically remove the top 100 items when you add the next 100 items to the bottom. If you scroll just right after the update this shouldn't even be noticeable by your users.
+Hate ghost comments! :(
+Here is my PHP code.. ..I'm extremely crappy with my JavaScript code, could someone help me convert this? I basically want to convert a variable such as "marine-heavy" to "Marine (heavy)".
+I really hate to answer my own question but I found the problem and the report is opening as of right now. I only came across this by chance but it seemed to work. I changed the setting of Display on SharePoint Site to Do Not Display. I never noticed that option before so I gave it a try. SharePoint is on the laptop which I didn't know at the time and I know nothing about it, but at least it shows on the screen now.
+I've done some easy .hover(function() statement in jQuery. When i hover over a text i simply want a #div.fadeIn, and on non-hover fadeOut. It works. But it's just if i spam the text-trigger with hover and un-hoverring really quickly and then stop the animation begin to give a blinking effect. It just kind of loops, really annoying!
+it generate but i need But in i did not find a way how to change ID attribute. i need to use text_field_tag because it fills textbox with params if submit fail. if i think about im worry if i change an ID it does not fill a param ?!
+In python's the following minimal working example below draws correctly to the screen, and to the . In the resulting however, the edge lines are still drawn. How can I fix this? PNG result PDF result While it seems trivial, it becomes extremely problematic when you stack 200 plots, all you see is an ugly mess of black!
+I got it.. this is incredibly silly question! Static means I just access it directly from Without using it from the instance.
+That's terrible :(
+what is that downvote? it's real and valid question, and I hate DRM too!
+Oh the horror! Try `page.php#iframe_id` as the target.
+You should never, ever use . It gets really really slow as the size of table grows. Instead you should . In case you have irrational fear of learning, here is there solution which would do what you ask for:
+To my limited knowledge, in Android, any activity must belong to a given process. However, the book says: " The activity life cycle is not tied to the process life cycle." that is to say, even if the process has been completely killed, its activities can still be alive! What makes me confused is: Because the input handlers of an activity are bound to the process. If the process has been killed, how do its activities react to the user's inputs?
+Does anybody have a simple code to display a list (list view?) of all the apps installed on a phone, and have the user open one when clicked? Or even an App drawer. I just need a way to have the user open all of their apps. I have tried searching for tutorials, but couldn't find any, and I downloaded the example home from Android, but I absolutely hate looking through code and digging out what I Want.
+I would guess it is doing basic sanity checking (i.e. should anything have changed) - to prevent unexpected source code changes (I hate it when opening a file can cause side-effects - I'm looking at you, DBML!). On a side note, to force serialization generally (I don't think it will apply due to the above): the and are a convention used by the framework.
+:( :( :( :( :( :(
+@ceejayoz I use svn for development, but I really hate the idea of having many ".svn" folders in production.
+This is heinous. I would not allow such a thing to survive a code review.
+This isn't really pythonic so much as tortured, but here's a short version (with meaningless 1-character variable names, no less!)
+It seems very tedious! I have a nine table join to join together, where two of the tables is a inner join and the rest 6 is left outer joins. Is it doable in entity?
+for some reason that still hates me!
+I'm afraid I gave up and switched to django instead!
+@Dennis I edited my answer. I really hate IE!
+I am referring to this behaviour: (Windows doesn't include the mouse cursor in the screen shot, I'm hovered on the uppermost (+) here.) I find this incredibly annoying in some cases, especially with larger methods. In , I have both checkboxes blank.
+I used multiple requests - batches of 10. I don't want to anger the Api!
+I got very angry with Oracle today after reading lots of editable TableView solutions involving setOnEditCommit, which is just NOT the right way it should be done. Following is a much better and simpler solution I found after digging the JavaFX source:
+Still no go, I am afraid :/ This does not remove 'www' from the url.
+I'm having the exact same problem! Incredibly annoying!
+Very annoying! If you are desperate to get this working you could force Chrome to redraw the element (on window resize, maybe?):
+That is really sad :(
+Hate to have to do this, but it works!
+I'm afraid I don't know of any other option than work!
+We have released a beta version of our software, and as we talked to people who started using it, we have found that a lot of the features (which we thought were essential) were not known and not used by the users. What are the possible ways to inform the application users about the features of the application? I personally find the "Tip of the day" popups extremely annoying and disable them quickly. Are there better ways?
+upvoted scared the hell out of me when things stopped working!!
+If it's forms auth then yes, that's weird. I'm afraid I don't have any idea!
+I now have this extremely ugly solution. Anybody a better idea?
+:'( :'( :'( :'( :'( :'(
+Link is down again.
+I am running VS 2012. Working on a project that is stored on a mapped network drive. Whenever I go to close the solution it takes several minutes (5-7) for Visual Studio to close. It does eventually close, but very painful waiting for it to finish. Anyone have any suggestions on how to fix?
+Official guide says: Tomcat deployment is trivial and requires copying the WAR file into the TOMCAT_HOME/webapps folder and restarting the container. But this is really painful :-( Does there any way to deploy app without restarting Tomcat ?
+It is really painfull to get all code form TFS whenever you make a build using NANT. Is there any settings in ccnet.config which will only take the files which are changed form last time which can speed up the process.
+This answer is not optimal because I have no clue which Konrad you are referring to.
+Is this seriously the only way to modify the default template? This seems absolutely terrible.
++1 I was thinking of programming this myself. I really hate switching between my headphones and HDMI output.
+Okay, so given the overwhelmingly negative response, does anybody think db image storage is _ever_ justified?
+Im maintaining a site where I need to 'click' a link with javascript. The href is inline javascript, not a url so I cant just navigate to that url instead. Im expect this is bad practice (the rest of the site is terrible!) but I need to make the link 'clicked' with javascript. Im using jQuery. I know this question has been asked before but it seems normally people are trying to follow the link, which I am not.
+I have a complex site that incorporates alot of javascript and it is getting absolutely KILLED by IE7. How would I go about serving this code: HTML JS In such a way that IE7 never gets the and therefore never hides ?
+Coding horror!!!
+is there a way to automatically call a function using an event after the user has browsed a file using a I've been trying to find something for the past hour but failed horribly, I saw that I should try onchange but that also failed..
+I have to setup a rails project and rubygems.org is seemed to be down. That's really horrible. Can't believe it the whole ruby community have only one single not-so-reliable gems source. What should I do in such case?
+I found this code (full version here ) It's work for me but now i don't know how to stop it (for making test it's horrible, my new php file not interpreted!)
+My first instinct is to branch normally (using p4 integrate), and then use an IDE or sed script to change the package names. But this makes future integration from the trunk extremely painful.
+Ergh, this OptionBuilder has a horrible interface!
+I have a that has three views per cell, with three cell displaying on the view at one time (for a total of nine views). Think of it as a bookshelf. Sometimes I can have as many as 500 books. I've added shadow to the with code that is this: When I add the shadow code, as seen above, scrolling performance is just totally killed and becomes choppy. Each image has a different so the shadow has to be created for each item as it scrolls. Anyone have any tips on how to add shadows to my images on a without having this issue?
+Offtopic: why the hell do you apply the regexp only to the first 4 characters of the user agent? This is going to fail horribly in most cases.
+Solution found . It's a known bug at Microsoft since may 2010, and they have still not released a patch. Have to use the workaround suggested there. What a PAIN!
+It's not possible to open the page in full screen without user interaction (clicking on a button etc.) because it would be extremely annoying.
+This is how I would do it... I really hate javascript popups...
+Oh, I did not know that. As usual, IE comes out to be a pain in the a**!
+The answer with a GUID is completely ridiculous (no sense at all) The Console hWnd is of course given by GetConsoleWindow() (!)
+This is the third post I've seen with people filtering by *ascii* char-code - it's a terrible idea! Where are you getting these examples from?
+read I'm not sure if it will help you
+I have a file in the form If I try to splot such file, gnuplot intended it as a surface, and the result is very awful (because the endpoint of a line is close to the endpoint of next line, not to the first point). How can I plot them as different lines (as every line was in a different file)?
+Dotfuscator community edition is not good at all...
+It's really sad when you can't trust your coworkers...
+Im afraid is not!
+I afraid here the relation between C1 and C2 in a single row could not be maintained !!!
+_Automagically_ appending data to `~/.ssh/authorized_keys` sounds scary!
+:-( This is a well-known CSS bug in IE6. AFAIK the workaround (it's horrible, shield your eyes) is to put an IFRAME underneath your menu so that the IFRAME obscures the improperly z-indexed SELECT. It's so very horrible. But JQuery is here to the rescue, as always:
+Is there a simple library out there for Java in a Maven repository that will give me simple, one-liner hash methods for the popular hash functions such as MD5, SHA1, SHA256, and SHA512? I'd really hate to have to reinvent the wheel to do this.
+Okay I am using the same ANTLRWorks and JDK .. but it doesn't work for me :( .. Its very irritating, I have tried everything to make it work !
+I had figured out the solution. What I realized was happening was that The deployments stopped working period, not just certain files were not coming across. This is absolutely a bug in Azure deployment as near as I can figure. I had to drop & recreate my site in the cloud and the deployment continued to work. As a side rant. Microsoft makes it extremely painful for someone to submit a bug as compared to other software vendors. And they wonder why their market share is shrinking.
+I absolutely hate how tabs work in Xcode. However, the only workaround i found that works decent is using the OSX tabs shortcuts: CTRL + CMD + -> CTRL + CMD + <-
+I think it should be a warning. Generally speaking, the common rule is that 'you should treat warnings as errors'. If I unintentionally write unreachable code, I will see it in the warnings, and fix it anyway. However, sometimes, like Neil says, you intentionally create dead code, for debugging purposes or whatever reason. I'd really, really hate it if the compiler would not let me do that.
+sad... very sad.
+a very sad face :(
+when I'm drag and drop some in chrome, it always make some noise, you can try it in your chrome: click on some empty place, then drag, then release mouse, it makes the sound. I really hate it, and I have seen some page don't have the chime sound, and I think it can avoid use javascript, can anyone tell me?
+I use neo4j tool to start Neo4j in windows, But a strange thing is, today, when I open the neo4j shell, I start it , but no response, the status is in yellow and never turn to green, it can't establish neo4j server. It is so terrible for my database!!!! Does anyone meet this ?
+i am working on iphone app, at once it started showing me error, with no exception, i am really afraid of this error, can any one tell me why this is happening?
+I've been having this issue for some time and kept just disabling the "Script" tab which is really annoying! I tried to click the pause button so it's flashing and refresh, same issue. Then, click so it's not flashing and refresh, same issue. I just now clicked the pause button (so it was blinking), then un-clicked it so it was not blinking, and then refreshed the page and it seems to have fixed it. The same page that was breaking on a script error is no longer breaking on the error.
+Very sad, no way...(
+Oh, man, I am sorry but I must say it: your code is really awful... It is not organised at all, but maybe... shouldn't be instead? EDIT: try to comment the second and third queries, since they seem useless, and make the "cur" -> "cursor" change I suggested:
+she records the class (the computer screen shot) but it's very useless! she confuses herself and the class..
+The dreadful integer arithmetic attacks again! When you calculate ((3+2+1)/100), since all the operands are integers, Ruby uses integer arithmetic rather than floating point arithmetic. If you do 7/100 it will also return 0, as it's rounded down to the nearest integer, which is 0.
+It's a very painful process to ajax `files` to a server side script. You might try: http://fineuploader.com/
+Its really depressing. Ended up with downloading the whole bundle again.
+I am sorry to say this but most Silverlight grids do not support cell merging. At least not out of the box. I have resorted to using Component One studio for Silverlight in order to achieve this, and even then it hasn't been exactly a walk in the park. Consider C1 Data Grid control. Here is a sample on with sample code and a small write up. The down side of such solutions is that C1's controls are extremely expensive :( I wish Micro$oft came up with some enhancements in SL5 that would accommodate for such issues.
+I have run into this too. It is very annoying! Here's why it might be happening. The width of your li items, plus any margins is more than the width of #maincontainer. That means the last li item spills over #maincontainer and the script will want to move that last bit in, leaving an extra click. One way to check this: assign an id to the last li, and make the width less, and see if that doesn't fix it. If so you need to make the #maincontainer wider.
+doesn't mean nothing. You have to use
+How I hate myserlf!
+What a strange website candyundies.com sounds disgusting!
+sad faces! :( not workoing.
+It would be sad:(
+I realise this is probably an absolutely horrible way to do a query, and of course its not working. The point of it is to select users based on a date range and a keyword.
+This is very strange, what are you trying to do here. It looks very scary code. Where are your constructors?
+I think this'll be what I'm going to go with. I really hate dealing with XML files.
+Working with ANEs is an incredibly frustrating process.
+The error occurs because is looking in the wrong environment (i.e., not inside the data frame). You could explicitly specify the but that would be ugly, awful code. Much better to use as Iselzer suggests.
+I have issues with Aptana (3.6.0.201...658) on dark themes. Every time I hit the cursor, the horizontal scroll bar in the workspace flickers into view and out again. This seems to be a bug, which has been reported already a long time ago: Has anyone else found a solution? Makes working in Aptana incredibly annoying.
+So I have a facebook page and a username /llamafont so I obviously want to keep that url. I have had the like button on sub pages (you save phrases and can like/share them on FB) since before I made the page on FB. When I have added the like button to my homepage for my base url, it shows 62k likes - GREAT! However on my facebook page i only have 107 - I guess these are the people who liked the page directly on FB? How can I make the 62K likes show up on my page in facebook? Do I need to add in all the meta og: stuff? Right now I only have og:image in there. Have I screwed it up for good? Or can I make FB recognize the likes somehow? Thanks in advance!
+Recently I've started Operating Systems course...now going through its contents I'm thinking about learning UNIX from its internals.Also I have completed a Computer Architecture course and really loved it.Can you suggest a good book on UNIX Internals from which I can learn the practical aspects of how the architecture designs work in a real life OS?
+Excellent, thanks!
+I would use ! to get everything with tag just do: to get the value inside of span you could do: there are tons of differnt methods of getting the informaton you need Good Luck hope this helps!
+That looks like a really excellent article, thanks for linking it. :) Where are you getting stuck? Do your logfiles show attempts to access the mobile content? If you add some logging to your browser detection, can you tell when the Opera Mini emulator is connecting vs when a desktop browser connects?
++1 : as i was planning to answer but horribly slow typing speed!! :|
+Excellent Answer, thank you!
+aaaaawesome!!!! Thanks a lot
+I have just read and I really loved to the question. Naturally, an interesting question popped in my head... How to add my own events (of my own applications) in the Control Panel -> Sounds and Audio Devices -> Sounds -> Program Events? And another related question, that I suppose should be answered here as well is... How do I play those sounds specified in the Control Panel, when the event in my application occurs?
+I'd be interested to hear how this works out. You are very brave :)
+wow, awesome! never knew this. Thanks again!
+There's no such thing. Any such log would have to be programmed into the database, so no worries, you don't have to disable it since it doesn't exist by default!
+excellent question, thanks!
++1 for actually *answering* the question.
+Excellent! I got it working with your help.
+Code Contracts are pretty cool, but they do have some limitations. They will only create compiler warnings, not errors. Also, this analysis is pretty slow on large projects. However, I'm hoping this technology will evolve and eventually be integrated into the language itself. It's incredibly promising!
+Could you break this down for me? This looks scary :O
+Thanks to your excellent instruction, I understood enough to figure out what was going on and also what was needed! Here's what I came up with. It's clunky but it does the job! Thanks again everyone.
+No worries, his answer is much better!
+Excellent, thanks! This was very useful to me.
+Excellent, thanks for that!
+I am using as templating engine and I am really loving it. However, now I have run in a situation which definitely mustbe accomplishable in a simpler way than I have found. What I have right now is this: What I am looking for is something more like this: Is there a way to accomplish this which I haven't seen yet? If I need to create my own extension, how can I access myVar within the test function? Thanks for your help!
+Excellent! Just what i needed!
+Excellent! Thank you so much for the thorough explanation, and for providing the demo. So `eval()` allows you to access the value stored in each variable. This is handy if you want the name of your variable to itself be stored in a variable. Handy! You did an excellent job explaining. Gold star for you. :)
+I want to update two channels on Xively and I can not get my datastream to update both. I am seeing one channel being updated ("Temperature"), but the other "sensor1" is not being updated. This is my first crack at a datastream, so any advice/pointers/tutorials to look at would be much appreciated. I have looked all over and can not get this to work. I intially used the Feed API to set up one feed for one sensor, but now i want to add more sensors. Again, any help would be extremely appreciated!
+Wow - excellent! How did you find this age old question? :)
+This is excellent! :)
+Excellent, thanks very much!
+You should . It has a lot of good packages. I found these packages to help you with zip files for example: The NPM registry is really amazing :)
+@Alex: Great :) Happy further coding!
+Excellent! I'll make it as answer, that you can hopefully accept with a lovely big green tick :-)
+after some tests i found a fast solution , you can add in top of your index page: it work very fine :)
+Excellent question! I can't figure this out either. Please post the answer here if you figure it out.
+John, Your solution is absolutely awesome! But, just to share, I have been using this method above until I see your ideia. So, it seems not to be the best solution for this, but for sure it is a way around.
+Excellent workaround..!
+No worries, just run some tests and see what fits better your usecase!
+I am creating a small widget and I want to allow others to use it. The iFrame is loaded from HTTP - but I want to allow users to login via HTTPS i.e. that is - send a request for login via SSL Is this allowed within the same-origin policies or ? i.e. the scenario is that a user can integrate my javascript to their website, the widget opens and i want to allow them to login via https ? Any help would be hugely appreciated :)
+Excellent! You should document that as an answer and accept it so many more people can solve this with a google search on 'single line of text' :)
+I would like to get back all the option selected of a multiple select when i submit my form. like : using somthing like that : and get an array with all the value selected like ['2','3'] All that, without jQuery and in js or php is fine :) thx!
+try it out very helpful, loved it n its easy to use
+I have discovered a mode in , where I can instantly change all same variables. When I am in this mode I get a box around the same variables and I can change one and instantly all others change. I do not know how to enter this mode "by will", I just entered it "randomly". Therefore, I really appreciate your suggestions, how to enter this mode, because it is extremely useful to me! PS.: I am using NO plugins, just a plain new eclipse installation with java!
+This one by Christoph Pojer is pretty awesome! FileManager uses the FancyUpload3 script that is soon to be released for good-looking file uploads. And, it can be easily integrated with TinyMCE as well.
+I have an array of words that gets shuffled into paragraphs using jQuery. I'm trying to add some commas "," in between them. Ideally i need a single comma added to every 4th word but this is beyond my modest jQuery skills. This is my code: Really hope you can help!
+I'm reading an excellent article by Paul White - ! and he uses this code: I'm trying to find out more about using dbo.Name to declare a variable, not having much luck with books online. Any ideas where I can find this? Thanks
+Excellent information, thanks!
+excellent in my case use the following code Thanks!!
+No worries - everything is easier with jQuery!
+excellent, thanks much!
+Excellent, thanks!
+Thank you for the excellent answers! @ArnoldSpence is correct: It is indeed a case of memory fragmentation. I confirmed this by modifying my example above to allocate a series of 49 MB buffers after the reaching the "OUT OF MEMORY" condition. Sure enough, these all succeeded (up to the 2GB limit).
+I'm currently working on a responsive multi-level menu which currently shows every level of the hierarchy instead of only the first, which is what I want to achieve. I've created a fiddle, which can be found here: Here's the relevant Code: CSS: And also my JS: If someone could lead me in the right direction, I'd be really greatful! Thanks!
+Excellent icons on !!! We use them in PerTrainer iPhone application You can see screenshots here: I also found some good icons here: Hope this helps!!!
+Well, again thanks for your help, it works very great! Have a nice day =)
+Great! Absolutely wonderful! Thank you very much!
+Absolutely awesome, alexn! I knew I had forgotten about something important. It works like a charm.
+Excellent! Thank you for the follow-up. I added a variation above.
+Wow great idea! Try to do it with inlineEditSupport. http://www.salesforce.com/us/developer/docs/pages/Content/pages_compref_inlineEditSupport.htm
+please update and you will get to paradise =)
+I might explain but documentation on MSDN is already pretty excellent. Consider visiting Following Links. Here is the link to in with Example -- and -- synchronization in -- MFC -- Hope these help
+No worries! How do I determine the difference between template or class?
+excellent! it works. but could you please explain how this works? Does javascript take time to load? could a thread.sleep step done the same thing?
++1 for this question - I have the same issue.
+Very excited for my first post on SO! I would like to create an animation like in xcode I am not having much luck with what CABasicAnimation has to offer. Feels like I may need one of those fancy physics engines...(?) How would one properly begin do this? Thanks!
+I am trying to make my javascript change when the window resizes, but cannot seem to get it to work. The only difference I would like is for the offset().top to change from -90 to -60 as the window becomes smaller than 768px. This is what I have so far: Any advice would be really great! Thank you
+excellent bonus tip re lcd! I didn't know that existed, but will be very useful.
+Can anyone suggest me some tutorial where i can read how to use the facebook registration plugin. On the facebook page of that plugin it's not clearly given hence less understandable. If someone know about some tutorial or can help me out with this stuff, would be really amazing! Thanks in Advance
+I have imported video FLV Player(with no skin) in layer(flv1) The flv Player instance name is "myflvplayer1" Actions: Frame 1 Till frame 142 there's animation playing, after that: (so here video start to play in full screen) Now when this video finishes I want it to Jump to frame label "main" Where I have put many navigation buttons (My main menu page) So any help will be very great.! This is DVD based presentation, so everything is being loaded Local.
+Also, is there any tutorials you would suggest for me to downgrade the .NET Framework for an already built project? That would be really great :)
+I'm trying to put together Handlebars + Masonry + Infinite Scroll. I successfully implemented Handlebars & Masonry but have no idea how to use Infinite scroll. My json is . Any kind of examples/help will be really awesome!
+Excellent answer! Bonus marks for humour!
+Here is the working solution.. Tested in Chrome/FireFox/Safari.. Split the setter into a separate method. Working grrrrreat! Enjoy... Controller: View:
+I have two classes, a GUI and a Customer class. The GUI builds the frame and button, and the Customer class gets the info from a database server. I have the ActionPerformed in the Customer class, but it doesn't appear to be noticing when I click the button. Any help is extremely appreciated! GUI Class: Customer Class:
+I finally worked it out - the sql directory needed to have a folder named 'rapt_setup' with the sql inside that!? Doh! But as J.S provided so much help I still want him to receive the answer points :)
+This would be easiest with a - no need to be scared, it's just a box!
+Wow, great ! Thanks a lot !
+very awesome! You just saved me a boatload of time.
+I have seen a lot of examples of Ruby classes that utilize the method of and I am not sure what the advantage of using it would be. Example: Any insight would be extremely helpful! Thanks!
+Wow, excellent thanks for going to the effort to measure the performance! +1
+Excellent! Thanks very much. Don't understand why I did not try to find it myself. Thanks again.
+No worries found it! I clicked on the little button on the top right of this
+@jball: +1 This is an example of the way `.live()` is painfully abused.
+excellent! glad to hear it!
+@R.. Wow! Really great answer!! You should post it as an answer here, as it's really more precise. Just a question, though, when you say round for the alignment of the type, you mean that if for example on your example you had a short b instead of int b,
+Ah - excellent - thanks!
+I am designing a contact form which has a 'Thank you' message pop up on send, I need my thank you message to be positioned relative, other wise if the user happens to scroll while the animation is running the message remains stuck in place and ruins the animation. However positing the div relative keeps it in the position before it loads, what I need is a way to have the div display:none or opacity:0 BEFORE the send button is pressed, is that possible? Here is an to explain what I'm trying to achieve a little better And below is the Javascript I'm using Any help would be really appreciated :) Thanks guys!
+I'm using some modifications to Glenn Berry's excellent DMV queries! However, I would like to add to the resultset the 'last server restart', or to be more specific, the date/time the statistics for (all, the specific) DMV was reset. Since it would be quite important to know last reset when looking at the statistics, I want to make absolutely sure the date/time is accurate and shown. Question: How can you get the most accurate date/time of when a/all DMV statistic was reset? Thanks! -D
+We ended up rolling our own, similar to Figaro but with support for nested values, multiple files, and placeholders. It's pretty awesome: !
+Just use RotateFlip: As @Dan-o has pointed out, this allows a rotation of any of the degree's in the enum. To rotate a Bitmap any angle without losing the size, you could do the following, but it's a bit convoluted! One - Add the library to your project Two - Add the XAML, WindowsBase and PresentationCore libraries to your project Three - Use the following to rotate your Bitmap any amount of degrees: Pain in the ass, but works!
+I'll suppose that field() is a function that you've created to get a single field according to some conditions how about this code?: i'd be really amazed if this code is not working correctly Good Luck!
+I'm trying my hand at creating a chrome extension, but am running into a wall. I want to be able to use the browser-action popup to write/modify values into local storage (extension storage). Then, I want to use the stored values in a content script. From what I've read, it looks like I need a background file? but I'm not sure. Some coded examples would be extremely appreciated! Thanks for your help!
+Godd luck, hope you figure it out! :)
+Excellent - I'm glad you found it! The double quotes may be a unix/linux thing. Note that Oracle will accept `username/pw@db` or `username@db/pw`.
+I was using an old version of Sinatra - updated to version 1.0 and it works fine :) Thanks everyone!
+Your example files are well-formed XHTML. Excellent! This means you can use a simple XSLT script. See
+If it wouldn't have been a programming question, The answer of your title would be Priceless :)
+Thanks, everyone! I learned something extremely valuable :D So Linux doesn't stop at the 26th value?
+i found some class that a very great men develop!!! that solove this: here is a link to download it it the last post on the page: direct link:
++1 for IntelliJ. Worth every penny.
+Thanks, this is extremely helpful!!
+Excellent! I'll try that. Hmm... I cant upvote yet, otherwise I would have :)
+I found that the best way to do this was to use Access and save as a text file and then you can set your own field width and export. excellent!
+is in so u need not to worry! Internally the data is always stored as TEXT, so even if you create table with , SQLite is going to follow the rules of data type
+Great :) thanks!
+Excellent! Tank you so much, much appreciated.
+I was wondering - when making my website - how i can put a bottom margin that lifts an a-tag up. CSS: And here's also my html: I really hope you can help me out :) greetings form the Netherlands!
+I've always really loved slice assignment:
+There is this about hardware to improve compile time. Also this really excellent from Scott Guthrie on looking at hard drive speed for performance.
+this is an excellent link thanks a ton! havent gone through it in detail. just glanced. but it looks really promising. Will read it in detail shortly
+@NathanSmith Great success! If you submit that as an answer instead of a comment, I'll accept it!
++1, excellent link, thanks (but then anything by Celko is bound to be!-)
+@mludd: excellent!
+Learn jQuery. Rejoice! <-- take your pick.
+Is there a shorthand for a new line character in Scala? In Java (on Windows) I usually just use "\n", but that doesn't seem to work in Scala - specifically outputs in Eclipse, (sic) from the command line, and from the REPL (GREAT SUCCESS!) works, but is there anything shorter?
+That's terrific, thank you!
+No, definitely not return "object" ! WCF should make use of DataContracts and define full implementations of the request and possibly response objects for each call. See these two excellent articles on Datacontract basics: I have no idea why the developers of those services picked "object" as the return type - doesn't make a whole lot of sense to me! Marc
+Beaaaaaaautiful!
+Excellent, thanks!
+I want to programatically detect if my site is within the Facebook iFrame app so I can display certain features specifically for Facebook. Otherwise if someone goes site without Facebook. Preferably an FBML, C# or JS solution would be great :) Thx!
+I need to develop a messenger-like text box, where certain tokens are being replaced with UI controls. Just for example, if the user types :-) it should be replaced with a smiley image. I have previous experience with WPF's RichTextBox and i understand the concept of TextPointer and TextContent. I just don't know how to replace a TextRange with a UI control... Would extremely appreciate your help :-) ! Gili
+Excellent! I'll add it as an answer so you can close the question properly. Glad I could help.
+I think you should be able to make your connection without doing a lot of contortions with your database. It's just a matter of getting the right connection string in your code. Check out this very excellent reference -- scroll down for SQL Express tips. http://www.connectionstrings.com/sql-server-2008
+I can't believe sql server doesn't have a feature for this..
+"two jsons" <- priceless !
+Excellent! Thank you so much!
+Has anyone seen a wordpress plugin slider that will show partially the next and previous image before it slides in? OR does anyone know of one that may be easily customized to show that effect? any demos, guidance or links will be extremely helpful! Thanks very much in advance! Michael
+If you are currently using a to display the , than you can create a custom which does filtering automatically as you type keys. The following webpage provides an excellent example of this: Good luck!
+I've bitten off more than I can chew and need some help with WooCommerce. I'm trying to edit the shop front page (i've managed to do the product single pages fine) but can't find the out put for the hooks anywhere. Basically, all i'm trying to do is make the Title of the product appear before the thumbnail and add a"view" button after the thumbnail. I'm literally pulling my hair out so if anyone could help i'd be extremely grateful!
+Thanks! Give it a try! It works excellent! If you can build the URL string correctly of course, je
+Excellent! It works like this: [code]extern "C" {
+excellent idea :) I just added, tests it and works like a charm! Thanks
+Excellent - now if I set the main ImageView layout_weight to 3 and the inner LinearLayout to 1, I get the 75/25 effect I wanted too! Thanks Kevin!
+HIya 2 working demos for you : or both works fine: Hope this helps, have a good one, cheerios! code:
+Still using HeidiSQl, it's excellent!
+I was wondering if is there any jQuery plugin or something to create a search bar similar to Mac's Mail app, where you can search inside specific categories, very awesome Thanks in advance!
+There is a guy who made the exact same observation as you, and he has published a blog post with a simple working example of a Quartz.net Console application. I used it with great success yesterday!
+I know there is a lot of information out there on this but I've searched and searched and still have not found the help that I need. Essentially I'm trying to fill the entire browser window with a background image that scales itself and retains it's aspect ratio automatically at any size so that it can be viewed on any device. Here is an excellent example of what I am trying to achieve: The background image, when sized to 320x480 then stretched from 480 to 640 expands itself to the right! If anyone out there can shed some light on how this is achieved via css I would greatly appreciate it!
+Drama-free and practical. +1.
+@Johannes yeah...definitely positive!
+I loved the wild solution that Marcus offered and it would be great if it could be undeleted!
+Excellent, thanks!
+I use GIT on windows with and i'm loving it! .
+To expand on my comment, if you don't already see then benefits of relative positioning then I'll assume you are a begginer. Here is a useful video to help you re-design you page: Also, this is useful for comparing when each positioning method is best used: And finally a general website that will be extremely useful for you in the near future may be !
+That would be very awesome, thanks! If you do post it I will likely contribute...
+Excellent! Your first comment is right on the spot, the other two calls are not necessary. I'll be happy to accept your answer if you create one.
+Amazing how well this works! I had excellent answers immediately! It's like I'm living in the future!
+Hi I just started playing with Mongoose. It seems pretty awesome! Now coming from a Django background, how would one implement a type of options field like: So that it can be set like status = Open or something like that. Or should this just be a normal String field and I set it accordingly in my app?
+Loved this solution!
+In my MySQL table, there is a row labeled "state". There are 3 values possible for this. How could I utilise PHP to echo "Unbanned" as apposed to "0" in state? And "Banned" as apposed to "1" and "Temp-Banned" as apposed to "3"? How would I use php to display "UnBanned" instead of 0 in the MySQL? I am using a table for this. All help is incredibly appreciated :)
+Hopefully this will provide some ideas as to how to adapt a timer based approach for your needs: If your needs are more sophisticated then a TThread based approach may be more appropriate. But whatever you do, do NOT resort to Application.ProcessMessages it will only cause you grief !
+Excellent, I'll try that now, thank you!
+Whoops, neglected to look at the dates. Oh well, I still think it's a valid answer.
+This is amazing...I had no idea you could control UI elements without even needing to mess with the UI... You are a hero :) thank you!!!!!!!!!!!
+then you might want to take full control over how Preferences should follow your desired storage by implementing . You can see a linux based implementation here: Good luck!
+I'm just working my way through Django, and really liking it so far, but I have an issue and I'm not sure what the typical way to solve it. Suppose I have a View which is supposed to be updated when some complex Python object is updated, but this object is not driven by the database, say it is driven by AJAX calls or directly by the user or something. Where does this code go? Should it still go in models.py????
+THanks, I'll check them out. I'm loving that there's so many different answers to try out... if only I had the time to understand them all
+I have just come across this great API: However, I would like to also retrieve the continent. Is this even possible as I can not find it. Maybe there is another API that is freely available that will offer city, country and continent? I have tried Googles AJAX API but they don't offer continent either. Maybe I going to have to just convert what I already have into continents, how?! I hope this isn't too subjective! Thanks all
+I've been using the jQuery UI Calendar / Date Picker with great success over the last couple months. I've been given a new requirement to allow for a week to be selected (Sun - Sat) rather than a single day. Has anyone accomplished this before? highlighting by week rather than day show beginning date and ending date rather than single date in textbox / labels
+Herb Sutter has a great treatment of this exact topic in Items 26, 27 and 28, "Minimizing Compile-time Dependencies, Parts 1, 2 and 3", in his excellent book Exceptional C++, ISBN: 0201615622. IMHO, this is one of the best C++ programming books available.
+Great links, thanks for your work!
+@Jonathan: I don't think it's the ONLY sane way to do it :p. Great answer though!
+pagination is the same concept with or without sql. you just need your basic variables, then you can create the content you want. here's some quasi-code: hope that helps you get started!
+What an amazingly great answer. Way to go Cody!
+Hey, I am trying to further my knowledge of javascript and was wondering if anyone could explain to me what exactly is happening in the script below: Most importantly, why are there 4 'google_ ad_ ...' at the beginning and what is the purpose of them? A line by line explanation would be awesome :) Thanks for any help. I really appreciate it.
+Thanks for the link. That's pretty cool!

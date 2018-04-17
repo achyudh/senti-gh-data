@@ -1,0 +1,161 @@
+Text
+IMHO this two functions are unnecessary. There are only validates (oh my...) Better if will be done in the level using the parameters.
+In my opinion a distinction needs to be drawn between IPv6 header bogus length and extension header bogus length. Whether all the different extension header should use the same expert_field or not for length is another issue, it's debatable but my current opinion is that they should be separate, i.e, ei_ipv6_routing_invalid_length, ei_ipv6_dstopts_invalid_length, etc. but if someone thinks differently please share.
+In my opinion this function is not required. ArrayIndexItems function can return one more array called counts (count for each entry). NewSecondaryIndexEntry() method can be added with one more arg count. During index inser, you just need to iterate through itms, counts := ArrayIndexItems() and encode as NewSecondaryIndexEntry(itm,count)
+In the follow-up change [1] this method is renamed to 'canEditChangeLabels' [2]. I would propose to name it already here 'canEditChangeLabels' so that it doesn't need to be renamed in the next change. [1] https://gerrit-review.googlesource.com/24661 [2] https://gerrit-review.googlesource.com/#/c/24661/4/gerrit-server/src/main/java/com/google/gerrit/server/project/ChangeControl.java
+In the latest patch, you switched from glib memory to wmem memory. So you do not want to call g_free but you still want to destroy the hash table itself, otherwise you are leaking memory. So switch to g_hash_table_new instead of g_hash_table_new_full and put back the call to g_hash_table_destroy.
+In this case, we only need to set it (item->old_offset) to zero, because _wal_flush_cmp() function compares 'item->offset' instead when 'it->old_offset' is zero. Thanks.
+In which case, shouldn't the code just say that all other open projects should already have their SDK's pointing to the SDK used by the IDE? i.e., now that we do this, we shouldn't have to modify other projects, only this project since all others should already be in sync. The fishy part here is just that choosing something in a project import dialog affects other projects which doesn't make sense. If you want that experience, then the dialog should be more of a global IDE preference.
+increment out is extra here, you can use num_rebalance everywhere
+indeed! Sorry, I assumed that this function was tested and it seems trivial to me since in Oracle/Sybase this works like a charm would you mind sending a patch fixing the fn_db_delete_config_values as well and put me as a reviewer ? thanks
+Indeed, annoying even more as -i in POSTROUTING is already used in external_gateway_nat_rules (L1468)
+Indeed, thanks. I discovered this myself early last week, and addressed it in I82ff6602af3bf5 so that we use gcc 4.9.3 on slaves where that matters. Love these commercial-grade compilers!
+indent is not right: Use space and not TAB
+indent. But how about defining skipontest() { if [ -z "${TESTING_ENV}" ] ; then "$@" else: echo skipping "$@" } It should be added to ovirt_store_config (in case the test happens to be run on ovirt-node).
+inefficient. instead of using contains() above and section() here, one can use indexOf() above and mid() here.
+Instead of having "%s" of "%s" I'm thinking it should be "%s" belonging to "%s" I feel that both "Page 1 belonging to Group 1" and "Page A belonging to Robert Lyon" make more sense than "Page 1 of Group 1" and "Page A of Robert Lyon"
+Instead of malloc() maybe you can use stack: gchar tmpname[41]; 41 is enough? Cannot be greater?
+Instead of putting everything in the collector and then looping through later when outputFormat==JSON why not switch here on outputFormat and thus allow results to be printed immediately for JSON and collected only for JSON_SINGLE?
+instead of this simply add "creation_date_time=creation_date_time" to __init__ method bellow
+int or long (underlying ssize_t types) should be OK to return this?
+Intentionally made this INFO, as restore being a not so common operation this log wouldn't be quite frequent, and also it's good to know why and who stopped bricks in these cases for debugging later, coz most customer setups don't run in debug mode
+ip6_addr.bytes is no more initialized with this change.
+Is it confirmed with UI team to use this distinction?
+is it margin, or padding? see e.g. http://www.w3schools.com/css/css_boxmodel.asp
+Is it possible to put this init function inside the nehalem romstage ? Or are there any problems
+Is omitting other kinds of completion proposals on a specific purpose, or just a way to keep the patch small (and you currently don't need more)? This kinda contradicts the use of the general type Binding (rather than MethodBinding) - looks like you couldn't make up your mind ....
+Is sqlite the only DB option to use Ganesha? What about mysql? sqlite is usually not used in production. I'm just wondering why there's such limitation here.
+Is the model about logs (as the class name suggests) or about log rows (as the parameter name suggests)? At least one of them needs to be changed.
+Is there a function for this query already? or should we make one for future? It is just that this is quite a big block of code, and would be more readable factored out
+Is there a reason we are not doing stuff like the below, which seems to me would better across a wider range of machines: // lockFocusFlipped not available before OSX 10.6 if ([pimage respondsToSelector:@selector(lockFocusFlipped:)]) { [pImage lockFocusFlipped:YES]; } else { [pImage setFlipped: YES]; [pImage lockFocus]; }
+Is there a selector you can use with $.closest so this doesn't look so godawfully clumsy?
+Is there a way to edit the commenteditabletime? I haven't spotted one.
+Is there any practical reason to skip class literals in JsInterface chains other than code size? Please add an explanation here.
+is there some missing code here that should go along with these Name objects? Persimmon has some methods that go along with these. Might be worth looking in to.
+is this an optional call or clients should always call it at the end? when is it a good idea to call unmount? Can we add this info to some form of documentation?
+is this equivalent to: lmm->lmm_pattern &= ~cpu_to_le32(LOV_PATTERN_F_HOLE)
+Is this just a bad formatting here (or is clang-format to blame)? I would prefer to put the name and type on a single line in that case. Separating the * seems wrong in a lot of ways.
+Is this marked 'latest' in the other place it's defined?
+Is this necessary though? Would anything bad happen if we encode to utf-8? Also, it looks like this exists to make sure that we aren't using utf-16 or something else, in which case we would definitely want to keep this even in python3.
+Is this only relevant for new Js interop or was it also a bug with regular JSOs? If it was a bug with JSOs, we should add the relevant regression test.
+Is this the right API? An alternative is: func If(s RuneSet, tTrue, tFalse Transformer) Transformer type RuneSet interface { Contains(rune) bool } and have unicode.RangeTable implement this interface. If performance is a concern, the If function could do a type assertion to see if s is a *unicode.RangeTable, and switch to an optimized implementation, the same way that the image/draw package does in the stdlib. But I'm not sure if we even want a Ranges or If. The point of the Transformer interface is to transform things in bulk. If you're going to be chopping between two separate transformers depending on the input runes, then it seems like you're not getting the benefit of transforming in bulk. Instead, I'd just loop over the input and append to a []byte. It's not like you have some input that contains both Code Page 437 and Shift-JIS and you want to switch between them. Your phone number Ranges example seems a bit contrived, and again, I'd just for/range over the string for that particular task. As for title-casing latin but not greek, is that something that people really want to do?? I wonder what Rob thinks. Can you start a separate e-mail thread just for API design?
+Is this the same thing as CRAMTMP? can we use that to make it more obvious it's a tmp directory?
+isn't the client always linux? hmmm... client is a terrible name. i've no idea what i'm looking at here. i was planning on moving those files that currently have "client" in the name. there it seems to mean "device". usb_linux_client is the device-side code, usb_linux is the host-side code. likewise adb_auth. adb_client.cpp doesn't fit this pattern though --- it's a mixture? and for file_sync, client is the *host* and 'service' is the device.
+Isn't the Config callback sufficient? It sounds tricky that a returned Config is valid only until the Config callback is called. If possible I prefer limiting the Config's life inside the Config callback and letting users maintain a copy of some info based on need.
+Isn't this a dict_get failed rather than a dict_set?
+It adds more things to go wrong than just downloading everything again to do a reinstall. I understand the desire, downloads are a pain, but downloading again is a much more predictable zero state than some set of possibly-correct archives on local disk checked against some possibly-correct set of hashes. All of which is a lot of extra moving parts to work around a problem (slow connections). Is it worth it? Maybe. But it is a lot more to go wrong.
+It appears the requisite form is "elseif," so I left this one as-is. "...TYPO3 code must not use the else if construct."(http://docs.typo3.org/typo3cms/CodingGuidelinesReference/PhpFileFormatting/PhpSyntaxFormatting/Index.html)
+It better to have a log here rather than having GF_VALIDATE_OR_GOTO. The log can be gf_msg (this->name, GF_LOG_ERROR, 0, Q_QUOTA_INODE_MISSING, "Missing inode, can't adjust for quota"); Just add a enum with appropriate number associated to it, there is no diagnosis for this.
+It does not appear that you need this treeColorSet.
+it doesn't leave them; it always removes them. "use specified directory for temporary files"
+It feels wrong to be doing this sort of checking in this class, it is huge already. I suspect that passing in the appropriate merge strategy via the factory would be cleaner.
+It fills the functionname <-> opcode mapping from a list of text resources in RID_STRLIST_FUNCTION_NAMES in formula/source/core/resource/core_resource.src
+It is a core class, why should it be independent from core usage? "If you just assign an end date you have to jump in the source code to become an idea how the start date is resolved." This can be written into the function comment, so if we may change $GLOBALS['EXEC_TIME'] we do not need to change so much calls.
+It is a logical change, but it is correct! $configuration['vendorName'] !== NULL triggers a PHP notice, when $configuration['vendorName'] is not set
+It is a matter not related with this commit, but shouldn't be an optimization if we replace '\n" with ";" instead of "\\n" so as we save some bytes in final JS? We should consider edge cases like ',\n' in js objects, etc, though
+It is my update of this help page: https://help.libreoffice.org/Common/XML_File_Formats It should also link to Expert Config page, but it does not exist yet.
+It is possible to kept alcatel-lucent.xylan (and remove the other) Xylan has buy by Alcatel in 1999... (if i remember..)
+It is pretty inconsitent. Some have very short descriptions (like this one) others only point to the jdk doc (which is what I will do). Big TODO update all url pointers.
+It is the same argument, that we want positive constants for time constants.
+It isn't :( https://android-review.googlesource.com/#/c/119847/
+it looks like createMergeConflictInfo() always shows the warning, then adding the warning should be an implementation detail of createMergeConflictInfor() and the mergeResult needs to be passed to it as a parameter
+It looks like this allows a user who cannot see all branches to probe which branches exist. By looking at the error message "it doesn't exist" vs. "user does not have rights to delete it." a user can detect if a branch that is not visible to him exists.
+It makes sense that this is for the IOMMU since family 15 model xxx are the only parts that support it.
+It probably is, but what happens when somebody upgrades the libvirt? Do we require vdsm restart as well? Or will it suddenly start working?
+It seems clearer to return Future<?> here and let the caller set the variable. A better name would be something like startAddingEntryToCache since the postcondition is that when it returns, the task is scheduled. (Assuming the persistent unit cache is running at all.)
+It seems like calling Window.Location.replace() would reload the page? If it doesn't in this case, is that portable?
+It seems that you changed the behavior when there is an overflow. The data of ConstantManager are not longer corrected, thus, it is not possible trying to merge a smaller dex file which does not overflow. Could you upload a separate CL that remove only this feature with figures to see if there is benefits. ? Perhaps, you had some problems with it for parallel dex merging or you think that it was not useful ?
+It seems to me that the above helpers would be better suited in a different file to keep this file a purely generator one. Does that make sense? is there any good reason to keep it here?
+it seems to me that this operation is not optimal as it would try to find a number in a list, while you only need to check it against 0, 4095 boundaries.
+It seems to me that we have a more serious issue here.
+It seems to me to be the case. There is a bug: https://b.corp.google.com/issues/17586779 shertz probably knows more about it.
+it should be if( this->m_UsePhysicalSpace && !this->m_PhysicalSpacesMatch )
+It was intended to be Modes from the start, but could not be fixed before without braking BC. Should probably go as a separate commit.
+It was only referenced from the description text in rest-api-accounts.txt which is deleted by this change. Since the JSON entities of the REST endpoints are described directly in the REST API documentation I've moved the description of the QueryLimit over to rest-api-accounts.txt.
+it will be used by the UI from a query: when suggesting auto-completion of all existing labels
+It will change the style of link that gitweb creates when it outputs HTML to the client. If a site wants the non path-info style, leaving this enabled would defeat that setting.
+It works pretty well and provides status information for impatient users. Note that nrms is a shared variable among the threads and that the line is overprint with the carriage return character in a fifo manner.
+It would be helpful if the returned structure were described more fully, just for clarity.
+it would be nice to use a DTO for the options. this would make it possible to extend it later (which I am pretty sure we will do) without breaking extensions using the interface
+It would be useful to add a short comment here with the kernel version in which this API changed, so that it is easier to clean up later.
+It would be would to expand into '... main stats view in rt server' or similar.
+It would help to have a DHT_MSG_DISK_LAYOUT_MISSING msgid here
+It would require to change diskImageGuid member to static as well.
+It'd be nice to coalesce such case lists into a single line, up to some line length.
+ITK 4.7 is out :-) This required could be still added in the version specification to the find_package call for this example, though.
+itkGetInputMacro and itkSetInputMacro are ITK wrappers for this->ProcessObject::GetInput(#name) and this->ProcessObject::SetInput(#name) I'm not sure what you think is wrong here, please elaborate.
+It's a format with the ovirt engine format template, will recover the format.
+It's a nice feature; does it cause a particular problem?
+It's an excellent day when there's more documentation than the core developers can remember having!
+It's either useless or not. If it's useless, remove. (Note that we do not like transitive includes, though.)
+It's feeling funky and not particularly DRY in here. Do you think we should have a more consolidated response handler, then have these functions simply access already processed data?
+It's in the debug code below, but I'd add a comment here saying something like // n = (p - base) / s.elemsize, using division by modular multiplication
+it's just not correct to skip ./.. in OSP because it doesn't know whether this is a stripe or just regular directory which we can access via OSP.
+It's left intentionally like that, so that a patch that actually enables one LFP looks cleaner.
+It's not clear to me what this really does. Given: Dir("a", "b", "c") Does this create c as a file or an empty directory? The name 'Dir' suggests the latter, but the comment seems to suggest the former.
+It's now streaming the progress to the client. Done
+It's one less file to update for anyone adding an extcap executable. I was hoping to migrate the Windows buildbots to CMake this week, which would make this less critical.
+Its probably better to include this line in a {} block to avoid inadvertent errors while making any changes around this code block as well as to make the code clearer to understand.
+It's still an executable file. As opposed to, say, a Linux application that you build on Windows and which has a file with an extension .msi - that would most likely not be an executable.
+I've double checked the (REST) command i used to delete emails. It wasn't a typo because I used the exact same command with an admin user and it worked just fine. It was only when I used the user with canModifyAccount permission that it didn't work. Could the 'not found' message be from the Email.parse() in Email.java requiring Administrator permission?
+I've shortened to isIPv4, but I don't think preferIPv4 is correct. first(preferIPv4) seems reasonable, but partition(preferIPv4) doesn't actually prefer IPv4.
+I've uploaded an alternative in patch set 5, which you might dislike less :-)
+Ja, if there were a clean way to have the old name mean a new -q version that'd be fine, but I think this is the best we can do.
+Josh, my proposal is to see boot as a helper for deploy driver (or to any other interface or anyone else) rather than to see it as a separate interface. Boot should just take care of getting the bare metal booted to the required environment - whether for ironic to perform an operation OR to boot the user-requested image. Thinking in these lines, I would think boot interface should refrain from participating in cleaning. Boot interface should participate in cleaning only if it had something to clean up on the bare metal node that would take a lot of time - in my mind there isn't anything. We can discuss in the IRC.
+Just a pre-emptive note, I put these TODO's in the code, because they are separate refactoring issues, which would be better handled in a separate bug.
+Just a question: Does ant use ; as a path separator on all platforms, or should you use File.pathSeparator (which will be : on Windows) ?
+Just a quick question, if we are not creating the volfile, what's the outcome?
+Just a suggestion: May be we can pass both channels as arguments ?
+Just cleaning, this regex remove empty string concatenation: + ("") This can happen when we start a new group of concatenation (see appendConcatOperation()) and there is nothing to print afterwards. In this case the string ends with a concatenation of an empty string
+Just curious, how come you use a RandomAccessFile here? It might be simpler to just Guava (which lint already depends on): String firstLine = Files.readFirstLine(file, Charsets.US_ASCII); (that's com.google.common.io.Files)
+Just delete this line, have one empty line in between the background and the scenario.
+Just put "Sync groups in these contexts only" as field text. And put the rest in a note beneath the text field: "Note: Leaving this field blank, the user authentication contexts will be used." Help needed to let admins know how they need to enter the context.
+Just use 10px. I also rebased on latest master and adjusted look and feel of buttons here to match the changes made in context of [1]. [1] https://gerrit-review.googlesource.com/62460.
+Just wondering if _nl_addr_cache and _nl_link cache can be factored somehow with a common helper.
+k. Just thought because I removed not supported stuff, tested it and improve code quality qulifies me. I'll remove it.
+leave it defined here, just declare it extern in the header, otherwise each file that includes packet-usb.h will get its own copy
+Let's avoid having commented out code. Delete the DCHECK (which looks wrong to me anyway - you certainly could have a const index, but backends are under no obligation to take advantage of that information.
+LG_MSG_INSERT_FAILED => LG_MSG_RBTHASH_INSERT_FAILED
+limit the results as well as -> the "wel" needs to get a second "l" ;-)
+line length. You can also use qPrintable(m_keyPressBuffer) here.
+Line lengths, seems like most of these would be easier to read if they were placed on the preceding line before the variables.
+line wrap before throws so the line isn't over 80 columns
+Logging on allocation failures is discouraged. So remove this.
+Long line. Either break into multiple lines or add a static import.
+Looking at all *Listener.java files in our source tree I see the following two cases: * a listener is just notified that an event happened but cannot do anything to prevent/block that event. In that case the listener doesn't throw any checked exception(s). Examples: GitReferenceUpdatedListener, HeadUpdatedListener, AuditListener, ... * a listener can block the event. In this case the listener throws a checked exception which is on the same level of abstraction as the listener interface. Examples: CommitValidationListener throws CommitValidationException, MergeValidationListener throws MergeValidationException, ... Since this listener is not intended to validate/block a group membership change(s) it belongs to the first category and shouldn't throw any exception.
+Looks like here it's too late to set the response status. When I'm reaching this code I'm getting: WARN org.eclipse.jetty.server.HttpChannel : /oauth?code=7eefeb8697212b7c62c2&state=wjm3XI24hnUc7A2fbZ0JaLOjmVkrEQxOMidLRy50Zfg%2C%2Flogin java.lang.IllegalStateException: Committed at org.eclipse.jetty.server.Response.resetBuffer(Response.java:1253) at org.eclipse.jetty.server.Response.sendError(Response.java:567) at org.eclipse.jetty.server.Response.sendError(Response.java:544) at com.google.gerrit.httpd.auth.github.GitHubLogin.login(GitHubLogin.java:68) at com.google.gerrit.httpd.auth.github.OAuthWebFilter.doFilter(OAuthWebFilter.java:78) at com.google.gerrit.httpd.RunAsFilter.doFilter(RunAsFilter.java:117) at com.google.gerrit.httpd.AllRequestFilter$FilterProxy$1.doFilter(AllRequestFilter.java:64) at com.google.gerrit.httpd.AllRequestFilter$FilterProxy.doFilter(AllRequestFilter.java:57) at com.google.gerrit.httpd.RequestContextFilter.doFilter(RequestContextFilter.java:75)
+Looks like the null should be dropped. Previously it was null for the attributes, then Evonne added {'class': 'title'}
+Looks like the order of the parameters are reversed. It should be expected, actual. self.assertEqual('available', volume['status'])
+m->total_size is untrusted input, whereas c and microcode end are trusted. There's no risk of overflow.
+machine_emergency_restart is a good place for the cache flush in the sense that it is already machine-specific. But yes it's fine to take this approach. LGTM
+magnus, to write something along the lines of this is the number of sets of the most frequently written output type per frame set. the best default will need some experimentation. ideally this would be a user-configurable option, but it is not clear whether a (hidden) command-line option would be best (or env var), and not clear whether anybody would really use it in practice. Disk is cheaper than user and/or compression time, for the most part. So we'll add a TODO to reconsider for 5.1(?) and not before.
+Make sure the smbus code is compiled and linked in.
+Make these transient and lets just handle the serialization entirely ourselves. That way we don't have to actually hold onto buf when we have the object form already on hand.
+Make this something like 'You have no posts tagged %s'; and put in the changed in the tpl file
+May be you could add a comment where these constants are coming from?
+Maybe "findSubClasses" would be a better name for these methods?
+Maybe include a warning if the assumption is not met?
+Maybe move this to getStringMethod and rename getStringMethod to getStringMethodOverload?
+Maybe name this installToDispatcher() or something like that? I had a hard time understanding all the different classes.
+Maybe pick a different name to avoid a collision with the field of the same name in Main?
+Maybe some info about the purpose (selecting node position?)
+Maybe TestChanges? *I prefer FooBar over BarForFoo *"Util" is redundant with the package name *TestFoo says "implementation (e.g. fake) of Foo for tests" while TestFoos says "static methods for dealing with Foos" It's not super compelling, but hey, at least it's shorter.
+Maybe this comment: // The old CSS resource has no support for many at-rules, like animations. There is no way for us to parse them using the old CSS parser, so we will just output them as a string to the GSS stylesheet and hope that the GSS parser is okay with the rule
+Maybe this could be outputWriter instead of writer2.
+maybe this runnable needs to run after the previous one's onSuccess?
+maybe update this comment to give an example of the unparseable credentials.
+Maybe you could add a real description - yes it's just something really minor :)
+mdrun -nstlist > 0 is not affected by this change, it will still change nstlist. Or do you mean to add a note even with nstlist=0? nstlist=0 is explained as guess and 1 with 1 seems ok to me.
+Me neither, i am just writing functional tests for this ... gimme a sec.
+Method descriptions in VTK must always start with this: // Description: If this line is missing, then the automatic document generation will not work.
+mh yeah will be removed with next push...
+might as well drop the conditional and just assign it
+Might be better to move this test to right after the docio_read_doc_key_meta call, since it's doing the error handling for it. If there was an error, there's no point in populating 'doc' and '*doc_offset', right?
+Mind putting text documenting what's happening here? We shuould start documenting non-obvious stuff
+Most of the spring stuff looks like it can be found in the default m2 repo. Why do we need this? Also, milestone is wrong here.
+mw-mf-overlay-header seems like a rather meaningless class name. I wonder if we should move away from it to something more meaningful?
+Namespacing is weird here too... "imageId" is a Property but "provider" is a top-level attribute of a resource. It's also being used here with a different meaning to what has been understood to date (see above).
+nit: wording. the sentence doesn't make sense. perhaps: Support creating a request for authentication of a remote...
+no ? And would it actually be "Process nested group objects"? Help needed
+No it doesn't "explode", I am not changing a sebool, I am changing the file context. Yes a restorecon would un-do the change. We'll need to file a request for that but for now this is good enough.
+No it's not - leaving the dob blank means you just choose not to fill it in as the field itself is not compulsory.

@@ -1,0 +1,93 @@
+Text
+Best regards Richard
+Hello George The fix looks fine many thanks!
+Best regards Andrew
+Thank you Brandon.
+I really like what I am seeing so far.
+This is quality work.
+Thanks Dianne!
+Thanks Elena.
+Thanks Suresh
+Thanks to both for these usability enhancements !
+Thanks a lot for the reviews Todd.
+Thanks Stepan.
+Thanks Doug for the change.
+Great investigations Doron!
+Thanks for your patience.
+Thanks Ivan.
+Hi Sandy Thanks so much to give me such comments that's really helpful I will update this later.
+ahhh sweet i'm guessing you have an IDE that does this? If the tests pass commit this kinda crap goes out of date too fast!
+I want to integrate the sweet sweet logo Andrew crafted.
+Thanks Oliver!
+Thanks to Fabrizio for the patch.
+Regex is your friend.
+Thanks Awdesh - Done at r821748.
+Thanks Richard Patch applied to NIO_CHAR module java.nio.CharsetEncoder at repo revision 389784.
+Thanks Tom
+Thanks for your comments Konstantin.
+Marcelo thanks for pointing out this; it is now fixed in rev.
+looks fine thank you.
+Thanks for spotting this fixed at r487519
+Sorry for the misspelling ;)
+(sorry if that was confusing)
+sorry for your time.
+I must have looked at this before my morning coffee..
+Sorry ;-) +1
+Wow that was some bad copy/paste work.
+sorry.
+sorry....
+Sorry about that... http://bit.ly/12UiaS
+Sorry Thiru I hope you haven't already started working on this!
+huh ... i thought i did resolve this.
+sorry.
+Sorry misunderstood the issue!
+Sorry for the delay.
+sorry for delay
+Sorry for the delay was away.
+Sorry.
+This was my bad.
+Sorry it seems I forgot a few references to 2.0.2 in ./deps/cxf-all I'm attaching a new patch to fix these references.
+Thanks Jukka for fixing this :) (sorry)
+Sorry that should be FileChannel inputChannel = input.getChannel(); FileChannel outputChannel = output.getChannel(); in the try block.
+Sorry [~svenkat] I just committed this.
+No sorry.
+Didn't got the time to try it yet.
+Sorry to have not spotted this one and thanks for your care.
+Sorry I missed the "overwrite" keyword.
+This might be a bug indeed.
+Sorry everyone.
+sorry last patch was missing new files
+sorry for misleading attachment name.
+Sorry Avdhesh I forgot to add these two files to the patch here is the new patch containing the missing files
+Hey Vikram-- sorry about that I haven't paid much attention to this issue.
+Sorry should ask first.
+Thanks to Mathias Werlitz - sorry for the delay.
+Sorry.
+The problems I was talking about are mostly fixed by [HADOOP-3575] and [HADOOP-3480].
+I opened [HADOOP-3607] to fix a wrong URL but appart from that I don't there's still references to the old structure.
+no sorry - priorities have been shifted around...
+Um sorry i thought this ticket was about something else - patch attached David would you give a try?
+Sorry for the noise.
+Sorry about that.
+Sorry I missed some of this the first time.
+Sorry fixed.
+Sorry Gav DONE Committed revision 2487.
+Sorry but look at mapSubtract and further down in the source you will find plenty.
+Sorry ;-)
+Thanks for the report and sorry its taken so long to fix it.
+well sorry i didn't upload the right files
+Whoops sorry.
+Sorry about the trouble.
+Sorry in rushing to commit I forgot to add author during the commit.
+Actually that's what this change did sorry for the noise.
+Sorry for the noise..
+Completely missed issue 614..
+Sorry typo: "our part" in place of "one part" above.
+Sorry I thought issue (and provided patch) were about cocoon-servlet-service-impl used by either C2.2 and C3 but only now I see that instead they are related to cocoon-servlet-service-components (C2.2 only).
+I'm sorry Mark I came back here to remove my comment as after building the app from scratch I have found that by default it used WhenExhaustedAction = GROW and not BLOCK!
+Sorry about that tiredness.
+Sorry about the error guys.
+Yes sorry.
+sorry this bug is *not* fixed.
+Sorry.
+Resolving again....

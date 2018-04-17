@@ -1,0 +1,283 @@
+Text
+When I click on Memcache Viewer the whole dashboard crashes and I have to login again. This is really worrying me as we are serving data to many users. A server error has occurred. Is there a way to see the internal logs? I can't see anything in nor . Is there any other way to reset the Memcache?
+It's HORRIBLE! No, seriously, I don't like it.
+No, unless there's a relevant IE zero day. Obviously, this would be a huge abuse of user privacy (if you want their name, ask them!).
+i use with () I want to have the option to choose the months and years. I define this: But I really hate the dropdowns of . I want to have the option to choose the months and years as in It is possible??
+I have a function name called setValue, used in many classes. Also, i have a global function by the same name. When i press C-], it goes to arbitrary setValue function. How do i directly jump to the global setValue function? It is really pain to use tnext every time to find if the function global.
+EF CTP5 is still having this bug! Anyway there is a simple work around for now See more here: Be aware that Count() is total rubbish performance wise!
+@vascowhite I tried deleting all the products from the cms then added a new one and the same message appears. Really frustrating!
+Oh, I am scared!
+I am completely hopeless with regular expressions... I have a Velocimacro named , and I have a JS function named . Now I want to find all the places the JS function is called. So I need to search for "addButton", where "addButton" doesn't start with the hash key. Any ideas?
+I really despise SWFObject for this very reason. Maybe you could give a try
+as was already established, this is a miserable, horrible, awful, and terrible idea from a concurrency perspective. Anyway, since your question is really about Go's type system, here's how you would define a type with a recursive method.
+I cannot seem to figure out why the phpunit target does not output any test results even though I have tests in position. The problem I am finding is there is no indication as to what the problem is! Incredibly frustrating. The output is as follows: My build.xml is as follows: My system: Vista, PHP 5.2.9, PHPUnit 3.4, PHPUnderControl, CruiseControl
+I am new to Delphi (been programming in it for about 6 months now). So far, it's been an extremely frustrating experience, most of it coming from how bad Delphi is at handling dates and times. Maybe I think it's bad because I don't know how to use TDate and TTime properly, I don't know. Here is what is happening on me right now : That's not the exact code I use, everything is in variables and used in another context, but I think you can see the problem. Why is that calculation wrong? How am I suppose to work around this problem?
+Okay so say we have a graph with a ball on it at (200,200) and we swipe our finger from (0,0) to (100,100) how do I go about moving the ball to (300,300)? This should be simple but it is really hurting my head! This is the code I have so far (using andengine)
+Either you want to group or you don't. Now which is it? (This is why I really hate how MySQL allows non-aggregates in `GROUP BY`)
+I can't get to work a many-to-many relationship using bookshelf.js. Models: Database table "events": Database table "tags": Database table "events_tags": Query that isn't returning what it should: The log outputs: That is: empty array of tags, which is wrong. Question: Is there an issue with my code? the desired output should be: This doesn't help in the question, but I'll throw it anyway: I'm currently hating all ORMs in Node JS! Maybe I should just use a query builder.
+Here is an incredibly disgusting way to do it: Here is a better way (I think): If you convert either output string with: you get your original number.
+After reading I was horrified! Isn't there a tool out there that can inspect a .h/.cpp file and deduce what dependencies could be waivered?
+Nobody? To do this with a Button is really disgusting.
+These will not jump: They are, however, soul destroying and extremely ugly.
+Yes, yes it is. It is really horrible though. There is also this atrocity:
+@Colin Pickard: That's really sad :'( :'( :'(
+Work-around (horrible horrible invasive work-around) I got around this by subclassing UIApplication to track all screen touches. By holding on to the last touch location, I can, in the delegate, map the location to the link to determine whether or not it should be considered valid: MyCustomApplication.m (use it in main.m) And map it...
+I'm trying to test if a character in a string is a space, and I'm getting extremely frustrated: I'm not getting any errors and I've looked online, but people on different forums say this is how to test for a space. Uh.
+http://stackoverflow.com/a/4105631/1104483. Sad :(
+So, 21 months later, here's what I did to get this to work (with Gradle 1.2) My Groovy-fu is not strong, so I'm sure that horrible bit in the middle could be simplified, but it work for now!
+I really hate regex in principle. can it be done in a plane script or something?
+@Java1 I had totally forgotten about the moderators _hating_ the _link-only-answers_.!! :-(
+I'm trying to insert the following array ( from a html form ) but i believe i'm working with this array in a very awful way The array: Actual code: ?> current output: What would be a decent way to do it? EDIT : No need to show how to connect to a database, i just need to deal with the array data.
+Anyone??? I'm starting to hate VS for that reason!
+My company is just starting to look at using WPF for migrating all of our 10 year old business applications. These applications will most of the time be running on computers that have limited/old hardware. We are now a little worried that the hardware might be too limited for using WPF. We have installed Family.Show () on an basic older computer and that seems to run ok. But we would like know what your experiences with WPF on older hardware is? Anyone out there willing to share some experiences with us?
+you have your terminology horribly confused.
+Any Updates to this annoying topic?!
+I usually don't post meta comments, but 29k views and 7 upvotes? That is sad
+In this case, I'd keep the DoStuff() method but subscribe to it with: Admittedly that won't please those who do all their event wiring in the designer... but I find it simpler to inspect, personally. (I also hate the autogenerated event handler names...)
+I'm not good at programming and my trying to open one of my spreadsheet documents. Below in the basic login im using, I then request a list all my spreadsheet, which is returned in $feed. And now I'm worried I'm not on the right track with opening a document so I can read and write cells.
+You forgot regression tests - it is a real pain for a manual tester to run through hundreds of forms just to check for some basic stuff which could be easier done automatic. Better spare the tester this tedious stuff, so he can concentrate on the nasty testing.
+It's scary that there is no way, but I must agree because it's fact.
+This is how you find the arc length given the parameter, but finding equidistant points requires the inverse of this function. Getting from one to the other is not trivial. @Christian Romo: how did you do it? I mean, you can just use binary search, but that would be horribly slow (for what I'm trying to do, anyway).
+I was intending on use the Title attribute in the @Page directive to customise each pages title, but it simply doesn't appear to do anything. The site uses master pages - I don't know if that is a consideration. Master Page snippet: Page snippet (from ): What is more, if I run the page through the , it complains about... end tag for "head" which is not finished ..whereas the the tag is present in the source code. I've already got a workaround in place, but it's annoying the hell out of me, so I'm determined to find a resolution!
+Horrible answer because it is just wrong.
+I have VS2005 installed. But I was afraid about installing VS2008 and lose everything. I think I have to install 3.5 framework first. Is that correct?
+I was wondering if there was somewhere I could get some starter kit / theme sample for ASP.NET. I am not a designer, but I need to build a prototype for a project, and if I do it myself it'll certainly be awful Do you know where I could find that (ASP.NET specific)?
+I have created a VB.Net lending application for a cooperative that caters to widows. The application tracks the members' loans and payments, and is also used as an accounting system. In my first release, the users felt that showing a messagebox every time an error occurs is very annoying. My solution is to output errors in a label control. The users accepted the modification, but i feel i am doing it wrong.
+I'm writing an Eclipse plugin for the JDT. I need a functionality that tracks certain strings or regular expressions and possibly creates markers. I know that Eclipse already does that for //TODO comments, for example (creating task markers for them) but I'm not sure if I can use the same mechanism. I can write my own but worried it would be too inefficient and not sensitive enough to code chnanges.
+This is a terrible idea, as a compact on a database already in a suspect state can lose data that would otherwise be recoverable before the compact. Compact On Close should under all circumstances be turned OFF.
+This is similar to the accepted answer (because it is using Java to represent the newline rather than EL) but here the <c:set/> element is used to set the attribute: The following snippet also works, but the second line of the <c:set/> element cannot be indented (and may look uglier):
+Restoring splitter distances has given me a lot of grief too. I have found that restoring them from my user settings in the form (or user control) Load event gave much better results than using the constructor. Trying to do it in the constructor gave me all sorts of weird behaviour.
+I guess that works, but I'd never do that. It's screaming bad practice. Think about code readability etc.. Come back to your code in six months and figure out all the function calls inside your HTML markup.
+My form receives asynchronous callbacks from another object on random worker threads. I have been passing the data to the main thread (where it can be used to update onscreen controls) using delegates as shown below. Performance is dreadful -- once I reach 500 updates per second, the program completely locks up. My GUI processing itself is not the problem, as I can simulate this level of updating within the form and have no problems. Is there a more efficient mechanism I should be using to hand off the data from thread to thread?
+I would suggest FlexUnit for automated testing of libraries you're building but it is a serious pain to use for a full application.
+7 seconds between asking and answering it yourself? Isn't that abusing the system a little?
+Ooh, I feel your pain. I've added some more to my answer. The operator precedence is in the VB6 help
+Another thing I hate to see is the : I've seen this in real code.
+-5 votes?? People who have downvoted this answer should have specified the reason for doing so as well.
+My application links against libsamplerate.a. I am doing this to make distributing the final binary easier. I am worried that perhaps the code inside the .a file depends on some other libraries I also will need to distribute. But if it doesn't I am worried I am bloating up my application too much by including multiple copies of eg. libc. What exactly will be inside libsamplerate.a? Just libsamperate's bytecode? Or more?
+As a dev I worry about event logs getting full and then hitting an error when logging an error. But I suppose you have to deal with 'logging' failures with whatever you are logging to (file/db).
+on the root window is how xbindkey does it. Be careful about having some alternative method of killing the grab though, it's very annoying to have to go somewhere to into your own box just to kill that process... And that's why, if it was me, +"echo 'moo' > /tmp/moo-fifo" would be the way to do it. That way, you could also control it in any number of other ways you haven't thought of yet.
+When you say it didn't detect it do you really mean you were collecting everything and the packet you wanted wasn't there? I find that hard to believe. It doesn't need any configuration, it just works. Getting a sensible filter so it gets what you want and not loads of other crap is harder!
+I'd forgotten to put the code tags around it and everything was garbled and the formatting was terrible for about the first 90 seconds of life. Apologize to those who clicked quickly and saw the garbage.
+I am fed up having to turn them on every time I open the application.
+this link is dead :(
+might be an answer, but I'm afraid I can't speak from experience.
+I've tried msysGit and Git on Cygwin. Both work just fine in and of themselves and both run gitk and git-gui perfectly. Now how the heck do I configure a mergetool? (Vimdiff works on Cygwin, but preferrably I would like something a little more user-friendly for some of our more... Windows-loving coworkers.) Thanks!
+You might want to consider using , a replacement for Windows' terrible command-line chrome. It offers fully redefinable keyboard shortcuts plus tabs, so it's ideal for IRB.
+I worked on a desktop app that used EJB and Hibernate. We had to set everywhere, because when the objects get serialized, they lose their ability to be fetched from the backend. That's just how it goes, unfortunately. If you are concerned with performance, you could use caching on the backend so that your non-lazy fetches are not as painful.
+Any progress on this one? To embed complex functionality (including history-aware interactivity) on an MVC page without involving the rest of the page is a reasonable and common desire. The only alternative I see, to require the using page to track each components query-string state, is horrible.
+Not without logging or tracing, I'm afraid
+If you can edit the code, you should just re-write it to use a custom API that does what you want. Failing that, use Maximilian's technique, but be warned that it is a maintenance horror. If you cannot edit the code, you can patch the import tables to redirect calls to your own code. A description of this technique can be found in - search for the section titled "Spying by altering of the Import Address Table". This is dangerous, but if you're careful you can make it work. Also check out , which does the same sort of thing but doesn't require you to mess around with the actual patching.
+This ws-addressing issue is a real pain in the ass. Not only does WSS2 use an old, pre-release version of WS-Addressing, it adds propritery elements to the soap header (e.g. wsa:via) that arent part of the schema. What a crock.
+I currently have speakers set up both in my office and in my living room, connected to my PC via two sound cards, and would like to switch the set of speakers I'm outputting to on the fly. Anyone know an application or a windows API call that I can use to change the default sound output device? It is currently a bit of a pain to traverse the existing control panel system.
+I want to catch all URL's in the root folder of the url www.example.com The url cannot end in a trailing slash, and can't contain any slashes at all. so these should pass: www.example.com/abc www.example.com/abc123-asdf www.example.com/abc123/ ** fail! www.example.com/asdfsd/asdf ** FAIL!
+too bad this behavior isn't a setting. I think it makes sense in theory why they did it this way, but in practice it's just really annoying
+Part of the reason why this is "Dog Slow" is that you are building the proxy every time you connect to the service. You could avoid this pain by using wsdl2ruby to build the proxy permanently and then call the pre-generated proxy.
+The ebook summarises Thread.Suspend and Thread.Resume thusly: The deprecated Suspend and Resume methods have two modes â dangerous and useless! The book recommends using a synchronization construct such as an or to perform thread suspending and resuming.
+I tested this code out with an Access 2007 database with no exceptions (I went as high as 13000 inserts). However, what I noticed is that it is terribly slow as you are creating a connection every time. If you put the "using(connection)" outside the loop, it goes much faster.
+If I can avoid it, no. And, to my knowledge, there is always a way to avoid it. But I'm not stating that it's totally useless either
+I am suffering from the problem in the first example - my enums don't show up at all. This answer doesn't even attempt to address that issue.
+Ew, that sounds a bit ugly! Is it possible for an instance of a class to be created before its unit's initialization section has run? In other words could an instance of TMyObject try to use FLogger before it's been set in the initialization section?
+RegEx is a horrible option for performing replaces on a large amount of text. As powerful as it is, many RegEx proponents see all the world as a nail and RegEx as their hammer. For use cases involving large amounts of text, look at FastReplacer http://stackoverflow.com/a/11442008/141172
+I have a .net assembly that has a COM+ ServicedCopmonent in it and at the moment I install it into the GAC to get everything working. This means that I need to have every assembly that it references in the GAC as well. During development it is quite painful to make changes to thes assemblies, re-install them to the GAC and then test. Is it possible to maintain the COM+ component but not have everything in the GAC?
+Matt - can you revue the accepted answer. You have to scroll a long way to get to a [pure javascript answer](http://stackoverflow.com/a/5686237/360211) and I fear some users just take the accepted answer as gospel and use antiquated libraries as a result.
+List comprehension performance link is dead :(
+There are major oversights in the CSS spec related to basic page layout. Sad. It is about as well thought out as HTML.
+This is a problem with Windows Firewall that is very annoying from its introduction. And persist trough several versions of windows. I have two questions: Is it possible to be disabled or at least require confirmation in XP/2003 Server ? Does UAC handles this in Vista/2008 server? If it does not - is there any way to disable it?
+I need to pass a regex substitution as a variable: This, of course, doesn't work. I tried eval'ing the substitution: but that didn't work either. What horribly obvious thing am I missing here?
+This was annoyingly annoying... If you have a the need to export your RegexBuddy history you can take a look at , which prints to the console your history, also as Json.
+I'm working on a webservice + AJAX interface, and I'm worried about authentication. This moment I'm passing username and password to the webservice as arguments, but I fear that this approach is highly insecure. I was told that ssl could solve my problem, but I want more alternatives. My webservice is written in php and my interface is in php + AJAX. The webservice receives arguments from POST or GET and retreives xml (in a future maybe I'll use JSON)
+/me works out more what your code does and screams in agony.
+Got a spite downvote, it's still a valid question.
+Why would you want to do that?? No offense, but that is the most annoying and useless 'feature' ever!
+This is a horrible solution. It will silently fail for floats. It also lacks parentheses.
+Using it is painfully easy to access movies from the IMDB site: However I see no way to get the picture or thumbnail of the movie cover. Suggestions?
+One of the IIS developers has an excellent walkthrough here: However, for the love of god why?
+Make a custom button: That'll get rid of that annoying border! ;-)
+IMO it is painful to debug as you tend to have no intermediary variables for inspection.
+no, it is extremely bad idea.
+Is there a way to run a specific Ant task via the keyboard? I have a rsync to dev task that I run a lot and running to the mouse to double-click is a pain.
+I've tried with Postsharp, but their current implementation targets 2.0, and it's getting painful to make it work. Should I roll out my own AoP implementation (I'm thinking of a very VERY basic and utilitarian implementation here) Or there is an alternative I'm not aware of?
+I have a column containing the strings 'Operator (1)' and so on until 'Operator (600)' so far. I want to get them numerically ordered and I've come up with which is very very ugly. Better suggestions?
+-1 This isn't language agnostic.
+I see Microsoft is still at it with their horrible magic version control stuff...
+more than 7? How about more than 2 or 3? Remembering the argument ordering in constructors is a real pain.
+@Michael: dude, I feel your pain (since my HOWTO search led me here).
+Background: I'm currently debugging an application written over a custom-built GUI framework in C++. I've managed to pin down most bugs, but the bugs I'm having the most trouble with tend to have a common theme. All of them seem to be to do with the screen refreshing, redrawing or updating to match provided data. This is a pain to debug, because I can't break on every refresh, and most of this stuff is time-sensitive, so breakpoints occasionally "fix" the bug. Q: Does anyone have any tips for debugging Windows-based GUIs, especially regarding the refreshing of individual components?
+Something that has always bugged me is how unpredictable the method in Javascript is. In my experience, the timer is horribly inaccurate in a lot of situations. By inaccurate, I mean the actual delay time seems to vary by 250-500ms more or less. Although this isn't a huge amount of time, when using it to hide/show UI elements the time can be visibly noticeable. Are there any tricks that can be done to ensure that performs accurately (without resorting to an external API) or is this a lost cause?
+Is there a way to reuse a 3rd party control reference? For example, I have this referenced in my App.xaml I don't want to repeat this 3rd party control xml namespace on each page/control that needs a control from the library. Is there anyway to centralize these references and use the prefix defined here? The possibility of each control having a different prefix is also worrisome. In asp.net you would put a reference in the web.config and it was available globally, I'm just looking to see if there is a similar method in WPF.
+A colleague recently asked me how to deep-clone a Map and I realized that I probably have never used the clone() method- which worries me. What are the most common scenarios you have found where you need to clone an object?
+The solution is crying out for the MSMQ solution but unfortunately the posting service is not on the domain. Is there anyway to post to the public queue that is on the domain from the machine in the DMZ? I could use a webservice to post but this is a extra component to maintain. The database table is the alternative solution but again it is not the ideal.
+Sorting the hashes is also a possibility that I have considered. I'm a bit concerned about memory usage, but I'll worry about that later.
+I've been trimming the UI of our website by doing the following in the onload event of that control: This has become very tedious because there are so many controls to check again and again. As soon as I get it all working, designers request to change the UI and then it starts all over. Any suggestions?
+That's horrible.
+We ended up using a Java applet. It was a nightmare. Normally it would have been awful, but as this was for the 2008 Beijing Olympics, the added distance & language differences made it a nightmare. In the end, it worked "enough." But again, nightmare. I would not recommend it.
+Dude I feel your pain. I used my blogger address but since moved my blog. I don't want to continue using my blogger address as my id now there is a google option.
+I know I can configure command line arguments in the Run configuration but I want to run a java file multiple times with different command line arguments. It's a pain to change the Run Configuration every time. Is there a way I can make Eclipse prompt me for command line arguments every time I run the program?
+@Anyone who uses Assembla - Is it 200MB per project or 200MB per account? If it's per account, then that's awfully small.
+This serves me right for browsing s.o. on waking up. My eyes hurt!
+I'm using the ImageMapster jQuery plugin, and I want to limit the number of selections that can be made on a (image-) map to a certain number. Let's say I have 30 areas, but only want 3 to be selected at the same time. After 3 selections have been made, the 4th selection should overwrite the 3rd. Is there a way I can do this? Any help would be hugely appreciated!
+is probably not what you want, but is still really excellent.
+Found the culprit! At first I tried the solution suggested by @billinkc in the comment, it worked (I managed to create a folder) but the folder wasn't usable as I couldn't upload packages. I have db_owner permission on the MSDB database and so I can see and access the SSIS MSDB folder. What I really needed was the db_ssisadmin permission. Not to worry as db_owner permissions allow me to give myself the db_ssisadmin permission! After this was done, all the problems (the one in the original Q and more) disappeared.
+I'm trying to create a grid (matrix) of squares in a given area with n columns and m rows, and an option to set a spacing between the squares if desired. The grid should fill squares with random coloring. I'd also like to add a zoom function, so the colored squares will appear much bigger in a region that is double-clicked. Can anyone suggest a good method to generate the grid and assign random colors to the squares? If you can suggest how to create the zoom effect too that would be SUPER :) I'm new to canvas, so any method help would be great! Thanks
++1 Excellent explanation!
+Apple's MapCallouts code sample demonstrates how do do this with the callout and their Weather Map sample shows how to do custom annotation views. There documentation is really excellent and these samples are both helpful.
+I need to echo only selected lines from a .txt file using PHP. The txt file content looks like this: The previous working code was echoing every lines. I'm trying to get the same formating but only with the selected lines. For instance let say only lines: 3, 5, 8, 10. The second step would then be if the lines could be echoed in a different order than the initial one. If someone knows a simple way to do it, that would be excellent! Thanx in advance.
+Thanks. First method is really great!
+This sounds like an excellent project! You might want to start with the module. You might also be interested in the module. Perhaps to get you started, here's a function that takes a path to a file and backs the file up by copying it and giving it a .bak extension.
+Can anyone help me add children to a plist? I think I want to record an index of rows from the plist and then state which index row to write the key too. I'm not sure how to say if the key will be a string, dictionary or array. The following is code from another question on adding a key to root. Any help would be extremely appreciated :)
+wow the reaction time on this by you guys was amazing xD I'll give everyone +1 once I get to the 15 rep ^_^ Thank you so much everyone!
+Excellent! Glad that sorted it
+@EdwardRuchevits Hey passing in cat and page worked! It now remembers it each time I navigate pages! Excellent! Question though, is 'cat' a predefined PHP variable for URLs? Also, while this works for me locally... how will this function when different us
+I had the same exception, I just installed the latest VM release and now the compilation complete successfully :)
+So, it is as simple as purchasing a domain name, and then adding that identifying information to the hosts file? If so, that is excellent!!
+Excellent! This should be marked as an answer. Very good solution.
+Not sure if it's on my end or zombie.js's, but I cannot seem to get this very simple zombie.js script to work on my Backbone app. Is it something entirely on my end, or is it a known issue that zombie.js doesn't play well with Backbone apps? I'm also using Pow (http://pow.cx/) to connect to the app through myapp.dev in case that is related. Any advice or zombie.js examples with backbone would be extremely helpful!
+This was a very quick and excellent way to show me everything I needed!
+I am using some PHP script to add some data from a complex form to MySQL db and then showing it all in some HTML table. Everything works just fine, but I would like to 'upgrade' my script with jQuery and (I suppose) AJAX. What I would like to do is when user submits data, the row (or ) shows up in the HTML table without refreshing a page. Form and table are on same page, of course... Some guidelines would be really helpful because I'm not sure should I even use AJAX or something else for my needs. Links for some tutorials will be also great :) Thanks a lot for any help!
+([0-1 ]?[0-9]|2[0-3]):([0-5][0-9]) I think that's the regex you're looking for (not specifically for javascript though). This site has an excellent amount of info for language-specific regular expressions! Cheers!
+<3 <3 <3 ! ! ! :)
+what I am trying to do it show what terminal port im useing when I am currently logged in to my linux server. If anyone could offer some help I would be very greatfull!! thanks
+WOW, EXCELLENT, AMAZING. Thanks, Roddy, the link helped me sort this out. My software had "Setup Software" as part of its description as it is used to set up a piece of hardware we manufacture. I've changed that (in Project/Options/Version Info) to User Software and now it compiles and runs ok !
+Really great article, thanks!
+I have a button that, when hovered over, I would like the background image to display also. (It is an arrow an explanation of the button). There are quite a few questions similar, but I couldn't quite tweak the answers to work for me. The HTML looks like the CSS then is Any ideas hugely welcome!
+You DO need to modify web.xml whenever it's needed. Especially with JAX-RS, you will have to define your servlet in web.xml. I recommand you to use Maven. There are plenty of exemple in the web to do so. Good luck, JAX-RS is really great ! Maven is also nice.
+was excellent :) However instead of creating a button object, I am only calling an OnTouchlistener to change the state of every view. Gives the same results though
+Excellent, now that I know the name I can easily google tutorials! ty! :)
+I absolutely *love* your title! But your question will need some more details if you need some help. Do you have any code you've tried?
+That would be awesome. I could report 100% success rates on all e-mails! :)
+Dr. Klaus Schulten gave an excellent talk at GTC2010: http://livesmooth.istreamplanet.com/nvidia100922/. GPGPU computing is definitely the way to go for bioinformatics!
+Gotta love stackoverflow!
+Jeff's article is excellent reading on this topic.
++1. Great question! Now, I have no clue about the answer, but I'll stay tuned.
++1 - what a great article!
+I'll second Zend_Form; it has an excellent ini style implementation that allows you to define a form extremely quickly:
++1 Saves a lot of time when unit testing Data Access layers. Just note that TS will often need MSDTC which might not be desirable (depending on whether your app will need MSDTC)
+Is there a way that I can get a list of the models that a particular model belongs to in Rails? For example: Hope this makes some kind of sense!
+Well, not free. But we have had very good results with Nevron. Their support is excellent as well. Another good option is TeeCharts.
+I have never parsed ini files, so I can't be too specific on this issue. But i have one advice: Don't reinvent the wheel as long as an existing one meets your requirements Good luck :)
+As you may know, tonight, at exactly 23:31:30 UTC, Epoch Time will reach 1234567890! Hurray! One way of watching epoch time is by using Perl: Can you do the same in another programming language?
+Great! I learn a new very useful information about DirectShow :-)
+I am pretty sure this can help! Cheers!
+Wow, exactly what i was looking for!
+For Java see this excellent article
+See also this excellent answer: http://unix.stackexchange.com/a/90869/92102
+Thank you very much, this is really interesting stuff!
+Ahh, I didn't know that the wsdl command line utility could generate one file for many asmx.... thats awesome! I'll try that out now. I can integrate that into our build process too. Great, thank!
+Im using the AutoPersistenceModel in Fluent NHIbernate to map all my entities and that all works fine :D However, several of my objects have In the database there is a single comments table, and each entity with the above code, has its own link table to comments. At the moment what im doing is: for every entity. Is there some way i can set a convention where by all mappings to IList<Comment> are wired up automatically as manytomany with the above table name convention? Thanks Andrew
+You made an excellent point in a comment below, @RailsSon: you want to print Â£s to display a specific currency, but employ that display using a Japanese expression for financial numbers. I find it strange that your request hasn't been implemented in the language by decoupling the `locale` module's use of currency value and that currency's display properties.
+Wow! Yeah, I did'nt know that! Great new feature.
+Got some code here that isn't working: Basically I have 3 lists and want to add a class (last) to each item appearing last in each unordered list. Hope that makes sense, Cheers!
+Nice work !! Loved it.
+Excellent answer. This should be the selected answer.
+An excellent resource I've found for CI recently is by Martin Fowler, author of the famous "Enterprise Application Architecture" book. URL:
+Very direct question, i need to know if its possible and maybe where to start reading about that. Im a programmer with zero experience in windows servers and a client is asking if we can deliver in their windows boxes(and no they wont let us use any kind of virtualization in them). Thanks guys, i know its not 100% programming related but... hope you can help =) EDIT: Wow, fast reply! Thanks guys!!!
+awesome explanation!! this is seriously awesome..
+Does anyone know of a link to a reference on the web that contains a sample English dictionary word script, that can be used to populate a dictionary table in SQL Server? I can handle a .txt or .csv file, or something similar. Alternatively, I'm adding custom spellchecking functionality to my web apps...but I don't want to integrate the standard components. If there are good references (with samples) on building a dictionary word checker, I'd love that too!
+I did a lot of VRML+Java work in college and loved it, but I feel like it's not really a marketable skill. Has anyone worked with a high level graphics API like open inventor, coin..etc that is actually in use to a degree that makes investing a lot of time in the API worthwhile for something more than a hobby?
+There's for a sort that should work, but just wasn't included in the core. Referenced from , I think you just pass in a function that is used to sort, like so Hope it helps!
+You didn't mention the language, but for Java we've loved . For C/C++, getopt.
+This is an excellent question. I look forward to hearing an answer.
+great question, wondering it myself!
+Good luck with the browser project!
+@Adrian - that article was brilliant :D thanks for sharing it!
+#ERROR!
+You are Awesome !
+Great thanks fung! It was especially the "Starting Our Debugging Session" section that helped.
+I really liked which C++ however you can easily translate that to C# the author has a web site too.
+Excellent. Thanks.
+We could, but that'd mean installing wsdl2ruby and so on and so forth. Sometimes Dog Slow is fine :-)
+Excellent pair of web casts (30 minute videos) where Patrick Smacchia and Filip Ekberg talk through some of the features of nDepend and how to use them:
+My work just gave me a quad core computer, and WOW build times are fast! (What used to take 20+ minutes now takes 7 minutes). Anyway, Visual Studio builds project in parallel (great for build times), but scrambles the output: Is there a plugin that sorts the output when the build is complete?
+i wonder if there is something similar to Sql Profiler for Sql Server Compact Edition? i use SqlCE as backend for a desktop application and it would be really great to have something like sql profiler for this embedded database. or at least something simliar to the NHibernate show_sql feature... any ideas? thanks j.
+This is great, thanks for the tip!
+#ERROR!
+Wow! Very simple , but great effect...
+Fantastic that's exactly what I was looking for!
+David Flanagan's excellent book on JavaScript has an example that shows how to perform XPath queries in IE. On page 518 of fifth edition, you can see the following code snippet taken from example 21-10: I found out the hard way that this code is absolutely necessary. It appears (although I cant understand why) that on IE XMLHttpRequest seems to to randomly return a reference to either the document corresponding to the received XML or the documentElement. Whats happening here?
+The (NLTK) is an excellent resource if you're considering Python as a language. It incorporates lots of the stuff you'd expect in a text processing/NLP environment like parsers, stemmers and part-of-speech tagging. Documentation on it is pretty good too. As for datasets, NLTK comes with a variety of for experimenting with. Hope it helps, B.
+I recently imported about 60k records into a table that relates data in one table to data in another table. However, my client has since requested that a sort order be added to all 60k records. My hope is there is a nice clean way to auto generate these sort orders in a SQL Update. The finished data should look something like this: Can this be done? Any suggestions would be hugely appreciated. --Anne
+This is really great, worked a treat thanks
+In my company, we are currently using Qt and are very happy with it. I personnally never had to move a MFC-app into using the Qt framework, but here is something which might be of some interest for you : It's part of Qt-Solutions, so this means you'll have to buy a Qt license along with a Qt-Solutions license. (edit: ) I hope this helps !
+Excellent question and I agree, it should be throwing an HTTP Not Authorized status.
+Ah, finally I can solve this annoying problem!
+Excellent answer
+for flow control Steven; the question seems to be about whether this pattern should be used, which seems to be rather subjective based on the answers, but it's an excellent question for thought.
+All the places I've worked have given me liberty with regard to development environment, although the production env. has always been some brand of Linux - usually RH or CentOS. I personally use Windows 7 for dev., and I wouldn't use anything else. You spend way less time debugging the OS, and more time coding. This makes management much happier! (PHP developer mostly)
+Works great !
+In JavaMail, you can use as the URL scheme to use IMAP over SSL. (See in your JavaMail distribution for more details.) For example, . Similarly, use to send emails via Gmail. e.g., . Again, read for more details. Hope it helps!
+I use ApexSQL Diff. It is an excellent tool for doing just what you're describing...compare schema, compare data, generate change scripts. It not free, but it works well. NOTE: ApexSQL Diff only works with SQL Server.
+I'd really love this to work in IE. I'm not able to change the fact that tables should not be used here. IE is the only browser the project I'm working on is required to support. Here's the code: I've been using the Tryit Editor to play with this. Thanks in advance for your help!
+I know techsmith has a screen recorder api called that you can access programatically. I haven't used it, but I've used the snagit api by the same company and it's excellent.
+I have created a class to dynamically put together SQL function statements within a project. I have found this class to be pretty useful and would like to incorporate into future projects namespace connectionClass { } I want to be able to dynamically input the project name without having to do it myself for every different class! the connection string will be defined within the properties settings in VS. Any help would be greatly appreciated:)
+Your best bet is probably TcpClient. There's a great sample that does exactly what you're doing right in the .NET Documentation here: Good luck to you!
+Fantastic! This makes using ipython with --profile sh the best possible method for me to do this :)
+I realize this is old, but there is an absolutely fabulous PHP Activecord library called, appropriately, PHP Activerecord. I've used it for several months and it blows away the other libraries. Check it out:
+I second FlashDevelop. You don't get the visual design stuff for the MXML, but for the code (both MXML and AS) it's excellent.
+I have a query that is simply selecting from 3 tables. select from the comments table for all comments on an article select from UserID table to find what kind of user it is IF the user is one type, search one table...ELSE search another table for the final info. How would I go about this? I'm a little new at MySQL stuff, so i totally appreciate your patience! PS - let me know if this isnt clear... Thanks!
+Take a 200th upvote for an excellent question.
+Excellent comment, Flea. My head asplode.
+totally awesome
+Strange - No one mentioned GEdit (Gnome) or OpenKomodo (Windows, Mac, GNU/Linux...). Both of them are great! OpenKomodo especially deals with tabs and spaces very well. And - it's free. Whee! When I need a lighter weight thingy, I just use GEdit. Download OpenKomodo here -
+Craig Shoemaker has made an excellent show on asp.net caching:
+Both of these answers were really helpful - thanks!
+Great question!
+Take a look at [this answer](http://stackoverflow.com/a/18646797/2697658). Hope it helps!
+Google led me to solution (base64_encode). Hope this helps!
+I'm new to developing web applications using the .NET framework. I'm just wondering if .NET has any support for saving a custom int value for each (logged in) user? Could I perhaps use the HttpContext.User property or something? I'd be really grateful for some help on this! /Ylva
+Thomas Becker (author of the second link above) has a longer article which is excellent: http://www.artima.com/cppsource/type_erasure.html
+I'm building a marketplace application that uses PayPal Express. I've got a form for sellers to input their PayPal API credentials, but I need a way to validate them by making some sort of call to PayPal. I'm using the PaypalExpressGateway in ActiveMerchant, and I don't see anything other than the standard purchase controls. Is there any sort of null-operation that can be used? Any help would be greatly appreciated!
+Very well put, I really like this !!!
+awesome - what started off as a gripe turned into a real educational experience - thanks everyone!
+Too awesome! This actually answered an unasked question of mine, how to stop people from cutting off others in my corporate meeting.
+Creating custom types can be done in PowerShell. Kirk Munro actually has two great posts that detail the process thoroughly. The book also has a code sample for creating a domain specific language to create custom types. The book is excellent all around, so I really recommend it. If you are just looking for a quick way to do the above, you could create a function to create the custom object like
+2 million unique visitors per hour? Wow! Is this Experts Exchange or some (other) pr0n site? ;-)
+Thanks djuth, this works great and is very simple! I have to admit it is pretty limiting though, for example, I would love to have it autocomplete a staff name and then return a staffID but I can probably play around with what's added and parsed.
+Thank you Gumbo, I suppose this'll have to do. I would've liked a more concise solution but thank you anyway, I never knew this js-uri class existed!
+Great question!
+if/when you figure this out - you definitely need to share it back to the world.. I'd love something like this!
+How come this doesn't work (operating on an empty select list But this does: Replace: var dropdownList = $("#requestTypes"); With plain old javascript: var dropdownList = document.getElementById("requestTypes"); Any insights greatly appreciated!!
+Wow! I always thought double quotes were required!
+is a really great option for git. Most of the free, public hosting sights will insist that you license your code with an OSS license (and, possibly, your documentation). That's potentially a different thing that you're talking about (backups). For just backups, you may want to try a for-pay service or even something like .
+I really love anonymous inner classes...
+This doesn't appear to be an answer to the question, and only tangentially related to the topic (this questions is about dealing with `Date` objects in JavaScript, not with parsing text to create `Date` objects). If this is an actual answer that you're posting with a differing method from the other answers, it isn't clear what that difference is. This may best be represented by a comment instead of an answer, or by another question altogether. If you have questions about what content belongs where, http://stackoverflow.com/faq might be helpful to you. Hope you enjoy the site!
+Tried it, loved it. Using it right now.
+#ERROR!
+Vista + latest XAMPP + latest xdebug.dll works fine!
+recently I've been reading through Scott Meyers's excellent book. In one of the last tips he covered some of the features from TR1 - I knew many of them via Boost. However, there was one that I definitely did NOT recognize: tr1::reference_wrapper. How and when would I use tr1::reference_wrapper?
+I love the way you assimilated another answer!
+(Python Remote Objects) is fairly clever if all your server/clients are going to be in Python. I use alot though since I'm communicating with hosts that are not always Python. XMPP lends itself to being extended fairly easily too. There is an excellent XMPP library for python called which is reasonably up to date and has no dependancy on Twisted.
+Excellent method for minor changes. Just what I was looking for. Thank you.
+I have been given a .Hive file from a registry which i have to parse and use the contents as part of a html report(from this i assume i have to convert to text somehow). The whole thing must be done within the program so i cant just convert the hive file and then run it through my program. I currently have no idea how to even start this so any help on this would be great. Any ideas would be fantastic!
+Have you tried logging into Linux as your installed Oracle user then When you log in you'll be able to change your password. Good luck :)
+Just a personal opinion, not an actual answer but... I love those login forms (not pages) which just shows up in the center of the page and after you type in your username and password you are logged in without ever leaving the current page!
+I hope fortune favors the brave :)
+In our eternal quest to integrate Javascript into our RSpec and Cucumber workflow we're evaluating and are provisionally very excited about it. Any advice on Culerity in general or specifically as compared to Selenium?
+I would say yes, it was Anders Heljsberg's intent to make the observer pattern a first-class language feature with events in C#, based on his experience with Delphi. Anders makes this and other design intentions clear in an excellent interview on .
+An excellent book I have, which covers this topic, is , by Clifton Nock. It has got many good explanations and good ideas on how to decouple your business layer from the persistence layer. You really should give it a try. It's one of my favorite books.
+If you're looking for a free alternative to Red Gate's most excellent SQL Compare, you might want to check SQLDBDigg made by . It's what I used until I caved and bought SQL Compare.
+My SPD doesn't reformat my code when I edit master pages. While I don't know why your does, rejoice that there is an answer
+I always seem to use Get when working with data (strongly typed or otherwise) from the database and I have never really needed to use Fill although I just as easily could use Fill instead of get when pulling out and updating data. Can anyone provide guidance as to the implications and gotchas of each method? In what situations is it preferable to use one or the other? Any performance implications? Thanks in advance for the answers! I love this community!
+Designing with Web Standards is a great first read!
+six more years and still loving it.
+Congratulations on the new job! Relax and keep your cool. Read something on . I guess, the process itself will make sure you are productive as long as you apply common sense :)
+A quick remark to the excellent answer by Troy, if the version you downloaded is the newer one, 3.2, the Quick Nav has been remapped to Ctrl + Shift + Q.
+Excellent summary of subject on StackExchange security blog: http://security.blogoverflow.com/2011/11/why-passwords-should-be-hashed/
+I'm interested in seeing the answer to this as well. :) Good luck!
+Don't forget about ! JSON seems to have better support though. For example, the library has excellent built-in JSON functions.
+Furthermore if you need to look at the .NET/unmanaged stack just donwload and look at your w3wp.exe processes to examine memory and other stats without having to do a remote/local debugging (just look at the .NET Tab on the properties of the process). It will show all the .NET performance counters for that particular process. Awesome tool!
+Pretty new to this scene and trying to find some documentation to adopt best practices. We're building a fairly large content site which will consist of various media catalogs and I'm trying to find some comparable data / architectural models so that we can get a better idea of the approach we should use using a framework we've never made use of before. Any insight / help would be greatly appreciated!
+#ERROR!
+Whoops, just realized something...there's no way for me to specify a max length when using String.String(sbyte*) which basically means death to using the constructor for the purpose of reading out of a ring-buffer since it could keep reading past the max length into the next segment!
+Kudos, great question!
+Perhaps I'm missing something with the concept of Extension Methods, but I cannot gain access to the Extension Methods within the KeyCollection Class as defined here: . Using the following code excerpt: I can only gain access to the "standard" KeyCollection methods (CopyTo, Equals, Finalize, etc) but cannot gain access to the extension methods (Aggregate, All, Any, etc). Any help would be greatly appreciated! Thank you!
+I would recommend -- it's an excellent CMS with great built-in translation.
+That's a great link! Donut caching, when using the WebFormViewEngine also works with the declarative control too.
+To summarise the link provided by Codeslayer (in case the page url changes)... Change the sql file templates to ANSI encoding by opening with notepad and then saving it as an ANSI file. You can do the same for files already created. \Common7\Tools\Templates\Database Project Items You've just made our DBA's very happy!
+Interesting idea. Best of luck!
+Very useful thankyou!
+This is awesome!
+this works super for me! (no pun intended)
+This is great! I figured I just had to redrag everything into the dbml.
+once again, i just want to comment on this - great suggestion!
+by architect is pretty much the holy book for scalable web architectures. The by of , creators of LiveJournal, are also excellent case studies. Check out first.

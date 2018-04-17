@@ -1,0 +1,162 @@
+Text
+This should read: This survey tests the local metadata performance using the echo_client to drive the MDD layer to perform operations. It is run with multiple threads (to simulate MDT service threads) locally on the MDS node, and does not need Lustre clients in order to run.
+- Should be like below: textDirection = SWT.AUTO_TEXT_DIRECTION;
+"""create a vdsm.config.config clone, modified by tunables tunables is a list of (section, key, val) tuples"""
+"Add test(s) performing the static code analysis using CppCheck"
+"apt-get" is distro specific... perhaps make it clear that this is an example and that other systems would be installed differently
+"easy" is marketing; let the code speak for itself. :)
+"system-provided version" or "version provided by the system"
+"that all 4 projects are imported" or "that it imports all 4 projects"
+"throws" should be indented an additional 4 spaces comapred to the begining of the function (private/protected/etc.)
+"Toolkit" usually stands for "development tool". See e.g. http://en.wikipedia.org/wiki/List_of_toolkits
+"Types" is an overloaded term in programming. Is it an actual term in the source documents, or can we use a different term here? Is "type" the same as "MIB"??
+"with the transition to ORM all we should care of is the real identifiers of this class, which is id" â€” that's considered to be not true. Since we(at least I don't) do not know (yet?), which operations will be performed on entities, we cannot tell, what we have to compare. Namely, we have to know first, whether these entities will be processed also with unset id when stored in collections, if so, then comparing just ids spells crazy results. Usually it's recommended to compare some unique business id instead of or along with db ID. See Hibernate recommendation related to id generation / object identity. Ok, I'll regenerate equals&hashcode using these two fields. Note: this syntax is Java7 syntax, with direct field access, allowing comparing classes with their descendants (the last thing is necessary due to hibernate design).
+(btw. this field will occupy 7 bytes for our 64 bit builds no matter what due to alignment for the next variable)
+(I think you could indent this line another four spaces if you want.)
+(improvement) It should be possible to test this with only 2 OSTs. With a two-stripe file it would be missing stripe index 0.
+(minor) could use: list_move_tail(&com->lc_link, &lfsck->li_list_idle); Don't delete the list_del_init(), which is on a different list...
+(minor) I suspect these CLASSERT() lines were removed in an earlier version of the patch, but not restored when the padding was added back? Without these, it us likely that a defect will be added on big-endian machines when these fields are actually used.
+(minor) Why out that in a comment instead of just using $((1024 * 2048)) below?
+(style) cfs_list_add is deprecated, use list_add instead
+(style) Do not use whitespace before Cc: (style) Use a single space after Cc: (style) Unrecognized email address: '$CC'
+(style) simple_strtoul is obsolete, use kstrtoul instead
+(style) convert in-between line to tabs. Maybe consider converting the whole function to tabs?
+(style) I don't understand why this is in its own scope? It just causes all of the code to be indented further for no particular benefit.
+(style) please add a comment here like: #include <libgen.h> /* for dirname() */
+(style) remove empty line in middle of variable declaration, and convert few lines after to tabs
+(style) why not format this normally, as is already done in functions below? ptr = (char *)update + cfs_size_round(offsetof(struct update, u_bufs[0]));
+* "@return void" is redundant, leave it out * but do add a line "@since LibreOffice 4.4"
+* Bumping the schema number forces a reindex to pick up the new file format. * LuceneChangeIndex has: this.useDocValuesForSorting = schema.getVersion() >= 16;
+... For whatever reason, I thought TEMP_FAILURE_RETRY stopped after 5 retries. I don't know why I thought that, and it's clearly not in the code. Ugh, getting late...
+... quite contrary to cases where the string is only compared (or appended to non-empty), in which case QLatin1String is more efficient ...
+... the right path in *TYPO3:*FLOW3:package:git:gitBinary
+... we need to add a special check to make sure the last model bucket is counted in the last scaled index without going out of bounds.
+...except for the fact that get_initial_timestamp() doesn't exist for Fam10h, and implementation looks non-trivial.
+// _g_.m is reachable via allgs, so WB can be eliminated.
+// use Russian Peasant algorithm, adapted for exponentiation
+// We should use deltaPos here, because the actual movements of the point may be changed according to the logic above
+:( So we need to either port this file over to kernel style or not use goto's. Since we started it before everyone decided kernel style was OK, we've been using a hacked-down google c++ style which forbids goto :/
+:-/ no really there is a mix on indent (and it is tab by majority (i will fix rest of file) and add modelines...
+@BearND You're probably referring to the idea of returning the normalized location of the face (instead of the absolute coordinates in pixels)... I think we can take care of this in a subsequent patch; and it's not immediately clear whether it will simpli
+@jichenjc, @Chris, I will do it separated blueprint, thanks
+@param is missing In addition, I'd prefer to have a setter (or only getter that can be mocked) for this constant. This would be cleaner than having this as a method parameter.
+[BUGFIX] sql_fetch_assoc() and sql_fetch_row() should default to FALSE Initialize default output to FALSE for sql_fetch_assoc() and sql_fetch_row().
+[error] // comments must be followed by a space and be on their own line
+[error] Got an exception - expecting EOF, found '}'
+[error] Got an exception - expecting EOF, found 'registered'
+[error] 'static' modifier out of order with the JLS suggestions.
+[error] Unused import - java.lang.ClassCastException.
+[info] Line matches the illegal pattern 'more than one blank line'.
+[info] Unable to get class information for @throws tag 'UnableToCompleteException'.
+[optionally] extend SSH based acceptance test too: acceptance/ssh/GarbageCollectionIT.java
+[suggestion] Please use the following codes to do the operations in parallel: local list=$(comma_list $(osts_nodes)) do_nodes $list $LCTL set_param -n obdfilter.*.read_cache_enable=1 do_nodes $list $LCTL set_param -n obdfilter.*.writethrough_cache_enable=1
+{"abbrev", "info", "line", "str"} would be consistent with the dwarf.New arg order. Ditto in pe/file.go.
++1 Also this method shows a lot of errors/hints in the code inspector (unused variables etc.) but I find it hard to refactor this atm
+> Can we have 32-bit processes calling into a 64-bit BufferQueue or vice-versa? The 32-bit process would be calling in to a different BufferQueue, right?
+> I think it's cleaner. We do not have to re-implement and maintain different versions start-needed-srv in each script. Just one "vdsm_init_common.sh --start-needed-srv" to rule them all. Here we disagree. But we repeat our-selves... and not progressing, so we can stop doing that... and progress... as whatever we have now is much better than whatever existed before. When a user/downstream maintainer opens the service/unit/script whatever he expects to actually understand what happens there and why, and not start to dig within application to find issues and modify downstream specific logic. At upstart of have the start/stop convention (yeah... you need something for legacy sysv, but simple if is doing the work), for systemd you need nothing as it handles the dependencies, for openrc you need nothing as it handles the dependencies. So the discussion is entirely around the sysv scripts... I do remember that debian does have dependency management based on the header of scripts[1] So we left with rhel only to handle... This is why I do not understand why we need any common application downstream specific logic. [1] https://wiki.debian.org/LSBInitScripts
+> So at very least you should only check/parse patch set part, if ref starts with REFS_CHANGES, if at all. It already does this, startIndex checks for the prefix.
+> The bug that I reported was actually on the change screen; I had not observed the same issue on the project page. Yep, the original fix was to fix the project page. It'd be great if we could fix both in one go.
+> The flag package is ideally only imported in main. Where did this notion of "ideal" come from? The advice I usually hear (and give) is: don't register flags except from the main package, because you're mutating a global variable. This utility function doesn't touch any global variables. Isn't its purpose pretty obvious from the usage example above?
+> Ugh, really? That's how I read http://0pointer.de/lennart/projects/nss-mdns/ at least. > So do we need an mdns.allow parser too? Even nss-mdns discourages using the file ("Please note that usually mDNS is not used for anything but .local, hence you usually don't want to touch this file.") so you can probably just fall back to cgo if you detect its existence.
+>OTOH we might grep in "$@" for "project:" and only add project:core if none was given. but then we could do the same with branch and status: default branch = master, default status = open => logerrit query would be translated to core/master/open. How about it?
+>This isn't a link to MySQL. Done. >I think most/all of these requirements are redundant and already covered in the general installation section? The JDK is, but tomcat isn't.
+1. This seems like a hack to work around a bug -- why are we reading from the pty after it is closed? 2. This hack also looks too broad -- if any error occurs we close the pipe and stop reading, while squelching the error. This seems bad. Same comments below.
+A better way to do this is | awk '$2=="id" {print $4}' it suffers from less false positives on the 'id' string, and it's more efficient.
+a bit weird that you have this error change in Populate but not in the constructor
+A helper would be a good start :) dm-helper.c might be a useful place to tuck these :p
+A side effect of the refactoring I used to create the hasWholeWorldKnowledge method. Fixed
+a table of function pointers sounds good right about now...
+Ð•Ñ�Ñ‚ÑŒ Ð²Ð½ÑƒÑ‚Ñ€ÐµÐ½Ð½ÐµÐµ Ñ‡ÑƒÐ²Ñ�Ñ‚Ð²Ð¾, Ñ‡Ñ‚Ð¾ Ð¿Ñ€Ð°Ð²Ð¸Ð»ÑŒÐ½ÐµÐµ "Ð½ÐµÐ¾Ð±Ñ�Ð·Ð°Ñ‚ÐµÐ»ÐµÐ½" )
+About { on the same line? yeah it's probably on the one below.
+absolute is still wrong.
+according to [1] signature relevant files are META-INF/MANIFEST.MF META-INF/*.SF META-INF/*.DSA META-INF/*.RSA META-INF/SIG-* so depending on the signing algorithm used you may have to also exclude META-INF/*.DSA META-INF/SIG-* [1] http://docs.oracle.com/javase/7/docs/technotes/guides/jar/jar.html#Signed_JAR_File
+According to https://wiki.eclipse.org/Version_Numbering#Plug-ins_with_no_API, its bundle version should be evolved along with its host plug-in i.e. org.eclipse.jdt.ui, which will become 3.11.2 now. Hence, I updated the same for the test bundle. I will upload a new patch set with 3.10.101.
+aChild is a ONDXPagePtr which is derived from SV_DECL_REF(ONDXPage) which has an "ONDXPage & operator*()" but the old code called operator<<(ONDXPagePtr&) which does something different than the ONDXPage& one!
+Ack, yeah, that was my first way of fixing the original warning, but when I looked over the class more, I realised just removing the checks would be better... will fix.
+action == 0 is Press and action==1 is SetFocus Do you plan to move this to QAccessibleWidget?? I guess that makes sense
+actually I don't know why it is like this in the login but not in the logout.. I would assume it should be the same in both places, and that this one is the more robust one..
+Actually it is just moved, disregard the comment on v1
+Actually it seems to be line 21 that is indented wrong. The newly added lines are correctly indented inside the <ui:style> tag.
+Actually I've changed this so that empty string "" will remove dependencies. It felt most intuitive.
+Actually this is tricky to use an enum because this is going to be mostly dynamic based on the content of the images folder.
+Actually, I realized late last night that it probably didn't make sense to specify the damage using frects, since the damage is defined on pixel boundaries (I was originally thinking frect because sourceCrop is a frect, but that's not exactly analagous). I think this should be hwc_rect_t. That probably implies that we should use hwc_region_t, except that size_t is way overkill and will eat another 8 bytes in 64-bit relative to this (since we're currently getting the uint32_t for free because of padding).
+Actually, I think initLineModel() should be no-op too; the semantics of it are what happens when a different key is picked, but in this case nothing should change when a different key is picked, right? Both value boxes (constrained value and free text) are hidden all along. So I would hide them originally, say by extending the createNewLineModel() method, and implement this as no-op.
+actually, if we get rid of nIndex, we would have to change a lot of code, because in this one, the Insert method returns the index of the inserted/already existing element.
+Actually, in case of invalid argument the process gets started fine, it's just that it gets immediately exited afterwards (see line 95).
+Actually, it seems my comment isn't quite correct. Windows has strerror(3), and it behaves like you would expect... for the C library. The Windows API calls essentially have their own errno that is retrieved by GetLastError(), and these error codes are not the same as those used by errno, and thus use the gross API (FormatMessage https://msdn.microsoft.com/en-us/library/aa908810.aspx) instead. I'm not actually sure what to do with the logging API here, given that Windows actually needs two PLOGs... I'll update the comment either way.
+Add ": " after "successful" otherwise the detail message will be appended directly onto it without any space.
+add a space after CMS so it read TYPO3 CMS 7 same for CMS8
+add a whitespace before/after = when assigning $row
+Add expert info if there is pad high and no pad low ? and also a generated hf with the padding length ?
+Add here warning and link to the linking documentation of alternative OpenID provider and date: 05-20-2015, that Google shuts down OpenID service.
+Add newline. #-----------------------------------------------------------------------------
+Add spaces inside parentheses throughout, i.e. (XYZ) -> ( XYZ )
+Add spaces to relation name to match those in type definition
+--add will add a value on top of another/others. The above line will replace any previous value with this one. Not sure which effect the author is looking for, but I personally don't understand why you'd want to have several download.scheme variables?
+Add: When you copy a manifest object, the new object is a "normal" object -- not a copy of the manifest. Instead it is a concatenation of all the segment objects. This means that you cannot copy objects larger than 5GB in size. All metadata is preserved during the object copy. If you specify metadata on the request to copy the object (either the PUT or the COPY), the metadata overwrites any conflicting keys on the target (new) object.
+Added tests for other resource type. I feel there should be a test that ensure the issue in the bug is resolved. It also verifies that the generated.xml can at least run through aapt.
+Adding {{delete}} is because that was previously in this script: http://git.wikimedia.org/blobdiff/pywikibot%2Fcompat.git/d5a3b0349e0264a298d909d03455283f3f154fb2/casechecker.py
+Adding to Megumi's nit: Consider initializing the value to true, and possibly collapsing these two methods down to one with an argument
+Addressed by a separate change through https://git.eclipse.org/r/#/c/44706
+After seeing this live on gerrit-review, I think this is noisy. Every change seems to have 10+ conflicting changes, which I think is just an artifact of there being lots of old, unlikely-to-merge but still open changes in the project. I would prefer something like including "-age:30d" and/or "limit:5" with a link to the full search without that restriction.
+Again, no new abstract functions in the API classes, please.
+Again, you must continue the original numbering and then update LAST_STR_HERE.
+Agree displayable is not ideal. Looking for something that means "not internal". How about getNonInternalFieldModifiers()? Given they're hidden APIs / internal comments I suggest not wasting any time on this: my point is the comment is not as clear to me as I think it could be. Feel free to act on the suggestion or ignore. The later draft is clearer.
+Agree, (it was not added as part of this patch, but I'll fix it). Hopefully we'll be able to completely get rid of these parameters...
+Agreed, it would be better in a different tree. It does need more documentation and testing for other applications.
+Agreed. Unfortunately board-specific modifications to agesawrapper.c files have leaked in, making this a long boring process..
+Agreed. We will need to get this repo setup and populated before these changes are approved and applied on any hosts. Can anyone confirm if I have guessed an appropriate name for the repository?
+Ah good point - I hadn't noticed that patch get merged. Have removed the field_exists and table_exists checks
+Ah right I was in the "library" mindset, I tried to mimic what RuntimeException does. Yes if we look at what I use here, these would be useless at the moment.
+ah! I had changed this routine to start from one less than the value passed but forgot to change br_init_children(). If you check fini(), it correctly passes priv->child_count. I'll fix this although it's OK not to change this as this routine is executed when the process in tearing down. So, it's probably doesn't matter much.
+Ah, good catch. I didn't see the enclosing call to the Title class there. I was assuming the output of $request->getVal( 'title', '' ); was being passed to $request->getVal( 'returnto', .. ); Seems some really nasty logic going on with re-using variables and type-casting to strings etc.
+Ah, ok. Let me explain a bit: The USBIP server/client is split into two parts. On the server side, there's an userspace daemon (usbipd) and a kernel module usbip-host.ko. The client has a userspace tool (usbip) and a virtual usb hcd vhci-hcd.ko. So, get_usbip_message_len is split in the same manner. The Device List, Import, .... Request/Response stuff (which has a protocl version 0x111) is the user space portion. The usbip-host.ko and vhci-hcd.ko part (aka URBs handling, version = 0x0000) is part of the kernel. You are right, I'll add comment which explains why the function got so convoluted.
+Ah, the perils of copy-paste. Updated to "ECDHE-RSA-AES256-GCM-SHA384".
+Ahh that's funny! :D Good that you payed attention! Done
+Ahh yes. OK. ROMCC and all that. I forgot about that jazz. On further thought w.r.t. the naming. It should really be pcidev_t, no? That would be typedef'd to unsigned int *and* used in struct pci_path? That name would be clearer. Or are we doing to try and encode all different types of devices into a simple_device_t?
+Ahh, I see. :) I'm not seeing an isEmpty() method for the Cursor class. Should I check for moveToFirst == false instead? Also, while I'm on this, is there a reason we call the CursorLoader parameter CursorLoaderLoader and the Cursor parameter cursorLoader? Can I change them to just cursorLoader and cursor?
+Ai, we missed a use-case here. I'm affraid that I know why this wasn't implemented yet. This doesn't check if the files inside the deleted folder have active references like is done above. See also https://review.typo3.org/#/c/33562/
+all 3 log methods now do make use of the instance variables: accountCache, groupCache, groupBackend
+All macros in southbridge.h are Vortex86EX PCI S/B config register offsets. They are all fixed for Vortex86EX CPU.
+All the msgs above have significance that they are trying to modify PGFID. Create one message id say 'P_MSG_PGFID_OP' and log errors there.
+All the names we've thought of for this suck, unfortunately. :(
+Along the same vein of getting the class's METADATA_TYPE when deserializing the response, since you are checking if the METADATA_TYPE is located in the json_dict, you could reference the class's METADATA_TYPE directly. (I should have seen this in the last code review) if DriverInfo.METADATA_TYPE in json_dict: <body> The same applies for the properties keyword check in line 67.
+already defined here: BasicFileUtility::$tempFN there is a @todo for this attribute to change it to "visible". as static?
+Already sitting in $configdata, so no need to repeat this.
+Also explain in this file why the compiler was failing, and dx's smart/dumb behavior.
+Also guessing, but if multiple loops act on the same vector and that vector exceeds a cache level, then you can do slightly better by alternating the order of loop traversal, so that you do re-use what you do have in cache.
+Also here, not MX/RX but instead {..., 4, 6, V, { VR }, ...} compare with "BETADIST" and "BETAINV".
+Alternative? The ret pointer will be free'd outside of this function, therefore I need to return a pointer here. and *ret is assigned NULL above (instead of the g_new as before). If I'd return just NULL, it would add complexity to code outside.
+am i confused, or will this get the above error "Invalid host name (docroot=" . $docRoot . "), can't determine language." ?does it need to be in an other "} else if {"?
+And #include AGESA headers in a public coreboot header? Are you out of your mind?
+And here, end with a single "},", and the next line becomes "}},".
+And We dont have all functions available in cluster.rc (volinfo_filed, get_quotad_count, ... so on
+another note for future patch: replace static references by the proper Dao getter.
+any reason for not using constants from the enum? if you'll ever change the enum, this tests will produce useless noise.
+Anything that needs to run in the UI thread needs to be wrapped this way, otherwise the IDE complains. It is in the UI testing doc I sent you: https://docs.google.com/a/google.com/document/d/1UBVjIEYXoNVZeYT1NKjqPhCYSkU-X2lWVCrFHbXnPnM/edit?usp=sharing
+Applied @NonNullByDefault everywhere it was possible
+Are these data representative of the inputs that the function receives? AFAICT you're not storing individual collections in sub-pages.
+Are these redundant copies of those in arch-agnostic lib/romstage.ld ?
+Are we sure the the same set of changes are not required for other daemons as well?
+Are you intending to add more artefact plugin settings?
+are you sure about this loop, which does not run ;-)
+as discussed, change it to if (ret && !mismatch) break;
+As every callback is only interested at the part starting at the token, what about using frame + offset here and dropping the p - frame in the callbacks?
+As far as I can tell from documentation, no exceptions are thrown. Reworking it slightly anyway (move chdir closer to _FindOrphans loop) and adding try/finally for safety against possibly careless maintenance programming.
+as noted in patch set 2, message should be: CANNOT REMOVE STORAGE POOL WITH NON MASTER DOMAINS or something.
+As of now, some caller assumes that the returned ref is not nil when the returned err is nil. When this assumption is not valid, as the original code shows, subsequent actions on the returned ref would cause NPE and lead to GOXDCR crashes, which caused the issue in MB-18266. Returning a metadataNotFound err here is more correct conceptually, since this code is called from query APIs for remote cluster refs, and not being able to find the ref is an error condition. It will result in more consistent and predictable behavior -- the aforementioned issue will no longer occur.
+As per discussions on qt-development, it was proposed to have a 3-tier fallback. 1) Environment Variable 2) setConfigFile() 3) A generated default value based on QStandardPaths, org name, app name, binary name, etc. There was a +1 to this suggestion and no dissent.
+As remember filtering name can be related to expert information - this give you more filtering options. For example "btle.crc.incorrect" and "Incorrect CRC"
+as Shawn mentioned in another comment: s/wild project/AllProjects project/ more occurrences below
+As things like Twitter, Facebook, LinkedIn are very popular right now I think we should have them in the list so that their proper icons are used. Maybe we could have an Admin -> Extensions -> configuration form for this so an admin can add new options when needed that records the name that will appear in the dropdown and where to find it's related icon. But maybe this will be a patch for a later time
+bad define. This is the .h file. Please run KWStyle.
+bad indent shouldn't it be SLERP instead of Slerp ? (can't change the cast of acronyms)
+Be prepared that these logs won't show up. At least they don't on my Windows machine. Seems like logs outside the test itself do not appear.
+Because it's racy. It should be guarded optimally with a lock that is not so global, but then you're talking about improvements that are in the nanosec granularity.
+Blah, I'm not saying to have XXHDPI passed in, I'm just saying that right here you could put the code that I put above. Like, "when computing the scaling factor, if we see ANYDPI use XXHDPI instead. This is a silly thing to go back and forth on, and it doesn't really matter much...
+but cd() returns bool I don't think absolutePath() is a valid method call on bool
+But not how it's currently implemented. Instead the interwikimap should be consulted to see whether a interwiki link is local, and as soon as a non-local interwiki link is happening throwing this exception (but as InvalidTitle of course). How is en:meatball:Foo an invalid link? I've added that to the link tests and it's fine. And en:meatball:en:Foo doesn't work as the meatball wiki appears to have no interwiki map.
+but only replacing them in the copy of the string that gets written to fo? we're returning the original string? (i guess 'parse' is just misleading. we're copying to the 'tmp' file and rewriting one particular entry but returning the original of what we just overwrote.)
+But that isn't true now is it, because only vendorcode/amd/pi/00730F01/Lib/amdlib.c and blob friends have: __attribute__((optimize("Os")))
+but, that is supposed to be there. I think it's confusing having some functions being vbucket_* and some others being lcbvb_* -- so that's why the comment is there, so I can fix this up at a later commit. Let me do that right now actually.. http://www.couchbase.com/issues/browse/CCBC-431
+Call getResource() with false for the parameter loadOnDemand instead of true to be lazy ?

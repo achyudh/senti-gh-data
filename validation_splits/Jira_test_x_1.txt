@@ -1,0 +1,94 @@
+Text
+What the hell are you waiting for ?
+I suspect it has nothing to do with the file system connector or Infinispan connectors and is simply a (stupid) mistake in the federated join processor.
+I'm an idiot.
+It really sucks that there is now way currently to include transitive dependencies.
+I'm an idiot... there's nothing wrong with the readme.txt.
+Crap forgot to verify that this is inconsistant with MRI it's not.
+Please close as this is just me being stupid.
+Holy hell I think I found one problem with turning a bignum into anything else.
+This sucks *so much*...
+Damn I would close this out from the fix to JBSEAM-3742 except the quartz and seampay examples use a custom XML namespace and the XML schema validator is not happy with that.
+*Damn* I forgot.
+Also your username was stupidly named and confusing so I deleted it and created a new one more appropriate.
+Damn it seemed it didn't work.
+It sucks to lose the code readability but it seems like a reasonable price to pay.
+I don't have to ensure that the classloader knows groovy classes *you* must do that.
+And debugging is hell because the test environment needs to have the exact same loader setup.
+who the hell starts using our jira for typing lessons ?!?
+fuck u
+Hell this is gonna take me a lot of work to raise.
+That irritated the hell out of me too but I didn't realise it was configurable in the .launch file.
+This sucks badly.
+Why on earth does createLink() need a request?
+Finally closing this bug from hell.
+I sure as hell don't want to start attaching models for the sake of detaching them directly afterwards.
+That sucks why isn't the escape mechanism working?
+I am an idiot - this was a dupe of GUVNOR-84
+Sun RI sucks why the hell is saveState() and restoreState() not called with with javax.faces.STATE_SAVING_METHOD = server???
+Swear to god I'm not a total idiot.
+I don't know how the hell my diff program decided to add seemingly random CR chars but I've removed them now.
+durrrh that sucks.
+Im stuck with IE6 unfortunately.
+What the hell I'll give this a shot.
+{quote} searcher.getAtomicReader().getSortedDocValues(uniqueKey); {quote} This is a performance killer.
+As far as the query shit i have no idea if solrdispatchfilter or whatever could/should do Thread.currentThread().setName(x) or whatever (and maybe restore after)
+BTW: This is one reason why I hate this autoboxing shit since Java 5. I would love to have a way to prevent it in code (forbidden checks should detect this somehow).
+Hmm that sucks.
+tricky shit man! I think I found the issue!
+Oh man ... it's a fucking precendence problem.
+Ugh well that sucks.
+I didn't know we needed to retain backwards config capability across 3.x to 4.x :-( That sucks and it'll make old code stick around longer.
+bq. this is solr's fault by having a getter that does some heavy duty xml shit.
+That sounds like some serious buck passing.
+This whole thing is very distressing to me.
+I think we all know it just sucks.
+though I disagree with a signficant amount of statements you madeI don't think we would ever come to agreement anyway.
+that's some freaky shit ...
+I think you made mistakes in ivy.xml.
+This is where it gets confusing.
+If I can give you one advice on this one I'd say this: fuck Derby use H2 instead as the default embedded database.
+What the hell?!
+(Do nothing): Are you serious about that?
+Oleg please accept that my "logical" is different from your "logical".
+So I'm fine with your logic but given that I don't understand it please don't get upset when I ask questions on how I have to use it.
+This was my bad.
+The rest are *totally* unrelated.
+Oh fuck :-) Sorry. Not my day more beer needed!
+Sorry I guess I'm against "never computing this shit"... because you guys think returning NaN is ok.
+if you want to make these optimizations fix the APIs so its intuitive otherwise no way.
+who the fuck is asking for scores but not the max score and why does their insanely specialized use case justify all these booleans on a central lucene class.
+I don't care about code duplication here.
+We should not invoke the global synced fieldnumbers shit for every element only when the setting actually changes
+I disagree... and I guess I'm willing to go to bat for this.
+HOLY SHIT!
+I think the comments here are a bad sign... I sent us down an unfortunate slippery slope we are a search engine library! don't put shit in the index directory! or we will delete your shit. dead simple.
+Thanks for fixing it so quickly!
+Jonathan: over to you :)
+Cool looks good.
+Cool. sounds good to me.
+Hi Carlos This looks awesome! Lots of cool stuff.
+Waaaaay cool! I especially like the "upload file" option.
+cool stuff! a good candidate to put on myfaces-commons-utils so the user can just add the resource handler on its webapp faces-config.
+Thanks Daryn!
+Thanks for the reviews..
+Wow thanks Raghu that's awesome and will save me a ton of time.
+So very cool and so very committed-- thanks Matthias this is awesome.
+Took me a few seconds to get it but then I realized how awesome it is.
+I'm happy to use it as the standard logo (i.e. website etc.).
+http://svn.apache.org/viewvc?view=rev&revision=468444 Deepal Thanks!
+Awesome stuff Stephen!
+Thanks Alexei the patch is fine.
+Awesome co-op. Thanks Robert & Mike for picking this up.
+Cheers!
+Thanks Galder:)
+Daryn the current patch looks good.
+Sounds good.
+This is awesome!
+v2 Looks good to me.
+Hey you're right that idea was probably not the best approach to the problem - 0.6 looks really nice looking forward to it :)
+Thanks for moving so quickly on this guys.
+Thanks Sanjay!
+Cool thanks Daniel we're actually cool with either updating it to e9ff8c4928 or flipping the write bit and we'll push the delta ourselves - whatever's the fastest to get to writeable:) Thanks --tim
+This is a great suggestion.
+great thanks Joel.

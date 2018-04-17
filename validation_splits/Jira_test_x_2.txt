@@ -1,0 +1,94 @@
+Text
+I wholeheartedly agree this API is confusing as hell.
+Not only it's the first one in my life I'm seeing multiple ways of closing the same thing it also conceals programming errors.
+Sucks to rush a commit when an issue is under discussion.
+I'm against such heavy committing myself without some consensus to do so.
+I'm confused.
+> I hated that aspect of working for commercial companies.
+My bad.
+My bad.
+Igor is an idiot and we *do* need gmake.
+Shit I missed a cast.
+But even if it wasn't it would be totally worthless where it is at.
+This is clearly bad webserver behaviour.
+Forget what I made(D8067).
+PreCommit-HDFS-Build is stuck.
+So it is stuck somewhere.
+I don't want one-offs like this to become lost and forgotten.
+But now that I think about it it may crap out when coming back to read even on a recovered file.
+Matt... I'm an idiot I used the wrong patch. Sigh.
+I'm however very interested in this feature as it is essential to me.
+bq. this is solr's fault by having a getter that does some heavy duty xml shit.
+Holy complicated-as-shit-algorithm Batman! The complexity of our implementation vs the complexity of what we're actually doing is starting to worry me here.
+It also happens at the very startup after he has loaded only 3 sstables (hence DataTracker likely have 3 sstables not a shit load).
+Shit my bad. The posted patch is from a completely wrong branch of my git repo - I had not realized I ran the test-patch against a branch not branch0.
+(In this particular case Hoss clearly intended to use the no-no word as an intensifier and not to stir shit.)
+Maybe only one of us should play lawyer and the other one play engineer.
+I used to be the latter but then I went to law school and got a degree in this shit.
+Then to make matters worse since the mid0990's I've been offering pro bono advice to non-profit foundations whose members insult me regularly and assume I'm an amateur.
+Someone but I'm not sure who owes me a public apology here. /Larry
+Shit there is an dependency. Please go to Preferences -> LDAP -> Entry Editor and enable the option "Show operational attributes".
+that's bad Content-Type from gSOAP.
+Pull it back in if you think different.
+Hmm ... this is quite bad.
+You are messing down deep below hbase in dfs.
+Damn it sry lost the orientation.
+Oh my stupid:)
+oh ...geez I'm an idiot.
+jira - I wish you didn't suck so much.
+Indeed that would be VERY bad design.
+My bad.
+(How bad is this?
+I'm confused.
+This is pretty trivial.
+Of course it could... :-) DOH!
+Then you're pretty well screwed.
+Damn Chuck is scary.
+This is bad.
+Well that sucks.
+Bad memory.
+The state stuck at "Allocated state" It is a dup of 3788.
+This is a pretty awful bug.
+Replaced patch with fix to catch more bad variables
+Does this suck?
+Of course StrFieldSource is a private class No it's not.
+CSS is really confusing sometimes.
+Django is a fullstack framework Click is not.
+My bad.
+Credit of course goes to Dick.
+It seems really confusing.
++1 for this: my bad.
+Hell or high water.
+0 to jar hell.
+That would suck.
+If so a test that succeeds with errors is confusing as hell...
+If the different segments are somewhat homogeneous then these stats should pretty much be very close anyway.
+Thanks for reporting solved!
+it belongs to faces 1.2 :)
+Ok cool this is just a matter of adding strings to the various [NotFound()|https://github.com/apache/mesos/blob/0.15.0-rc4/src/files/files.cpp#L160] returns in files.cpp There are a number of error cases in the [browse|https://github.com/apache/mesos/blob/0.15.0-rc4/src/files/files.cpp#L204] and [read|https://github.com/apache/mesos/blob/0.15.0-rc4/src/files/files.cpp#L204] endpoints I'd imagine one could change the javascript to generate bad requests which should be sufficient to test this :)
+cool no worries.
+Cool feature! Performance: - It looks like scripts are read from the resource loader and parsed again (eval) for every update request.
+Thanks Ram That seems like a definite improvement.
+Interesting that you decided not to detect the error based on finding two similarly-named operations.
+It's OK.
+Hi Suran The new catalogs_b.patch looks very good.
+Nice feature lars!!
+:) I've renamed ComponentColorProperty to be ComponentColorElement and RelationshipAggregation to TwistieAggregation.
+Looks like this is fixed :)
+Version 2.2.0RC3 is fine.
+Sounds like a good idea.
+Many thanks for your help.
+Thank you!
+I've tested them out and everything is fine.
+Is that ok for this file (b/c I have no idea how to do the svn move now ... after I've made all the changes already) :)
+Thanks once again.
+bq. OK w/ the latest patch all tests pass for me! Great Awesome! :)
+Great! Awesome! thanks Dims
+Great! Awesome work Nick and thanks for the clarification Bill.
+Great work...this is awesome stuff.
+great. awesome job sergey!
+Awesome - great stuff Maria. Thanks!
+Thanks for doing that Uma.
+Wow!
+Thanks Bryan!
+Patch looks good to me.

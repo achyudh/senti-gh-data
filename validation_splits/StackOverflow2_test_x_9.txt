@@ -1,0 +1,281 @@
+Text
+@Johannes: Don't bother, he's much too stupid and heinous to be worth helping (see his comments on my answer, it's a model of how to get help).
+Basically you've got to call the method with reflection: Get the generic method template with Call passing in your 4 type parameters Invoke the method passing in the regular arguments It's a pain :(
+Is there a way to create a batch api request with different access tokens to be used? I need to crawl data from youtube channel using the offline access tokens of our users but the problem is we have 20K of that and having 1 request at a time is really painful and is taking lot of time.
+When I slide to a next image, or when the slider/carousel automatically switches to the next image the previous image disapears too fast, which gives it an extremely ugly look. I've made a video to make clear what I mean, can be checked over here. Anyone has an idea? Code for the carousel:
+Is this valid ? what I'm really worried about is can you specify type and also use def at the same time?
+Now that's a lousy, lousy way to answer a question. Where do you do this?
+Yes, I hate how Skype tries to use port 80... I sometimes forget to change it, and then when I try to test some web thing I've written, Apache won't start.
+ahh got it. you didn't downvote me for simply asking you to explain a bit more did you?
+I am trying to make a search TextBox with an embedded magnifying glass icon. I have the following markup so far: However, I can't find the entry in SystemColors which will give me the same color as the standard TextBox border. This is a blueish color by default. Am I being really stupid here?!? EDIT: btw, the image is contained in a stackpanel because I'm planning to put a dropdown arrow in there as well.
+StyleCop has rules that seem to differ from MS's prior style guides. For example, StyleCop hates m_ and _ for prefixs to private members. Also, the VS default code generation violates StyleCop by putting using statements outside the namespace. *sigh*
+Yes, Lily, but *why*? It sound exactly what someone who develops a malicious piece of software would ask.
+on Python Prompt it works fine !! can anyone has idea why my program is not working from .py file as import is working perfect from python prompt.
+I am trying to save a ListObject from a .NET 3.5 Excel 2007 VSTO Workbook to a new sheet (done) and save that new sheet to a new workbook (done) without that workbook requiring the VSTO customization file (!!!!!). Has anyone had any luck with this? The only way I've had any success is just saving as a CSV file but that's not exactly acceptable in this case. I'd rather not save to a CSV just to copy back to a XLS file. worksheet.SaveAs(saveDialog.FileName, Excel.XlFileFormat.xlOpenXMLWorkbook)
+My goal is to write a cookie when the user authenticates. We are using a crappy framework that hides its source code and event model so when I use their login control I can't set a session timeout on it! Anyhow, I am trying to write a cookie when the user is logged in, and then refresh the cookie expire time on subsequent page views (sliding expiration). So I figured I could initially create the cookie during Application_AuthenticateRequest in teh global.asax but that seems to be firing even when the user hasn't signed in yet. Is that suppose to be the case?
+I'm unable trigger a click on the body tag using jQuery, I'm using this... even this fails Any ideas?!
+I'm not sure why this answer was accepted. This simply isn't the correct answer. Deadlocks can occur whenever you have multiple threads. There's nothing inherent in GUI programs that makes them more likely to happen. Furthermore, they can easily happen even if you use BeginInvoke(). Brian Ensink's answer is the correct one.
+Obligatory I Am Not A Lawyer. Are you violating the legal clauses of the GPL? Probably not. ATI and nVidia do this sort of thing with their graphics drivers for Linux. However, it's important to note that Linux is GPLv2; this may have changed with GPLv3. Are you violating the spirit of the GPL? Yes, and judging from the way your question was written, you already knew this.
+I'm using vbscript, all that does is reverse the setting of checkbox.checked, whichever way it is. As an aside, vbscript is awful to work in.
+One of my tables in my SQL database has a growth rate of two nibbles per nanosecond. I was wondering how many megabytes per day that is and should I be worried? My hard disk is 150 GB.
+I lied. The problem is back with a vengeance... 4009 errors in 229 files. This is ridiculous! VS2013, Resharper 8.0.2.
+Kernel Mustard link is now dead :(
+I am working in VB.net and have a Class, Foo, that implements an interface, IBar. I have a List of Foo's, but I need to pass a list of IBar's into a function, but I keep getting casting errors, even when I use DirectCast. My code is In both Main and Main2 I get MainWorks works, but it would be really annoying and inefficient to have to do that everywhere I want to call this function.
+Strings containing XML is an extremely bad idea and asking for trouble. Use messages that have a defined schema.I had to rewrite significant portions of an app that used a lot of XML internally instead of types. It was horribly slow and impossible to figure out what was happening.
+Sorry, most of the code for this is 3rd party and I do not have access to it, making things extremely difficult/frustrating.
+My company currently use CruiseControl.NET, which I find quite a pain on the neck to configure. What CI solution do you use?
+that's not a maintainable solution. most modern code metrics (readability, simplicity, maintainability) would conclude it's a terrible solution.
+I hate to say it, but the selected answer is wrong. C# Express ships with 3.5 SP1, including .NET SP2, etc...
+Hate to break the bad news, but SSHClient() already uses threads internally.
+@gap: No, I never wrote the helper class, I'm afraid.
+Apart from the books available from , I am looking for some links to any resources that could help in learning the VTK library. Preferably, with example code and tutorials. Google results have not been terribly informative for me. So I am asking here for links to VTK resources.
+We use Hessian in our software, and I wish the previous developers didn't do this as we now have to access the hessian endpoint from C++. It's a pain and I prefer things to be in simple HTTP xml or json.
+Technically, XHTML can not be poorly formed. A stipulation of XHTML is that it is well formed and valid. Sorry for the lame comment, invalid XHTML angers me.
+Ugh, implicit joins! I want to tear my eyeballs out looking at that.
+I'm using VS2008, in a normal mid-size solution. Sometimes, debug stepping becomes very slow. A padlock gets rendered on the every file tab for every "step" (F10/F11), and it can take up to two seconds for every step. That makes debugging very annoying and slow. Has anyone seen this problem?
+Why use a `Mutex` here? The `Acquire` method just returns a reference to an instance (this is a reference type). Whether the object referenced is mutable or immutable is irrelevant. The reference is to the same object no matter if the object mutates. Why do locking? Even if the instance was not "singleton" or "read-only", i.e. even if the field reference could change, since [reference assignments are atomic](http://stackoverflow.com/questions/5209623/), there would still be no need for locking/`Mutex`. I will downvote this answer @ +109 net upvotes...
+I really fail to see the use case... If you will type print_var_name($foobar) what's so hard (and different) about typing print("foobar") instead? Because even if you were to use this in a function, you'd get the local name of the variable... In any case, here's the in case there's something you need in there.
+Its absurdly late/early so maybe I'm just tired, but can anyone tell me why in the world the following test is not failing? Really need a second pair of eyes to confirm I'm not crazy...now I'm worried that all my tests are unreliable.
+Lately, bringing the help window from Visual Studio is taking a long time. Even updating the help system takes an awful long time. Is there something broken with my installation?
+All but one of the answers you got provide another frightening example of how people can get very basic C syntax wrong.
+Is there an easy way to find parse errors in javascript code? Last week I was debugging a javascript problem where the first javascript function that was called gave an 'object expected' error. I later determined that this was because the browser wasn't able to parse my javascript code. I eventually solved the problem but it was a painful process that involved pouring over my code line by line, trying to find my mistake. There must be an easier way.
+I just flashed back to an old Broderbund game... Can't remember the name of it. Awful CGI graphics, lots of cannon battles in old ships... Maybe the first pirates game? Damn, that was an AWFUL game. Had a rollup scroll in it.
+@Suma How can this be a duplicate if the question you mentioned was posted a year after this one?
+The .NET installation is one of the most painful setups of all history, in all means possible. I've did many such setups and about half of them even *crashed* for XP.
+Yes, these queries are horrible. Do a regular join instead.
+The Tumblr iPhone app looks awful --both the gradients and the unnecessary boxed look imposed by the gray border. Stick to the standard UITableView look. What Apple uses for *their* apps is what looks most professional, not random novelty stuff.
+The following (cut down) code excerpt is a Linq-To-Entities query that results in SQL (via ToTraceString) that is much slower than a hand crafted query. Am I doing anything stupid, or is Linq-to-Entities just bad at optimizing queries? I have a ToList() at the end of the query as I need to execute it before using it to build an XML data structure (which was a whole other pain). While working on this, I've also has some real problems with Dates. When I just tried to include returned dates in my data structure, I got internal error "1005".
+Yes, the question mentioned it won't work. I was trying to describe why it wasn't terribly important to even try to do it that way.
+My experiences sound similar to yours. I've only just started using doctrine, and have never used Propel. However I am very disapointed in Doctrine. It's documentation is terrible. Poorly organised, and quite incomplete.
+As title, basically I have a user control placed inside a page and then the page is placed inside the master page. I want to extract a block of javascript and put it back to the page head. When I try to wrap the code inside any block control (e.g. a div runat server) and access divID.InnerText then ASP.NET bust off with I dont want to extract JS inside cs file, thats awfully ugly approach (all sort of escapes and people wont even notice you have JS written unless they drill your CS file), what can I do?
+Note that this doesn't use a StringBuilder, so will have horrible performance for very long sequences.
+Agreed. Don't do this, it makes people cry.
+I have developed my site with Firefox and firebug plugin, but when i deploy it to other browsers (IE/Chrome), the console window appears at the bottom of the screen(very annoying). How can i disable this? and why is it appearing? gath
+All the formatting templates in Eclipse will put the plus on the next row (which I find really annoying), so you can simply apply the code formatter and the plus will end up on the next row.
+that _is_ sad news
+I have a password that I want to store as property in a Web Part that can be set via the tool pain. Currently it is a String and can be clearly read. How would I go about making it * out? If this is the wrong way to be doing this what would you advice to do instead?
+You can look at OpenOffice Base. I tried it out awhile back when it first came out and it seemed awfully slow and it didn't seem feature complete either. But it is free and open source :o)
+@Raubi: Which bit? It's still going to be horribly inefficient for long sequences, as it's still doing an enormous amount of string concatenation.
+I have a method that does a bunch of things; amongst them doing a number of inserts and updates. It's declared thusly... It works exactly as it is supposed to and I have no problems with it. There are situations however when I want to force the rollback in spite of there not being an exception... at the moment, I'm forcing an exception when I encounter the right conditions, but it's ugly and I don't like it. Can I actively call the rollback somehow? The exception calls it... I'm thinking maybe I can too.
+I don't know why the editor is giving me so much trouble. At first the code blocks wouldn't do anything but indent, so I had to change it to pre tags. Then my carefully numbered sequence is now all 1s. This thing is making me look ridiculous!
+From my own experience, Microsoft SQL Compact Framework is a REAL NO-GO. It is REALLY FREAKING slow and its Query Analyzer is just really poor. I had to ask my team to rewrite all the plumbing code of my Windows Mobile component to get rid of the awful performances of SQL CE.
+Usability notes: Personally I hate when sites put the "forgot password" or "forgot username" or "help" links inbetween the password field, and the Login button. As a keyboard user, I shouldn't have to TAB over them to get to the submit button. Better yet, also capture the Enter keypress on the password field so that I can auto-submit with the Enter key.
+A (it doesn't have to be a class; structs and interfaces can be partial too) is basically a single type which has its code spread across multiple files. The main use for this is to allow a code generator (e.g. a Visual Studio designer) to "own" one file, while hand-written code is put in another. I've no idea whether Python/Perl have the same capabilities, I'm afraid.
+That's just a 16 character requirement with an optional 2 character afterwards: The parentheses may not be required - I'm not enough of a regex guru to know offhand, I'm afraid. If anyone wants to edit it, do feel free...
+I'm working on importing data from our application into Oracle Financials GL. It seems simple with the GL_INTERFACE table, and many resources online, but I don't seem to understand it. I'm looking for a simple way to post a transaction of $X on a specific date, between 2 or more accounts. I'm terrified of incorrectly posting anything in the GL.
+Probably has something to do with the unbearable bugginess of the Telerik RadControls suite
+How awesome would it be if the Delphi IDE would put code in 2 formats on the clipboard, so that code that is copied and pasted in e-mails or word-documents has proper highlighting instead of plain text?!
+Ironically years later, I'm wondering why in the world I wanted to do this. I hate apps that do this.
+@sambo99: I'm really not sure what you mean, I'm afraid.
+I'll second the NI Measurement Studio. I've plotted 1000 points/sec with NI Measurement Studio's chart control. Also, this test was done on a laptop with a very lousy video card. AFAIK, Measurement Studio is using OpenGL internally.
+I hate writing migrations, but it's important for the schemas to stay in sync. What I'd much rather do is update my and have Rails notice, then run something which generates the appropriate migration based on the difference between the old version and the current version. Is there a way I can do that?
+But definitely agree that in 99% of cases office interop is horrible.
+Basically, the doctype determines how crazy IE is going to be. If you don't set it to XHTML, or "strict" you'll be living in a world of hurt when it comes to IE (even if you set it, you'll still be hating on IE, but it does make it a lot better).
+I was afraid of that. Poorly formatted code really bothers me. I guess I'll learn to live with it.
+So for example if I need to run Git Pull in the commandline, I need to specify the full path to everything...? That's really annoying.
+Tried this. Failed miserably. See http://stackoverflow.com/questions/528224/how-to-use-linux-fonts-in-windows-qt
+Did you ever figure this out? I've had to post a dupe because I cant : http://stackoverflow.com/questions/652621/flexbuilder-web-services-list-empty
+I am crying on the inside. And on the outside.
+I find it comes back periodically. What's most frustrating about it is that everytime it does come back, it breaks WebDeploy as the account under which that runs does not have access to delete the aspnet_client folder created!
+Hate to say it, but how about just testing it?
+Nearly everything coming out of Redmond draws their menus differently then plain Win32 menus. It really annoys me that this never makes into the OS. OS-level Windows menus are so far out of date that drawing them yourself is nearly a requirement these days.
+Ah - make me look lazy! (guilty)
+I'm just going through the same process! I was looking at this page: http://docs.oracle.com/javase/tutorial/jdbc/basics/connecting.html which starts talking about coffee shops! At that point I gave up. You've got to love java/oracle documentation!
+I think I've been using these terms interchangably / wrongly!
+There's some debate over that FAQ entry. Yes, by all means, answer your own question. But if you routinely have a set of pre-baked questions and answers, then this site just becomes a blog, rather than an exchange. You have the misfortune of picking a day when someone abused the spirit of that FAQ.
+or a working iPhone example. With so many classes it's a pain to figure out what calls what
+This is sad, I told you how to handle raw packets, and I only got 3 votes, while the accepted answer has 8 votes and basically didn't answer the question...
+this is a terrible idea for webapps
+Yup many hours later I found that a single panel that was wrapped around the section had a EnableViewState="false" added to it. Sad part is that I know I didn't add that because I didn't even know what it was until craig here mentioned it. Visual Studio must have added it sometime.
+The other issue the number of variations in everyone's SIP implementation. Solving all of the integration issues would quickly eat up all your time. At $699 for OCS that just doesn't make much sense.
+I have an asp:Menu control that has four different menu items in it. Each menu item has a graphic and a text description. My problem is the icon and text have no padding between them and it just looks ugly! Does anyone know how I can force a bit of padding between the image and text of the menu item? I've looked at all of the attributes on the asp:Menu control, but I haven't been able to find one for this, but I may have just missed it.
+You can set the document.domain but if I remember correctly a few browsers (Opera) will not even allow this. I am afraid your answer is to create some sort of proxy on the subdomain that you can talk through
+You should be able to add the attribute during OnPreRender(). INamingContainer is so painful sometimes...
+Yup, wcf is a world of config pain, stick to asmx
+Its amazing 1000+ questions tagged "programming" I just had to go find out how many quesitons were tagged "question" and there are some!! @Jon: FYI, SO is always about programming, non programming questions will very quickly get voted closed.
+You're looking for an equivalent of and I'm afraid it doesn't exist explicitely in the STL. Go for Sebastien's answer if it is correct for your STL implementation.
+The screen which shows whenever i start Netbeans is very annoying, and among the hundreds of options I can't find the one which turns it off?
+WTF??? Why not just mark Enrico's answer as Answer instead of copying it over and marking your own answer? Stealing is bad, m'kay?!
+Is there a VB6 equivalent to the C/C++ 'continue' keyword? In C/C++, the command 'continue' starts the next iteration of the loop. Of course, other equivalents exist. I could put the remaining code of the loop in an if-statement. Alternatively, I could use a goto. (Ugh!)
+That's clever, but the performance must be HORRIBLE. Not that I'm saying there's a better answer, just shuddering at the O(n^2) of it.
+No you can't. That awful thing doesn't work in managed mode or mixed mode.
+Its not One is it? I have a method that gets five Lists from different repositories. Each call opens and closes a new Datacontext. Is this ok to do or should I wrap everything in One datacontext. In this case it is not straightforward to use the same datacontext, but i am afraid that opening and closing numerous datacontext in one page request is not good.
+Crashes for me on a virtual machine without Flash loaded. I hate annoying Flash embeds as much as the next guy, but âusing it is BADâ might be overegging it slightly...
+I've struggled with this in the past and tried to elevate permissions using caspol and it was a real pain. I ended up converting it to a click once app in 30 minutes and never had a problem with it since.
+I am trying to search my bash history similarly as with CTRL-r, but to forward direction. It has been a pain for me, when I just hit once too often CTRL-r, to find the previous command again. How can you forward search your Bash history similarly as in reverse searching?
+talks about consuming WCF services in Silverlight, but claims: There will be no proxies, no generated code, no 3rd party utilities, and no disgusting "Add Service Reference" usage. What is so wrong with me adding a service reference in my Silverlight project? Are there hidden overheads? Or is it a case of Fear Of Auto Magic on the part of the author?
+I have full control of the deployment enviroment, it's an internal intranet application. Office interop/autmation is horrible, and while the documents are generated by C#, we use Aspose.Words. I can accept using interop.automation for printing, going to give it a try.
+I've noticed this lag time also. Its really annoying when you go to /usr/bin to tell firefox what app to use to open a file and it lags for 10 seconds.
+There are an awful lot of C/C++ libraries out there, most no longer updated. There's not much for C#, but I have seen a couple. I haven't really used any of them in anger, so I can't give any recommendations. I would start with and see if you find anything of use there. Alternatively, a search for on sourceforge.net has plenty of results.
+Dude I feel your pain, same issue here.
+the following code should show either the port or servername not both i always get both no matter what ? i have also tried the follwoing with no joy either !! i just cannot get the condition to resolve thanks in advance
+Yes, there are, I'm afraid
+The problem is that "Hello World" is a terrible example to use with TDD. You really need something that generates variable output based on variable input.
+I could easily be wrong about that, most of my work is this horrid single threaded behemoth..
+expected about 600 users. I am worried that running 1200+ queries (should be much more than that) will eventually result in a timeout... now i am worrying whether I am creating a discussion rather than a QnA
+The minute you start down the road to control memory is the minute you start making a mistake. If you have REQUIREMENTS for memory, don't use .NET. If you don't have requirements, stop worrying about memory. .NET manages memory better than you ever could. Stop it. Leave it alone. No. Bad. Stop.
+Bejesuz that's ugly! Whomever wrote that should be flogged.
+Is there a way to use records directly in erl? No matter what I try, it always says it canno find the record. I am trying to do mnesia transactions and I cannot go too far without my records. Any help is greatly appreciated - thank you!
+With what little I know, I'd recommend looking at http://en.wikibooks.org/wiki/Write_Yourself_a_Scheme_in_48_Hours (it uses Parsec etc.) but I'm not leaving it as an answer because it's quite possibly a terrible one. Hopefully someone who knows better will answer (and then I'll delete this comment).
+How can I get an array of pointers pointing to objects (classes) ? I need to dynamically allocate space for them and the length of array isn't determined until run-time. Can any one explain and tell me how to define it? and possibly explain them how it works, would be really nice :)
+Proxy (among many other meanings) is a **design pattern** -- see [wikipedia](http://en.wikipedia.org/wiki/Proxy_pattern) for excellent coverage (not intensely C++ specific, of course).
+Great Solution!
+The effect I believe you are seeking is achieved by providing a HeaderTemplate for the TabItem's in you Tab collection. Hope this helps!
+When explaining things to someone who seems to still be learning Haskell, I'd avoid using (or even showing) the pointless style. Don't want to scare them ;-)
+Awesome! You have no idea how long I've been trying to find this!
+I know this is an old thread but still, I'd like to share one more tool which I find extremely helpful and user-friendly: This is an online tool that will get you up and running in no time. It also features a variety of pretty nice layouts out of the box. Here are two for example:
+My company has no current plans to move to vista, so we haven't tested compatability issues yet. Doug Hennig has an excellent article on the subject however: These links describe some issues as well:
+here is some code to have a gif (that already have transparency in it) transformed (supposed you want to resize it) in bitmap and then can be showed properly with it's transparency. Good luck ! GrÃ©goire Lafortune
+claims to: Export Balsamiq Mockups to HTML/CSS/JS and Adobe Flex 3 at a click of a button. Balsamiq's perfect companion No coding skills required Pays for itself after one use If it really "works" Napkee could be extremely useful. Does Napkee work as advertised? What is the quality of the exported HTML? Is it a must-have companion to Balsamiq (which I love)?
+I've used Clojure, it's great for an ex-Lisper! I may do it opposite from you and learn Haskell next.
+Awesome!! http://haacked.com/archive/2009/12/02/t4-template-for-less-css.aspx
+Thanks for that - I figured that was probably the best solution. Very good answer too!
+In the absence of tuples, they're sometimes the cleanest way to do things. I generally hate them, though. F# has some nice syntactical sugar for dealing with them. Rather than making me deal with parameters, it treats them as methods that return tuples instead. The various methods end up returning two element tuples: It's quite handy, and doesn't make me feel dirty.
++1 excellent question
+I really like Kate, and since it's a KPart, other KDE programs use it as the editor, so it's goodness everywhere! (why is everybody else assuming you use windows?)
+Is there anyway to control the styling of the scrollbars of a div tag? I am experiencing some contrast issues between IE7 and FireFox 3.5.2. Any help would be greatly appreciated!
+Wow, it works! Thanks.
+Great question! I also find myself a little lost in WPF because of the amount of flexibility it offers and have been looking for guidance in how to choose fonts, layout, spacing, colors, etc. I've had a hard time finding books or websites to improve my UI design skills, so I hope we find great answers here!
+I really enjoy using Beanstalk too. I few days ago I realized an iPhone app to get access to your account info on your iPhone, this is the iTunes link: Best! Pablo
+Fantastic work! You were correct to choose yours as the accepted answer. Really appreciate you sharing the script with us. :)
+Agree that you should ensure that your data is properly indexed. Apart from that, if you are worried about table size, you can always implement some type of data archival strategy to later down the line. Don't worry too much about this until you see problems cropping up, and don't optimise prematurely.
+Daniel Moth has a pretty good blog post about how to do this here: Best of all it is simple and free!
+Excellent and simple.
+ya, indeed very good thinking for a teenager!
+Reviewing the MSDN docs for the functions listed , I see that the function checks with the SMBIOS table, which is referenced by a standard It appears that you indeed can find the information you seek through the BIOS. You may have to install a driver to get that information out to your program. Good luck!
+Wow!! The question sounds like question for working in the kitchen. I am amazed the names used for the tools :)
+I hope you were joking :) I want to collect general statistics on my typing and specifically not log everything since I'm sure to type passwords.
+thanks for the great tip! I was really thinking of this because this is the only file that change per environment
+Almost Everything explained above, hope this too helps ! SQL SERVER â Difference Between CURRENT_TIMESTAMP and GETDATE() â CURRENT_TIMESTAMP Equivalent in SQL Server. See this .
+I am writing a webPage using asp.net and c#. I want to divide my webpage into 2 columns such as in one I will have buttons that change the view in the other column, without "stepping on" the content of the first column. example: button 1 | :) a picture... button 2 | I tried to use divisions but I think I'm not using them properly. any help would be great! thanks!!!
+i love those 8-space tabs you are using....very sexy.
++1 for the sarcasm!
+I know I've mentioned this several times before but Scott Meyer's book [Effective STL](http://www.amazon.com/Effective-STL-Addison-Wesley-Professional-Computing/dp/0201749629/ref=sr_11_1?ie=UTF8&qid=1220372978&sr=11-1) covers these gotchas in a clear way.
+ROFL! Upvoted for the hilarious title! :D
+(Great question!)
+Use if-else inside scriplet based on the currently selected language and place appropriate "td" tags. Hope this is what you are looking for !
+I answered the same question . Best of luck! As you will see, I like the tools.
+Fantastic answers! Thanks a ton!
+http://delta.tigris.org is an excellent tool for automated minimization of a test case.
+Well, without any third-party tools, I'd say try using the clipboard ring, but roosteronacid's idea about the snippet is probably quicker. Hope that helps!
+that's a really cool functionality of php i didn't know about! I'm not exactly sure how I'd actually _use_ it, but that's still cool!
+I have a virtual machine running windows 2003 server running MOSS 2007. This virtual machine is not being run on my dev machine, but on a different machine on the network. I can ping both the host and guest OS from my dev machine. I just need to know, if it is possible, how to configure visual studio 2008 to deploy the web parts/projects/etc to the remote VM when I do this: Any input will be greatly appreciated! Thanks.
+If you handle the RowDataBound event you can check the value of the data and modify the attributes of the cell or apply a different style in that event handler. That should give you what you are looking for. Let me know if you need it in VB rather than C#. Good Luck!
+I've had great success with 's Auto-Suggest implementation. It includes PHP examples too.
+Faststrings is leaps and bounds faster than the normal Delphi StringReplace function. I really hope Peter releases a new version for Delphi 2009.
+You should look into the SDL library () as it supports multiple platforms and has bindings for a variety of programming languages. It also supports OpenGL. Good luck!
+If you need portable Python audio library try . It certainly has a mac port. As for mp3 files: it's certainly doable in "raw" Python, only I'm afraid you'd have to code everything yourself :). If you can afford some external library I've found some here.
+For all your keydown/keyup/keyboard needs, use the jQuery hotkeys plugin. Saw this a few months ago and it never fails to impress it. Follow the jump for the plugin demo ... It maps ALL keys on a keyboard including combos. Hope it helps!
+For an excellent event manager class, check Danny Miller's: http://k2xl.com/wordpress/2008/07/02/as3-eventmanager-class-removealllisteners/
+Hey, I saw that you used asyncsocket to get the desired result. Any chance I could pick your brains about this sometime? I'm @suprfrends on twitter. It would be GREATLY appreciated!
+goooooooooooooood!
+I need some drawings in my tableview. How can i do this. Any help will be greatly appreciated!!
+That's funny, this is exactly what I am attempting to figure out the best way to do at the moment. I had thought of using a ViewStack, but as I already have a lot of other nested ViewStacks being used, I was also looking into the State tag. If anyone knows "the right thing" to do I'll be very interested too!
+ROFL!! I love the comparison to getting married...
+If you're running on Windows, you could do something similar using PowerShell. This could be extended pretty easily to find all unversioned and ignored files and delete them. Hope that's helpful to someone!
+An excellent `pushd`/`popd` installation appears [here](http://blogs.oracle.com/nico/entry/ksh_functions_galore) in one of Oracle's blogs - presumably relating to its use in Solaris.
+Awesome drawing!
+Wow, would have expected a quick answer on this! Well, found my own answer: you can't have more than one exception with except. See the here. Instead, they recommend creating a Filter. .
+If I am using IIS 7.0 + Server 2008/Vista Enterprise, any ways from IIS 7.0 side to control the upload speed? For example, max upload speed at 1M bytes/second? Any configuration based easy solution is great! And any programming based solution is also appreciated. :-) thanks in advance, George
+There's a discussion related to this and one . Essentially, you use Invoke to accomplish it. Best of luck!
+Please do have a look at django-rest-framework, I just stepped over from tastypie to this new framework, works great! Especially the class based views and the browsable api! and many other advantages (e..g. to upload images)
+Have you tried the and methods? There is a that mentions the approach. Also, in JDBC 4.0 Sun added the that allows you to get a unique handle on a row. The feature is supported by Oracle and DB2. For sql server you will probably need a third party driver such as . Good luck!
+Great!.. works as advertised - Thanks aku. Voting you closer to the 5K mark :)
+Just started testing as a CRM solution for our company. Someone asked for a Google map on the page showing our upcoming engagements. I know Zoho provides an API that allows accessing its data from the outside, but I actually need to integrate the map on the data-entry form. If anyone could provide a pointer to any mashup with Zoho CRM (be it Google MAps, Bing Maps, or any similar web service), I would be extremely grateful.
+I have a string with some markup which looks like this: I'm trying to strip away everything except the anchor elements with "entry://id=" inside. Thus the desired output from the above example would be: Writing this match, the closest I've come so far is: But I can't figure out why this doesn't work. Any help (apart from the "why don't you use a parser" :) would be greatly appreciated!
++1. Brian, you saved me from hours and hours of research, great insight!
+I have an application that is being built using Qt. It will be running on machines that will have two (or more) network cards. I need the ability for my application to select which ethernet interfaces for a TCP connection. Before anyone suggests it I cannot guarenteed that routing tables will be setup correctly. I know how to do this using the windows socket classes but have been unable to find anything about it for Qt. Any help would be greatly appreciated!
+Great link! Thanks. I might use this document if we move over to C++ in our robots.
+Great descriptions of all the answers !
+Thanks Greg, that looks to be an excellent document to read, I'm printing it now.
+When using sIFR on the titles (.content h1.pagetitle) in my WP theme, it somehow messes up the spacing and pushes the title down. The actual flash video is the same size as the font, so I think it has something to do with CSS, though I've tried just about everything I could think of and can't get it lined up properly. Here's a link to the site: Any help would be absolutely appreciated :) Sean
+Excellent method and exactly what I need right now. I wish I could upvote this twice.
+Got it! Thank you all for helping me reach a great "Aha!" moment :-) ...hopefully after I spend some more time in WPF I'll understand why this works.
+Amazingly useful - thanks a bunch, Aleksandar!
+You may be looking for a solution similar to Josh Smith's "". In his article, he presents the following: And then uses the multi-value converters as follows: Hope this helps!
+I don't think that you can... But if you can I'd love to see how!
+I would like to strip everything in a string before a - and leave what's after that. For example: 15.11-101 I want to strip 15.11 and leave 101. I've tried a few different things, but can't seem to get it working, if anyone could help me out, that'd be fantastic :) Cheers Leanne
+This is a great question.. my approach for solving this question would be to ask: Given a list of items, what is the popability of choosing two consecutive items from the list which are sorted. As the list becomes more sorted, the probability will approach 100%. To calculate this probability is relatively simple: I hope this helps!
+I can't help, but good luck! What a great game that was. Will this be a commercial release?
+Good luck!
+Sweet :) Happy hacking!
+I don't think that it is possible to compare a shelved version with a local version in Visual Studio, however I'll be very happily corrected on the matter.
+And on that note, if there is a library out there that does, that will do fine :)
+from a really geeky perspective, that is really cool!
+Glad to see I'm not the only one who got that! The free book is actually really exciting; it will definitely motivate you to do peer code review.
+I'm absolutely staggered by the amazing response I've received in the last 10 minutes! Thankyou all so much for your answers. Very, very helpful.
+These are the tables: How would I do to list the last commented thread on top? This is currently how it looks: I can't figure this one out folks. So if someone could give me an hand that would be great! Cheers!
+I found this about wrapping strings using parens extremely useful, but is there a way in Vim to make this happen automatically? I want to be within a string, typing away, and have Vim just put parens around my string and wrap it as necessary. For me, this would be a gigantic time saver as I spend so much time just wrapping long strings manually. Thanks in advance. Example: I type the following text: Vim automatically does this when I hit column 80 with the string:
+Very interesting! The code it produces does not work for me but the code is definitely useful as an example. I'll mark this answer as accepted since it seems unlikely an actual reference that says more than MSDN even exists.
+thank you so much as long you replace char(0) with 0 in the above this works great!
+We use asp.net where I work and we are using c# as the language. Will c# 3.0 work with asp.net 2.0? Ive been trying to pick up some books on c#, but not sure which I should be buying, any help would be greatly appreciated!
+I have a series of UIViews inside a UIScrollView, and the UIViewControllers for those views are not receiving the touch events. If I take the views out of the scroll view then it works. I have enabled userInteraction on the views but it's still not working! This must be possible and I'd be really grateful if someone could point me in the right direction! Thanks, Mike
+I would recommend 2 things: - Calculate and combine polygons that are touching. This involves a LOT of processing and hard math, but I've done it so I know it's possible. - Create your own overlay instead of using KML in PNG format, while you combine them in the previous suggestion. You'll have to create a LOT of PNGs but it is blazing fast on the client. Good luck :)
+It proved the point. They are very excited about SO now.
+This project looks very promising - thanks!
+Before you go that route, have you seen this: It's a series of articles about writing Effects (supported in .NET 3.5SP1) as fragment shaders that run on your GPU... Pretty neat stuff!
+Ryan Oberoi makes an excellent suggestion, but it's a bit overkill for my small ASP.NET MVC web application. I like Lobstrosity's idea since it could apply to any class tag and its short and simple... just what I need. Both are good answers yet one solves the general question (involving a css framework) and the other one solves my specific need... I guess I should select Ryan's response as the solution as it would probably help others more... any suggestions?
+Thank you for all the great answers! Sam & Talljoe's answers accomplished this most simply using Linq. Thx again!
+Pretty much the conclusion I came up with also!
+Great info! Thanks, Alex! :)
+I've got a php array: I want to pass this array via jQuery AJAX, with this: And here's my jQuery: How can I pass the array, so that with the "replyMessage.php" page, I could take each ID from the Array, to do something like this: Any help is greatly appreciated!
+Devexpress have a good one: The RangeTrackBarControl control extends the functionality provided by the TrackBarControl enabling end-users to select a range of values. Two sliders can be used to set the minimum and maximum values: you can get them free from: hope this helps!
+I am making an isometric game on the iPhone, and need a little help. What is the best way to go about calculating the path a object must take if it is thrown from one tile to another? I've been looking into using NSBezierPaths, but can't quite work out how to use them for the objects path? Any help would be greatly appreciated!
+Rebol (600 Ko only) is based on antigrain geometry library which is Opensource It seems really great, can OpenGL do better ?
+No prob. Good luck!
+I am running applications on my windows server that run on Java 1.4 In the bottom right hand corner, Java wants me to update. Is this going to update to Java 1.6, or do these auto-updates only put out non breaking patches and my system will still be Java 1.4 Any insight would be great! Thanks.
+I loved the visualization of the race. Well done.
+"Software developers are always optimists -- just look at their estimating skils!" - Love it!!
+I have exactly the same issue and am extremely interested in whether you found any solution.
+i am writing a flash app that receives its data over a XMLSocket. On the testmachine that worked really fine, but now the data will be ssl secured. Is there any XMLSSLSocket or something similar available? If not XMLSocket a normal SSLSocket would be a great help as well.
+To convert raster images to vectorial images, I found (free) to do an excellent job (comparable to VectorMagic, which is not free anymore by the way). In Inkscape, import your image and use the Path/Trace Bitmap function. It has a lot of control. Once you converted to a vectorial image, save it as a SVG. Then, using , you can convert to XAML vector data. (Path & Canvas)
+I'm trying to write a batch process that can take an MP3 file and mute certain parts of it, ideally in Python or Java. Take this example: Given a 2 minute MP3, I want to mute the time between 1:20 and 1:30. When saved back to a file, the rest of the MP3 will play normally -- only that portion will be silent. Any advice for setting this up in a way that's easy to automate/run on the command line would be fantastic!
+I'm wondering if its possible to join together IEnumerable's. Basically I have a bunch of users and need to get their content from the database so I can search and page through it. I'm using LINQ to SQL, my code at the moment it: I hope that make some sense! Matt
+SCSS is not __better__ than SASS, just different. It all depends on how you are used to writing code. If you are used to HAML-style terseness, then you could argue that SASS is better (less lines of code, less syntax like braces, etc). Just pick your flavor and enjoy!
+Try <% if(ViewContext.ViewName == "Index"){%> Should work fine !!! EDIT : REMOVED IN BETA1 Removed the ViewName property from the ViewContext class.
+This is better than mine. Didn't know you could do a string array for formats. Very nice!
+The following scripting is a custom addition to this Hover Fade Button; in my version it keeps the text of the button while changing the background images through css classes only. I have able to everything except when you click on another button you get two active buttons and so on. I like the buttons to hover {span.hover class}, click {span.active class}, and remove any other buttons with the span.active class and put back to regular state. Greatly appreciate a solution!
++1 for the docbkx Maven plugin, it provides everything needed to work with DocBook in a platform independent manner. It's an excellent tool even if you are not working on Java projects. http://code.google.com/p/docbkx-tools
+I agree with PW. OPAL is an excellent choice. It supports audio and video devices It compiles on windows, linux, and a few others Also - I recommend using the SIP protocol (as opposed to H323) - You don't need to use Ekiga. Ekiga is a front-end to OPAL. You can take a look at the OPAL samples, and build up from those.
+Thanks all, for the quick and excellent answers. With this gentle initiation into SO, I am encouraged to use it more. Hopefully, I can help answer questions, not just ask 'em. Cheers.
+Sounds like you are looking for a JSMin tool or similar. There are many tools which you can purchase, but there are also some online tools you can use: Good Luck!
+Great question! There have already been a few questions that address A few:
+Everytime I create a new IK handle in Maya via MEL, it creates an end effector named "effector1", or "effector2", depending on what is in my scene. I don't want to rely on the auto-name of the end effector, so I'm wondering if there is a way to either: a) name the effector at the create-time of the IK handle, or b) select the effector for a particular IK handle in MEL. Any help would be greatly appreciated -- thanks!
+I am trying to construct a page layout, where the left column has a fixed width and a height of 100% (of whatever the right column is) and the right column has a fluid width. I've tried various ways of doing it, but can't seem to get it right.. Here's my code: And my css is: If someone could help me out, that would be fantastic :)
+leppie, those are great news! I am looking forward to try out IronScheme!
+You could go with for free, or something like (which is EXCELLENT) if you are willing to pay. I hope I've understood your question.
+personally, if you think you can do huge amounts of refactoring, why not get the other student to come and sit with you and as you go, he/she can ask questions and maybe he/she has some ideas of their own. Our industry moves fast, as I'm sure you know, so your partner won't encounter other devs as forgiving as you. I've added this as a comment because it doesn't actually answer your question about unit testing. Just wanted to give you something else to think about. Good luck!
+God, that was terrible; I left the link to my library as the one I use for my own server. Should work now... : ) And, Pim, they're not entirely random; the library's for my own personal use, so I tend to just pick letters that make sense to me: [r]eturn, [s]teps, [g]radient, [f]ade count...
+Hey, you guys are great, thanks a whole bunch! I will set up the environment in the cron script.
+WPF is a fascinating platform to develop our next generation applications on! The ability to style just about anything, the databinding support and attached/dependency properties. Wow! But let's not throw caution to the wind because while WPF performance is great, it's not the best... yet. Definitely is a strong contender, but as developers we are still left with design principles for our front ends.
+pr0n for sure :))))))) (kidding Jonathan)
+I feel extremely comfortable dealing with 32-bit PowerPC assembly code, but I am completely lost when trying to make sense of x86 code. Do any of the other common architectures like ARM, MIPS, Sparc etc have an easier than x86 instruction set?
+You...are...awesome!!!
+Point 0 => good luck but god love ya for tryin'!
+I got 2 update panels in one page. After a request I want to check which update panel(s) got updated. I've read should be good for this :) However, whenever I get a postback in a non-IE browser, the panelID just returns null? It works very fine in IE... Here's a codesnippet: I got 2 updatepanels, both with conditional updatemodes: and Any help would be highly appreciated, and I'm open for alternative solutions which doesn't involve Thanks in advance :)
+I have two namespaces: 1) Foo.Bar 2) Another.Foo.Bar From a class in namespace 2, how do I reference a class in namespace 1? Using Foo.Bar leaves you in namespace 2 still... I hope this is reasonably clear! Thanks.
+There is a plugin for Wordpress to help you with that. Hope that helps!
+Excellent. This just saved me hours of work.
+Your LogErrors method is great! Literally saved me today.
+Regarding WCF/FTP/WS-Attachment/DIME: Excellent suggestions and some interesting reading. These are probably the types of long term solutions that I will end up using. However if there was some short term solution for changing the upload size in IIS7 that would be excellent. Thanks.
+Thanks for the answers. I've found a great sitemap generator over at codeplex. If anyone is interested you can check it out here: Enjoy!
+I have a small WPF application that hosts a RichTextBox: As shown the code snippet above, I set the font size to 14. If I copy text from this RichTextBox to Microsoft Word or Microsoft WordPad, the font size is reported to be 10.5. Similar oddities persist if I paste text from Word or WordPad. I have verified that the text being selected from my app is sized at 14. Any help would be greatly appreciated!
+Not only that, but as the software ages they feel the need to upgrade simply because they know, every time they reference it, that they're using Office 1997, for example. Great for upgrade encouragement! Although even better is a message on the splash screen, "Version 2008 is available now!"
+Thanks to the two of you that answered. What I ended up doing (in case anyone else is interested!) was processing the openid login like normal, but NOT saving the new user to the database. Instead, I stored their information in a session var and asked them for the remaining information before adding them to the db and logging them in. Hope this helps!
+Awesome sketch!
+This is a great question! I would love to see some real world analysis on this.
+completely agree, there are excellent answers provided here to this question
+Jim did a great job!
+I agree. Excellent update. +1.
+I have the following code for searching multiple keywords within a document title which works fine. I want now to have a column that shows the number of keywords that are found in each title row and order in a descendent way. For example if I'm searching for "Maternity leave" I should get something like this: Name -- Keywords found Maternity Leave policy -- 2 Annual leave policy -- 1 Maternity advice for mothers-to-be -- 1 Hope it makes sense, Many thanks!
+Dave, very nice!! I didn't know that was in there. Now that I know what to look for, I was able to find an article with a small code sample on how to use it: On a related note, I also found the that looks extremely easy to use.
+Great! I'm glad you like it.
+Awesome, that did it! Thanks David!
+@StoneFree welcome to the future brave time traveller! :o)
+This library is fantastic, made my app much faster, thanks !
+Excellent resource:
+Nick Rigby wrote an excellent article for A List Apart titled Uses fieldset, legend, label. Highly semantic.
++1 from me, I loved the leap from MFC to Qt ;)
+Yes - that feature is extremely useful for writing upgrade scripts.
+Works great! And you can add "desc" after the end to sort in other direction. In which case the strings will show first. I like how this solution doesnt actually pad the numbers in the result output.
+Fortunately I'm doing *very* little with Office - really just trying to show the new features. Thanks very much for the link though - very helpful!
