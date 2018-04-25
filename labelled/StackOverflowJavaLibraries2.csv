@@ -1,0 +1,310 @@
+text,oracle
+But sadly this is not working.,0
+"So, everything builds fine, but when we try to deploy the application to GFNUMBER we get the FILE_NAME file not found ''error.",0
+That is what is causing your null pointer exception.,0
+"All attempts I've made were, in a shortcut, unsuccessful.",0
+Don't use.,0
+"However when I try to run FILE_NAME, it gives ``The system cant find the path specified error ''for the batch file.",0
+"Problem: without zooming, the added content doesn't get visible.",0
+"in a application you can workaround with scaling the window size, but in an applet I wasn't able to solve that problem.",0
+else your GUI will be Hanged.,0
+I am not sure about Map implementation in HazelCast.,0
+But the above code doesn't work outside the ``FILE_NAME JavaAgent`` FILE_NAME of the main Agent.,0
+"Please note there is a bug in FILE_NAME, L996 +997.",0
+I am not sure why I can not get it to work and have been struggling with it for a while.,0
+the problem is the following.,0
+"When I run my client, it throws the following exception.",0
+i did come across the same issue with Java API_NAME works in JDKNUMBER.,0
+I am unsure how to return an array that will avoid returning CODE_FRAGMENT as an element of that array.,0
+This is the first time I've encountered something like below.,0
+NOT WORKING: directly compiled the src on Unix machine and used FILE_NAME files.,0
+"For some mystic reason, the workflow is not enetering if ( )... Same exact code runs perfectly if I directly paste FILE_NAME files from Eclipse's bin folder.",0
+It might not reproduce consistently but at one point you might see the issue again.,0
+Still that does not guarantee that the first thread will run and only then the second one will check if the size > 0.,0
+Eclipse error: `Failed to create the Java Virtual Machine '.,0
+But unfortunately it can not be used!!!,0
+Maybe there are some problems with the path of the file ( on my pc )!?!?,0
+... but no such thing exists.,0
+"After entering the details, when the button is clicked, the entered data must be displayed as shown below, but I am not sure how to align it.",0
+But the file output messes with the chinese characters.,0
+Not related.,0
+Not even sure what JSR that is.,0
+I had the same issue using a remote postgres instance.,0
+I would avoid to generate the full XML String ( see @AdriaanKoster 'response ).,0
+"I wanted to see all the files I have in my external storage, I have this library that display the text to the user, but when I'm using it to show the sub files, it says something like.",0
+"A workaround might be to use reflection, however this isn't a generally recommended approach for a number of reasons ( brittleness, performance problems, breaking encapsulation, etc ).",0
+That can hide an error and keep you searching for dogs a whole week while the problem was really a cat ( ch ).,0
+"AS I know, it's impossible in the case.",0
+It is not advisable to avoid an exception with an empty catch block even though you are completely sure that is not going to fail under any circumstance.,0
+"You are really asking too much of the Java runtime ( and Jackson library ), by trying to make them infer all the required information about the type to be instantiated ( based on the parameterized return ).",0
+Server not starting in Eclipse Gallileo IDE with WAS7.,0
+Your API_NAME is messed up and doesn't list dependencies properly.,0
+Without that information you have to start the debugging process by guessing.,0
+so I'm not happy with it.,0
+"Connections, on the other hand, are expensive and need to be managed carefully by the application.",0
+i try to return an output ( type date ) in a web service but i receive a weird result.,0
+"My previous code example used CODE_FRAGMENT to fuse the filter and map operations, but this was cumbersome and provided no advantage.",0
+At the moment I am receiving a ClassNotFoundException to API_NAME.,0
+"I added it into my ANT_HOME / lib directory, but it didn't have any effect.",0
+"It didn't make any difference, I receive the same error.",0
+An SQL EXCEPTION is being caught saying API_NAME: [ Microsoft ] [ ODBC Driver Manager ] Data source name not found and no default driver specified ''.,0
+"If you've created your File IO and pulled from it in a weird way, you can corrupt the encoding of the key material.",0
+But the exception is occurring.,0
+i'm having a difficult time figuring out to properly sort arraylists FILE_NAME though.,0
+I don't have any code to show because I don't know where to start.,0
+I am not able to find any documentation or info.,0
+I tried to download API_NAME file but I am not getting the file on net.,0
+I found API_NAME but that is for Ubuntu and not for Windows.,0
+I find this error when I am trying to open this file.,0
+There are many errors in this code.,0
+Used wrong column names which does not exist in the table.,0
+It's ugly and inefficient but it should work.,0
+"Anyway, their current behavior does not allow what you want.",0
+"It seems, that there must be some problem when genereting the response.",0
+"I can successfully call my service but when generating the response, it seems to crash.",0
+But as far as I create the entitymanager - which not necessary has anything to do with the response - it crashes... ( I still respond with just 200 ).,0
+"The following warning messages should be ignored, they are `false-positive 'alert messages.",0
+"Since this afternoon, it have started to give an error and the process ends, leaving to process thousands of files.",0
+"Its a little complicated, there is a full example in this loadNativeLibrary ( ) method.",0
+Here is an example I don't understand.,0
+"Bear in mind, that the above code might not compile ( I haven't tried it out myself... ).",0
+Not sure why but I am getting following error from my FILE_NAME.,0
+The important different between these two approaches is that with the multi-threaded example there's no guarantee of processing order.,0
+since a day I have a very annoying problem - I can't run any Spring MVC application: / Today I have tried to write something basing at Spring Documentation.,0
+Any idea what i might be doing wrong.,0
+I think that you have a problem described in this bug report.,0
+Someone on StackOverflow had similar problem.,0
+i am trying with Jackson but im getting no suitable output.,0
+"I'm a little worried that they use a ``busy-waiting ''mechanism, as it would produce a lot of overhead.",0
+"I don't want to get the last token and reuse it for the next query, it does not make a sense since I want to use batch.",0
+Less margin for error.,0
+Wrong CODE_FRAGMENT CODE_FRAGMENT attribute.,0
+I was unable to get a perfect match.,0
+I am not able to deploy my App Engine project locally.,0
+You absolutly need to be compiling FILE_NAME JRE NUMBER!,0
+"There is, of course, an API for the DRL compiler's parser, but it isn't stable and as complex as DRL rule syntax, which is considerable.",0
+I'm having trouble figuring out how to do this in drools 6 +.,0
+But this refernce doesn't solve my problem.,0
+"This is an absurd, unreasonable and frankly ridiculous requirement; I can't imagine what use such a data structure would be good for.",0
+First of all I do not think you need all these.,0
+"This means, it was not possible to resolve the dependencies of the API_NAME to the API_NAME.",0
+"But now I think the problem is, JNA creats temp files for the native librarys wit ``jna ''prefix and a unique generated numeric value.",0
+then I gets the module error again from JNA.,0
+This line gives the error.,0
+"I am using standout library, I added a videoView in it, Everything is running correctly, Except if i click on video then mediaController Is not Showing and i am getting null pointer exception.",0
+And an CODE_FRAGMENT argument type can never accept a CODE_FRAGMENT.,0
+But the underlying hard distinction between primitive and reference types remains.,0
+You have problem with classpath.,0
+Only the LoginHandler fails to compile.,0
+I can not read correctly a CODE_FRAGMENT and i have charset problem.,0
+If I give the 2 input given below it is showing an error.,0
+does not work without previously setting the FILE_NAME.,0
+They all fail with the following error.,0
+The following is the error I keep getting.,0
+But it isn't working like I expected.,0
+"But unexpectedly, I am getting 66.",0
+"As an aside, configuring the CODE_FRAGMENT that is created by the CODE_FRAGMENT is not supported.",0
+Why is it reading it wrongly?,0
+The error is as shown below.,0
+Exception in thread ``main`` API_NAME: Uncompilable source code - Erroneous tree type.,0
+I don't know if it is possible to show timer on cards.,0
+The problem is that when reader contains CODE_FRAGMENT it is not reporting ready.,0
+I tried the following and it returns nothing.,0
+I searched a lot but i not found any solution.,0
+"What I don't understand is -- if one thread is still stuck, deadlocked, inside CODE_FRAGMENT, then how come all the other threads were able to get past the CODE_FRAGMENT call?",0
+"When I tried to compile the tool, I get n error.",0
+I don't know what else to do to make things to work.,0
+I think the actual CODE_FRAGMENT would be a little more complicated to simplify.,0
+"I have created a custom MenuBar in my Processing sketch ( using Eclipse as my IDE ), but it is not displaying.",0
+"I expected there to be a CODE_FRAGMENT Menu in the CODE_FRAGMENT, but there is none.",0
+but still nothing.,0
+But it's not necessary for our case.,0
+Java JTextPane JScrollPane Display Issue.,0
+I suspect there may not be a good solution for this right now.,0
+I thought that the problem was the ``id = null ''.,0
+"I haven't used EclipseLink myself, so all I can do is guess, but what surprises me is that FILE_NAME doesn't have a setter for the id property.",0
+"I learned that such beans are proxied using CGLib, but still can not figure out how proxy can handle thread.",0
+This is your problem.,0
+This is not my intention.,0
+I guess my approach is wrong so I'd appreciate some guidance.,0
+This isn't valid Java.,0
+"Well, the funny part is, we do not know.",0
+The data structure you are saving your data is not very optimal for the days with daylight saving time.,0
+This is part of the code which was working fine and now it's not.,0
+The exception is throw on CODE_FRAGMENT.,0
+I've notice that some of the feeds had false value.,0
+The problem is that you wrote.,0
+I wrote this code to update a patient in a derby database but it throws a CODE_FRAGMENT.,0
+"I understand why you tried CODE_FRAGMENT, but with the fix above we no longer need that, we can just declare it CODE_FRAGMENT.",0
+Your CODE_FRAGMENT method calls itself recursively leading to an infinite recursion.,0
+CGLIB proxy did not work for my case.,0
+Problems creating JAXBContext to marshal object as XML.,0
+I'm about to hang myself with the little rope I have left.,0
+Here is a demo for the naive implementation which doesn't work.,0
+Because it's not initialized yet.,0
+( So the problem is CODE_FRAGMENT ).,0
+"I need all subclasses to execute CODE_FRAGMENT, but I can't rely on them doing it explicitly.",0
+"Since this is correct, why byte code noting down the return type of the called method, and raising error when the library is updated with a return type for the method.",0
+Data loss.,0
+"When I run the project, I get the following error,.",0
+"As you can see, the translucent text is clearly standard AA and rather than a clean translucent rendering, it has that awful '90s ``spidery ''appearance.",0
+"As others have stated, this is not an issue with JPA/hibernate but rather with the json serialization library you are using.",0
+We ran into the same sort of problem with Flex and JPA/Hibernate.,0
+"All seems OK, but I get a NullPointerException ( NPE ).",0
+... Which brings me to the only downside I found: it might take a little while to wrap your head around TrueZIP.,0
+I am trying to link my native library to FILE_NAME application but when I try to run it I get a CODE_FRAGMENT exception complaining about missing symbols ( CODE_FRAGMENT ).,0
+"( When I say don't use floats that includes doubles, it's the same issue. )",0
+It's not possible using the Selenium WebDriver API.,0
+I have read the Doc but i am not clear what is meant by CODE_FRAGMENT.,0
+"Annotations like CODE_FRAGMENT and CODE_FRAGMENT will not work, unless you process them yourself and invoke the appropriate methods.",0
+There is a caveat with the above approach.,0
+"It says that you dont export the JUnit Library into the build, and if the build relies on the functionality of that lib, there might occur CNF-Exceptions.",0
+"If I run the code in the GUI, it just hangs.",0
+I have looked and found that there are some packages that would automatically enter my keyring on login but that isn't really an option.,0
+"When I first saw it, I was horrified.",0
+"Drawback of above approach not using copy of data is that thread safety is harder to achieve, though.",0
+This code failed.,0
+"You can not supply system properties to the API_NAME tool, unfortunately.",0
+I have found out that certain misconfigured servers send an ``Unrecognized Name ''warning in the SSL handshake which is ignored by most clients... except for Java.,0
+You can't open CODE_FRAGMENT with CODE_FRAGMENT.,0
+This is an issue with how volley handles HTTPUrlConnection and retry policy.,0
+So it's basically in the wrong form.,0
+Avoid them.,0
+This may or may not work.,0
+On Facebook i ran in to a problem.,0
+The result was the same that i don't have the correct permissions.,0
+I am new to this so maybe i'm doing somthing wrong.,0
+And now my app is getting it's app Token and i can use it to publish messages but the problem is those messages can not be viewed on the app page it self.,0
+"There's no way to do that, AFAIK.",0
+You can't suspend a thread like that.,0
+Hope that helps some of you with the same problem.,1
+I would recommend that you check the documentation for what they do.,1
+When I print the path of the resource using API_NAME ( ''/ resource/API _ NAME'' ) it gives the path correctly as.,1
+Which we currently are saved from using CODE_FRAGMENT.,1
+Currently I can't see any performance degradation for 5-10k elements and 2 nodes.,1
+It even works on Android.,1
+CODE_FRAGMENT is designed for increased read efficiency ( since this is the primary use of the API ).,1
+And you're able to use an external configuration file ( no extender needed ) to configure your logging.,1
+Enabled and pointed my client to a secure port on my container and the last example ( the one that causes the exception ) works successfully.,1
+It's a good structure for safe publishing of data among threads.,1
+"Besides increasing your heap, most of the time, it also helps to increase your PermGen space by using the CODE_FRAGMENT paramater.",1
+You include your if / switch in a Factory which takes care of the ugliness and hides the abundance of ifs.,1
+APKInspector provides both analysis functions and graphic features for the users to gain deep insight into the malicious apps.,1
+Problem solved.,1
+"I suspect it may be more efficient to both query and write your records within each CODE_FRAGMENT, but this is an assumption that would likely require testing.",1
+"It will do the correct, ``legal ''stuff.",1
+There is a slight improvement that you can do that uses the CODE_FRAGMENT's internal cache by using its CODE_FRAGMENT method.,1
+But in the main case it works good enough.,1
+Stable and production ready lib.,1
+Not an extremely expensive operation I think.,1
+because it provides the lot of flexibility and improvements over using normal arrays.,1
+This provides the method CODE_FRAGMENT for inserting the element at specific location and it is very efficient.,1
+Whatever you are talking about is best done by the CODE_FRAGMENT WEB_ADDRESS.,1
+This will preserve the insertion order and insure no duplicates.,1
+They both seem to print out the list fine.,1
+Well a solution that works for me.,1
+"Finally, an IDE would be helpful for you.",1
+"John Spurlock, the create of OData4j, personally responds to almost all of the posts there.",1
+"As for iOS development with OData, the best out there is OData4ObjC.",1
+"CODE_FRAGMENT overrides these methods, so there is no fear that such an Exception will be thrown.",1
+It's ok.,1
+Here's a set of solutions to this challenge for both JDK types and Eclipse Collections types using CODE_FRAGMENT.,1
+Any of the 5 options listed there should work just fine though.,1
+I can assure you it works from within a web app and also within an application using the Spring framework.,1
+take a look FILE_NAME executors as these will help with your scheduling and remove the need for the sleep.,1
+Useful links.,1
+Worked!,1
+Javolution Structs supports mapping of off heap memory as a data structure.,1
+or more concisely.,1
+I suggest you to use.,1
+Follow the steps otherwise your code is fine.,1
+This works for me.,1
+For me this worked.,1
+Specifically for bower there looks to be a good maven plugin here.,1
+"It does its job, but was built for our use case.",1
+That way you don't need to worry about API_NAME.,1
+I wouldn't worry too much about memory consumption unless you either have an insane number of tracks or several different maps floating around.,1
+"I'm not too certain that the CODE_FRAGMENT solution is the best solution, but I think far from the worst, and should be pretty good on its own.",1
+So this works.,1
+"In lieu of that, however, in my experience, ASM offers probably the best combination of maturity, flexibility, and ease-of-use.",1
+"As others have already said, JFormattedTextField is the best way to do this.",1
+There is CODE_FRAGMENT to convert XML to JSON and mongo can deal with this on it's own.,1
+"Curiously, you are doing it right for the CODE_FRAGMENT property.",1
+"Solved, in case anyone stumbles upon similar problem.",1
+Of course it will works fine if only you know how many tasks you have.,1
+This solution is more flexible.,1
+but if you want you can do this.,1
+I have FILE_NAME that allows to download a file from the internet.,1
+With use of API_NAME all does work perfect.,1
+"There are many ways to solve it, the simplest is call.",1
+The FILE_NAME file will compile without and trouble.,1
+You can use Gson library ( or any other ) to parse the json object FILE_NAME object.,1
+"Here's the official API on Java CODE_FRAGMENT, useful for quantifier syntax.",1
+The format CODE_FRAGMENT can be used to convert any string of digits to the base CODE_FRAGMENT.,1
+"In any case, manually adding an instance of CODE_FRAGMENT to the front of the filter chain in your test will solve the problem.",1
+The good news: CODE_FRAGMENT is true.,1
+The simplest solution would be to use Java 8's Date/Time API.,1
+"It seems, after a quick google search, that a popular solution to this is using CODE_FRAGMENT.",1
+This might prove to be useful unbescape.,1
+"Since all but the day of month in the line prefix is a fixed length, the simplest solution is.",1
+There is a good example showing how to put a file onto WebDAV server.,1
+Note: There were no errors in the console and the CODE_FRAGMENT function was working perfectly.,1
+That way you often don't need to implement CODE_FRAGMENT at all manually.,1
+And running your CODE_FRAGMENT will succeed.,1
+"Ok, I finally figured out what I was looking for ( this link was also quite helpful ).",1
+Earlier I was writing the file to local machine then it was working fine.,1
+That's correct behavior.,1
+I finally managed to get it to work.,1
+"Thank you dunni for your help, you've put me on the right path.",1
+And it works like a charm now SMILE_FACE.,1
+but you can use the very util FILE_NAME like.,1
+Java doesn't have in built method on array to do slice but there are classes which can help you with it.,1
+FILE_NAME under test uses FILE_NAME that has a simple autowired configuration bean.,1
+This answer describes what is happening more clearly.,1
+"For example, the following works great.",1
+"It is able to handle all polygon cases, including the self-intersecting ones.",1
+"Comparison time should be fast, so total run time should be only slightly more than sum of run time for each ordered query.",1
+Congratulations.,1
+Databases are much better at handling data than Java.,1
+"Java is a fine general programming language but databases are optimized for relational data processing: they just do it faster, with less CPU, less memory and less network traffic.",1
+Embrace the Joy of Sets!,1
+I understand the boolean expression here.,1
+"If you are looking for a way to write to streams in a more intuitive way, try CODE_FRAGMENT.",1
+This is not particularly unusual... or wrong.,1
+Here's a knocked up utility to prove the point.,1
+it's worth a shot.,1
+I heard like Java is the most suitable platform to develop that.,1
+It's really good.,1
+"It's an excellent, fast library.",1
+At least I can commit a project on OSX and update to Windows and it still works.,1
+check API_NAME it's the fastest way to copy part of an array FILE_NAME.,1
+This works fine.,1
+It'll be available in JSF by CODE_FRAGMENT.,1
+"The following code therefore, might be ( as I have not attempted using it ) a better one, if you are willing to use Mojarra specific classes.",1
+"Better to use FILE_NAME API ( there are several, I am not sure which one is better ), it's more straightforward solution.",1
+But this gets optimized by the JIT and there is no measurable impact in production.,1
+"I still think it's not the best design, but I did quite a bit of testing and can say with a good bit of confidence that it had no real impact on performance.",1
+"Or since in NUMBER% of cases, day will be correct.",1
+"The set can be a CODE_FRAGMENT, and you can wrap in an unmodifiable for good measure.",1
+"Even in your own parsing approach, you can make it faster by returning the enum when you parse the list.",1
+This should almost be obvious.,1
+The application is complete and working fine.,1
+And this code worked.,1
+Working Configuration.,1
+There is a solution to your problem.,1
+This configuration works very well.,1
+( Hopefully with a good example. ),1
+The maintainers' rationale is covered in the JSF specification.,1
+"Also, JodaTime makes calculations with time much simpler.",1
+The option reduces heap usage.,1
+"For workloads that are memory capacity constrained ( i.e. have to run with limited heap space and GC takes a lot of time ), this option can prove useful.",1
+"CharSequences can also be a lot more efficient to manipulate - subsequences can be defined as views ( pointers ) onto the original content for example, instead of copying.",1
+"With the new design, they could also support other encodings in future.",1
+API_NAME can be used.,1
+Here's a good example from Jetty's wiki page WEB_ADDRESS.,1
+Using consistent indentation and sensible whitespace can make your code much easier to read.,1
+Very good example of steady pooling readHere.,1
+Now we're getting to the good part.,1
+So far i've done this for Twitter and it works very well.,1
+I solved the earlier problem.,1
+Addendum: CODE_FRAGMENT is useful for managing lengthy background tasks while displaying interim progress.,1
