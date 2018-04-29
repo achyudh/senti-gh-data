@@ -1,4 +1,4 @@
-text,oracle
+Sentence,Label
 But sadly this is not working.,0
 "So, everything builds fine, but when we try to deploy the application to GFNUMBER we get the FILE_NAME file not found ''error.",0
 That is what is causing your null pointer exception.,0
