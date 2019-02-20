@@ -1,5 +1,5 @@
 # SentiGH Data
-Data for the Senti-GH project. For the codebase, check out https://github.com/achyudhk/SentiGH. 
+Data for the Senti-GH project. For the codebase, check out https://github.com/achyudh/senti-gh. 
 
 ### Credits
 * GloVe: Global Vectors for Word Representation: https://nlp.stanford.edu/projects/glove/
